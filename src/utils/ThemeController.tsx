@@ -22,7 +22,7 @@ const ThemeControlPanel = () => {
     document.documentElement.classList.toggle("dark", systemDark);
   };
 
-  const updateTheme = (newTheme) => {
+  const updateTheme = (newTheme: string) => {
     if (newTheme === "system") {
       handleSystemTheme();
       window

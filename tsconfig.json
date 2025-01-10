@@ -1,21 +1,19 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "commonjs",
-    "jsx": "react",
+    "module": "ESNext", // Changed from "commonjs" to "ESNext"
+    "jsx": "react-jsx",
+    "outDir": "./dist",
     "strict": true,
-    "esModuleInterop": true, // Ensure compatibility with commonjs and ESModules
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node", // Resolve modules as Node.js does
+    "moduleResolution": "node",
     "resolveJsonModule": true,
-    "baseUrl": ".", // Base URL for absolute imports
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"] // Path alias for your project
+      "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "src/**/*", // Include all source files
-    "tests/**/*" // Include all test files (add a 'tests' folder for test files or adjust the glob pattern as needed)
-  ]
+  "include": ["src/**/*", "tests/**/*"]
 }

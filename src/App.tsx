@@ -1,19 +1,18 @@
-import React from "react";
+import { useSelector } from "react-redux";
 import {
   Navigate,
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
-import LandingLayout from "./layouts/LandingLayout";
-import { Home } from "./routes";
 import AuthLayout from "./layouts/AuthLayout";
+import LandingLayout from "./layouts/LandingLayout";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import Cart from "./pages/general/Product/Cart";
 import Checkout from "./pages/general/Product/Checkout";
 import PaymentSuccessPage from "./pages/general/Product/PaymentSuccessPage";
-import { useSelector } from "react-redux";
 import Search from "./pages/general/Product/Search";
+import { Home } from "./routes";
 
 export default function App() {
   const { token } = useSelector((state: any) => state.auth);

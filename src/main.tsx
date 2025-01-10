@@ -1,12 +1,12 @@
 import { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import App from "./App.tsx";
+import App from "./App";
 import "./assets/styles/index.css";
-import { store } from "./store/index.ts";
+import { store } from "./store/index";
 import { Toaster } from "@/components/ui/sonner";
-import ThemeControlPanel from "./utils/ThemeController.tsx";
-import LiveChat from "./utils/LiveChat.tsx";
+import ThemeControlPanel from "./utils/ThemeController";
+import LiveChat from "./utils/LiveChat";
 
 import ReactGA from "react-ga4";
 ReactGA.initialize("G-88290ZGLR2");
