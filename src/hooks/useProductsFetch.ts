@@ -14,17 +14,9 @@ const useProductsFetch = () => {
   const dispatch = useDispatch<AppDispatch>();
 
   useEffect(() => {
-    if (categories?.data?.length == 0) {
-      dispatch(getProductCategories());
-    }
-
-    if (deals?.data?.deals?.length == 0) {
-      dispatch(getDeals());
-    }
-
-    if (products?.data?.products?.length == 0) {
-      dispatch(getProductsByCategory(0));
-    }
+    dispatch(getProductCategories());
+    dispatch(getDeals());
+    dispatch(getProductsByCategory(0));
   }, []);
 
   return { categories, isLoading, deals, products };

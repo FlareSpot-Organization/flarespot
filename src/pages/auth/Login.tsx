@@ -56,7 +56,7 @@ const Login = () => {
       </div>
 
       {/* Login Form Side */}
-      <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-50 px-6">
+      <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-6">
         <Card className="w-full max-w-md">
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl font-bold text-center">

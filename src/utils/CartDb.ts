@@ -4,7 +4,7 @@ export interface CartItem {
   product_title: string;
   product_price: number;
   quantity: number;
-  product_photo: string;
+  product_photo?: string;
 }
 
 const CART_KEY = "user_cart";

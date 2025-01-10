@@ -8,6 +8,11 @@ import { Toaster } from "@/components/ui/sonner";
 import ThemeControlPanel from "./utils/ThemeController.tsx";
 import LiveChat from "./utils/LiveChat.tsx";
 
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-88290ZGLR2");
+
+ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <Suspense>
     <Provider store={store}>

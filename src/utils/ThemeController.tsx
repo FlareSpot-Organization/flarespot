@@ -2,7 +2,7 @@ import { Monitor, Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const ThemeControlPanel = () => {
-  const [theme, setTheme] = useState("system");
+  const [theme, setTheme] = useState("light");
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -11,7 +11,7 @@ const ThemeControlPanel = () => {
       setTheme(savedTheme);
       updateTheme(savedTheme);
     } else {
-      handleSystemTheme();
+      updateTheme("light"); // Default to light theme
     }
   }, []);
 
@@ -22,7 +22,7 @@ const ThemeControlPanel = () => {
     document.documentElement.classList.toggle("dark", systemDark);
   };
 
-  const updateTheme = (newTheme: string) => {
+  const updateTheme = (newTheme) => {
     if (newTheme === "system") {
       handleSystemTheme();
       window
@@ -54,7 +54,7 @@ const ThemeControlPanel = () => {
         ) : theme === "light" ? (
           <Sun className="h-5 w-5" />
         ) : theme === "system" ? (
-          <Monitor className="h-5 w-5" /> // Replace with the appropriate icon/component
+          <Monitor className="h-5 w-5" />
         ) : null}
       </button>
 

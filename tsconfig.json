@@ -1,17 +1,20 @@
 {
-  "files": [],
   "compilerOptions": {
-    "baseUrl": ".",
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true, // Ensure compatibility with commonjs and ESModules
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node", // Resolve modules as Node.js does
+    "resolveJsonModule": true,
+    "baseUrl": ".", // Base URL for absolute imports
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"] // Path alias for your project
     }
   },
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
+  "include": [
+    "src/**/*", // Include all source files
+    "tests/**/*" // Include all test files (add a 'tests' folder for test files or adjust the glob pattern as needed)
   ]
 }

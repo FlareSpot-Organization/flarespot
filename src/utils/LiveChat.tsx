@@ -5,8 +5,7 @@ const LiveChat: React.FC = () => {
     // Add Tawk.to Script
     const script = document.createElement("script");
     script.async = true;
-    script.src = "https://embed.tawk.to/YOUR_UNIQUE_ID/default"; // Replace YOUR_UNIQUE_ID with your Tawk.to ID
-    script.charset = "UTF-8";
+    script.src = "https://embed.tawk.to/67810fbb49e2fd8dfe059292/1ih82at5q";
     script.setAttribute("crossorigin", "anonymous");
     document.body.appendChild(script);
 

@@ -1,4 +1,3 @@
-// cartSlice.ts
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import {
   getCartItems,
@@ -9,8 +8,12 @@ import {
 } from "@/utils/CartDb";
 import { CartItem } from "@/utils/CartDb";
 
-const initialState = {
-  items: getCartItems(),
+interface CartState {
+  items: CartItem[];
+}
+
+const initialState: CartState = {
+  items: getCartItems() || [], // Add fallback empty array
 };
 
 const cartSlice = createSlice({
@@ -19,26 +22,25 @@ const cartSlice = createSlice({
   reducers: {
     addToCart: (state, action: PayloadAction<CartItem>) => {
       addItemToCart(action.payload);
-      state.items = getCartItems(); // Sync state with local storage
+      state.items = getCartItems() || [];
     },
     updateItemQuantity: (
       state,
       action: PayloadAction<{ asin: string; quantity: number }>
     ) => {
       const { asin, quantity } = action.payload;
-      const itemIndex = state.items.findIndex((item) => item.asin === asin);
+      const itemIndex = state.items?.findIndex((item) => item.asin === asin);
       if (itemIndex !== -1) {
-        // Update quantity
         const newQuantity = state.items[itemIndex].quantity + quantity;
         if (newQuantity > 0) {
           updateCartItem(asin, newQuantity);
-          state.items = getCartItems();
+          state.items = getCartItems() || [];
         }
       }
     },
     removeItem: (state, action: PayloadAction<string>) => {
       removeCartItem(action.payload);
-      state.items = getCartItems();
+      state.items = getCartItems() || [];
     },
     clearCartItems: (state) => {
       clearCart();
