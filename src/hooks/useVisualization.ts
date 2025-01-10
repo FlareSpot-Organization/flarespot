@@ -12,11 +12,9 @@ interface Product {
   product_star_rating: number;
 }
 
-const useVisualization = (productsDemo: any) => {
+const useVisualization = (productsDemo: Product[] = []) => {
   const ITEMS_PER_PAGE = 20;
-  const [products, setProducts] = useState<Product[]>(
-    productsDemo?.slice(0, ITEMS_PER_PAGE)
-  );
+  const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
   const loadingRef = useRef<HTMLDivElement>(null);
@@ -29,30 +27,42 @@ const useVisualization = (productsDemo: any) => {
     });
   };
 
+  // Initialize products when productsDemo changes
+  useEffect(() => {
+    if (productsDemo?.length > 0) {
+      setProducts(productsDemo.slice(0, ITEMS_PER_PAGE));
+      currentPage.current = 1;
+      setHasMore(productsDemo.length > ITEMS_PER_PAGE);
+    }
+  }, [productsDemo]);
+
   const loadMoreProducts = async () => {
     if (loading || !hasMore) return;
+
     setLoading(true);
-    await new Promise((resolve) => setTimeout(resolve, 5000));
+    try {
+      await new Promise((resolve) => setTimeout(resolve, 1000)); // Reduced timeout for better UX
 
-    const nextPage = currentPage.current + 1;
-    const startIndex = currentPage.current * ITEMS_PER_PAGE;
-    const endIndex = startIndex + ITEMS_PER_PAGE;
-    const newProducts = productsDemo?.slice(startIndex, endIndex);
+      const startIndex = currentPage.current * ITEMS_PER_PAGE;
+      const endIndex = startIndex + ITEMS_PER_PAGE;
+      const newProducts = productsDemo?.slice(startIndex, endIndex);
 
-    if (newProducts.length === 0) {
-      setHasMore(false);
-    } else {
-      setProducts((prev) => [...prev, ...newProducts]);
-      currentPage.current = nextPage;
+      if (!newProducts?.length) {
+        setHasMore(false);
+      } else {
+        setProducts((prev) => [...prev, ...newProducts]);
+        currentPage.current += 1;
+        setHasMore(endIndex < (productsDemo?.length || 0));
+      }
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   };
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting && hasMore) {
+        if (entries[0].isIntersecting && hasMore && !loading) {
           loadMoreProducts();
         }
       },
@@ -64,7 +74,7 @@ const useVisualization = (productsDemo: any) => {
     }
 
     return () => observer.disconnect();
-  }, [hasMore]);
+  }, [hasMore, loading]); // Added loading to dependencies
 
   return {
     products,
