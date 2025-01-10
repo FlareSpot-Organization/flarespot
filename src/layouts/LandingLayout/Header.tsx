@@ -1,119 +1,142 @@
-import React, { useState, useEffect, useRef } from "react";
+import logo from "@/assets/images/logo.png";
+import SearchBar from "@/components/common/Searchbar";
+import useLandingHeader from "@/hooks/useLandingHeader";
+import { GetUser, LogoutUser } from "@/services/features/auth/authSlice";
+import { AppDispatch } from "@/store";
+import { categoryData, mainCategories } from "@/utils/Content";
 import {
-  Search,
-  ShoppingCart,
-  Camera,
   ChevronDown,
-  Menu,
-  X,
   ChevronLeft,
   ChevronUp,
+  LogOut,
+  Menu,
+  ShoppingCart,
+  User,
+  X,
 } from "lucide-react";
-import { categoryData, mainCategories } from "@/utils/Content";
-import logo from "@/assets/images/logo.png";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
-  const [showSignInDropdown, setShowSignInDropdown] = useState<boolean>(false);
-  const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [showMegaMenu, setShowMegaMenu] = useState<boolean>(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
-  const [showMobileCategories, setShowMobileCategories] =
-    useState<boolean>(false);
-  const [selectedMobileCategory, setSelectedMobileCategory] =
-    useState<string>("");
-  const [showMobileCategoryItems, setShowMobileCategoryItems] =
-    useState<boolean>(false);
+  const dispatch = useDispatch<AppDispatch>();
+  const {
+    showSignInDropdown,
+    selectedCategory,
+    setSelectedCategory,
+    showMegaMenu,
+    isMobileMenuOpen,
+    setIsMobileMenuOpen,
+    showMobileCategories,
+    setShowMobileCategories,
+    selectedMobileCategory,
+    showMobileCategoryItems,
+    megaMenuRef,
+    categoryButtonRef,
+    handleMouseEnter,
+    handleMouseLeave,
+    commonButtonClasses,
+    handleCategoryClick,
+    handleBackToCategories,
+    handleBackToMenu,
+  } = useLandingHeader();
 
-  // Refs for hover detection
-  const megaMenuRef = useRef<HTMLDivElement>(null);
-  const categoryButtonRef = useRef<HTMLDivElement>(null);
+  const { user, token } = useSelector((state: any) => state.auth);
+  const cartItems = useSelector((state: any) => state.cart.items);
 
-  // Timer for hover delay
-  const hoverTimeout = useRef<NodeJS.Timeout>();
-
-  const handleMouseEnter = () => {
-    if (hoverTimeout.current) {
-      clearTimeout(hoverTimeout.current);
+  useEffect(() => {
+    if (token) {
+      dispatch(GetUser());
     }
-    setShowMegaMenu(true);
-  };
-
-  const handleMouseLeave = () => {
-    hoverTimeout.current = setTimeout(() => {
-      // Only hide if mouse isn't over either element
-      if (
-        !megaMenuRef.current?.matches(":hover") &&
-        !categoryButtonRef.current?.matches(":hover")
-      ) {
-        setShowMegaMenu(false);
-      }
-    }, 100); // 300ms delay before hiding
-  };
-
-  useEffect(() => {
-    return () => {
-      if (hoverTimeout.current) {
-        clearTimeout(hoverTimeout.current);
-      }
-    };
   }, []);
 
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      const target = event.target as HTMLElement;
-      if (
-        !target.closest(".auth-dropdown") &&
-        !target.closest(".auth-trigger") &&
-        !target.closest(".mobile-menu")
-      ) {
-        setShowSignInDropdown(false);
-        setIsMobileMenuOpen(false);
-      }
-    };
+  const UserProfileButton = () => (
+    <div className="relative group">
+      <button className={`${commonButtonClasses} flex items-center space-x-2`}>
+        <User size={16} />
+        <span>{user?.name?.firstname}</span>
+        <ChevronDown size={16} />
+      </button>
 
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+      <div
+        className="invisible group-hover:visible opacity-0 group-hover:opacity-100
+        absolute left-1/2 transform -translate-x-1/2  
+        w-64 bg-white dark:bg-gray-900 rounded-md shadow-lg
+        transition-all duration-200 ease-out z-40">
+        <div className="p-4">
+          <div className="text-gray-900 mb-4">
+            <p className="font-medium">{`${user?.name?.firstname} ${user?.name?.lastname}`}</p>
+            <p className="text-sm text-gray-600 dark:text-gray-100">
+              {user?.email}
+            </p>
+          </div>
+          <button
+            className="w-full py-3 px-4 bg-gray-900 dark:bg-gray-800 text-white rounded-md 
+            hover:bg-gray-800 transition-colors duration-200
+            font-medium">
+            View Profile
+          </button>
+          <div className="mt-3 text-center">
+            <a
+              href="#"
+              onClick={() => dispatch(LogoutUser())}
+              className="block mt-2 text-sm text-gray-900 dark:text-gray-100 hover:text-purple-600
+              transition-colors duration-200 font-medium">
+              Sign Out
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 
-  const commonButtonClasses = `
-    flex items-center space-x-1 px-3 py-2 rounded-full
-    transition-all duration-400 ease-in-out
-    hover:bg-white hover:bg-opacity-10
-    border border-transparent
-    hover:border-white hover:border-opacity-20
-    text-[15px]
-  `;
+  const SignInButton = () => (
+    <div className="relative group">
+      <button className={commonButtonClasses}>Sign in / Register</button>
 
-  const handleCategoryClick = (category: string) => {
-    setSelectedMobileCategory(category);
-    setShowMobileCategoryItems(true);
-  };
-
-  const handleBackToCategories = () => {
-    setShowMobileCategoryItems(false);
-    setSelectedMobileCategory("");
-  };
-
-  const handleBackToMenu = () => {
-    setShowMobileCategories(false);
-    setShowMobileCategoryItems(false);
-    setSelectedMobileCategory("");
-  };
+      <div
+        className="invisible group-hover:visible opacity-0 group-hover:opacity-100
+        absolute left-1/2 transform -translate-x-1/2 
+        w-64 bg-white dark:bg-gray-900 rounded-md shadow-lg
+        transition-all duration-200 ease-out z-50">
+        <div className="p-4 mt-5">
+          <Link to="/auth/login">
+            <button
+              className="w-full py-3 px-4 bg-gray-900 dark:bg-gray-800  text-white rounded-md 
+            hover:bg-gray-800 transition-colors duration-200
+            font-medium">
+              Sign in
+            </button>
+          </Link>
+          <div className="mt-3 text-center">
+            <a
+              href="/auth/login"
+              className="block mt-2 text-sm text-gray-900 dark:text-gray-100 hover:text-purple-600
+              transition-colors duration-200 font-medium">
+              Register
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <>
       {/* Overlay */}
-      {(showSignInDropdown || isMobileMenuOpen) && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-30 transition-opacity duration-300" />
+      {(showSignInDropdown || showMegaMenu) && (
+        <div className="absolute w-full inset-0 h-screen bg-black bg-opacity-50 z-40 transition-opacity duration-300" />
       )}
 
-      <div className="w-full bg-gray-900 text-white  z-40 sticky top-0">
+      <div className="w-full bg-gray-900 text-white z-40 sticky top-0">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between sm:h-12 h-16">
             {/* Logo */}
-            <div>
-              <img src={logo} alt="Flarespot" className="w-[70%]" />
-            </div>
+            <Link to="/">
+              <div>
+                <img src={logo} alt="Flarespot" className="w-[70%]" />
+              </div>
+            </Link>
 
             {/* Mobile Menu Button */}
             <div className="lg:hidden flex space-x-4 items-center">
@@ -122,18 +145,20 @@ const Header: React.FC = () => {
                   className={`${commonButtonClasses} w-full justify-center`}>
                   EN
                 </button>
-                <div className="flex justify-center">
-                  <div className="relative cursor-pointer">
-                    <ShoppingCart className="h-6 w-6" />
-                    <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                      9
-                    </span>
+                <Link to="cart">
+                  <div className="flex justify-center">
+                    <div className="relative cursor-pointer">
+                      <ShoppingCart className="h-6 w-6" />
+                      <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                        {cartItems?.length}
+                      </span>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
 
               <button
-                className=" text-white"
+                className="text-white"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
                 {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
@@ -156,60 +181,22 @@ const Header: React.FC = () => {
                 </button>
               </div>
               <div className="w-[45%]">
-                <div className="relative">
-                  <input
-                    type="text"
-                    placeholder="Search for..."
-                    className="w-full px-4 py-2 bg-white text-gray-900 rounded-full pl-6 text-[12px] outline-none"
-                  />
-                  <div className="absolute right-0.5 top-1/2 -translate-y-1/2 flex items-center space-x-2">
-                    <Camera className="h-5 w-5 text-gray-400 cursor-pointer hover:text-gray-600" />
-                    <div className="border rounded-full px-4 py-1.5 bg-primary">
-                      <Search className="h-5 w-5 text-whitw cursor-pointer  rounded-full  hover:text-gray-600" />
-                    </div>
-                  </div>
-                </div>
+                <SearchBar />
               </div>
 
               <div className="flex items-center space-x-1">
-                <div className="relative group">
-                  <button className={commonButtonClasses}>
-                    Sign in / Register
-                  </button>
-
-                  <div
-                    className="invisible group-hover:visible opacity-0 group-hover:opacity-100
-                    absolute left-1/2 transform -translate-x-1/2 mt-2 
-                    w-64 bg-white rounded-md shadow-lg
-                    transition-all duration-200 ease-out z-40">
-                    <div className="p-4">
-                      <button
-                        className="w-full py-3 px-4 bg-gray-900 text-white rounded-md 
-                        hover:bg-gray-800 transition-colors duration-200
-                        font-medium">
-                        Sign in
-                      </button>
-                      <div className="mt-3 text-center">
-                        <a
-                          href="#"
-                          className="block mt-2 text-sm text-gray-900 hover:text-purple-600
-                          transition-colors duration-200 font-medium">
-                          Register
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+                {user ? <UserProfileButton /> : <SignInButton />}
                 <button className={commonButtonClasses}>Help & Support</button>
                 <button className={commonButtonClasses}>EN</button>
 
-                <div className="relative cursor-pointer hover:opacity-80 transition-opacity">
-                  <ShoppingCart className="h-6 w-6" />
-                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                    9
-                  </span>
-                </div>
+                <Link to="cart">
+                  <div className="relative cursor-pointer hover:opacity-80 transition-opacity">
+                    <ShoppingCart className="h-6 w-6" />
+                    <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                      {cartItems?.length}
+                    </span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -275,7 +262,7 @@ const Header: React.FC = () => {
                         <button
                           key={category}
                           onMouseEnter={() => handleCategoryClick(category)}
-                          className=" w-full text-left text-gray-300 hover:text-white py-2 flex items-center justify-between">
+                          className="w-full text-left text-gray-300 hover:text-white py-2 flex items-center justify-between">
                           <span>{category}</span>
                           <ChevronDown
                             size={16}
@@ -290,21 +277,46 @@ const Header: React.FC = () => {
             ) : (
               <div className="p-6 pt-16 space-y-4">
                 <div className="space-y-2">
-                  <input
-                    type="text"
-                    placeholder="Search for..."
-                    className="w-full px-4 py-2 bg-white text-gray-900 rounded-md"
-                  />
+                  <SearchBar />
                   <button
                     onClick={() => setShowMobileCategories(true)}
                     className={`${commonButtonClasses} w-full justify-between`}>
                     <span>Categories</span>
                     <ChevronDown size={16} />
                   </button>
-                  <button
-                    className={`${commonButtonClasses} w-full justify-center`}>
-                    Sign in / Register
-                  </button>
+
+                  {user ? (
+                    <div className="space-y-2">
+                      <div className="bg-gray-800 rounded-md p-4">
+                        <div className="flex items-center space-x-3 mb-2">
+                          <User size={20} />
+                          <div>
+                            <p className="font-medium">{`${user?.name?.firstname} ${user?.name?.lastname}`}</p>
+                            <p className="text-sm text-gray-400">
+                              {user.email}
+                            </p>
+                          </div>
+                        </div>
+                        <button
+                          className="w-full py-2 px-4 bg-gray-900 text-white rounded-md 
+                          hover:bg-gray-700 transition-colors duration-200 mt-2
+                          font-medium flex items-center justify-center space-x-2">
+                          <span>View Profile</span>
+                        </button>
+                      </div>
+                      <button
+                        className={`${commonButtonClasses} w-full justify-center flex items-center space-x-2`}>
+                        <LogOut size={16} />
+                        <span>Sign Out</span>
+                      </button>
+                    </div>
+                  ) : (
+                    <button
+                      className={`${commonButtonClasses} w-full justify-center`}>
+                      Sign in / Register
+                    </button>
+                  )}
+
                   <button
                     className={`${commonButtonClasses} w-full justify-center`}>
                     Help & Support
@@ -318,7 +330,7 @@ const Header: React.FC = () => {
           <div
             ref={megaMenuRef}
             className={`
-              absolute left-0 w-full bg-white shadow-lg z-40 
+              absolute left-0 w-full bg-white dark:bg-gray-900 shadow-lg z-40 
               transition-all duration-200 
               ${showMegaMenu ? "opacity-100 visible" : "opacity-0 invisible"}
             `}
@@ -335,7 +347,7 @@ const Header: React.FC = () => {
                       className={`w-full text-left px-4 py-2 text-sm ${
                         selectedCategory === category
                           ? "text-purple-600 bg-gray-100"
-                          : "text-gray-600 hover:text-purple-600 hover:bg-gray-50"
+                          : "text-gray-600 dark:text-gray-100 hover:text-purple-600 hover:bg-gray-50"
                       }`}>
                       {category}
                     </button>
@@ -357,7 +369,7 @@ const Header: React.FC = () => {
                               <li key={item}>
                                 <a
                                   href="#"
-                                  className="text-sm text-gray-600 hover:text-purple-600">
+                                  className="text-sm text-gray-600 dark:text-gray-100 hover:text-purple-600">
                                   {item}
                                 </a>
                               </li>

@@ -1,58 +1,78 @@
-import { DealCardProps } from "@/types/public";
+import React from "react";
 
-const DealsCard: React.FC<DealCardProps> = ({
-  image,
-  title,
-  currentPrice,
-  originalPrice,
-  rating,
-  soldCount,
-  discount,
-  savings,
-}) => (
-  <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-    <div className="relative">
-      <img
-        src={image}
-        alt={title}
-        className="w-full h-32 sm:h-48 object-cover"
-      />
-      {discount && (
-        <span className="absolute bottom-1 sm:bottom-2 left-1 sm:left-2 bg-red-500 text-white px-2 py-1 rounded-md text-xs sm:text-sm">
-          -{discount}%
-        </span>
-      )}
-    </div>
-    <div className="p-2">
-      <h3 className="text-xs sm:text-[10px] h-8 sm:h-12 line-clamp-2 mb-2">
-        {title}
-      </h3>
-      <div className="flex items-baseline flex-wrap gap-2 mb-2">
-        <span className="text-xs sm:text-[12px] font-bold">
-          NGN{currentPrice.toLocaleString()}
-        </span>
-        {originalPrice && (
-          <span className="text-xs sm:text-[10px] text-gray-500 line-through">
-            {originalPrice.toLocaleString()}
+const DealsCard: React.FC<any> = ({
+  deal_photo,
+  deal_title,
+  deal_price,
+  list_price,
+  deal_badge,
+  savings_amount,
+  savings_percentage,
+  deal_ends_at,
+}) => {
+  return (
+    <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700">
+      {/* Image Section */}
+      <div className="relative flex items-center justify-center bg-gray-50 dark:bg-gray-800 p-2">
+        <img
+          src={deal_photo}
+          alt={deal_title}
+          className="w-[70%] object-cover"
+        />
+        {deal_badge && (
+          <span className="absolute top-2 left-2 bg-red-500 dark:bg-red-600 text-white px-2 py-1 rounded-md text-[10px]">
+            {deal_badge}
           </span>
         )}
       </div>
-      {savings && (
-        <div className="text-red-500 text-xs sm:text-[10px] mb-2">
-          You save NGN{savings.toLocaleString()}
+
+      {/* Content Section */}
+      <div className="p-4">
+        {/* Title */}
+        <h3 className="text-[12px] font-semibold line-clamp-2 mb-2 text-gray-900 dark:text-gray-100">
+          {deal_title}
+        </h3>
+
+        {/* Price Section */}
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-xs font-bold text-gray-900 dark:text-gray-100">
+            {deal_price?.currency}{" "}
+            {Number(deal_price?.amount)?.toLocaleString()}
+          </span>
+          {list_price && (
+            <span className="text-[9px] text-gray-500 dark:text-gray-400 line-through">
+              {list_price?.currency}{" "}
+              {Number(list_price?.amount)?.toLocaleString()}
+            </span>
+          )}
         </div>
-      )}
-      <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-600">
-        {rating && (
-          <div className="flex items-center gap-1">
-            <span className="text-yellow-400">★</span>
-            <span>{rating}</span>
+
+        {/* Savings */}
+        {savings_amount && (
+          <div className="text-green-500 dark:text-green-400 text-[10px] mb-2">
+            Save {savings_amount?.currency}{" "}
+            {Number(savings_amount?.amount)?.toLocaleString()} (
+            {savings_percentage}%)
           </div>
         )}
-        {soldCount && <span>{soldCount.toLocaleString()} sold</span>}
+
+        {/* Deal End Date */}
+        <div className="text-[11px] text-gray-600 dark:text-gray-400 mb-2">
+          Ends on:{" "}
+          {new Date(deal_ends_at)?.toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+          })}
+        </div>
+
+        {/* Action Button */}
+        <button className="w-full bg-gray-900 dark:bg-gray-700 hover:bg-black dark:hover:bg-gray-600 text-white py-1.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300 text-[12px] font-medium">
+          <span>View Deal</span>
+        </button>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default DealsCard;

@@ -1,7 +1,7 @@
 //Login Type
 
 export type ILogin = {
-  email: string;
+  username: string;
   password: string;
 };
 
@@ -41,4 +41,5 @@ export type initialAuthStateProps = {
   isError: boolean;
   message: string;
   token: string | null;
+  user: any | null;
 };

@@ -24,6 +24,11 @@ import security from "@/assets/images/categories/security.jpg";
 import lingeries from "@/assets/images/categories/lingeries.jpg";
 import jewelries from "@/assets/images/categories/jewelries.jpg";
 
+import slide1 from "@/assets/images/slide1.jpg";
+import slide2 from "@/assets/images/slide2.jpg";
+import slide3 from "@/assets/images/slide3.jpg";
+import slide4 from "@/assets/images/slide4.jpg";
+
 export const mainCategories: string[] = [
   "Featured",
   "Home & Kitchen",
@@ -273,12 +278,16 @@ export const fashionItems: FashionItem[] = [
 ];
 
 export const categories: Category[] = [
-  { title: "Pet Supplies", image: petCategory },
-  { title: "Security & Protection", image: security },
-  { title: "Beauty & Health", image: beautyCategory },
-  { title: "Tools & Industrial", image: tools },
-  { title: "Lingerie & Loungewear", image: lingeries },
-  { title: "Jewelry & Watches", image: jewelries },
+  { title: "Toys & Games", id: "toys-and-games", image: petCategory },
+  {
+    title: "Automotive Parts & Accessories",
+    id: "automotive",
+    image: security,
+  },
+  { title: "Beauty & Personal Care", id: "beauty", image: beautyCategory },
+  { title: "Industrial & Scientific", id: "industrial", image: tools },
+  { title: "Lingerie & Loungewear", id: "fashion-women", image: lingeries },
+  { title: " Jewelry", id: "fashion", image: jewelries },
 ];
 const productImages = {
   product1,
@@ -312,3 +321,31 @@ export const productsDemo = Array.from({ length: 50 }, (_, index) => {
     badge: Math.random() > 0.7 ? "Extra 5% off with coins" : undefined,
   };
 });
+
+export const fashionImages = [
+  {
+    url: slide4,
+    alt: "Fashion Model 1",
+    title: "Summer Collection",
+    subtitle: "Discover the latest trends",
+  },
+  {
+    url: slide2,
+    alt: "Fashion Model 2",
+    title: "Autumn Essentials",
+    subtitle: "Elevate your style",
+  },
+  {
+    url: slide1,
+    alt: "Fashion Model 3",
+    title: "Winter Elegance",
+    subtitle: "Timeless pieces",
+  },
+
+  {
+    url: slide3,
+    alt: "Fashion Model 4",
+    title: "Acute Fashion",
+    subtitle: "Standard wear",
+  },
+];

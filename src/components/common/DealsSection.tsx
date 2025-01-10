@@ -6,12 +6,14 @@ const DealsSection: React.FC<DealsSectionProps> = ({
   badge,
   children,
 }) => (
-  <div className="bg-white rounded-lg p-2 shadow-md">
+  <div className="bg-white dark:bg-gray-800 rounded-lg p-2 shadow-md transition-colors duration-300">
     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:mb-4">
-      <h2 className="text-md font-bold">{title}</h2>
+      <h2 className="text-md font-bold text-gray-900 dark:text-gray-100">
+        {title}
+      </h2>
       <div className="flex items-center gap-2 text-sm">
-        <Icon className="w-4 h-4" />
-        <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full">
+        <Icon className="w-4 h-4 text-gray-600 dark:text-gray-300" />
+        <span className="bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 px-3 py-1 rounded-full transition-colors duration-300">
           {badge}
         </span>
       </div>

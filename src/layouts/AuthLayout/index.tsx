@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 
-const LandingLayout = () => {
+const AuthLayout = () => {
   return (
     <div>
       <Header />
@@ -10,4 +10,4 @@ const LandingLayout = () => {
   );
 };
 
-export default LandingLayout;
+export default AuthLayout;
