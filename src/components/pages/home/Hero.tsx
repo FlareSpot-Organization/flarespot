@@ -38,7 +38,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative h-[280px] md:h-[400px] lg:h-[300px] rounded-lg  overflow-hidden mx-auto my-6">
+    <div className="relative h-[280px] md:h-[400px] lg:h-[300px]  overflow-hidden mx-auto mb-6 custom-hero">
       {slides.map((slide, index) => (
         <motion.div
           key={index}

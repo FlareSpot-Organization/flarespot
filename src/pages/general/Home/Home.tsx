@@ -10,8 +10,8 @@ const Home = () => {
   const { products: productsDemo } = useProductsFetch();
   return (
     <div>
+      <Hero />
       <div className="sm:w-[90%] w-[95%] m-auto">
-        <Hero />
         <Offerings />
         <TodaysDeals />
       </div>

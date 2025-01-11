@@ -16,7 +16,7 @@ import {
   ShoppingBag,
 } from "lucide-react";
 import { toast } from "sonner";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   Card,
   CardHeader,
@@ -37,6 +37,7 @@ interface CartItem {
 
 const Cart = () => {
   const dispatch = useDispatch<AppDispatch>();
+  const { token } = useSelector((state: any) => state.auth);
   const navigate = useNavigate();
   const cartItems: CartItem[] = useSelector((state: any) => state.cart.items);
 
@@ -215,14 +216,26 @@ const Cart = () => {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter className="flex flex-col gap-4">
-                <Button
-                  className="w-full dark:bg-gray-800 dark:text-white"
-                  size="lg"
-                  onClick={handleCheckout}>
-                  <ShoppingCart className="w-4 h-4 mr-2" />
-                  Checkout
-                </Button>
+              <CardFooter className="flex w-full flex-col gap-4">
+                {token ? (
+                  <Button
+                    className="w-full dark:bg-gray-800 dark:text-white"
+                    size="lg"
+                    onClick={handleCheckout}>
+                    <ShoppingCart className="w-4 h-4 mr-2" />
+                    Checkout
+                  </Button>
+                ) : (
+                  <Link to="/auth/login" className="w-full">
+                    <Button
+                      className="w-full dark:bg-gray-800 dark:text-white"
+                      size="lg">
+                      <ShoppingCart className="w-4 h-4 mr-2" />
+                      Sign In / Register
+                    </Button>
+                  </Link>
+                )}
+
                 <Button
                   variant="outline"
                   className="w-full"

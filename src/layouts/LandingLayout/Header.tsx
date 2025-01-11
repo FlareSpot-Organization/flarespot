@@ -277,7 +277,7 @@ const Header: React.FC = () => {
             ) : (
               <div className="p-6 pt-16 space-y-4">
                 <div className="space-y-2">
-                  <SearchBar />
+                  <SearchBar setIsMobileMenuOpen={setIsMobileMenuOpen} />
                   <button
                     onClick={() => setShowMobileCategories(true)}
                     className={`${commonButtonClasses} w-full justify-between`}>
@@ -305,16 +305,19 @@ const Header: React.FC = () => {
                         </button>
                       </div>
                       <button
+                        onClick={() => dispatch(LogoutUser())}
                         className={`${commonButtonClasses} w-full justify-center flex items-center space-x-2`}>
                         <LogOut size={16} />
                         <span>Sign Out</span>
                       </button>
                     </div>
                   ) : (
-                    <button
-                      className={`${commonButtonClasses} w-full justify-center`}>
-                      Sign in / Register
-                    </button>
+                    <Link to="/auth/login">
+                      <button
+                        className={`${commonButtonClasses} w-full justify-center`}>
+                        Sign in / Register
+                      </button>
+                    </Link>
                   )}
 
                   <button

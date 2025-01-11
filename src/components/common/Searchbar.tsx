@@ -27,7 +27,7 @@ interface Deal {
   product_asin: string;
 }
 
-const SearchBar: React.FC = () => {
+const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [showSuggestions, setShowSuggestions] = useState<boolean>(false);
   const { deals } = useProductsFetch();
@@ -41,6 +41,7 @@ const SearchBar: React.FC = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
+    setIsMobileMenuOpen(false);
     if (searchTerm.trim()) {
       navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
     }

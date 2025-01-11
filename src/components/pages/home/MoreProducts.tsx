@@ -45,11 +45,11 @@ const MoreProducts = ({ productsDemo }: { productsDemo: any }) => {
             </button>
 
             {/* Image Container */}
-            <div className="relative aspect-[4/3] overflow-hidden bg-gray-50 dark:bg-gray-900">
+            <div className="relative aspect-[4/3] p-3 flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-gray-900">
               <img
                 src={product?.product_photo}
                 alt={product?.product_title}
-                className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
+                className="w-[full] h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
               />
               {product?.discount && (
                 <div className="absolute left-4 top-4 bg-red-500 text-white text-sm font-semibold px-2.5 py-1 rounded-lg">
