@@ -9,6 +9,9 @@ import ThemeControlPanel from "./utils/ThemeController";
 import LiveChat from "./utils/LiveChat";
 
 import ReactGA from "react-ga4";
+import HeroSwitcher from "./utils/HeroSwitcher";
+import { HeroProvider } from "./contexts/HeroContext";
+import { HeaderProvider } from "./contexts/LandingHeaderLayouts";
 ReactGA.initialize("G-88290ZGLR2");
 
 ReactGA.send({ hitType: "pageview", page: window.location.pathname });
@@ -16,10 +19,15 @@ ReactGA.send({ hitType: "pageview", page: window.location.pathname });
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <Suspense>
     <Provider store={store}>
-      <App />
-      <ThemeControlPanel />
-      <LiveChat />
-      <Toaster />
+      <HeroProvider>
+        <HeaderProvider>
+          <App />
+          <ThemeControlPanel />
+          <HeroSwitcher />
+          <LiveChat />
+          <Toaster />
+        </HeaderProvider>
+      </HeroProvider>
     </Provider>
   </Suspense>
 );

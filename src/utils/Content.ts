@@ -1,4 +1,4 @@
-import { Categories, Category, FashionItem } from "@/types/public";
+import { Categories, Category, FashionItem, Product } from "@/types/public";
 
 import product1 from "@/assets/images/products/product1.jpg";
 import product2 from "@/assets/images/products/product2.jpg";
@@ -348,4 +348,33 @@ export const fashionImages = [
     title: "Acute Fashion",
     subtitle: "Standard wear",
   },
+];
+
+export const demoProductsHeader: Product[] = [
+  { name: "Product Name 1", imageUrl: "/api/placeholder/200/200" },
+  { name: "Product Name 2", imageUrl: "/api/placeholder/200/200" },
+  { name: "Product Name 3", imageUrl: "/api/placeholder/200/200" },
+  { name: "Product Name 4", imageUrl: "/api/placeholder/200/200" },
+];
+
+export const demoCategoriesHeader = [
+  "Featured",
+  "Home & Kitchen",
+  "Women's Clothing",
+  "Women's Curve Clothing",
+  "Women's Shoes",
+  "Women's Lingerie & Lounge",
+  "Men's Clothing",
+  "Men's Shoes",
+  "Men's Big & Tall",
+  "Sports & Outdoors",
+  "Jewelry & Accessories",
+  "Beauty & Health",
+  "Toys & Games",
+  "Automotive",
+  "Electronics",
+  "Home Improvement",
+  "Pet Supplies",
+  "Baby & Kids",
+  "Office Products",
 ];

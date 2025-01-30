@@ -38,3 +38,16 @@ export interface Category {
   image: string;
   id: string;
 }
+
+
+
+
+export interface NavButtonProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+export interface Product {
+  name: string;
+  imageUrl: string;
+}
