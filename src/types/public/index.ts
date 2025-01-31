@@ -39,9 +39,6 @@ export interface Category {
   id: string;
 }
 
-
-
-
 export interface NavButtonProps {
   children: React.ReactNode;
   className?: string;
@@ -50,4 +47,13 @@ export interface NavButtonProps {
 export interface Product {
   name: string;
   imageUrl: string;
+}
+
+export interface ProductCard2 {
+  id: number;
+  title: string;
+  primaryImage: string;
+  secondaryImage: string;
+  tag?: string;
+  price?: string;
 }

@@ -7,7 +7,9 @@ import { store } from "./store/index";
 import { Toaster } from "@/components/ui/sonner";
 import ThemeControlPanel from "./utils/ThemeController";
 import LiveChat from "./utils/LiveChat";
-
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import ReactGA from "react-ga4";
 import HeroSwitcher from "./utils/HeroSwitcher";
 import { HeroProvider } from "./contexts/HeroContext";

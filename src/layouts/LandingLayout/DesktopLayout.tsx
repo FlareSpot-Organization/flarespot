@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 import logo from "@/assets/images/logo.png";
 import chinaFlag from "@/assets/images/china-flag.png";
 import { useHeader } from "@/contexts/LandingHeaderLayouts";
+import SearchBar from "@/components/common/Searchbar";
 
 const DesktopLayout = () => {
   const {
@@ -26,7 +27,7 @@ const DesktopLayout = () => {
   return (
     <>
       <div className="hidden lg:block px-4 py-2 relative z-30">
-        <div className="flex items-center justify-between gap-2 max-w-[1100px] mx-auto">
+        <div className="flex items-center justify-between gap-2  w-full  mx-auto">
           {/* Left Side */}
           <div className="flex items-center flex-shrink-0">
             <div className="mr-2">
@@ -70,7 +71,9 @@ const DesktopLayout = () => {
                           ? "bg-gray-50 text-red-600"
                           : "text-gray-700"
                       }`}>
-                      <span className="text-[9px] font-medium">{category}</span>
+                      <span className="text-[11px] font-medium">
+                        {category}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -100,14 +103,7 @@ const DesktopLayout = () => {
           {/* Search Bar */}
           <div className="flex-1 min-w-0 mx-1">
             <div className="relative max-w-[1200px]">
-              <input
-                type="text"
-                placeholder="Search products"
-                className="w-full px-4 py-1.5 rounded-full text-gray-800 border border-transparent focus:border-gray-300 focus:outline-none text-sm"
-              />
-              <button className="absolute right-3 top-1/2 transform -translate-y-1/2">
-                <Search className="h-5 w-5 text-gray-500" />
-              </button>
+              <SearchBar />
             </div>
           </div>
 
@@ -120,7 +116,7 @@ const DesktopLayout = () => {
               <NavButton>
                 <User className="h-4 w-4 mr-0.5" />
                 <div>
-                  <span className="text-[9.5px]">Sign in / Register</span>
+                  <span className="text-[11px]">Sign in / Register</span>
                 </div>
               </NavButton>
 
@@ -144,7 +140,7 @@ const DesktopLayout = () => {
 
             <NavButton>
               <MessageCircle className="h-4 w-4 mr-0.5" />
-              <span className="text-[9.5px]">Support</span>
+              <span className="text-[11px]">Support</span>
             </NavButton>
 
             <NavButton>
@@ -153,7 +149,7 @@ const DesktopLayout = () => {
                 alt=""
                 className="rounded-full h-4 w-4 mr-0.5"
               />
-              <span className="text-[9.5px]">EN</span>
+              <span className="text-[11px]">EN</span>
             </NavButton>
 
             <NavButton>

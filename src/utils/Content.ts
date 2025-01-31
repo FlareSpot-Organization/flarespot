@@ -1,4 +1,10 @@
-import { Categories, Category, FashionItem, Product } from "@/types/public";
+import {
+  Categories,
+  Category,
+  FashionItem,
+  Product,
+  ProductCard2,
+} from "@/types/public";
 
 import product1 from "@/assets/images/products/product1.jpg";
 import product2 from "@/assets/images/products/product2.jpg";
@@ -28,6 +34,23 @@ import slide1 from "@/assets/images/slide1.jpg";
 import slide2 from "@/assets/images/slide2.jpg";
 import slide3 from "@/assets/images/slide3.jpg";
 import slide4 from "@/assets/images/slide4.jpg";
+
+import shoe from "@/assets/images/products/shoe1.jpg";
+import shoe2 from "@/assets/images/products/shoe2.jpg";
+import chair1 from "@/assets/images/products/chair1.jpg";
+import chair2 from "@/assets/images/products/chair2.jpg";
+import bag1 from "@/assets/images/products/bag1.jpg";
+import bag2 from "@/assets/images/products/bag2.jpg";
+import camera1 from "@/assets/images/products/product10.jpg";
+import camera2 from "@/assets/images/products/product13.jpg";
+import shirt1 from "@/assets/images/categories/category-sale1.jpg";
+import shirt2 from "@/assets/images/categories/category-sale4.png";
+import tv1 from "@/assets/images/products/tv1.jpg";
+import tv2 from "@/assets/images/products/tv2.jpg";
+import sofer1 from "@/assets/images/products/sofer1.jpg";
+import sofer2 from "@/assets/images/products/sofer2.jpg";
+import sneaker1 from "@/assets/images/products/product5.jpg";
+import sneaker2 from "@/assets/images/products/product14.jpg";
 
 export const mainCategories: string[] = [
   "Featured",
@@ -377,4 +400,51 @@ export const demoCategoriesHeader = [
   "Pet Supplies",
   "Baby & Kids",
   "Office Products",
+];
+
+export const dealsOfDay: ProductCard2[] = [
+  {
+    id: 1,
+    title: "Standard Shoe Fleezy",
+    primaryImage: shoe,
+    secondaryImage: shoe2,
+    tag: "Deal of the Day",
+  },
+  {
+    id: 2,
+    title: "Comfy Sofer Chair",
+    primaryImage: chair1,
+    secondaryImage: chair2,
+    tag: "Deal of the Day",
+  },
+  {
+    id: 3,
+    title: "Double strap lady bags",
+    primaryImage: bag1,
+    secondaryImage: bag2,
+    tag: "Deal of the Day",
+  },
+];
+
+export const favorites: ProductCard2[] = [
+  {
+    id: 5,
+    title: "Navy Accent Jacket",
+    primaryImage: shirt1,
+    secondaryImage: shirt2,
+    tag: "Sale",
+  },
+  {
+    id: 6,
+    title: "White Mesh Chair",
+    primaryImage: sofer1,
+    secondaryImage: sofer2,
+  },
+
+  {
+    id: 8,
+    title: "Blue Decorative Sneaker",
+    primaryImage: sneaker1,
+    secondaryImage: sneaker2,
+  },
 ];

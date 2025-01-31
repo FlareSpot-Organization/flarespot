@@ -1,7 +1,6 @@
 import logo from "@/assets/images/logo.png";
 import chinaFlag from "@/assets/images/china-flag.png";
 import { NavButton } from "@/components/common/NavButton";
-import useLandingHeader2 from "@/hooks/useLandingHeader2";
 import { demoCategoriesHeader } from "@/utils/Content";
 import {
   Award,

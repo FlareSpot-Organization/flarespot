@@ -1,8 +1,10 @@
+import FavouriteDeals from "@/components/pages/home/FavouriteDeals";
 import Hero from "@/components/pages/home/Hero";
 import Hero1 from "@/components/pages/home/Hero1";
 import Hero2 from "@/components/pages/home/Hero2";
 import Hero3 from "@/components/pages/home/Hero3";
 import Hero4 from "@/components/pages/home/Hero4";
+import LightningDeals from "@/components/pages/home/LighteningDeals";
 import MoreProducts from "@/components/pages/home/MoreProducts";
 import Offerings from "@/components/pages/home/Offerings";
 import ShopCategory from "@/components/pages/home/ShopCategory";
@@ -10,7 +12,6 @@ import TodaysDeals from "@/components/pages/home/TodaysDeals";
 import TopArrivals from "@/components/pages/home/TopArrivals";
 import { useHero } from "@/contexts/HeroContext";
 import { useHeader } from "@/contexts/LandingHeaderLayouts";
-import useLandingHeader2 from "@/hooks/useLandingHeader2";
 import useProductsFetch from "@/hooks/useProductsFetch";
 
 const Home = () => {
@@ -47,7 +48,9 @@ const Home = () => {
       <div className="relative">
         {renderHero()}
         <div className="sm:w-[90%] w-[95%] mx-auto mt-10">
+          <FavouriteDeals />
           <Offerings />
+          <LightningDeals products={productsDemo?.data?.products} />
           <TodaysDeals />
         </div>
         <div className="bg-[#f7f7f7] dark:bg-black mt-10">
