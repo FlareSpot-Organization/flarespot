@@ -51,6 +51,18 @@ import sofer1 from "@/assets/images/products/sofer1.jpg";
 import sofer2 from "@/assets/images/products/sofer2.jpg";
 import sneaker1 from "@/assets/images/products/product5.jpg";
 import sneaker2 from "@/assets/images/products/product14.jpg";
+import blueShirt1 from "@/assets/images/products/blue-shirt1.jpg";
+import blueShirt2 from "@/assets/images/products/blue-shirt2.jpg";
+import allStars1 from "@/assets/images/products/allstars1.jpg";
+import allStars2 from "@/assets/images/products/allstars2.jpg";
+import hoodie1 from "@/assets/images/products/hoodie1.jpg";
+import hoodie2 from "@/assets/images/products/hoodie2.jpg";
+import cap1 from "@/assets/images/products/cap1.jpg";
+import cap2 from "@/assets/images/products/cap2.jpg";
+import phone1 from "@/assets/images/products/phone1.jpg";
+import phone2 from "@/assets/images/products/phone2.jpg";
+import laptop1 from "@/assets/images/products/laptop1.jpg";
+import laptop2 from "@/assets/images/products/laptop2.png";
 
 export const mainCategories: string[] = [
   "Featured",
@@ -408,43 +420,84 @@ export const dealsOfDay: ProductCard2[] = [
     title: "Standard Shoe Fleezy",
     primaryImage: shoe,
     secondaryImage: shoe2,
-    tag: "Deal of the Day",
+    tag: "Deals",
   },
   {
     id: 2,
     title: "Comfy Sofer Chair",
     primaryImage: chair1,
     secondaryImage: chair2,
-    tag: "Deal of the Day",
+    tag: "Deals",
   },
   {
     id: 3,
     title: "Double strap lady bags",
     primaryImage: bag1,
     secondaryImage: bag2,
-    tag: "Deal of the Day",
+    tag: "Deals",
+  },
+  {
+    id: 4,
+    title: "Blue Hoodie Wear",
+    primaryImage: blueShirt1,
+    secondaryImage: blueShirt2,
+    tag: "Deals",
+  },
+  {
+    id: 5,
+    title: "Nike Cap Comft",
+    primaryImage: cap1,
+    secondaryImage: cap2,
+    tag: "Deals",
+  },
+  {
+    id: 6,
+    title: "Hp Folio Laptop x86",
+    primaryImage: laptop1,
+    secondaryImage: laptop2,
+    tag: "Deals",
   },
 ];
 
 export const favorites: ProductCard2[] = [
   {
-    id: 5,
+    id: 7,
     title: "Navy Accent Jacket",
     primaryImage: shirt1,
     secondaryImage: shirt2,
     tag: "Sale",
   },
   {
-    id: 6,
+    id: 8,
     title: "White Mesh Chair",
     primaryImage: sofer1,
     secondaryImage: sofer2,
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Blue Decorative Sneaker",
     primaryImage: sneaker1,
     secondaryImage: sneaker2,
+  },
+  {
+    id: 10,
+    title: "Iphone 12pro",
+    primaryImage: phone1,
+    secondaryImage: phone2,
+    tag: "Sale",
+  },
+  {
+    id: 11,
+    title: "White Hoodie",
+    primaryImage: hoodie1,
+    secondaryImage: hoodie2,
+  },
+
+  {
+    id: 12,
+    title: "Blue Allstars Sneaker",
+    primaryImage: allStars1,
+    secondaryImage: allStars2,
   },
 ];

@@ -39,7 +39,7 @@ const Hero1 = () => {
 
   return (
     <div className="relative h-[280px] md:h-[400px] lg:h-[300px]  overflow-hidden mx-auto mb-6 custom-hero">
-      {slides.map((slide, index) => (
+      {slides?.map((slide, index) => (
         <motion.div
           key={index}
           initial={false}
@@ -100,7 +100,7 @@ const Hero1 = () => {
 
       {/* Slide indicators */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
-        {slides.map((_, index) => (
+        {slides?.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}

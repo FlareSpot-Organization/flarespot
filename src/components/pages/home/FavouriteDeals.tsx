@@ -19,7 +19,7 @@ const FavouriteDeals: React.FC = () => {
               view all <ChevronRight className="w-3 h-3 ml-0.5" />
             </a>
           </div>
-          <div className="flex space-x-4">
+          <div className="grid grid-cols-3 sm:gap-6 gap-2">
             {dealsOfDay.map((product) => (
               <ProductCard2 key={product.id} product={product} />
             ))}
@@ -38,7 +38,7 @@ const FavouriteDeals: React.FC = () => {
               view all <ChevronRight className="w-3 h-3 ml-0.5" />
             </a>
           </div>
-          <div className="flex space-x-4">
+          <div className="grid grid-cols-3 sm:gap-6 gap-2">
             {favorites.map((product) => (
               <ProductCard2 key={product.id} product={product} />
             ))}

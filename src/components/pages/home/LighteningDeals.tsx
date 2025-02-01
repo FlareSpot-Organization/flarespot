@@ -60,7 +60,7 @@ const LightningDeals = ({ products }: { products: any }) => {
           1024: { slidesPerView: 5 },
         }}
         className="p-4 navigation-styled">
-        {products.map((product: any) => (
+        {products?.map((product: any) => (
           <SwiperSlide key={product.asin}>
             <ProductCard product={product} />
           </SwiperSlide>

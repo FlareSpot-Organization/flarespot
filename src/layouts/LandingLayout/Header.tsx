@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   return (
     <div className="w-full">
       <TopNavbar />
-      <div className="bg-gray-900 text-white">
+      <div className="bg-gray-900  text-white">
         {/* Mobile Header */}
         <MobileLayout />
 

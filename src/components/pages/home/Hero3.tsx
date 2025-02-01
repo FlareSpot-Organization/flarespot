@@ -101,7 +101,7 @@ const Hero3 = () => {
           </motion.h1>
 
           <motion.div className="space-y-4 mb-6 w-full max-w-sm">
-            {features.map((feature, index) => (
+            {features?.map((feature, index) => (
               <motion.div
                 key={index}
                 initial={{ x: -20, opacity: 0 }}

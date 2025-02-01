@@ -32,7 +32,7 @@ const TopNavbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="h-12 flex items-center justify-between text-sm">
           {/* Left section */}
-          <div className="flex items-center space-x-2">
+          <div className="sm:flex hidden items-center space-x-2">
             <Truck className="w-4 h-4" />
             <span className="text-[11px]">Free Shipping on Orders $50+</span>
           </div>
@@ -45,14 +45,14 @@ const TopNavbar = () => {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -20, opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="flex items-center space-x-2">
+              className="flex items-center  space-x-2">
               {promos[currentPromo].icon}
               <span className="text-[11px]">{promos[currentPromo].text}</span>
             </motion.div>
           </AnimatePresence>
 
           {/* Right section */}
-          <div className="flex items-center space-x-6">
+          <div className="sm:flex hidden items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Payment className="w-3 h-3" style={{ fontSize: "12px" }} />
               <span className="text-[11px]">Safe & Secured Payments</span>

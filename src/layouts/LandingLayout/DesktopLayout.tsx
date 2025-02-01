@@ -15,6 +15,7 @@ import logo from "@/assets/images/logo.png";
 import chinaFlag from "@/assets/images/china-flag.png";
 import { useHeader } from "@/contexts/LandingHeaderLayouts";
 import SearchBar from "@/components/common/Searchbar";
+import { useSelector } from "react-redux";
 
 const DesktopLayout = () => {
   const {
@@ -24,6 +25,8 @@ const DesktopLayout = () => {
     handleOverlayClose,
   } = useHeader();
 
+  const cartItems = useSelector((state: any) => state.cart.items);
+
   return (
     <>
       <div className="hidden lg:block px-4 py-2 relative z-30">
@@ -31,7 +34,10 @@ const DesktopLayout = () => {
           {/* Left Side */}
           <div className="flex items-center flex-shrink-0">
             <div className="mr-2">
-              <img src={logo} alt="Logo" className="h-8" />
+              <Link to="/">
+                {" "}
+                <img src={logo} alt="Logo" className="h-8" />
+              </Link>
             </div>
 
             <NavButton>
@@ -44,10 +50,10 @@ const DesktopLayout = () => {
               Mega Sale
             </NavButton>
 
-            <NavButton>
+            {/* <NavButton>
               <Warehouse className="w-3 h-3 mr-0.5" />
               Local Warehouse
-            </NavButton>
+            </NavButton> */}
 
             <div
               className="dropdown-container relative"
@@ -71,7 +77,7 @@ const DesktopLayout = () => {
                           ? "bg-gray-50 text-red-600"
                           : "text-gray-700"
                       }`}>
-                      <span className="text-[11px] font-medium">
+                      <span className="text-[12px] font-medium">
                         {category}
                       </span>
                     </div>
@@ -116,7 +122,7 @@ const DesktopLayout = () => {
               <NavButton>
                 <User className="h-4 w-4 mr-0.5" />
                 <div>
-                  <span className="text-[11px]">Sign in / Register</span>
+                  <span className="text-[12px]">Sign in / Register</span>
                 </div>
               </NavButton>
 
@@ -140,7 +146,7 @@ const DesktopLayout = () => {
 
             <NavButton>
               <MessageCircle className="h-4 w-4 mr-0.5" />
-              <span className="text-[11px]">Support</span>
+              <span className="text-[12px]">Support</span>
             </NavButton>
 
             <NavButton>
@@ -149,20 +155,22 @@ const DesktopLayout = () => {
                 alt=""
                 className="rounded-full h-4 w-4 mr-0.5"
               />
-              <span className="text-[11px]">EN</span>
+              <span className="text-[12px]">EN</span>
             </NavButton>
 
-            <NavButton>
-              <div className="flex items-center">
-                <ShoppingCart className="h-4 w-4" />
-                <div>
-                  <h6 className="border px-2 py-0 text-[8px] bg-white text-black rounded-full">
-                    9
-                  </h6>
-                  <h6 className="font-bold text-[8px]">Cart</h6>
+            <Link to="cart">
+              <NavButton>
+                <div className="flex items-center">
+                  <ShoppingCart className="h-4 w-4" />
+                  <div>
+                    <h6 className="border px-2 py-0 text-[8px] bg-white text-black rounded-full">
+                      {cartItems?.length}
+                    </h6>
+                    <h6 className="font-bold text-[8px]">Cart</h6>
+                  </div>
                 </div>
-              </div>
-            </NavButton>
+              </NavButton>
+            </Link>
           </div>
         </div>
       </div>

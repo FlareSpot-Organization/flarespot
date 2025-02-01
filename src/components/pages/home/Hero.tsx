@@ -38,7 +38,7 @@ const Hero = () => {
         spaceBetween={0}
         slidesPerView={1}
         className="h-full">
-        {slides.map((slide, index) => (
+        {slides?.map((slide, index) => (
           <SwiperSlide key={index}>
             <div
               className="relative h-full bg-cover hero-banner"

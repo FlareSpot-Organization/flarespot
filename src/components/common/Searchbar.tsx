@@ -103,10 +103,10 @@ const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
               </div>
               <div className="flex flex-col items-end">
                 <span className="text-sm font-medium text-gray-900 dark:text-gray-100">
-                  ${suggestion.deal_price.amount}
+                  ${suggestion.deal_price?.amount}
                 </span>
                 <span className="text-xs text-gray-500 dark:text-gray-400 line-through">
-                  ${suggestion.list_price.amount}
+                  ${suggestion.list_price?.amount}
                 </span>
               </div>
             </button>

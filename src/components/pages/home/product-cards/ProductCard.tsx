@@ -93,8 +93,8 @@ const ProductCard = ({ product }: { product: any }) => {
 
         <div className="flex items-center gap-1">
           {Array(5)
-            .fill(null)
-            .map((_, i) => (
+            ?.fill(null)
+            ?.map((_, i) => (
               <svg
                 key={i}
                 className={`w-4 h-4 ${

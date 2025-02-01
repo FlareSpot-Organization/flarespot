@@ -2,7 +2,7 @@ import Hero from "@/components/pages/home/Hero";
 import Hero1 from "@/components/pages/home/Hero1";
 import Hero2 from "@/components/pages/home/Hero2";
 import Hero4 from "@/components/pages/home/Hero4";
-import MoreProducts from "@/components/pages/home/MoreProducts";
+import MoreProducts from "@/components/pages/home/product-cards/MoreProducts";
 import Offerings from "@/components/pages/home/Offerings";
 import ShopCategory from "@/components/pages/home/ShopCategory";
 import TodaysDeals from "@/components/pages/home/TodaysDeals";
