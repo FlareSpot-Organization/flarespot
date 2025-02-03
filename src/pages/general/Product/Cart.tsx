@@ -218,10 +218,7 @@ const Cart = () => {
               </CardContent>
               <CardFooter className="flex w-full flex-col gap-4">
                 {token ? (
-                  <Button
-                    className="w-full dark:bg-gray-800 dark:text-white"
-                    size="lg"
-                    onClick={handleCheckout}>
+                  <Button className="w-full" size="lg" onClick={handleCheckout}>
                     <ShoppingCart className="w-4 h-4 mr-2" />
                     Checkout
                   </Button>

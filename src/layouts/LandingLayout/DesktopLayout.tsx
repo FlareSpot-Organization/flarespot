@@ -16,6 +16,7 @@ import chinaFlag from "@/assets/images/china-flag.png";
 import { useHeader } from "@/contexts/LandingHeaderLayouts";
 import SearchBar from "@/components/common/Searchbar";
 import { useSelector } from "react-redux";
+import { Button } from "@/components/ui/button";
 
 const DesktopLayout = () => {
   const {
@@ -125,16 +126,15 @@ const DesktopLayout = () => {
                 <div className="p-2 w-full space-y-2">
                   <div>
                     <Link to="/auth/login" className="w-full mb-3">
-                      <button className="w-full py-1.5 px-4 text-[14px] bg-gray-900 dark:bg-gray-800 text-white rounded-sm hover:bg-gray-800 transition-colors duration-200 font-medium">
-                        Sign in
-                      </button>
+                      <Button className="w-full"> Sign in </Button>
                     </Link>
                   </div>
                   <div>
                     <Link to="/auth/login" className="w-full">
-                      <button className="w-full py-1.5 px-4 text-[14px] bg-white text-[#000] dark:bg-gray-800  rounded-sm hover:bg-gray-200 transition-colors duration-200 font-medium">
-                        Register
-                      </button>
+                      <Button className="w-full" variant="outline">
+                        {" "}
+                        Register{" "}
+                      </Button>
                     </Link>
                   </div>
                 </div>

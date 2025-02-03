@@ -1,5 +1,6 @@
 import { categories, fashionItems } from "@/utils/Content";
 import shopBanner from "@/assets/images/categories/shopBg.jpg";
+import { Button } from "@/components/ui/button";
 
 const ShopCategory = () => {
   return (
@@ -19,9 +20,7 @@ const ShopCategory = () => {
             <div className="z-10 relative mb-6 text-white">
               <h2 className="text-3xl font-bold">Viva</h2>
               <p className="text-gray-300">Your fashion choice</p>
-              <button className="bg-black dark:bg-gray-800 text-white px-6 py-3 rounded mt-4 hover:bg-gray-700 dark:hover:bg-gray-700 transition-colors">
-                Shop Now
-              </button>
+              <Button>Shop Now</Button>
             </div>
 
             <div className="mt-32 sm:mt-48 z-40">

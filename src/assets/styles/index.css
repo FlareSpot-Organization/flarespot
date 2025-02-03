@@ -106,9 +106,9 @@
   left: 0;
   border: 1px solid transparent;
   border-radius: 50px;
-  transition: transform .15s;
-  height: 40px;
-  transform: scale(.85);
+  transition: transform 0.15s;
+  height: 30px;
+  transform: scale(0.85);
 } */
 
 .custom-btn:before {
@@ -121,8 +121,7 @@
   border: 1px solid transparent;
   border-radius: 50px;
   transition: transform 0.15s;
-  height: 30px;
-
+  height: 40px;
   transform: scale(0.85);
 }
 /* .custom-btn:after {
@@ -170,7 +169,7 @@
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   width: 700px;
   height: 400px;
-  margin-top: 8px;
+  margin-top: 3.5px;
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
@@ -185,7 +184,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   width: 110px;
-  margin-top: 8px;
+  margin-top: 2px;
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
@@ -234,16 +233,6 @@
   border-radius: 3px;
 }
 .overlay {
-  position: fixed;
-  top: 40px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.2s ease-in-out;
-  z-index: -10;
 }
 .chevron-rotate {
   transition: transform 0.2s ease;

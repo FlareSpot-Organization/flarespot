@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import useVisualization from "@/hooks/useVisualization";
 import { addToCart } from "@/services/features/cart/cartSlice";
@@ -90,26 +91,22 @@ const MoreProducts = ({ productsDemo }: { productsDemo: any }) => {
                 </div>
 
                 {/* Shipping */}
-                <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">
+                <p className="text-xs text-gray-500 dark:text-gray-400 font-medium line-clamp-1">
                   {product?.delivery}
                 </p>
               </div>
 
               {/* Add to Cart Button */}
               {cartItems.includes(product.asin) ? (
-                <button
-                  disabled
-                  className="w-full bg-gray-300 dark:bg-gray-700 text-gray-600 dark:text-gray-400 py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300 text-sm font-medium cursor-not-allowed">
+                <Button disabled className="cursor-not-allowed w-full">
                   <ShoppingCart className="w-4 h-4" />
                   <span>In Cart</span>
-                </button>
+                </Button>
               ) : (
-                <button
-                  onClick={() => handleAdd(product)}
-                  className="w-full bg-gray-900 dark:bg-gray-700 hover:bg-black dark:hover:bg-gray-600 text-white py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300 text-sm font-medium">
+                <Button className="w-full" onClick={() => handleAdd(product)}>
                   <ShoppingCart className="w-4 h-4" />
                   <span>Add to Cart</span>
-                </button>
+                </Button>
               )}
             </div>
           </Card>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../ui/button";
 
 const DealsCard: React.FC<any> = ({
   deal_photo,
@@ -17,7 +18,7 @@ const DealsCard: React.FC<any> = ({
         <img
           src={deal_photo}
           alt={deal_title}
-          className="w-[70%] object-cover"
+          className="w-[70%] h-[20vh] object-cover"
         />
         {deal_badge && (
           <span className="absolute top-2 left-2 bg-red-500 dark:bg-red-600 text-white px-2 py-1 rounded-md text-[10px]">
@@ -29,13 +30,13 @@ const DealsCard: React.FC<any> = ({
       {/* Content Section */}
       <div className="p-4">
         {/* Title */}
-        <h3 className="text-[12px] font-semibold line-clamp-2 mb-2 text-gray-900 dark:text-gray-100">
+        <h3 className="text-[12px] line-clamp-1 font-semibold line-clamp-2 mb-2 text-gray-900 dark:text-gray-100">
           {deal_title}
         </h3>
 
         {/* Price Section */}
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-xs font-bold text-gray-900 dark:text-gray-100">
+          <span className="text-[11px] font-bold text-gray-900 dark:text-gray-100">
             {deal_price?.currency}{" "}
             {Number(deal_price?.amount)?.toLocaleString()}
           </span>
@@ -67,9 +68,9 @@ const DealsCard: React.FC<any> = ({
         </div>
 
         {/* Action Button */}
-        <button className="w-full bg-gray-900 dark:bg-gray-700 hover:bg-black dark:hover:bg-gray-600 text-white py-1.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors duration-300 text-[12px] font-medium">
-          <span>View Deal</span>
-        </button>
+        <Button className="mt-2 w-full" size="xs">
+          View Deal
+        </Button>
       </div>
     </div>
   );
