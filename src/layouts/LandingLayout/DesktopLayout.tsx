@@ -36,17 +36,17 @@ const DesktopLayout = () => {
             <div className="mr-2">
               <Link to="/">
                 {" "}
-                <img src={logo} alt="Logo" className="h-8" />
+                <img src={logo} alt="Logo" className="h-10" />
               </Link>
             </div>
 
             <NavButton>
-              <Award className="w-3 h-3 mr-0.5" />
+              <Award className="w-5 h-5 mr-0.5" />
               5-Star Rated
             </NavButton>
 
             <NavButton>
-              <Percent className="w-3 h-3 mr-0.5" />
+              <Percent className="w-5 h-5 mr-0.5" />
               Mega Sale
             </NavButton>
 
@@ -62,7 +62,7 @@ const DesktopLayout = () => {
               <NavButton>
                 <span className="flex items-center">
                   Categories
-                  <ChevronDown className="w-3 h-3 mr-0.5 ml-1 chevron-rotate" />
+                  <ChevronDown className="w-5 h-5 mr-0.5 ml-1 chevron-rotate" />
                 </span>
               </NavButton>
 
@@ -77,7 +77,7 @@ const DesktopLayout = () => {
                           ? "bg-gray-50 text-red-600"
                           : "text-gray-700"
                       }`}>
-                      <span className="text-[12px] font-medium">
+                      <span className="text-[14px] font-medium">
                         {category}
                       </span>
                     </div>
@@ -119,54 +119,48 @@ const DesktopLayout = () => {
               className="register-container relative"
               onMouseEnter={handleOverlay}
               onMouseLeave={handleOverlayClose}>
-              <NavButton>
-                <User className="h-4 w-4 mr-0.5" />
-                <div>
-                  <span className="text-[12px]">Sign in / Register</span>
-                </div>
-              </NavButton>
+              <NavButton>Sign in / Register</NavButton>
 
               <div className="register-dropdown flex">
-                <div className="p-2 w-full">
-                  <Link to="/auth/login" className="w-full">
-                    <button className="w-full py-1.5 px-4 text-[12px] bg-gray-900 dark:bg-gray-800 text-white rounded-sm hover:bg-gray-800 transition-colors duration-200 font-medium">
-                      Sign in
-                    </button>
-                  </Link>
-                  <div className="mt-3 text-center">
-                    <a
-                      href="/auth/login"
-                      className="block mt-2 text-sm text-gray-900 dark:text-gray-100 hover:text-purple-600 transition-colors duration-200 font-medium">
-                      Register
-                    </a>
+                <div className="p-2 w-full space-y-2">
+                  <div>
+                    <Link to="/auth/login" className="w-full mb-3">
+                      <button className="w-full py-1.5 px-4 text-[14px] bg-gray-900 dark:bg-gray-800 text-white rounded-sm hover:bg-gray-800 transition-colors duration-200 font-medium">
+                        Sign in
+                      </button>
+                    </Link>
+                  </div>
+                  <div>
+                    <Link to="/auth/login" className="w-full">
+                      <button className="w-full py-1.5 px-4 text-[14px] bg-white text-[#000] dark:bg-gray-800  rounded-sm hover:bg-gray-200 transition-colors duration-200 font-medium">
+                        Register
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
 
-            <NavButton>
-              <MessageCircle className="h-4 w-4 mr-0.5" />
-              <span className="text-[12px]">Support</span>
-            </NavButton>
+            <NavButton>Help & Support</NavButton>
 
             <NavButton>
               <img
                 src={chinaFlag}
                 alt=""
-                className="rounded-full h-4 w-4 mr-0.5"
+                className="rounded-full h-5 w-5 mr-0.5"
               />
-              <span className="text-[12px]">EN</span>
+              EN
             </NavButton>
 
             <Link to="cart">
               <NavButton>
                 <div className="flex items-center">
-                  <ShoppingCart className="h-4 w-4" />
+                  <ShoppingCart className="h-5 w-5" />
                   <div>
-                    <h6 className="border px-2 py-0 text-[8px] bg-white text-black rounded-full">
+                    <h6 className="border px-2 py-0 leading-3 font-bold text-[10px] bg-white text-black rounded-full">
                       {cartItems?.length}
                     </h6>
-                    <h6 className="font-bold text-[8px]">Cart</h6>
+                    <h6 className="text-[10px]">Cart</h6>
                   </div>
                 </div>
               </NavButton>

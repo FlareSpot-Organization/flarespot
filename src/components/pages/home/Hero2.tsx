@@ -40,7 +40,7 @@ const Hero2 = () => {
   ];
 
   return (
-    <div className="relative w-full sm:w-[90%] mx-auto">
+    <div className="relative w-full sm:w-[95%] mx-auto">
       <Swiper
         modules={[Navigation, Autoplay, Keyboard, Pagination]}
         navigation={{

@@ -81,7 +81,7 @@ const Hero4 = () => {
   ];
 
   return (
-    <div className="relative w-[90%] mt-6 md:mt-10 rounded-lg mx-auto">
+    <div className="relative w-[95%] mt-6 md:mt-10 rounded-lg mx-auto">
       <div className="relative h-[500px] md:h-[400px] rounded-lg overflow-hidden shadow-lg">
         <div
           className="absolute inset-0 bg-cover rounded-lg bg-center"
