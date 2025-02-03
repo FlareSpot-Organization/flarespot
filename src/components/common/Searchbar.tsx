@@ -41,7 +41,7 @@ const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    setIsMobileMenuOpen(false);
+    // setIsMobileMenuOpen(false);
     if (searchTerm.trim()) {
       navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
     }

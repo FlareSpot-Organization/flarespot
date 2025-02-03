@@ -30,7 +30,7 @@ const DealsCard: React.FC<any> = ({
       {/* Content Section */}
       <div className="p-4">
         {/* Title */}
-        <h3 className="text-[12px] line-clamp-1 font-semibold line-clamp-2 mb-2 text-gray-900 dark:text-gray-100">
+        <h3 className="text-[12px] line-clamp-1 font-semibold  mb-2 text-gray-900 dark:text-gray-100">
           {deal_title}
         </h3>
 
