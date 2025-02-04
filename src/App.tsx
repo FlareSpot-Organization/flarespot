@@ -7,6 +7,7 @@ import {
 import AuthLayout from "./layouts/AuthLayout";
 import LandingLayout from "./layouts/LandingLayout";
 import {
+  Auth,
   Cart,
   Checkout,
   Home,
@@ -62,6 +63,10 @@ export default function App() {
       path: "/auth",
       element: <AuthLayout />,
       children: [
+        // {
+        //   path: "",
+        //   element: <Auth />,
+        // },
         {
           path: "login",
           element: <Login />,

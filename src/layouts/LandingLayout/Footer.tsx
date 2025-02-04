@@ -10,7 +10,7 @@ import chinaFlag from "@/assets/images/china-flag.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 px-6">
-      <div className="w-[95%] mx-auto flex  justify-around">
+      <div className="w-[95%] mx-auto flex sm:flex-row flex-col sm:space-y-0 space-y-4 sm:justify-around justify-center sm:items-start items-center sm:text-left text-center ">
         {/* About Section */}
         <div>
           <h3 className="text-white font-semibold  mb-4">About</h3>
@@ -110,7 +110,7 @@ const Footer = () => {
         {/* Stay Connected Section */}
         <div>
           <h3 className="text-white font-semibold  mb-4">Stay connected</h3>
-          <div className="grid grid-cols-3 gap-y-6">
+          <div className="grid sm:grid-cols-3 grid-cols-6 gap-y-6 sm:gap-x-0 gap-x-6">
             <a href="#" className="hover:text-white text-sm">
               <BsInstagram size={24} />
             </a>
@@ -130,7 +130,7 @@ const Footer = () => {
               <BsPinterest size={24} />
             </a>
           </div>
-          <div className="mt-6 flex items-center space-x-2">
+          <div className="mt-6 flex items-center justify-center space-x-2">
             <img
               src={chinaFlag}
               alt="Language selector"

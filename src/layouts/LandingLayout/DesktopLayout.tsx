@@ -117,7 +117,7 @@ const DesktopLayout = () => {
                       </Link>
                     </div>
                     <div>
-                      <Link to="/auth/login" className="w-full">
+                      <Link to="/auth/register" className="w-full">
                         <Button className="w-full" variant="outline">
                           {" "}
                           Register{" "}

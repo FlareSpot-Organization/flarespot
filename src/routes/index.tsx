@@ -8,6 +8,7 @@ export { default as Search } from "@/pages/general/Product/Search";
 // Auth routes
 export { default as Login } from "@/pages/auth/Login";
 export { default as Register } from "@/pages/auth/Register";
+export { default as Auth } from "@/pages/auth/Auth";
 
 // Layouts
 export { default as AuthLayout } from "@/layouts/AuthLayout";

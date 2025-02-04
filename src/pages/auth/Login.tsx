@@ -47,7 +47,7 @@ const Login = () => {
 
       {/* Login Form Side */}
       <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-6">
-        <div className="w-[70%] m-auto">
+        <div className="sm:w-[75%] w-full m-auto">
           <LoginForm />
         </div>
       </div>
