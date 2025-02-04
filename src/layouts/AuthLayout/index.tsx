@@ -4,7 +4,7 @@ import Header from "./Header";
 const AuthLayout = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Outlet />
     </div>
   );

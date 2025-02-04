@@ -17,7 +17,6 @@ import useProductsFetch from "@/hooks/useProductsFetch";
 const Home = () => {
   const { products: productsDemo } = useProductsFetch();
   const { currentHero } = useHero();
-  const { overlay, setOverLay } = useHeader();
 
   const renderHero = () => {
     switch (currentHero) {
@@ -35,15 +34,7 @@ const Home = () => {
   };
 
   return (
-    <div className="relative" onMouseEnter={() => setOverLay(false)}>
-      {/* Overlay */}
-      {overlay && (
-        <div
-          className=" w-full h-full bg-black/70 z-10"
-          style={{ position: "fixed", top: 45, left: 0, right: 0, bottom: 0 }}
-        />
-      )}
-
+    <div>
       {/* Main Content */}
       <div className="relative">
         {renderHero()}

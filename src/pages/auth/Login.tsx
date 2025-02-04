@@ -1,21 +1,11 @@
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import LoginForm from "@/components/forms/LoginForm";
+
 import useLoginForm from "@/hooks/useLoginForm";
 import { fashionImages } from "@/utils/Content";
 import { AnimatePresence, motion } from "framer-motion";
-import { CgSpinner } from "react-icons/cg";
 
 const Login = () => {
-  const { formik, currentImageIndex, isLoading } = useLoginForm();
+  const { currentImageIndex } = useLoginForm();
 
   return (
     <div className="min-h-screen flex">
@@ -57,74 +47,9 @@ const Login = () => {
 
       {/* Login Form Side */}
       <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-6">
-        <Card className="w-full max-w-md">
-          <CardHeader className="space-y-1">
-            <CardTitle className="text-2xl font-bold text-center">
-              Welcome Back
-            </CardTitle>
-            <CardDescription className="text-center">
-              Sign in to your fashion account
-            </CardDescription>
-          </CardHeader>
-          <form onSubmit={formik.handleSubmit}>
-            <CardContent className="space-y-4">
-              <div className="space-y-2">
-                <Label htmlFor="username">Username</Label>
-                <Input
-                  id="username"
-                  type="username"
-                  placeholder="Enter your username"
-                  {...formik.getFieldProps("username")}
-                  className={
-                    formik.touched.username && formik.errors.username
-                      ? "border-red-500"
-                      : ""
-                  }
-                />
-                {formik.touched.username && formik.errors.username && (
-                  <div className="text-sm text-red-500">
-                    {formik.errors.username}
-                  </div>
-                )}
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="password">Password</Label>
-                <Input
-                  id="password"
-                  type="password"
-                  placeholder="Enter your password"
-                  {...formik.getFieldProps("password")}
-                  className={
-                    formik.touched.password && formik.errors.password
-                      ? "border-red-500"
-                      : ""
-                  }
-                />
-                {formik.touched.password && formik.errors.password && (
-                  <div className="text-sm text-red-500">
-                    {formik.errors.password}
-                  </div>
-                )}
-              </div>
-              <div className="flex items-center justify-between text-sm">
-                <Button variant="link" className="p-0 h-auto" type="button">
-                  Forgot password?
-                </Button>
-                <Button variant="link" className="p-0 h-auto" type="button">
-                  Create account
-                </Button>
-              </div>
-            </CardContent>
-            <CardFooter>
-              <Button
-                type="submit"
-                className="w-full"
-                disabled={!formik.isValid || isLoading}>
-                {isLoading ? <CgSpinner /> : "Sign In"}
-              </Button>
-            </CardFooter>
-          </form>
-        </Card>
+        <div className="w-[70%] m-auto">
+          <LoginForm />
+        </div>
       </div>
     </div>
   );

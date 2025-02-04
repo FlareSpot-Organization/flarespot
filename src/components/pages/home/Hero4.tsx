@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import banner from "@/assets/images/categories/shopBg.jpg";
 import { Timer, Gift, Zap, Star } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Hero4 = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -81,7 +82,7 @@ const Hero4 = () => {
   ];
 
   return (
-    <div className="relative w-[95%] mt-6 md:mt-10 rounded-lg mx-auto">
+    <div className="relative w-[95%] py-16 rounded-lg mx-auto">
       <div className="relative h-[500px] md:h-[400px] rounded-lg overflow-hidden shadow-lg">
         <div
           className="absolute inset-0 bg-cover rounded-lg bg-center"
@@ -145,12 +146,7 @@ const Hero4 = () => {
                   <div className="text-xs md:text-sm text-gray-500">
                     {card.category}
                   </div>
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="mt-2 md:mt-3 w-full bg-black/80 text-white py-1 md:py-2 px-2 md:px-4 rounded text-xs md:text-sm hover:bg-black transition-all duration-300 backdrop-blur-sm border border-white/20 hover:border-white/40 font-medium">
-                    Shop Now
-                  </motion.button>
+                  <Button className="w-full mt-3">Shop Now</Button>
                 </motion.div>
               ))}
             </div>
