@@ -15,6 +15,7 @@ import {
   PaymentSuccessPage,
   Register,
   Search,
+  SingleProduct,
 } from "./routes";
 
 export default function App() {
@@ -50,6 +51,10 @@ export default function App() {
         {
           path: "search",
           element: <Search />,
+        },
+        {
+          path: "product",
+          element: <SingleProduct />,
         },
       ],
     },

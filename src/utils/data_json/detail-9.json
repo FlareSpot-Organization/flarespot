@@ -1,0 +1,3879 @@
+{
+    "result": {
+        "status": {
+            "code": 200,
+            "data": "success",
+            "executionTime": "2.93",
+            "requestTime": "2024-05-25 23:28:40",
+            "requestId": "20240525665274256a2dc",
+            "endpoint": "item_detail",
+            "apiVersion": "4.x.x",
+            "functionsVersion": "4.x.x",
+            "la": "3.62",
+            "pmu": 1719024,
+            "mu": 1718704
+        },
+        "settings": {
+            "locale": "zh_CN",
+            "currency": "CNY",
+            "itemId": "785841205166",
+            "itemIdStr": ""
+        },
+        "item": {
+            "itemId": 785841205166,
+            "title": "RAY的模型世界Brave推刀刻线刀刻刀钨钢高达模型手办gk改造工具",
+            "catId": "50002506",
+            "catName": "模型制作工具/辅料耗材",
+            "sales": 0,
+            "itemUrl": "//item.taobao.com/item.htm?id=785841205166",
+            "images": [
+                "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01Z9ICB01N3SasQFSXh_!!2208296521514.jpg",
+                "//img.alicdn.com/imgextra/i2/2208296521514/O1CN015SHLOQ1N3Saub9xGc_!!2208296521514.jpg",
+                "//img.alicdn.com/imgextra/i4/2208296521514/O1CN0130ZxYR1N3SasKllEN_!!2208296521514.jpg",
+                "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01E2zCMZ1N3Savi5T5G_!!2208296521514.jpg",
+                "//img.alicdn.com/imgextra/i2/2208296521514/O1CN0126KyuY1N3SauSaVze_!!2208296521514.jpg"
+            ],
+            "video": {
+                "id": "459375981207",
+                "thumbnail": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01Z9ICB01N3SasQFSXh_!!2208296521514.jpg",
+                "url": "//cloud.video.taobao.com/play/u/2208296521514/p/2/e/6/t/1/459375981207.mp4?appKey=38829"
+            },
+            "properties": {
+                "cut": "品牌 / 型号 / 切割类 / 工具耗材分类 / 尺码 / 颜色分类",
+                "list": [
+                    {
+                        "name": "品牌",
+                        "value": "RAYSTUDIO"
+                    },
+                    {
+                        "name": "型号",
+                        "value": "Brave"
+                    },
+                    {
+                        "name": "切割类",
+                        "value": "刀类"
+                    },
+                    {
+                        "name": "工具耗材分类",
+                        "value": "切割类"
+                    },
+                    {
+                        "name": "尺码",
+                        "value": "0.075mm,0.125mm,0.150mm,0.200mm,0.300mm,0.400mm,0.500mm,0.600mm,0.700mm,0.800mm,0.900mm,1.000mm,不要刀头"
+                    },
+                    {
+                        "name": "颜色分类",
+                        "value": "银色,紫色,红色,蓝色,浅蓝色,绿色,黑色,暖灰色,冷灰色,橙色,黄绿色,洋红色,不要刀柄"
+                    }
+                ]
+            },
+            "description": {
+                "html": "<div style=\"width: 750.0px;height: 26455.0px;overflow: hidden;\"><div style=\"width: 750.0px;height: 26455.0px;overflow: hidden;\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i4/2208296521514/O1CN01chNeCG1N3SaxEbXaq_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i3/2208296521514/O1CN01GXf9cR1N3Sb02Sajs_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i3/2208296521514/O1CN019bywKe1N3Saug0eWQ_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01JFkRrA1N3SatAZkNu_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN0118Ohfb1N3SaxBnHzZ_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01AVx5ke1N3SauXOG5b_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i3/2208296521514/O1CN01ulaBfT1N3SatHYUX9_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01XS0X0t1N3Sal0HQig_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i4/2208296521514/O1CN01kzL3CQ1N3SapWcSCq_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01z1F02o1N3SavUFHwQ_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN011sYfVI1N3Sal0HA5v_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01Djptl51N3SapWdG6j_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01MskWGs1N3SaqqrFfQ_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01quqfln1N3Saug4H3Q_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i3/2208296521514/O1CN01P7mnfY1N3SatAa5Cn_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i4/2208296521514/O1CN01SONDEd1N3SapWbuyl_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN010hT1uF1N3SashZfY4_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i4/2208296521514/O1CN01hN1fi21N3SaqTDhbT_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01q6otUY1N3SauXPjbm_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01zlhG3F1N3SashVZt2_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01Jz6th11N3Sau4wdHI_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01pUuksd1N3SaxBpAQW_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01x0ph081N3SaqTEmAy_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01PmRRJU1N3SaqqtvzV_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01ejIYxa1N3SauXPfU1_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i3/2208296521514/O1CN01VXJZZf1N3SauXT1Oc_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i3/2208296521514/O1CN01X9ZznN1N3SawV27vJ_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01GE1Qo21N3SavhhLSs_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01pogDaR1N3SazbXySA_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01f6NK1G1N3SauqYRvu_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i4/2208296521514/O1CN01RsDM321N3SauvLv26_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i4/2208296521514/O1CN01RaysC01N3SaqquTGx_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i1/2208296521514/O1CN01PGsGjH1N3SatAaHhw_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01O25X6l1N3SauXPKha_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01fKrt5M1N3SapWcvOV_!!2208296521514.jpg\"><img style=\"display: block;width: 100.0%;\" src=\"//img.alicdn.com/imgextra/i2/2208296521514/O1CN01IQts4k1N3Sb1GvWFL_!!2208296521514.jpg\"></div></div>",
+                "url": "//itemcdn.tmall.com/desc/icoss%210785841205166%2112830117864",
+                "images": [
+                    "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01chNeCG1N3SaxEbXaq_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i3/2208296521514/O1CN01GXf9cR1N3Sb02Sajs_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i3/2208296521514/O1CN019bywKe1N3Saug0eWQ_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01JFkRrA1N3SatAZkNu_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN0118Ohfb1N3SaxBnHzZ_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01AVx5ke1N3SauXOG5b_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i3/2208296521514/O1CN01ulaBfT1N3SatHYUX9_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01XS0X0t1N3Sal0HQig_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01kzL3CQ1N3SapWcSCq_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01z1F02o1N3SavUFHwQ_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN011sYfVI1N3Sal0HA5v_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01Djptl51N3SapWdG6j_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01MskWGs1N3SaqqrFfQ_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01quqfln1N3Saug4H3Q_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i3/2208296521514/O1CN01P7mnfY1N3SatAa5Cn_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01SONDEd1N3SapWbuyl_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN010hT1uF1N3SashZfY4_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01hN1fi21N3SaqTDhbT_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01q6otUY1N3SauXPjbm_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01zlhG3F1N3SashVZt2_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01Jz6th11N3Sau4wdHI_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01pUuksd1N3SaxBpAQW_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01x0ph081N3SaqTEmAy_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01PmRRJU1N3SaqqtvzV_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01ejIYxa1N3SauXPfU1_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i3/2208296521514/O1CN01VXJZZf1N3SauXT1Oc_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i3/2208296521514/O1CN01X9ZznN1N3SawV27vJ_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01GE1Qo21N3SavhhLSs_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01pogDaR1N3SazbXySA_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01f6NK1G1N3SauqYRvu_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01RsDM321N3SauvLv26_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01RaysC01N3SaqquTGx_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01PGsGjH1N3SatAaHhw_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01O25X6l1N3SauXPKha_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01fKrt5M1N3SapWcvOV_!!2208296521514.jpg",
+                    "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01IQts4k1N3Sb1GvWFL_!!2208296521514.jpg"
+                ]
+            },
+            "sku": {
+                "def": {
+                    "quantity": 11149,
+                    "price": "69.5",
+                    "promotionPrice": "20"
+                },
+                "base": [
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:28330",
+                        "skuId": 5367719133060,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:28330",
+                        "skuId": 5378623236624,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:28330",
+                        "skuId": 5438172769933,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:80751877",
+                        "skuId": 5367719133068,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:80751877",
+                        "skuId": 5378623236632,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:80751877",
+                        "skuId": 5438172769941,
+                        "quantity": 44,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:61292746",
+                        "skuId": 5367719133067,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:61292746",
+                        "skuId": 5378623236631,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:61292746",
+                        "skuId": 5438172769940,
+                        "quantity": 41,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:28341",
+                        "skuId": 5367719133064,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:28341",
+                        "skuId": 5378623236628,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:28341",
+                        "skuId": 5438172769937,
+                        "quantity": 40,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:28326",
+                        "skuId": 5367719133058,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:28326",
+                        "skuId": 5378623236622,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:28326",
+                        "skuId": 5438172769931,
+                        "quantity": 39,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:60091",
+                        "skuId": 5367719133066,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:60091",
+                        "skuId": 5378623236630,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:60091",
+                        "skuId": 5438172769939,
+                        "quantity": 44,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:12154809",
+                        "skuId": 5367719133056,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:12154809",
+                        "skuId": 5378623236620,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:12154809",
+                        "skuId": 5438172769929,
+                        "quantity": 43,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:28335",
+                        "skuId": 5367719133061,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:28335",
+                        "skuId": 5378623236625,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:28335",
+                        "skuId": 5438172769934,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:28337",
+                        "skuId": 5367719133062,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:28337",
+                        "skuId": 5378623236626,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:28337",
+                        "skuId": 5438172769935,
+                        "quantity": 45,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:28338",
+                        "skuId": 5367719133063,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:28338",
+                        "skuId": 5378623236627,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:28338",
+                        "skuId": 5438172769936,
+                        "quantity": 45,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:12886038",
+                        "skuId": 5367719133057,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:12886038",
+                        "skuId": 5378623236621,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:12886038",
+                        "skuId": 5438172769930,
+                        "quantity": 45,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:28329",
+                        "skuId": 5367719133059,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:28329",
+                        "skuId": 5378623236623,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:28329",
+                        "skuId": 5438172769932,
+                        "quantity": 42,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59277085;1627207:29327334777",
+                        "skuId": 5367719133065,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59277085;1627207:29327334777",
+                        "skuId": 5378623236629,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59277085;1627207:29327334777",
+                        "skuId": 5438172769938,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:28330",
+                        "skuId": 5367719133047,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:28330",
+                        "skuId": 5378623236611,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:28330",
+                        "skuId": 5438172769920,
+                        "quantity": 60,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:80751877",
+                        "skuId": 5367719133055,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:80751877",
+                        "skuId": 5378623236619,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:80751877",
+                        "skuId": 5438172769928,
+                        "quantity": 90,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:61292746",
+                        "skuId": 5367719133054,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:61292746",
+                        "skuId": 5378623236618,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:61292746",
+                        "skuId": 5438172769927,
+                        "quantity": 116,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:28341",
+                        "skuId": 5367719133051,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:28341",
+                        "skuId": 5378623236615,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:28341",
+                        "skuId": 5438172769924,
+                        "quantity": 91,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:28326",
+                        "skuId": 5367719133045,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:28326",
+                        "skuId": 5378623236609,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:28326",
+                        "skuId": 5438172769918,
+                        "quantity": 92,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:60091",
+                        "skuId": 5367719133053,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:60091",
+                        "skuId": 5378623236617,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:60091",
+                        "skuId": 5438172769926,
+                        "quantity": 117,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:12154809",
+                        "skuId": 5367719133043,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:12154809",
+                        "skuId": 5378623236607,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:12154809",
+                        "skuId": 5438172769916,
+                        "quantity": 129,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:28335",
+                        "skuId": 5367719133048,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:28335",
+                        "skuId": 5378623236612,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:28335",
+                        "skuId": 5438172769921,
+                        "quantity": 131,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:28337",
+                        "skuId": 5367719133049,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:28337",
+                        "skuId": 5378623236613,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:28337",
+                        "skuId": 5438172769922,
+                        "quantity": 118,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:28338",
+                        "skuId": 5367719133050,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:28338",
+                        "skuId": 5378623236614,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:28338",
+                        "skuId": 5438172769923,
+                        "quantity": 118,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:12886038",
+                        "skuId": 5367719133044,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:12886038",
+                        "skuId": 5378623236608,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:12886038",
+                        "skuId": 5438172769917,
+                        "quantity": 122,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:28329",
+                        "skuId": 5367719133046,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:28329",
+                        "skuId": 5378623236610,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:28329",
+                        "skuId": 5438172769919,
+                        "quantity": 127,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56994632;1627207:29327334777",
+                        "skuId": 5367719133052,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56994632;1627207:29327334777",
+                        "skuId": 5378623236616,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56994632;1627207:29327334777",
+                        "skuId": 5438172769925,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:28330",
+                        "skuId": 5367719133099,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:28330",
+                        "skuId": 5378623236663,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:28330",
+                        "skuId": 5438172769972,
+                        "quantity": 104,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:80751877",
+                        "skuId": 5367719133107,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:80751877",
+                        "skuId": 5378623236671,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:80751877",
+                        "skuId": 5438172769980,
+                        "quantity": 121,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:61292746",
+                        "skuId": 5367719133106,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:61292746",
+                        "skuId": 5378623236670,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:61292746",
+                        "skuId": 5438172769979,
+                        "quantity": 96,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:28341",
+                        "skuId": 5367719133103,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:28341",
+                        "skuId": 5378623236667,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:28341",
+                        "skuId": 5438172769976,
+                        "quantity": 89,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:28326",
+                        "skuId": 5367719133097,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:28326",
+                        "skuId": 5378623236661,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:28326",
+                        "skuId": 5438172769970,
+                        "quantity": 105,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:60091",
+                        "skuId": 5367719133105,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:60091",
+                        "skuId": 5378623236669,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:60091",
+                        "skuId": 5438172769978,
+                        "quantity": 115,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:12154809",
+                        "skuId": 5367719133095,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:12154809",
+                        "skuId": 5378623236659,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:12154809",
+                        "skuId": 5438172769968,
+                        "quantity": 115,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:28335",
+                        "skuId": 5367719133100,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:28335",
+                        "skuId": 5378623236664,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:28335",
+                        "skuId": 5438172769973,
+                        "quantity": 119,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:28337",
+                        "skuId": 5367719133101,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:28337",
+                        "skuId": 5378623236665,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:28337",
+                        "skuId": 5438172769974,
+                        "quantity": 108,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:28338",
+                        "skuId": 5367719133102,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:28338",
+                        "skuId": 5378623236666,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:28338",
+                        "skuId": 5438172769975,
+                        "quantity": 106,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:12886038",
+                        "skuId": 5367719133096,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:12886038",
+                        "skuId": 5378623236660,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:12886038",
+                        "skuId": 5438172769969,
+                        "quantity": 140,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:28329",
+                        "skuId": 5367719133098,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:28329",
+                        "skuId": 5378623236662,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:28329",
+                        "skuId": 5438172769971,
+                        "quantity": 105,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:64840720;1627207:29327334777",
+                        "skuId": 5367719133104,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:64840720;1627207:29327334777",
+                        "skuId": 5378623236668,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:64840720;1627207:29327334777",
+                        "skuId": 5438172769977,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:28330",
+                        "skuId": 5367719133034,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:28330",
+                        "skuId": 5378623236598,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:28330",
+                        "skuId": 5438172769907,
+                        "quantity": 112,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:80751877",
+                        "skuId": 5367719133042,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:80751877",
+                        "skuId": 5378623236606,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:80751877",
+                        "skuId": 5438172769915,
+                        "quantity": 128,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:61292746",
+                        "skuId": 5367719133041,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:61292746",
+                        "skuId": 5378623236605,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:61292746",
+                        "skuId": 5438172769914,
+                        "quantity": 121,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:28341",
+                        "skuId": 5367719133038,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:28341",
+                        "skuId": 5378623236602,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:28341",
+                        "skuId": 5438172769911,
+                        "quantity": 128,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:28326",
+                        "skuId": 5367719133032,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:28326",
+                        "skuId": 5378623236596,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:28326",
+                        "skuId": 5438172769905,
+                        "quantity": 111,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:60091",
+                        "skuId": 5367719133040,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:60091",
+                        "skuId": 5378623236604,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:60091",
+                        "skuId": 5438172769913,
+                        "quantity": 172,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:12154809",
+                        "skuId": 5367719133030,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:12154809",
+                        "skuId": 5378623236594,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:12154809",
+                        "skuId": 5438172769903,
+                        "quantity": 164,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:28335",
+                        "skuId": 5367719133035,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:28335",
+                        "skuId": 5378623236599,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:28335",
+                        "skuId": 5438172769908,
+                        "quantity": 186,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:28337",
+                        "skuId": 5367719133036,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:28337",
+                        "skuId": 5378623236600,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:28337",
+                        "skuId": 5438172769909,
+                        "quantity": 181,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:28338",
+                        "skuId": 5367719133037,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:28338",
+                        "skuId": 5378623236601,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:28338",
+                        "skuId": 5438172769910,
+                        "quantity": 169,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:12886038",
+                        "skuId": 5367719133031,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:12886038",
+                        "skuId": 5378623236595,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:12886038",
+                        "skuId": 5438172769904,
+                        "quantity": 193,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:28329",
+                        "skuId": 5367719133033,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:28329",
+                        "skuId": 5378623236597,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:28329",
+                        "skuId": 5438172769906,
+                        "quantity": 173,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:56938340;1627207:29327334777",
+                        "skuId": 5367719133039,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:56938340;1627207:29327334777",
+                        "skuId": 5378623236603,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:56938340;1627207:29327334777",
+                        "skuId": 5438172769912,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:28330",
+                        "skuId": 5367719133086,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:28330",
+                        "skuId": 5378623236650,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:28330",
+                        "skuId": 5438172769959,
+                        "quantity": 115,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:80751877",
+                        "skuId": 5367719133094,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:80751877",
+                        "skuId": 5378623236658,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:80751877",
+                        "skuId": 5438172769967,
+                        "quantity": 104,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:61292746",
+                        "skuId": 5367719133093,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:61292746",
+                        "skuId": 5378623236657,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:61292746",
+                        "skuId": 5438172769966,
+                        "quantity": 99,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:28341",
+                        "skuId": 5367719133090,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:28341",
+                        "skuId": 5378623236654,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:28341",
+                        "skuId": 5438172769963,
+                        "quantity": 124,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:28326",
+                        "skuId": 5367719133084,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:28326",
+                        "skuId": 5378623236648,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:28326",
+                        "skuId": 5438172769957,
+                        "quantity": 99,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:60091",
+                        "skuId": 5367719133092,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:60091",
+                        "skuId": 5378623236656,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:60091",
+                        "skuId": 5438172769965,
+                        "quantity": 114,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:12154809",
+                        "skuId": 5367719133082,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:12154809",
+                        "skuId": 5378623236646,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:12154809",
+                        "skuId": 5438172769955,
+                        "quantity": 115,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:28335",
+                        "skuId": 5367719133087,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:28335",
+                        "skuId": 5378623236651,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:28335",
+                        "skuId": 5438172769960,
+                        "quantity": 138,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:28337",
+                        "skuId": 5367719133088,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:28337",
+                        "skuId": 5378623236652,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:28337",
+                        "skuId": 5438172769961,
+                        "quantity": 121,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:28338",
+                        "skuId": 5367719133089,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:28338",
+                        "skuId": 5378623236653,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:28338",
+                        "skuId": 5438172769962,
+                        "quantity": 133,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:12886038",
+                        "skuId": 5367719133083,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:12886038",
+                        "skuId": 5378623236647,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:12886038",
+                        "skuId": 5438172769956,
+                        "quantity": 94,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:28329",
+                        "skuId": 5367719133085,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:28329",
+                        "skuId": 5378623236649,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:28329",
+                        "skuId": 5438172769958,
+                        "quantity": 134,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:60478054;1627207:29327334777",
+                        "skuId": 5367719133091,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:60478054;1627207:29327334777",
+                        "skuId": 5378623236655,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:60478054;1627207:29327334777",
+                        "skuId": 5438172769964,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:28330",
+                        "skuId": 5367719133073,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:28330",
+                        "skuId": 5378623236637,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:28330",
+                        "skuId": 5438172769946,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:80751877",
+                        "skuId": 5367719133081,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:80751877",
+                        "skuId": 5378623236645,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:80751877",
+                        "skuId": 5438172769954,
+                        "quantity": 47,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:61292746",
+                        "skuId": 5367719133080,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:61292746",
+                        "skuId": 5378623236644,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:61292746",
+                        "skuId": 5438172769953,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:28341",
+                        "skuId": 5367719133077,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:28341",
+                        "skuId": 5378623236641,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:28341",
+                        "skuId": 5438172769950,
+                        "quantity": 44,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:28326",
+                        "skuId": 5367719133071,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:28326",
+                        "skuId": 5378623236635,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:28326",
+                        "skuId": 5438172769944,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:60091",
+                        "skuId": 5367719133079,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:60091",
+                        "skuId": 5378623236643,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:60091",
+                        "skuId": 5438172769952,
+                        "quantity": 29,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:12154809",
+                        "skuId": 5367719133069,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:12154809",
+                        "skuId": 5378623236633,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:12154809",
+                        "skuId": 5438172769942,
+                        "quantity": 47,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:28335",
+                        "skuId": 5367719133074,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:28335",
+                        "skuId": 5378623236638,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:28335",
+                        "skuId": 5438172769947,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:28337",
+                        "skuId": 5367719133075,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:28337",
+                        "skuId": 5378623236639,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:28337",
+                        "skuId": 5438172769948,
+                        "quantity": 42,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:28338",
+                        "skuId": 5367719133076,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:28338",
+                        "skuId": 5378623236640,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:28338",
+                        "skuId": 5438172769949,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:12886038",
+                        "skuId": 5367719133070,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:12886038",
+                        "skuId": 5378623236634,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:12886038",
+                        "skuId": 5438172769943,
+                        "quantity": 44,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:28329",
+                        "skuId": 5367719133072,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:28329",
+                        "skuId": 5378623236636,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:28329",
+                        "skuId": 5438172769945,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:59506204;1627207:29327334777",
+                        "skuId": 5367719133078,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:59506204;1627207:29327334777",
+                        "skuId": 5378623236642,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:59506204;1627207:29327334777",
+                        "skuId": 5438172769951,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:28330",
+                        "skuId": 5367719133008,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:28330",
+                        "skuId": 5378623236572,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:28330",
+                        "skuId": 5438172769881,
+                        "quantity": 80,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:80751877",
+                        "skuId": 5367719133016,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:80751877",
+                        "skuId": 5378623236580,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:80751877",
+                        "skuId": 5438172769889,
+                        "quantity": 84,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:61292746",
+                        "skuId": 5367719133015,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:61292746",
+                        "skuId": 5378623236579,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:61292746",
+                        "skuId": 5438172769888,
+                        "quantity": 84,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:28341",
+                        "skuId": 5367719133012,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:28341",
+                        "skuId": 5378623236576,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:28341",
+                        "skuId": 5438172769885,
+                        "quantity": 84,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:28326",
+                        "skuId": 5367719133006,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:28326",
+                        "skuId": 5378623236570,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:28326",
+                        "skuId": 5438172769879,
+                        "quantity": 83,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:60091",
+                        "skuId": 5367719133014,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:60091",
+                        "skuId": 5378623236578,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:60091",
+                        "skuId": 5438172769887,
+                        "quantity": 82,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:12154809",
+                        "skuId": 5367719133004,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:12154809",
+                        "skuId": 5378623236568,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:12154809",
+                        "skuId": 5438172769877,
+                        "quantity": 58,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:28335",
+                        "skuId": 5367719133009,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:28335",
+                        "skuId": 5378623236573,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:28335",
+                        "skuId": 5438172769882,
+                        "quantity": 78,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:28337",
+                        "skuId": 5367719133010,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:28337",
+                        "skuId": 5378623236574,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:28337",
+                        "skuId": 5438172769883,
+                        "quantity": 80,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:28338",
+                        "skuId": 5367719133011,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:28338",
+                        "skuId": 5378623236575,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:28338",
+                        "skuId": 5438172769884,
+                        "quantity": 70,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:12886038",
+                        "skuId": 5367719133005,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:12886038",
+                        "skuId": 5378623236569,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:12886038",
+                        "skuId": 5438172769878,
+                        "quantity": 96,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:28329",
+                        "skuId": 5367719133007,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:28329",
+                        "skuId": 5378623236571,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:28329",
+                        "skuId": 5438172769880,
+                        "quantity": 86,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:40778254;1627207:29327334777",
+                        "skuId": 5367719133013,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:40778254;1627207:29327334777",
+                        "skuId": 5378623236577,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:40778254;1627207:29327334777",
+                        "skuId": 5438172769886,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:28330",
+                        "skuId": 5364557204982,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:28330",
+                        "skuId": 5378623236546,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:28330",
+                        "skuId": 5438172769855,
+                        "quantity": 43,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:80751877",
+                        "skuId": 5364557204990,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:80751877",
+                        "skuId": 5378623236554,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:80751877",
+                        "skuId": 5438172769863,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:61292746",
+                        "skuId": 5364557204989,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:61292746",
+                        "skuId": 5378623236553,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:61292746",
+                        "skuId": 5438172769862,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:28341",
+                        "skuId": 5364557204986,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:28341",
+                        "skuId": 5378623236550,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:28341",
+                        "skuId": 5438172769859,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:28326",
+                        "skuId": 5364557204980,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:28326",
+                        "skuId": 5378623236544,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:28326",
+                        "skuId": 5438172769853,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:60091",
+                        "skuId": 5364557204988,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:60091",
+                        "skuId": 5378623236552,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:60091",
+                        "skuId": 5438172769861,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:12154809",
+                        "skuId": 5364557204978,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:12154809",
+                        "skuId": 5378623236542,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:12154809",
+                        "skuId": 5438172769851,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:28335",
+                        "skuId": 5364557204983,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:28335",
+                        "skuId": 5378623236547,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:28335",
+                        "skuId": 5438172769856,
+                        "quantity": 33,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:28337",
+                        "skuId": 5364557204984,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:28337",
+                        "skuId": 5378623236548,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:28337",
+                        "skuId": 5438172769857,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:28338",
+                        "skuId": 5364557204985,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:28338",
+                        "skuId": 5378623236549,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:28338",
+                        "skuId": 5438172769858,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:12886038",
+                        "skuId": 5364557204979,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:12886038",
+                        "skuId": 5378623236543,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:12886038",
+                        "skuId": 5438172769852,
+                        "quantity": 47,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:28329",
+                        "skuId": 5364557204981,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:28329",
+                        "skuId": 5378623236545,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:28329",
+                        "skuId": 5438172769854,
+                        "quantity": 50,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:136055832;1627207:29327334777",
+                        "skuId": 5364557204987,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:136055832;1627207:29327334777",
+                        "skuId": 5378623236551,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:136055832;1627207:29327334777",
+                        "skuId": 5438172769860,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:28330",
+                        "skuId": 5367719133112,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:28330",
+                        "skuId": 5378623236676,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:28330",
+                        "skuId": 5438172769985,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:80751877",
+                        "skuId": 5367719133120,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:80751877",
+                        "skuId": 5378623236684,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:80751877",
+                        "skuId": 5438172769993,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:61292746",
+                        "skuId": 5367719133119,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:61292746",
+                        "skuId": 5378623236683,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:61292746",
+                        "skuId": 5438172769992,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:28341",
+                        "skuId": 5367719133116,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:28341",
+                        "skuId": 5378623236680,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:28341",
+                        "skuId": 5438172769989,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:28326",
+                        "skuId": 5367719133110,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:28326",
+                        "skuId": 5378623236674,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:28326",
+                        "skuId": 5438172769983,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:60091",
+                        "skuId": 5367719133118,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:60091",
+                        "skuId": 5378623236682,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:60091",
+                        "skuId": 5438172769991,
+                        "quantity": 50,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:12154809",
+                        "skuId": 5367719133108,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:12154809",
+                        "skuId": 5378623236672,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:12154809",
+                        "skuId": 5438172769981,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:28335",
+                        "skuId": 5367719133113,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:28335",
+                        "skuId": 5378623236677,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:28335",
+                        "skuId": 5438172769986,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:28337",
+                        "skuId": 5367719133114,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:28337",
+                        "skuId": 5378623236678,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:28337",
+                        "skuId": 5438172769987,
+                        "quantity": 32,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:28338",
+                        "skuId": 5367719133115,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:28338",
+                        "skuId": 5378623236679,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:28338",
+                        "skuId": 5438172769988,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:12886038",
+                        "skuId": 5367719133109,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:12886038",
+                        "skuId": 5378623236673,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:12886038",
+                        "skuId": 5438172769982,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:28329",
+                        "skuId": 5367719133111,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:28329",
+                        "skuId": 5378623236675,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:28329",
+                        "skuId": 5438172769984,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:877846314;1627207:29327334777",
+                        "skuId": 5367719133117,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:877846314;1627207:29327334777",
+                        "skuId": 5378623236681,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:877846314;1627207:29327334777",
+                        "skuId": 5438172769990,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:28330",
+                        "skuId": 5364557204956,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:28330",
+                        "skuId": 5378623236520,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:28330",
+                        "skuId": 5438172769829,
+                        "quantity": 44,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:80751877",
+                        "skuId": 5364557204964,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:80751877",
+                        "skuId": 5378623236528,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:80751877",
+                        "skuId": 5438172769837,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:61292746",
+                        "skuId": 5364557204963,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:61292746",
+                        "skuId": 5378623236527,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:61292746",
+                        "skuId": 5438172769836,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:28341",
+                        "skuId": 5364557204960,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:28341",
+                        "skuId": 5378623236524,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:28341",
+                        "skuId": 5438172769833,
+                        "quantity": 47,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:28326",
+                        "skuId": 5364557204954,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:28326",
+                        "skuId": 5378623236518,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:28326",
+                        "skuId": 5438172769827,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:60091",
+                        "skuId": 5364557204962,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:60091",
+                        "skuId": 5378623236526,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:60091",
+                        "skuId": 5438172769835,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:12154809",
+                        "skuId": 5364557204952,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:12154809",
+                        "skuId": 5378623236516,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:12154809",
+                        "skuId": 5438172769825,
+                        "quantity": 46,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:28335",
+                        "skuId": 5364557204957,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:28335",
+                        "skuId": 5378623236521,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:28335",
+                        "skuId": 5438172769830,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:28337",
+                        "skuId": 5364557204958,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:28337",
+                        "skuId": 5378623236522,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:28337",
+                        "skuId": 5438172769831,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:28338",
+                        "skuId": 5364557204959,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:28338",
+                        "skuId": 5378623236523,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:28338",
+                        "skuId": 5438172769832,
+                        "quantity": 34,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:12886038",
+                        "skuId": 5364557204953,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:12886038",
+                        "skuId": 5378623236517,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:12886038",
+                        "skuId": 5438172769826,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:28329",
+                        "skuId": 5364557204955,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:28329",
+                        "skuId": 5378623236519,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:28329",
+                        "skuId": 5438172769828,
+                        "quantity": 45,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:107360508;1627207:29327334777",
+                        "skuId": 5364557204961,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:107360508;1627207:29327334777",
+                        "skuId": 5378623236525,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:107360508;1627207:29327334777",
+                        "skuId": 5438172769834,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:28330",
+                        "skuId": 5364557204969,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:28330",
+                        "skuId": 5378623236533,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:28330",
+                        "skuId": 5438172769842,
+                        "quantity": 50,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:80751877",
+                        "skuId": 5364557204977,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:80751877",
+                        "skuId": 5378623236541,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:80751877",
+                        "skuId": 5438172769850,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:61292746",
+                        "skuId": 5364557204976,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:61292746",
+                        "skuId": 5378623236540,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:61292746",
+                        "skuId": 5438172769849,
+                        "quantity": 50,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:28341",
+                        "skuId": 5364557204973,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:28341",
+                        "skuId": 5378623236537,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:28341",
+                        "skuId": 5438172769846,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:28326",
+                        "skuId": 5364557204967,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:28326",
+                        "skuId": 5378623236531,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:28326",
+                        "skuId": 5438172769840,
+                        "quantity": 49,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:60091",
+                        "skuId": 5364557204975,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:60091",
+                        "skuId": 5378623236539,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:60091",
+                        "skuId": 5438172769848,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:12154809",
+                        "skuId": 5364557204965,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:12154809",
+                        "skuId": 5378623236529,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:12154809",
+                        "skuId": 5438172769838,
+                        "quantity": 50,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:28335",
+                        "skuId": 5364557204970,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:28335",
+                        "skuId": 5378623236534,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:28335",
+                        "skuId": 5438172769843,
+                        "quantity": 50,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:28337",
+                        "skuId": 5364557204971,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:28337",
+                        "skuId": 5378623236535,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:28337",
+                        "skuId": 5438172769844,
+                        "quantity": 47,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:28338",
+                        "skuId": 5364557204972,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:28338",
+                        "skuId": 5378623236536,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:28338",
+                        "skuId": 5438172769845,
+                        "quantity": 48,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:12886038",
+                        "skuId": 5364557204966,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:12886038",
+                        "skuId": 5378623236530,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:12886038",
+                        "skuId": 5438172769839,
+                        "quantity": 34,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:28329",
+                        "skuId": 5364557204968,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:28329",
+                        "skuId": 5378623236532,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:28329",
+                        "skuId": 5438172769841,
+                        "quantity": 50,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:1082968211;1627207:29327334777",
+                        "skuId": 5364557204974,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:1082968211;1627207:29327334777",
+                        "skuId": 5378623236538,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:1082968211;1627207:29327334777",
+                        "skuId": 5438172769847,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:28330",
+                        "skuId": 5367719133021,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:28330",
+                        "skuId": 5378623236585,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:28330",
+                        "skuId": 5438172769894,
+                        "quantity": 80,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:80751877",
+                        "skuId": 5367719133029,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:80751877",
+                        "skuId": 5378623236593,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:80751877",
+                        "skuId": 5438172769902,
+                        "quantity": 95,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:61292746",
+                        "skuId": 5367719133028,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:61292746",
+                        "skuId": 5378623236592,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:61292746",
+                        "skuId": 5438172769901,
+                        "quantity": 94,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:28341",
+                        "skuId": 5367719133025,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:28341",
+                        "skuId": 5378623236589,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:28341",
+                        "skuId": 5438172769898,
+                        "quantity": 82,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:28326",
+                        "skuId": 5367719133019,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:28326",
+                        "skuId": 5378623236583,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:28326",
+                        "skuId": 5438172769892,
+                        "quantity": 83,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:60091",
+                        "skuId": 5367719133027,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:60091",
+                        "skuId": 5378623236591,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:60091",
+                        "skuId": 5438172769900,
+                        "quantity": 89,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:12154809",
+                        "skuId": 5367719133017,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:12154809",
+                        "skuId": 5378623236581,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:12154809",
+                        "skuId": 5438172769890,
+                        "quantity": 91,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:28335",
+                        "skuId": 5367719133022,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:28335",
+                        "skuId": 5378623236586,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:28335",
+                        "skuId": 5438172769895,
+                        "quantity": 86,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:28337",
+                        "skuId": 5367719133023,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:28337",
+                        "skuId": 5378623236587,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:28337",
+                        "skuId": 5438172769896,
+                        "quantity": 77,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:28338",
+                        "skuId": 5367719133024,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:28338",
+                        "skuId": 5378623236588,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:28338",
+                        "skuId": 5438172769897,
+                        "quantity": 80,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:12886038",
+                        "skuId": 5367719133018,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:12886038",
+                        "skuId": 5378623236582,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:12886038",
+                        "skuId": 5438172769891,
+                        "quantity": 98,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:28329",
+                        "skuId": 5367719133020,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:28329",
+                        "skuId": 5378623236584,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "59"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:28329",
+                        "skuId": 5438172769893,
+                        "quantity": 58,
+                        "price": null,
+                        "promotionPrice": "69.5"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:413366004;1627207:29327334777",
+                        "skuId": 5367719133026,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:413366004;1627207:29327334777",
+                        "skuId": 5378623236590,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "69"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:413366004;1627207:29327334777",
+                        "skuId": 5438172769899,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "81.2"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:28330",
+                        "skuId": 5364557204995,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:28330",
+                        "skuId": 5378623236559,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:28330",
+                        "skuId": 5438172769868,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:80751877",
+                        "skuId": 5367719133003,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:80751877",
+                        "skuId": 5378623236567,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:80751877",
+                        "skuId": 5438172769876,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:61292746",
+                        "skuId": 5367719133002,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:61292746",
+                        "skuId": 5378623236566,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:61292746",
+                        "skuId": 5438172769875,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:28341",
+                        "skuId": 5364557204999,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:28341",
+                        "skuId": 5378623236563,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:28341",
+                        "skuId": 5438172769872,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:28326",
+                        "skuId": 5364557204993,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:28326",
+                        "skuId": 5378623236557,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:28326",
+                        "skuId": 5438172769866,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:60091",
+                        "skuId": 5367719133001,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:60091",
+                        "skuId": 5378623236565,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:60091",
+                        "skuId": 5438172769874,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:12154809",
+                        "skuId": 5364557204991,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:12154809",
+                        "skuId": 5378623236555,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:12154809",
+                        "skuId": 5438172769864,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:28335",
+                        "skuId": 5364557204996,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:28335",
+                        "skuId": 5378623236560,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:28335",
+                        "skuId": 5438172769869,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:28337",
+                        "skuId": 5364557204997,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:28337",
+                        "skuId": 5378623236561,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:28337",
+                        "skuId": 5438172769870,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:28338",
+                        "skuId": 5364557204998,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:28338",
+                        "skuId": 5378623236562,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:28338",
+                        "skuId": 5438172769871,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:12886038",
+                        "skuId": 5364557204992,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:12886038",
+                        "skuId": 5378623236556,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:12886038",
+                        "skuId": 5438172769865,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:28329",
+                        "skuId": 5364557204994,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:28329",
+                        "skuId": 5378623236558,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "20"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:28329",
+                        "skuId": 5438172769867,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "23.6"
+                    },
+                    {
+                        "propMap": "-1:-4;20509:31966854226;1627207:29327334777",
+                        "skuId": 5364557205000,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "99"
+                    },
+                    {
+                        "propMap": "-1:-5;20509:31966854226;1627207:29327334777",
+                        "skuId": 5378623236564,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "99"
+                    },
+                    {
+                        "propMap": "-1:-6;20509:31966854226;1627207:29327334777",
+                        "skuId": 5438172769873,
+                        "quantity": 0,
+                        "price": null,
+                        "promotionPrice": "117"
+                    }
+                ],
+                "props": [
+                    {
+                        "pid": -1,
+                        "name": "公告",
+                        "values": [
+                            {
+                                "vid": -4,
+                                "name": "现货"
+                            },
+                            {
+                                "vid": -5,
+                                "name": "预售（需等待）"
+                            },
+                            {
+                                "vid": -6,
+                                "name": "618预售（需等待）"
+                            }
+                        ]
+                    },
+                    {
+                        "pid": 20509,
+                        "name": "尺码",
+                        "values": [
+                            {
+                                "vid": 59277085,
+                                "name": "0.075mm"
+                            },
+                            {
+                                "vid": 56994632,
+                                "name": "0.125mm"
+                            },
+                            {
+                                "vid": 64840720,
+                                "name": "0.150mm"
+                            },
+                            {
+                                "vid": 56938340,
+                                "name": "0.200mm"
+                            },
+                            {
+                                "vid": 60478054,
+                                "name": "0.300mm"
+                            },
+                            {
+                                "vid": 59506204,
+                                "name": "0.400mm"
+                            },
+                            {
+                                "vid": 40778254,
+                                "name": "0.500mm"
+                            },
+                            {
+                                "vid": 136055832,
+                                "name": "0.600mm"
+                            },
+                            {
+                                "vid": 877846314,
+                                "name": "0.700mm"
+                            },
+                            {
+                                "vid": 107360508,
+                                "name": "0.800mm"
+                            },
+                            {
+                                "vid": 1082968211,
+                                "name": "0.900mm"
+                            },
+                            {
+                                "vid": 413366004,
+                                "name": "1.000mm"
+                            },
+                            {
+                                "vid": 31966854226,
+                                "name": "不要刀头"
+                            }
+                        ]
+                    },
+                    {
+                        "pid": 1627207,
+                        "name": "颜色分类",
+                        "values": [
+                            {
+                                "vid": 28330,
+                                "name": "银色",
+                                "image": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01rCvj7T1N3SatCThQ0_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 80751877,
+                                "name": "暖灰色",
+                                "image": "//img.alicdn.com/imgextra/i3/2208296521514/O1CN01hx1xzD1N3SascV9GK_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 61292746,
+                                "name": "冷灰色",
+                                "image": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01dCadUy1N3SakvL5px_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 28341,
+                                "name": "黑色",
+                                "image": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01LhbsvT1N3SapRdANM_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 28326,
+                                "name": "红色",
+                                "image": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN011qqyVR1N3SascWtJJ_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 60091,
+                                "name": "橙色",
+                                "image": "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01g1cORx1N3Savi0Qzn_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 12154809,
+                                "name": "黄绿色",
+                                "image": "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01n4pTkS1N3Sax6pPcC_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 28335,
+                                "name": "绿色",
+                                "image": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN014ZCAKs1N3SawSv6TE_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 28337,
+                                "name": "浅蓝色",
+                                "image": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01dcudiP1N3SavnLbiB_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 28338,
+                                "name": "蓝色",
+                                "image": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN016MfX711N3SawSu65j_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 12886038,
+                                "name": "洋红色",
+                                "image": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01dwSWDG1N3SatCVdyx_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 28329,
+                                "name": "紫色",
+                                "image": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01fNX6zd1N3SaqOA7P2_!!2208296521514.jpg"
+                            },
+                            {
+                                "vid": 29327334777,
+                                "name": "不要刀柄"
+                            }
+                        ]
+                    }
+                ],
+                "skuImages": {
+                    "1627207:28330": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01rCvj7T1N3SatCThQ0_!!2208296521514.jpg",
+                    "1627207:80751877": "//img.alicdn.com/imgextra/i3/2208296521514/O1CN01hx1xzD1N3SascV9GK_!!2208296521514.jpg",
+                    "1627207:61292746": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01dCadUy1N3SakvL5px_!!2208296521514.jpg",
+                    "1627207:28341": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01LhbsvT1N3SapRdANM_!!2208296521514.jpg",
+                    "1627207:28326": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN011qqyVR1N3SascWtJJ_!!2208296521514.jpg",
+                    "1627207:60091": "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01g1cORx1N3Savi0Qzn_!!2208296521514.jpg",
+                    "1627207:12154809": "//img.alicdn.com/imgextra/i4/2208296521514/O1CN01n4pTkS1N3Sax6pPcC_!!2208296521514.jpg",
+                    "1627207:28335": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN014ZCAKs1N3SawSv6TE_!!2208296521514.jpg",
+                    "1627207:28337": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01dcudiP1N3SavnLbiB_!!2208296521514.jpg",
+                    "1627207:28338": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN016MfX711N3SawSu65j_!!2208296521514.jpg",
+                    "1627207:12886038": "//img.alicdn.com/imgextra/i2/2208296521514/O1CN01dwSWDG1N3SatCVdyx_!!2208296521514.jpg",
+                    "1627207:28329": "//img.alicdn.com/imgextra/i1/2208296521514/O1CN01fNX6zd1N3SaqOA7P2_!!2208296521514.jpg"
+                }
+            }
+        },
+        "reviews": {
+            "count": "7000+"
+        },
+        "delivery": {
+            "shipsFrom": "上海",
+            "shipsTo": "全国",
+            "shipsToAreaId": 1,
+            "shipFeeDetails": [
+                {
+                    "fee": "6.00",
+                    "freeShipping": false,
+                    "note": "快递: 6.00元"
+                }
+            ]
+        },
+        "seller": {
+            "sellerId": 2208296521514,
+            "sellerTitle": "ray的模型世界",
+            "storeTitle": "RAY的模型世界",
+            "storeId": 331499551,
+            "storeUrl": "//store.taobao.com/shop/view_shop.htm?user_number_id=2208296521514",
+            "storeImage": "//gw.alicdn.com/tfs//0c/1a/TB1To_Wa79l0K4jSZFKSutFjpXa.jpg",
+            "storeRegDate": "2020-06-11 21:38:15",
+            "storeType": "taobao",
+            "storeEvaluates": [
+                {
+                    "title": "宝贝描述",
+                    "score": "4.9 ",
+                    "level": "1",
+                    "levelText": "高"
+                },
+                {
+                    "title": "卖家服务",
+                    "score": "4.9 ",
+                    "level": "1",
+                    "levelText": "高"
+                },
+                {
+                    "title": "物流服务",
+                    "score": "4.9 ",
+                    "level": "1",
+                    "levelText": "高"
+                }
+            ]
+        }
+    }
+}

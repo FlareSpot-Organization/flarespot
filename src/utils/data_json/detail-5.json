@@ -1,0 +1,273 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "data": "success",
+      "executionTime": "1.60",
+      "requestTime": "2024-05-24 21:30:49",
+      "requestId": "2024052466510708178f8",
+      "endpoint": "item_detail_6",
+      "apiVersion": "4.x.x",
+      "functionsVersion": "4.x.x",
+      "la": "3.46",
+      "pmu": 480864,
+      "mu": 480520
+    },
+    "settings": {
+      "locale": "en_US",
+      "currency": "USD",
+      "country": "US",
+      "itemId": "3256806860723359"
+    },
+    "item": {
+      "available": true,
+      "itemId": 3256806860723359,
+      "title": "Solid Wood Cat Cage Cat Villa with Toilet Integrated Litter Box Household Cat House  Cabinet Free Space",
+      "catId": 200042147,
+      "itemUrl": "//www.aliexpress.com/item/3256806860723359.html",
+      "images": [
+        "//ae01.alicdn.com/kf/S48ae42c8049c44649697b2a499ccc51dD.jpg",
+        "//ae01.alicdn.com/kf/S74c82ef099924907add07d69435b8c67y.jpg",
+        "//ae01.alicdn.com/kf/Sf9729d601e334b46838d971483a5f4740.jpg",
+        "//ae01.alicdn.com/kf/S5f9551959d7b4f7fa8272c2701d1c8b9e.jpg",
+        "//ae01.alicdn.com/kf/S90f4052f5f9642d492fb09fee27e00401.jpg"
+      ],
+      "video": null,
+      "properties": {
+        "cut": "Brand Name / Material / Origin / Model",
+        "list": [
+          {
+            "name": "Brand Name",
+            "nameId": 2,
+            "value": "NoEnName_Null",
+            "valueId": 201512802
+          },
+          {
+            "name": "Material",
+            "nameId": 10,
+            "value": "Organic Material",
+            "valueId": 365509
+          },
+          {
+            "name": "Origin",
+            "nameId": 219,
+            "value": "Mainland China",
+            "valueId": 9441741844
+          },
+          { "name": "Model", "nameId": -1, "value": "06", "valueId": -1 }
+        ]
+      },
+      "description": {
+        "html": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S0991e02143e2441fb809e7def9607a45F.jpg?width=1500&height=2322&hash=3822\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S9952b27866fa4d6ebd64a70c94fb2a69B.jpg?width=1500&height=27&hash=1527\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S7692f25aee7b44d7973062ceb90e5b08N.jpg?width=790&height=328&hash=1118\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S0fcbbf840deb489b80aede2854ad0b17d.jpg?width=790&height=817&hash=1607\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sda7cfcfe7d1546c7bcc9c855b8893b60S.jpg?width=790&height=867&hash=1657\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sa40b8a63fbc545a08799bc9a5c022e81J.jpg?width=1500&height=1746&hash=3246\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S74c82ef099924907add07d69435b8c67y.jpg\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Se6d1d1fae93443c98eb231bac5218ba7M.jpg?width=776&height=352&hash=1128\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sa573b77e7ba349ddb611b8ffb5470b7bQ.jpg?width=750&height=1000&hash=1750\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S837735db3cd848ac80c28f7a0d3524452.jpg?width=776&height=352&hash=1128\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sf3ea888700514f1cb7224354b2f85acfn.jpg?width=800&height=800&hash=1600\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sb1f7aa65072343cd87f9e2a087fb761fx.jpg?width=776&height=352&hash=1128\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sac2a455f44c44cae966f5f9ed295bbdan.jpg?width=750&height=1000&hash=1750\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sb5f20f20a8e2463595cd1153e10d638fC.jpg?width=776&height=344&hash=1120\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/See92e884b19443788a8f43b6c8781606M.jpg?width=750&height=1000&hash=1750\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sb5f442421b4446cc88e2cda29a908cb98.jpg?width=776&height=1200&hash=1976\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S7b04ccaefa9d4f9cb28d03a672c59a56W.jpg?width=790&height=1119&hash=1909\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sb559082475d84d88946fe076805a6af9N.jpg?width=790&height=599&hash=1389\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S3ae4018bfdae484c9ea5e4d35ca8c251o.jpg?width=790&height=355&hash=1145\"><img referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S99341b46bad84ed3a2985db13dada0fbn.jpg?width=790&height=354&hash=1144\"></p></div></div>\r\n",
+        "images": [
+          "//ae01.alicdn.com/kf/S0991e02143e2441fb809e7def9607a45F.jpg",
+          "//ae01.alicdn.com/kf/S9952b27866fa4d6ebd64a70c94fb2a69B.jpg",
+          "//ae01.alicdn.com/kf/S7692f25aee7b44d7973062ceb90e5b08N.jpg",
+          "//ae01.alicdn.com/kf/S0fcbbf840deb489b80aede2854ad0b17d.jpg",
+          "//ae01.alicdn.com/kf/Sda7cfcfe7d1546c7bcc9c855b8893b60S.jpg",
+          "//ae01.alicdn.com/kf/Sa40b8a63fbc545a08799bc9a5c022e81J.jpg",
+          "//ae01.alicdn.com/kf/S74c82ef099924907add07d69435b8c67y.jpg",
+          "//ae01.alicdn.com/kf/Se6d1d1fae93443c98eb231bac5218ba7M.jpg",
+          "//ae01.alicdn.com/kf/Sa573b77e7ba349ddb611b8ffb5470b7bQ.jpg",
+          "//ae01.alicdn.com/kf/S837735db3cd848ac80c28f7a0d3524452.jpg",
+          "//ae01.alicdn.com/kf/Sf3ea888700514f1cb7224354b2f85acfn.jpg",
+          "//ae01.alicdn.com/kf/Sb1f7aa65072343cd87f9e2a087fb761fx.jpg",
+          "//ae01.alicdn.com/kf/Sac2a455f44c44cae966f5f9ed295bbdan.jpg",
+          "//ae01.alicdn.com/kf/Sb5f20f20a8e2463595cd1153e10d638fC.jpg",
+          "//ae01.alicdn.com/kf/See92e884b19443788a8f43b6c8781606M.jpg",
+          "//ae01.alicdn.com/kf/Sb5f442421b4446cc88e2cda29a908cb98.jpg",
+          "//ae01.alicdn.com/kf/S7b04ccaefa9d4f9cb28d03a672c59a56W.jpg",
+          "//ae01.alicdn.com/kf/Sb559082475d84d88946fe076805a6af9N.jpg",
+          "//ae01.alicdn.com/kf/S3ae4018bfdae484c9ea5e4d35ca8c251o.jpg",
+          "//ae01.alicdn.com/kf/S99341b46bad84ed3a2985db13dada0fbn.jpg"
+        ]
+      },
+      "sku": {
+        "def": {
+          "quantity": 400,
+          "price": "932.66 - 1004.68",
+          "promotionPrice": "886.03 - 954.45"
+        },
+        "base": [
+          {
+            "skuId": "12000039212093668",
+            "skuAttr": "14:200006154#80 60 180",
+            "propMap": "14:200006154",
+            "price": "932.66",
+            "promotionPrice": "886.03",
+            "quantity": 100,
+            "ext": "Rma-uPvXHnIdKOFoVGSqcDR38wF1vj5Tje93f4RqKo2v5GKDgniIk6FZdxK9ODma4McMCl-ZpMSJF36rvXlYnJAvvUcQNH3AiQn760CtzuiFmzoXsn071Z-xGtnWnqO57tyRfROtkFMTk5p7uQm_Pg=="
+          },
+          {
+            "skuId": "12000039212093665",
+            "skuAttr": "14:200006151#80 60 180",
+            "propMap": "14:200006151",
+            "price": "1004.68",
+            "promotionPrice": "954.45",
+            "quantity": 100,
+            "ext": "i14ibhnSk6t1WLXh8nIzJWM8ju2gTIh9mToOkwEotRdJkEzqDnVlfcyUMNrjYfam46Ygna9vdc7g5lS69zlwUNSyJJiWKg9RopmuOqgZOJ6SCyfpIqDEm9wYQtPD4S6-BjbSHDGm2VShtvJGDy94cw=="
+          },
+          {
+            "skuId": "12000039212093667",
+            "skuAttr": "14:200006153#80 60 180",
+            "propMap": "14:200006153",
+            "price": "932.66",
+            "promotionPrice": "886.03",
+            "quantity": 100,
+            "ext": "TtQJ4-Z57pwwazuWeI75NgeGcQEY3YjZCckiq_ItUjdhf9p2cSztojR3INFIPEdQCCtCti-4UZ2vt3UC-BvaLl5LCGAAU2NApSTJo5LUKph5xoo6AH2Fcv5WLDUjaM6aihcF_HSj9blLpBHocN_tQA=="
+          },
+          {
+            "skuId": "12000039212093666",
+            "skuAttr": "14:200006152#80 60 180",
+            "propMap": "14:200006152",
+            "price": "1004.68",
+            "promotionPrice": "954.45",
+            "quantity": 100,
+            "ext": "9k2xxVkJUle7S-G2nZee2H_wiT46nDOcwgP1HGeXuU03zr8kTOxyXMzByXE4rraA2GFzPQt3AOThLJvAtFKtdX2i8XpcrLQfA26I5GKyJoLGQJJaGiTizkO_fKwqf27gybd65qMmEu6xh-2dUiCTFw=="
+          }
+        ],
+        "props": [
+          {
+            "pid": 14,
+            "name": "Color",
+            "values": [
+              {
+                "vid": 200006154,
+                "name": "80 60 180",
+                "image": "//ae01.alicdn.com/kf/S666d723be63b480794d5f923be13a9c5U.jpg"
+              },
+              {
+                "vid": 200006151,
+                "name": "80 60 180",
+                "image": "//ae01.alicdn.com/kf/Sda18f050f43a4f9ab9ed4c38c02259b7E.jpg"
+              },
+              {
+                "vid": 200006153,
+                "name": "80 60 180",
+                "image": "//ae01.alicdn.com/kf/S49fc845e1bd4479d812886565647ec950.jpg"
+              },
+              {
+                "vid": 200006152,
+                "name": "80 60 180",
+                "image": "//ae01.alicdn.com/kf/S7432b9337c304de481b679d1f7fa569eD.jpg"
+              }
+            ]
+          }
+        ],
+        "skuImages": {
+          "14:200006154": "//ae01.alicdn.com/kf/S666d723be63b480794d5f923be13a9c5U.jpg",
+          "14:200006151": "//ae01.alicdn.com/kf/Sda18f050f43a4f9ab9ed4c38c02259b7E.jpg",
+          "14:200006153": "//ae01.alicdn.com/kf/S49fc845e1bd4479d812886565647ec950.jpg",
+          "14:200006152": "//ae01.alicdn.com/kf/S7432b9337c304de481b679d1f7fa569eD.jpg"
+        }
+      }
+    },
+    "reviews": { "count": "0", "averageStar": "0.0" },
+    "delivery": {
+      "shippingToCode": "US",
+      "shippingOutDays": 7,
+      "shippingList": [
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "408.21",
+          "shippingCompany": "AliExpress Standard Shipping",
+          "shippingTime": "8-17",
+          "serviceName": "CAINIAO_STANDARD",
+          "estimateDelivery": "May 31 - Jun 09",
+          "estimateDeliveryDate": "2024-06-10",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "653.14",
+          "shippingCompany": "SF Express",
+          "shippingTime": "49-49",
+          "serviceName": "SF",
+          "estimateDelivery": "Jul 12",
+          "estimateDeliveryDate": "2024-07-12",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "3752.62",
+          "shippingCompany": "e-EMS",
+          "shippingTime": "62-62",
+          "serviceName": "E_EMS",
+          "estimateDelivery": "Jul 25",
+          "estimateDeliveryDate": "2024-07-25",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "5045.68",
+          "shippingCompany": "UPS Expedited",
+          "shippingTime": "10-10",
+          "serviceName": "UPSE",
+          "estimateDelivery": "Jun 03",
+          "estimateDeliveryDate": "2024-06-03",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "5306.74",
+          "shippingCompany": "EMS",
+          "shippingTime": "13-13",
+          "serviceName": "EMS",
+          "estimateDelivery": "Jun 06",
+          "estimateDeliveryDate": "2024-06-06",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "5523.09",
+          "shippingCompany": "DHL",
+          "shippingTime": "11-11",
+          "serviceName": "DHL",
+          "estimateDelivery": "Jun 04",
+          "estimateDeliveryDate": "2024-06-04",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "6072.26",
+          "shippingCompany": "Fedex IP",
+          "shippingTime": "12-12",
+          "serviceName": "FEDEX",
+          "estimateDelivery": "Jun 05",
+          "estimateDeliveryDate": "2024-06-05",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "6251.58",
+          "shippingCompany": "UPS Express Saver",
+          "shippingTime": "8-8",
+          "serviceName": "UPS",
+          "estimateDelivery": "Jun 01",
+          "estimateDeliveryDate": "2024-06-01",
+          "trackingAvailable": true
+        }
+      ],
+      "packageDetail": {
+        "weight": "19.000",
+        "length": 185,
+        "height": 85,
+        "width": 65
+      }
+    },
+    "seller": {
+      "storeTitle": "Shop1103610502 Store",
+      "storeId": 1103615541,
+      "storeUrl": "//www.aliexpress.com/store/1103615541"
+    }
+  }
+}

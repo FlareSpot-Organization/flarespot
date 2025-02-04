@@ -1,0 +1,47 @@
+[
+    {
+      "category": "Outdoor",
+      "subcategories": [
+        {
+          "type": "text-block",
+          "title": "Camping & Hiking",
+          "items": [
+            {
+              "text": "Backpacks",
+              "url": "/search.php?q=backpacks+for+camping"
+            },
+            {
+              "text": "Tents",
+              "url": "/search.php?q=tents+for+camping"
+            },
+            {
+              "text": "Sleeping Bags",
+              "url": "/search.php?q=sleeping+bags+for+camping"
+            },
+            {
+              "text": "Camping Stoves",
+              "url": "/search.php?q=camping+stoves"
+            },
+            {
+              "text": "Hiking Boots",
+              "url": "/search.php?q=hiking+boots"
+            },
+            {
+              "text": "Camping Furniture",
+              "url": "/search.php?q=camping+furniture"
+            },
+            {
+              "text": "Camping Lanterns",
+              "url": "/search.php?q=camping+lanterns"
+            }
+          ]
+        },
+        {
+          "type": "image-block",
+          "text": "Fitness",
+ 	  "image": "https://linktoimage.com/image",
+	  "url": "/search.php?q=dumbbells"
+        }
+      ]
+    }
+  ]

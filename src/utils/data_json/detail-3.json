@@ -1,0 +1,408 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "data": "success",
+      "executionTime": "1.69",
+      "requestTime": "2024-05-24 21:28:48",
+      "requestId": "202405246651068eca1af",
+      "endpoint": "item_detail_6",
+      "apiVersion": "4.x.x",
+      "functionsVersion": "4.x.x",
+      "la": "4.04",
+      "pmu": 529024,
+      "mu": 528680
+    },
+    "settings": {
+      "locale": "en_US",
+      "currency": "USD",
+      "country": "US",
+      "itemId": "3256806612720174"
+    },
+    "item": {
+      "available": true,
+      "itemId": 3256806612720174,
+      "title": "Brand Unisex Round Sunglasses Men Outdoor Eyewears Women Black Frame Driving Eyewear Accessories Goggles UV400",
+      "catId": 33902,
+      "itemUrl": "//www.aliexpress.com/item/3256806612720174.html",
+      "images": [
+        "//ae01.alicdn.com/kf/S78539ddd2d4a4fc9a7b682c85d021931K.jpg",
+        "//ae01.alicdn.com/kf/S7523e5ee1e3142138f5fb9410e38dbbfd.jpg",
+        "//ae01.alicdn.com/kf/S11c155056a8d41f5b1b06760fc2010a3z.jpg",
+        "//ae01.alicdn.com/kf/Seb732f6624e1453aa64565e91a4198daZ.jpg",
+        "//ae01.alicdn.com/kf/S3df67648c9744c0cb9b67009a030b377G.jpg",
+        "//ae01.alicdn.com/kf/S58651aea48e94f87b8b3d443ee13d4ee9.jpg"
+      ],
+      "video": null,
+      "properties": {
+        "cut": "Department Name / Suitable Face / Function / Usage Scope / Gender / Sunglasses Style / Promotion / Brand Name / Item Type / Model Number / Eyewear Type / Style / Frame Material / Place Of Origin / Lenses Material / Lenses Optical Attribute / Lenses Optical Attribute / Lens Width / Lens Height / Origin / Gender / Certification / Choice / semi_Choice",
+        "list": [
+          {
+            "name": "Department Name",
+            "nameId": 200000043,
+            "value": "ADULT",
+            "valueId": 4100
+          },
+          {
+            "name": "Suitable Face",
+            "nameId": -1,
+            "value": "Round Face,Long Face,Square Face,Oval Face",
+            "valueId": -1
+          },
+          {
+            "name": "Function",
+            "nameId": -1,
+            "value": "UV400 Protection Against Harmful UVA/UVB Eyewear",
+            "valueId": -1
+          },
+          {
+            "name": "Usage Scope",
+            "nameId": -1,
+            "value": "Decoratead,Outdoor,Prom,Travel,Shopping,Self-timer,Holiday,Gifts",
+            "valueId": -1
+          },
+          {
+            "name": "Gender",
+            "nameId": -1,
+            "value": "Unisex,Men & Women,Boys & Girls,Youth Male & Female.Masculino Feminino",
+            "valueId": -1
+          },
+          {
+            "name": "Sunglasses Style",
+            "nameId": -1,
+            "value": "Vintage Retro Style Sunglasses, Elegant Style Sunglasses",
+            "valueId": -1
+          },
+          {
+            "name": "Promotion",
+            "nameId": -1,
+            "value": "On Promotion Hot Sale Super Deal Weekend Dear Free Shipping",
+            "valueId": -1
+          },
+          {
+            "name": "Brand Name",
+            "nameId": 2,
+            "value": "Red Bean",
+            "valueId": 202372933
+          },
+          {
+            "name": "Item Type",
+            "nameId": 200000137,
+            "value": "EYEWEAR",
+            "valueId": 200002146
+          },
+          {
+            "name": "Model Number",
+            "nameId": 3,
+            "value": "9464A Sunglasses",
+            "valueId": -1
+          },
+          {
+            "name": "Eyewear Type",
+            "nameId": 200000462,
+            "value": "Sunglasses",
+            "valueId": 200001267
+          },
+          { "name": "Style", "nameId": 326, "value": "Round", "valueId": 353 },
+          {
+            "name": "Frame Material",
+            "nameId": 72,
+            "value": "Polycarbonate",
+            "valueId": 1143
+          },
+          {
+            "name": "Place Of Origin",
+            "nameId": 200005985,
+            "value": "China (mainland)",
+            "valueId": 200660004
+          },
+          {
+            "name": "Lenses Material",
+            "nameId": 74,
+            "value": "Polycarbonate",
+            "valueId": 1143
+          },
+          {
+            "name": "Lenses Optical Attribute",
+            "nameId": 75,
+            "value": "polarized",
+            "valueId": 510
+          },
+          {
+            "name": "Lenses Optical Attribute",
+            "nameId": 75,
+            "value": "UV400",
+            "valueId": 201456172
+          },
+          {
+            "name": "Lens Width",
+            "nameId": 200000286,
+            "value": "60MM",
+            "valueId": -1
+          },
+          {
+            "name": "Lens Height",
+            "nameId": 200000285,
+            "value": "50MM",
+            "valueId": -1
+          },
+          {
+            "name": "Origin",
+            "nameId": 219,
+            "value": "Mainland China",
+            "valueId": 9441741844
+          },
+          { "name": "Gender", "nameId": 284, "value": "MEN", "valueId": 493 },
+          {
+            "name": "Certification",
+            "nameId": 348,
+            "value": "CE",
+            "valueId": 351626
+          },
+          { "name": "Choice", "nameId": -1, "value": "yes" },
+          { "name": "semi_Choice", "nameId": -2, "value": "yes" }
+        ]
+      },
+      "description": {
+        "html": "<p><img src=\"//ae01.alicdn.com/kf/S78539ddd2d4a4fc9a7b682c85d021931K.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S90d876f5467344b4b7c756de95654b16V.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S6c6d8160ad2e47adaf454a5e2f8a65b51.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Sc27d7c2f3b6c4087893b5250a984f6f5D.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S5c1166a0cc8c4131abeccb40eb873d70A.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Sac4cd82defd04fe6b0c8ffa5d879f73ah.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S4180cd05de9f4d93a474ac3a905d66c3l.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Saa6e9fb24e604277809d99ac0ff84e44s.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S1a55112ad4bd4b9f86ba2384083793aex.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S35fb50663ce74eb389421bd3f9a0305ay.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S5b0a3e69e0b64b38ba20af614ef621b92.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S20b6555bf75a4c1daf031dcaa459668dS.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S03e64a8f72ac443ba013d05937f862b2r.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/See341fa786064c02b52932cdef66443ep.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S922532c2cafb4694945a523795b472d1c.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S1485fa017c68461dbb3e56b1f6247154S.jpg\" slate-data-type=\"image\"/></p>",
+        "images": [
+          "//ae01.alicdn.com/kf/S78539ddd2d4a4fc9a7b682c85d021931K.jpg",
+          "//ae01.alicdn.com/kf/S90d876f5467344b4b7c756de95654b16V.jpg",
+          "//ae01.alicdn.com/kf/S6c6d8160ad2e47adaf454a5e2f8a65b51.jpg",
+          "//ae01.alicdn.com/kf/Sc27d7c2f3b6c4087893b5250a984f6f5D.jpg",
+          "//ae01.alicdn.com/kf/S5c1166a0cc8c4131abeccb40eb873d70A.jpg",
+          "//ae01.alicdn.com/kf/Sac4cd82defd04fe6b0c8ffa5d879f73ah.jpg",
+          "//ae01.alicdn.com/kf/S4180cd05de9f4d93a474ac3a905d66c3l.jpg",
+          "//ae01.alicdn.com/kf/Saa6e9fb24e604277809d99ac0ff84e44s.jpg",
+          "//ae01.alicdn.com/kf/S1a55112ad4bd4b9f86ba2384083793aex.jpg",
+          "//ae01.alicdn.com/kf/S35fb50663ce74eb389421bd3f9a0305ay.jpg",
+          "//ae01.alicdn.com/kf/S5b0a3e69e0b64b38ba20af614ef621b92.jpg",
+          "//ae01.alicdn.com/kf/S20b6555bf75a4c1daf031dcaa459668dS.jpg",
+          "//ae01.alicdn.com/kf/S03e64a8f72ac443ba013d05937f862b2r.jpg",
+          "//ae01.alicdn.com/kf/See341fa786064c02b52932cdef66443ep.jpg",
+          "//ae01.alicdn.com/kf/S922532c2cafb4694945a523795b472d1c.jpg",
+          "//ae01.alicdn.com/kf/S1485fa017c68461dbb3e56b1f6247154S.jpg"
+        ]
+      },
+      "sku": {
+        "def": {
+          "quantity": 109932,
+          "price": "7.87 - 8.53",
+          "promotionPrice": null
+        },
+        "base": [
+          {
+            "skuId": "12000038345749297",
+            "skuAttr": "71:29#Without Packing;73:350853#C9",
+            "propMap": "71:29;73:350853",
+            "price": "8.12",
+            "promotionPrice": "8.12",
+            "quantity": 9994,
+            "ext": "ZWFOxcEG0ihUJwTxrtx1ptMlktQBH40WDZ1inkZ2DN03LFInsdZirkzk6a2i4hUnedhmegls_3e36DCvWo4AeaW57xxzHneSjNVbuYVHmVe-RA-eteGndCjvzyQXxy7llTA1meMm_p_3V79Lj4xLvg=="
+          },
+          {
+            "skuId": "12000038345749296",
+            "skuAttr": "71:29#Without Packing;73:1052#C8",
+            "propMap": "71:29;73:1052",
+            "price": "8.13",
+            "promotionPrice": "8.13",
+            "quantity": 9993,
+            "ext": "udxtf4m2X5km8OwZKv8P9PZkVKEejw3J-HEFrEsXe-QoBlNfN6a2n7kiA-xVdoviRLK2AOkd_llwDBIObQ5o0dg7F6k1AgRtClaa-sCQQRg-uZKArAy3D8BEnDX68r6lITZZLym-4u0OCUOVzbZBxQ=="
+          },
+          {
+            "skuId": "12000038345749299",
+            "skuAttr": "71:29#Without Packing;73:365458#C11",
+            "propMap": "71:29;73:365458",
+            "price": "8.10",
+            "promotionPrice": "8.10",
+            "quantity": 9991,
+            "ext": "AcObzsXOqknEn70b4gsbS4KPXpe4831wOEyYqY_BUntkGWigLdJOuqrAAgmKQUy4acL8rnJPoelm8OiMxMn71CLCc964wPCTTa7ulWywmEddc_bITWZYxIYPry5hJT4Rfc2QnwxeZYNNA8mKZiGJpw=="
+          },
+          {
+            "skuId": "12000038345749298",
+            "skuAttr": "71:29#Without Packing;73:350850#C10",
+            "propMap": "71:29;73:350850",
+            "price": "7.96",
+            "promotionPrice": "7.96",
+            "quantity": 9995,
+            "ext": "fQxohGsOiufNaRVBZxNJr4Srg-fuziZ1XX8NYTLyZXU-i6soU0XYxGMhB8ze-P3sCYUdLTSqntNsN_TKOZ5foaNFVvDXiRovSqngeGibTJk11BHgAqK_llk7frpwrMixeEWUzlTnTwwVN_d3pO3suQ=="
+          },
+          {
+            "skuId": "12000038345749289",
+            "skuAttr": "71:29#Without Packing;73:10#C1",
+            "propMap": "71:29;73:10",
+            "price": "8.20",
+            "promotionPrice": "8.20",
+            "quantity": 9992,
+            "ext": "lQ6A4G_x7igvz_DEtnuAcYaBz9Brwcok8JHLK7SMVrZlkE4ZF5pSrD-c4IW48jbSg9GRWksqEjyTrdD3-5dfBjeCfNlUv5Z9uyoB2nuC12nwW9ceMSDdPBTeXiQtl-KaZSJnj5modfD5vfXtchKyZQ=="
+          },
+          {
+            "skuId": "12000038345749291",
+            "skuAttr": "71:29#Without Packing;73:366#C3",
+            "propMap": "71:29;73:366",
+            "price": "8.53",
+            "promotionPrice": "8.53",
+            "quantity": 9997,
+            "ext": "AgueEr5IzyWsjjbamu01vVDsEWmLdTwfFQAi4dXH0cygd-PXjU1Sk-4E4_prEVGeAmUmikEAvqV8ypFHUQfBGL4cO0QNvhIAmjBaAB-d_OuYDgU2Lj_1AAJRqiLKUSTV1lxYiloY35GOaje769dbSQ=="
+          },
+          {
+            "skuId": "12000038345749290",
+            "skuAttr": "71:29#Without Packing;73:173#C2",
+            "propMap": "71:29;73:173",
+            "price": "7.93",
+            "promotionPrice": "7.93",
+            "quantity": 9996,
+            "ext": "l5Q0dDqssXAIK8J5K2NoXMYZX0c3gwSpv2X0m47n7pLvpD8DjibLOrvlbriPsNyKHBAFHsccbpe-RUynNgK49nrSAHvEehqdzqC0e7CInDIcl9tIgBmc5LbUEjbfFRWwOY6iuGe0pypvKdXqFWZH_g=="
+          },
+          {
+            "skuId": "12000038345749293",
+            "skuAttr": "71:29#Without Packing;73:29#C5",
+            "propMap": "71:29;73:29",
+            "price": "8.13",
+            "promotionPrice": "8.13",
+            "quantity": 9991,
+            "ext": "6LpOXnSiHmTLR-W3rdrrxHAroZyjXQi9d3BUtRT9AiiJS9k7EIcUGgztgbDtytJUNNiiDQ7fZkzM6oHNkW9ouLwgCZWPZlGVtmlN5TNncBCjRWlVW0fwDUSmjCc6rD_Jpm-OYmW70khodX39FLtWvw=="
+          },
+          {
+            "skuId": "12000038345749292",
+            "skuAttr": "71:29#Without Packing;73:496#C4",
+            "propMap": "71:29;73:496",
+            "price": "7.87",
+            "promotionPrice": "7.87",
+            "quantity": 9996,
+            "ext": "Cfn41Yc_yJSkMNQln6EMjuJNWWufc1GLEFBN0l6S_iXBTmuFJdKKxO6hGjorIYvTxo2ELhECo84t0_MauglYwVI-BgCiydWBejYdNooY4mlEnBXVX-5DM9I9tE_8qAJ19Zjsu-h5LaZdNkGjUqaESg=="
+          },
+          {
+            "skuId": "12000038345749295",
+            "skuAttr": "71:29#Without Packing;73:691#C7",
+            "propMap": "71:29;73:691",
+            "price": "8.30",
+            "promotionPrice": "8.30",
+            "quantity": 9990,
+            "ext": "RUuuf0w-ZLee8ppsn8HAK5Sxs7zjMdlG0dIjE_hua6xWutYITpxOViwruW6gYgkbVO03A8LIr_4vQkIc7UW2QHizmCh2mdMkne6pJdpcRlgXc3pzqPNpmry8x_HtIRkH2nNgbrXZgWFBa67XgrhUIA=="
+          },
+          {
+            "skuId": "12000038345749294",
+            "skuAttr": "71:29#Without Packing;73:193#C6",
+            "propMap": "71:29;73:193",
+            "price": "8.53",
+            "promotionPrice": "8.53",
+            "quantity": 9997,
+            "ext": "ATq5NJCPrt2lepUmAJH1imXRsCfAVBLLkccZfPas4CVNQErkdQuY6ydpjKcMNonGAHcIcaFvvCcvdV8I9iWCJ_2bZyUwGS17K3eFqWlLsLjGXM0qICjTngMD1rdx3XO2gnPR8ZqRb7oSS9JUSVkJzA=="
+          }
+        ],
+        "props": [
+          {
+            "pid": 71,
+            "name": "Frame Color",
+            "values": [{ "vid": 29, "name": "Without Packing" }]
+          },
+          {
+            "pid": 73,
+            "name": "Lenses Color",
+            "values": [
+              {
+                "vid": 350853,
+                "name": "C9",
+                "image": "//ae01.alicdn.com/kf/Safab06b54b114f13b6922cb68e3f3833e.jpg"
+              },
+              {
+                "vid": 1052,
+                "name": "C8",
+                "image": "//ae01.alicdn.com/kf/S292ad158557a4297a58c44a82981ec10l.jpg"
+              },
+              {
+                "vid": 365458,
+                "name": "C11",
+                "image": "//ae01.alicdn.com/kf/Sb8459618aecf408ca81d58175394b588a.jpg"
+              },
+              {
+                "vid": 350850,
+                "name": "C10",
+                "image": "//ae01.alicdn.com/kf/S055f95b07332430aa577366d87643c747.jpg"
+              },
+              {
+                "vid": 10,
+                "name": "C1",
+                "image": "//ae01.alicdn.com/kf/S3c8f795b54ce4000b0569de6c6fb8b10l.jpg"
+              },
+              {
+                "vid": 366,
+                "name": "C3",
+                "image": "//ae01.alicdn.com/kf/Sfd2ebd3ad8514b60982d8b9c7485029dm.jpg"
+              },
+              {
+                "vid": 173,
+                "name": "C2",
+                "image": "//ae01.alicdn.com/kf/Se013a16fb25247299a9c3541a13f1a13V.jpg"
+              },
+              {
+                "vid": 29,
+                "name": "C5",
+                "image": "//ae01.alicdn.com/kf/S9d69683decef4352b47609669bbb25bbB.jpg"
+              },
+              {
+                "vid": 496,
+                "name": "C4",
+                "image": "//ae01.alicdn.com/kf/S15cd3103277d42f2ad15188242881fc9h.jpg"
+              },
+              {
+                "vid": 691,
+                "name": "C7",
+                "image": "//ae01.alicdn.com/kf/S2ee8edac814d4bb387ce91d245055d3dO.jpg"
+              },
+              {
+                "vid": 193,
+                "name": "C6",
+                "image": "//ae01.alicdn.com/kf/S04467dcf26614def920156f8c45d4ad2r.jpg"
+              }
+            ]
+          }
+        ],
+        "skuImages": {
+          "73:350853": "//ae01.alicdn.com/kf/Safab06b54b114f13b6922cb68e3f3833e.jpg",
+          "73:1052": "//ae01.alicdn.com/kf/S292ad158557a4297a58c44a82981ec10l.jpg",
+          "73:365458": "//ae01.alicdn.com/kf/Sb8459618aecf408ca81d58175394b588a.jpg",
+          "73:350850": "//ae01.alicdn.com/kf/S055f95b07332430aa577366d87643c747.jpg",
+          "73:10": "//ae01.alicdn.com/kf/S3c8f795b54ce4000b0569de6c6fb8b10l.jpg",
+          "73:366": "//ae01.alicdn.com/kf/Sfd2ebd3ad8514b60982d8b9c7485029dm.jpg",
+          "73:173": "//ae01.alicdn.com/kf/Se013a16fb25247299a9c3541a13f1a13V.jpg",
+          "73:29": "//ae01.alicdn.com/kf/S9d69683decef4352b47609669bbb25bbB.jpg",
+          "73:496": "//ae01.alicdn.com/kf/S15cd3103277d42f2ad15188242881fc9h.jpg",
+          "73:691": "//ae01.alicdn.com/kf/S2ee8edac814d4bb387ce91d245055d3dO.jpg",
+          "73:193": "//ae01.alicdn.com/kf/S04467dcf26614def920156f8c45d4ad2r.jpg"
+        }
+      }
+    },
+    "reviews": { "count": "3", "averageStar": "5.0" },
+    "delivery": {
+      "shippingToCode": "US",
+      "shippingOutDays": 7,
+      "shippingList": [
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "1.99",
+          "shippingCompany": "AliExpress Selection Standard",
+          "shippingTime": "7-10",
+          "serviceName": "CAINIAO_FULFILLMENT_STD",
+          "estimateDelivery": "Jun 04 - 07",
+          "estimateDeliveryDate": "2024-06-03",
+          "trackingAvailable": true
+        }
+      ],
+      "packageDetail": {
+        "weight": "0.070",
+        "length": 5,
+        "height": 3,
+        "width": 4
+      }
+    },
+    "seller": {
+      "storeTitle": "Shop1102820931 Store",
+      "storeId": 1102822715,
+      "storeUrl": "//www.aliexpress.com/store/1102822715"
+    }
+  }
+}

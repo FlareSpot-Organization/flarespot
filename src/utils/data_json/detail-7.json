@@ -1,0 +1,318 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "data": "success",
+      "executionTime": "1.16",
+      "requestTime": "2024-05-24 21:33:55",
+      "requestId": "20240524665107c1df09b",
+      "endpoint": "item_detail",
+      "apiVersion": "4.x.x",
+      "functionsVersion": "4.x.x",
+      "la": "3.76",
+      "pmu": 1174768,
+      "mu": 960120
+    },
+    "settings": {
+      "locale": "en_US",
+      "currency": "USD",
+      "country": "US",
+      "itemId": "3256804283218094"
+    },
+    "item": {
+      "available": true,
+      "itemId": "3256804283218094",
+      "title": "Slim Snap Frame LED Light Box Illuminated Poster Display LED Backlit Menu Board Screen For Restaurant Cafe Shops Wall Billboard",
+      "catId": 131404,
+      "breadcrumbs": [
+        { "title": "Home & Garden", "catId": "15" },
+        { "title": "Home Decor", "catId": "3710" },
+        { "catId": "131404" }
+      ],
+      "sales": "139",
+      "wishCount": 4755,
+      "itemUrl": "//www.aliexpress.com/item/3256804283218094.html",
+      "images": [
+        "//ae01.alicdn.com/kf/S7e409640b42f43538f87ce1743ba7b7fT/Slim-Snap-Frame-LED-Light-Box-Illuminated-Poster-Display-LED-Backlit-Menu-Board-Screen-For-Restaurant.jpg",
+        "//ae01.alicdn.com/kf/S98198bb9c04a4d9d8cb1bd5544deeea60/Slim-Snap-Frame-LED-Light-Box-Illuminated-Poster-Display-LED-Backlit-Menu-Board-Screen-For-Restaurant.jpg",
+        "//ae01.alicdn.com/kf/Sd7072f4326404a7cb4154bc4dcc07d21H/Slim-Snap-Frame-LED-Light-Box-Illuminated-Poster-Display-LED-Backlit-Menu-Board-Screen-For-Restaurant.jpg",
+        "//ae01.alicdn.com/kf/S19fdca1c2e2a4c7ab5a2b51dde0f9ab7C/Slim-Snap-Frame-LED-Light-Box-Illuminated-Poster-Display-LED-Backlit-Menu-Board-Screen-For-Restaurant.jpg",
+        "//ae01.alicdn.com/kf/Se4b32a1e24ed4e8fa178b1987d6363a6v/Slim-Snap-Frame-LED-Light-Box-Illuminated-Poster-Display-LED-Backlit-Menu-Board-Screen-For-Restaurant.jpg",
+        "//ae01.alicdn.com/kf/S0eca93faecdc470b9cf8c41dae41ce21N/Slim-Snap-Frame-LED-Light-Box-Illuminated-Poster-Display-LED-Backlit-Menu-Board-Screen-For-Restaurant.jpg"
+      ],
+      "video": {
+        "id": 1100061089864,
+        "thumbnail": "//ae01.alicdn.com/kf/S7e409640b42f43538f87ce1743ba7b7fT/Slim-Snap-Frame-LED-Light-Box-Illuminated-Poster-Display-LED-Backlit-Menu-Board-Screen-For-Restaurant.jpg",
+        "url": "//video.aliexpress-media.com/play/u/ae_sg_item/2213073751797/p/1/e/6/t/10301/1100061089864.mp4"
+      },
+      "properties": {
+        "cut": "is_customized / Shape / Model Number / Material / Style / Origin / Voltage / Color temperature / Light color / Panel material / Frame material / Frame color / Display / Back board material / Frame thickness / Edge / Power / Use place",
+        "list": [
+          { "name": "is_customized", "value": "No" },
+          { "name": "Shape", "value": "Rectangle" },
+          { "name": "Model Number", "value": "LED Advertising Light Box" },
+          { "name": "Material", "value": "Acrylic" },
+          { "name": "Style", "value": "Modern Style" },
+          { "name": "Origin", "value": "Mainland China" },
+          { "name": "Voltage", "value": "100-260V" },
+          { "name": "Color temperature", "value": "10000K" },
+          { "name": "Light color", "value": "White light" },
+          { "name": "Panel material", "value": "Acrylic" },
+          { "name": "Frame material", "value": "Aluminium alloy" },
+          { "name": "Frame color", "value": "Black/Silver" },
+          { "name": "Display", "value": "Wall mounted /Ceiling Hanging" },
+          { "name": "Back board material", "value": "KT" },
+          { "name": "Frame thickness", "value": "23MM" },
+          { "name": "Edge", "value": "16MM" },
+          { "name": "Power", "value": "10W/13W/16W/19W/22W/25W" },
+          { "name": "Use place", "value": "Indoor" }
+        ]
+      },
+      "description": {
+        "html": "<h2><strong>Slim Snap Frame LED Light Box Illuminated Poster Display LED Backlit Menu Board Screen For Restaurant Cafe Shops Wall Billboard</strong></h2><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><h2><span style=\"color:rgb(244, 78, 59)\">Specifications: </span></h2><ul><li><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(34, 34, 34)\">Product Name: LED Advertising Light Box</span></p></li><li><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(34, 34, 34)\">Light Source: LED</span></p></li><li><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(34, 34, 34)\">Installation: Wall mounted /Ceiling Hanging</span></p></li><li><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(34, 34, 34)\">Voltage: DC12V, built-in transformers, can be directly connected to the local 110V-240V</span></p></li><li><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(34, 34, 34)\">Size: Both horizontal and vertical are available</span></p><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(0, 0, 0)\">40x30cm, 50x40cm, 60x40cm, 60x50cm, 70x50cm, 80x60cm</span></p></li></ul><h2><span style=\"background-color:rgb(255, 255, 255);color:rgb(244, 78, 59)\">Features:</span></h2><ul><li><p>Easy change of graphics: Simply open the snap frame and panel and replace the printed graphics.</p></li><li><p>Light source: High brightness LED. Power saving efficiency, low voltage 12V DC, built-in transformers.</p></li><li><p>Lighted area: Even light dispersion. Luminance is 7000lux /m2 (HIGH brightness)</p></li><li><p>Life Span: 100000 hours (5-10 years)</p></li><li><p>Comes with 12V DC power supply: Easy plug and Play setup.</p></li><li><p>Voltage required: 110V-240V.</p></li><li><p>Installation: Suit wall mount and suspend.</p></li><li><p>Use: Indoor use / Outdoor under shelter.</p></li><li><p>Frame colour: Powder coated black/gold. (Anodised aluminium (silver) is also available. Please send a message or make note on check out)</p></li></ul><h2><span style=\"color:rgb(244, 78, 59)\">How to place an order:</span></h2><p>1. Please tell the customer service your installation method, and equip you with the corresponding accessories.</p><p>2. Negotiate the shipping cost with the customer service, you will get a better price.</p><p>3. The quantity you received is the quantity you ordered. If you order 2 pieces and more, we will upgrade to faster shipping for you.</p><div><br/></div><p><span style=\"background-color:rgb(251, 158, 0);color:rgb(0, 0, 0)\"><strong>Note: Printed graphics shown on the description photo is not included in this item. (We can provide you with printing services for an additional fee)</strong></span></p><p><br/></p><h2><span style=\"color:rgb(244, 78, 59)\">Package include:</span></h2><p>1. Light box * 1;</p><p>2. telescopic hanger * 1;</p><p>3. Installation accessories like screws.</p><p><br/></p><h2><span style=\"color:rgb(244, 78, 59)\">Product Pictures:</span></h2></div></div><p><img src=\"//ae01.alicdn.com/kf/Sba9622d307134e658328943f6c5dad86i.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S0ccf1433bf4c4f2397c8dbe692f080feR.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S0e088853d0c34260826da3a31b5738649.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S19fdca1c2e2a4c7ab5a2b51dde0f9ab7C.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Ac5fe06cb4a564772ab679329390808e7T.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A3774115090834c15a0f9b1acdfff4e81i.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Aec3bf6a7d0fd4daea0a7e4329a0ce6bbi.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Afc32d85e54604916ac4d1861c174549dZ.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A2ccd05400a2148d0a6c4f38f64a5aabdg.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A263fab1379744f9cbaa4c18c5caabece6.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Ac64c724e2dc44923926914263eafb987T.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A24dcd95be1754ab19cbd831ef4e8a491B.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Aee42777bd92d4855940fe73ec76020000.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A61a8854811b84ce9b79c45c13820568af.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A69370b317b244f2e9154c9e9e7c8cbbbk.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Abd68721a2a004deba96830bc2cd5feb4F.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A70d31fe6f8224fba94179c0761f32a05y.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A459b8b462c4b4797b02cb2a124c5439ex.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Acb0a0b65dede4dc8af47eee539540790u.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Abd33b8ca3208433a8baaac7916f157b9C.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/A955427fa3c9a494dbd950aaf7b47ef704.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Ab6fff8b1c3264d2ab93398e46b84ba39U.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S6bae068ea9ac42d682fb2c1cd74823fdB.png\" slate-data-type=\"image\"/></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:20px;font-weight:500;letter-spacing:normal;line-height:30px;text-align:start;white-space:normal;color:rgb(34, 34, 34);background-color:rgb(255, 255, 255);margin-bottom:10px;margin-top:0px;box-sizing:border-box\" align=\"start\"><span style=\"color:rgb(244, 78, 59)\">FAQ:</span></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">1. How long will it take to make the sign?</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">Generally need 3-7 working days after approval confirmed. Please tell me if you have estimate deliver date.</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><br/></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">2. How long is the shipping time?</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">Default 7 days by TNT/DHL/Fedex/Ups.</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><br/></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">3. Do you accept return or cancellation after order?</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">We do NOT accept customize LED neon sign return or refund except quality problems.</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><br/></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">But we have standard process to ensure the final product meet your requirements.</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><br/></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">4. I have special requirement, can you do that for me?</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">All of our neon signs support customize. Please contact me.</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><br/></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">5. How long is the warranty?</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">We provide 1 year warranty, only for quality problems, excluding artificial damage.</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><br/></p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">If there is any problem with the product, buyer needs send us a video to record the problem.</p><p style=\"font-family:&quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><br/><img style=\"border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:border-box\" src=\"//ae01.alicdn.com/kf/H972a4c674a7b4226b9feb9c54f74771aB.jpg\" slate-data-type=\"image\"/><img style=\"border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:border-box\" src=\"//ae01.alicdn.com/kf/H537e38ac23cd40fcaaa61cc42fd64450v.jpg\" slate-data-type=\"image\"/></p>\n<script>window.adminAccountId=2658217327;</script>\n",
+        "images": [
+          "//ae01.alicdn.com/kf/Sba9622d307134e658328943f6c5dad86i.jpg",
+          "//ae01.alicdn.com/kf/S0ccf1433bf4c4f2397c8dbe692f080feR.jpg",
+          "//ae01.alicdn.com/kf/S0e088853d0c34260826da3a31b5738649.jpg",
+          "//ae01.alicdn.com/kf/S19fdca1c2e2a4c7ab5a2b51dde0f9ab7C.jpg",
+          "//ae01.alicdn.com/kf/Ac5fe06cb4a564772ab679329390808e7T.jpg",
+          "//ae01.alicdn.com/kf/A3774115090834c15a0f9b1acdfff4e81i.jpg",
+          "//ae01.alicdn.com/kf/Aec3bf6a7d0fd4daea0a7e4329a0ce6bbi.jpg",
+          "//ae01.alicdn.com/kf/Afc32d85e54604916ac4d1861c174549dZ.jpg",
+          "//ae01.alicdn.com/kf/A2ccd05400a2148d0a6c4f38f64a5aabdg.jpg",
+          "//ae01.alicdn.com/kf/A263fab1379744f9cbaa4c18c5caabece6.jpg",
+          "//ae01.alicdn.com/kf/Ac64c724e2dc44923926914263eafb987T.jpg",
+          "//ae01.alicdn.com/kf/A24dcd95be1754ab19cbd831ef4e8a491B.jpg",
+          "//ae01.alicdn.com/kf/Aee42777bd92d4855940fe73ec76020000.jpg",
+          "//ae01.alicdn.com/kf/A61a8854811b84ce9b79c45c13820568af.jpg",
+          "//ae01.alicdn.com/kf/A69370b317b244f2e9154c9e9e7c8cbbbk.jpg",
+          "//ae01.alicdn.com/kf/Abd68721a2a004deba96830bc2cd5feb4F.jpg",
+          "//ae01.alicdn.com/kf/A70d31fe6f8224fba94179c0761f32a05y.jpg",
+          "//ae01.alicdn.com/kf/A459b8b462c4b4797b02cb2a124c5439ex.jpg",
+          "//ae01.alicdn.com/kf/Acb0a0b65dede4dc8af47eee539540790u.jpg",
+          "//ae01.alicdn.com/kf/Abd33b8ca3208433a8baaac7916f157b9C.jpg",
+          "//ae01.alicdn.com/kf/A955427fa3c9a494dbd950aaf7b47ef704.jpg",
+          "//ae01.alicdn.com/kf/Ab6fff8b1c3264d2ab93398e46b84ba39U.jpg",
+          "//ae01.alicdn.com/kf/H972a4c674a7b4226b9feb9c54f74771aB.jpg",
+          "//ae01.alicdn.com/kf/H537e38ac23cd40fcaaa61cc42fd64450v.jpg"
+        ]
+      },
+      "sku": {
+        "def": {
+          "quantity": 1255,
+          "price": "51.8 - 606",
+          "promotionPrice": "36.78 - 430.26",
+          "vat": null,
+          "unit": "piece",
+          "isBulk": true,
+          "skuBulkQuantity": 3,
+          "skuBulkDiscount": 8,
+          "multiUnit": "Pieces"
+        },
+        "base": [
+          {
+            "skuId": "12000036186527328",
+            "skuAttr": "5:100014064#1 piece 70x50cm",
+            "propMap": "5:100014064",
+            "price": 97.7,
+            "promotionPrice": 69.37,
+            "quantity": 201,
+            "ext": "a3ZYap1K_FrosJcA6RKYcseS9IyNnsknzDCJ-6QOc3Xl8OaaVld0lpTS4U6_KZsV9mI9A7JwiuVnQOzd4QdvAu9duTu_m6RAkxHdNc4IDqJTWgtsyjquawl9vbSWzbUCW4srYCIdjd5E1Tzwo_a935EViexVGhj9dSN2QkYSPpI="
+          },
+          {
+            "skuId": "12000038923784887",
+            "skuAttr": "5:100014065#Customized size",
+            "propMap": "5:100014065",
+            "price": 606,
+            "promotionPrice": 430.26,
+            "quantity": 8,
+            "ext": "--QbC00VuLaEWq8iF4OxY8i5f2EtqNlg7D96V_4bT8npTLT1G0K04R4YXWe1OmDc2zqiw_rEphWi0TWS282BgQvT7GHROQZonGZEPW0xit8QKGgucP-TEcyzQ5MSoc6OURxEc3pP-V36Gf5MhtCEfZnwMO8Bl7ZE6K_j8-EJRQ0="
+          },
+          {
+            "skuId": "12000036186527326",
+            "skuAttr": "5:361385#1 piece 60x40cm",
+            "propMap": "5:361385",
+            "price": 74.2,
+            "promotionPrice": 52.68,
+            "quantity": 240,
+            "ext": "YQ2eT-umb-zsaaBL8fkyIhwYdS5SdcxkNgN2yMK7MUFy5lM3nHdyYl85Yw73BMc2WiZxhIEPS3CUDrTnDMyesFXK-WVQNMlXgI5Wi9cFM1sBqqj-O2-7fQQpdrlbR7t9tVhtwv4Cj0RzUWpCI4ZD03B1uHPPyvusvcynqSr5JzA="
+          },
+          {
+            "skuId": "12000036186527327",
+            "skuAttr": "5:361386#1 piece 60x50cm",
+            "propMap": "5:361386",
+            "price": 80,
+            "promotionPrice": 56.8,
+            "quantity": 252,
+            "ext": "IO4FUjUHz2dIv052U3YtUb-ZbE0Ccm0bscDDQssRwzyzoTpV1l6IgYxYX5g3__PK6r8f4bfQG9UIQeAO-PsYvVoQXmLcpFj3l7tQnHvHjZSNS4Cev8ohuNb7DQew-kJy6pn9surVB0DMdJwFSwUjXf2PHUjvNFSc_gTHV7Xhw-E="
+          },
+          {
+            "skuId": "12000036186527324",
+            "skuAttr": "5:202622874#1 piece 40x30cm",
+            "propMap": "5:202622874",
+            "price": 51.8,
+            "promotionPrice": 36.78,
+            "quantity": 276,
+            "ext": "F1vp6KX46LHixr5ACDriMISpbVxoen9m1UCTN8_BGvUYWZ-ClTPbeVQkV3ZGcCV9GiqIFxF-Dfs-hWigRpZp6enfWTC1tHsM8xCjop_WAUXphTkH5facMgP_EWhTq9ErDsrSFILMaEWxwLrPfSrFuJIfRObxiQ4bSkp3QerMi_Y="
+          },
+          {
+            "skuId": "12000036186527325",
+            "skuAttr": "5:202638817#1 piece 50x40cm",
+            "propMap": "5:202638817",
+            "price": 56.5,
+            "promotionPrice": 40.11,
+            "quantity": 278,
+            "ext": "3OL_s0Neyr64j2Dj-JxuJlLDS_q3ofumIYrCCGGvvf4KL_AIksgHoeRowrfT0xsqw9itKN5-c0slRA7_yt0H4dLyRJcadWA3YRJBfGXv5-tIVgIpwwPSa_m5bQJQ8FNn-WgKXxkzerMm3GmUYI0CHjXwKm8CxIFKnKgQ2b7aV18="
+          }
+        ],
+        "props": [
+          {
+            "pid": 5,
+            "name": "Size",
+            "values": [
+              {
+                "vid": 202622874,
+                "name": "1 piece 40x30cm",
+                "propTips": "1 piece 40x30cm"
+              },
+              {
+                "vid": 202638817,
+                "name": "1 piece 50x40cm",
+                "propTips": "1 piece 50x40cm"
+              },
+              {
+                "vid": 361385,
+                "name": "1 piece 60x40cm",
+                "propTips": "1 piece 60x40cm"
+              },
+              {
+                "vid": 361386,
+                "name": "1 piece 60x50cm",
+                "propTips": "1 piece 60x50cm"
+              },
+              {
+                "vid": 100014064,
+                "name": "1 piece 70x50cm",
+                "propTips": "1 piece 70x50cm"
+              },
+              {
+                "vid": 100014065,
+                "name": "Customized size",
+                "propTips": "Customized size"
+              }
+            ]
+          }
+        ],
+        "skuImages": []
+      }
+    },
+    "reviews": { "count": 8, "averageStar": "4.6", "averageStarRate": "92.5" },
+    "delivery": {
+      "shippingFrom": "China",
+      "shippingFromCode": "CN",
+      "shippingTo": "United States",
+      "shippingToCode": "US",
+      "shippingOutDays": "8",
+      "shippingList": [
+        {
+          "shippingFrom": "China",
+          "shippingFromCode": "CN",
+          "shippingTo": "United States",
+          "shippingToCode": "US",
+          "shippingFee": "40.85",
+          "shippingCompany": "UPS Expedited",
+          "shippingTime": "16-16",
+          "serviceName": "UPSE",
+          "estimateDelivery": "Jun 09",
+          "estimateDeliveryDate": "2024-06-09",
+          "trackingAvailable": true,
+          "note": [
+            "Shipping: $40.85",
+            ",item ships within 8 days",
+            "​Collect a $1.00 coupon for late delivery",
+            "From China to United States via UPS Expedited"
+          ]
+        },
+        {
+          "shippingFrom": "China",
+          "shippingFromCode": "CN",
+          "shippingTo": "United States",
+          "shippingToCode": "US",
+          "shippingFee": "50.37",
+          "shippingCompany": "UPS Express Saver",
+          "shippingTime": "14-14",
+          "serviceName": "UPS",
+          "estimateDelivery": "Jun 07",
+          "estimateDeliveryDate": "2024-06-07",
+          "trackingAvailable": true,
+          "note": [
+            "Shipping: $50.37",
+            ",item ships within 8 days",
+            "​Collect a $1.00 coupon for late delivery",
+            "From China to United States via UPS Express Saver"
+          ]
+        },
+        {
+          "shippingFrom": "China",
+          "shippingFromCode": "CN",
+          "shippingTo": "United States",
+          "shippingToCode": "US",
+          "shippingFee": "73.11",
+          "shippingCompany": "Fedex IP",
+          "shippingTime": "20-20",
+          "serviceName": "FEDEX",
+          "estimateDelivery": "Jun 13",
+          "estimateDeliveryDate": "2024-06-13",
+          "trackingAvailable": true,
+          "note": [
+            "Shipping: $73.11",
+            ",item ships within 8 days",
+            "​Collect a $1.00 coupon for late delivery",
+            "From China to United States via Fedex IP"
+          ]
+        },
+        {
+          "shippingFrom": "China",
+          "shippingFromCode": "CN",
+          "shippingTo": "United States",
+          "shippingToCode": "US",
+          "shippingFee": "83.60",
+          "shippingCompany": "DHL",
+          "shippingTime": "19-19",
+          "serviceName": "DHL",
+          "estimateDelivery": "Jun 12",
+          "estimateDeliveryDate": "2024-06-12",
+          "trackingAvailable": true,
+          "note": [
+            "Shipping: $83.60",
+            ",item ships within 8 days",
+            "​Collect a $1.00 coupon for late delivery",
+            "From China to United States via DHL"
+          ]
+        }
+      ],
+      "packageDetail": { "weight": 4, "length": 75, "height": 5, "width": 55 }
+    },
+    "service": [
+      {
+        "title": "Free returns within 90 days",
+        "desc": "Not satisfied with your order? Send it back within 90 days after order was placed. The first return on each order is free."
+      },
+      {
+        "title": "Fast delivery",
+        "desc": "Collect a $1.00 coupon if your order arrives after the estimated delivery date. "
+      }
+    ],
+    "seller": {
+      "sellerId": 2658217327,
+      "storeTitle": "Colorful LED Light Store",
+      "storeId": 1101984065,
+      "companyId": 1117611722,
+      "storeUrl": "//www.aliexpress.com/store/1101984065",
+      "storeImage": "//ae01.alicdn.com/kf/Sc375fced01354c0785dd942688996271q.jpg",
+      "storeFollowers": 7269,
+      "storeRating": "96.4"
+    }
+  }
+}

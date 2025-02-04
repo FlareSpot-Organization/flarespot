@@ -229,13 +229,23 @@
   scrollbar-width: thin;
   scrollbar-color: #e5e7eb transparent;
 }
-.categories-scroll::-webkit-scrollbar {
+
+.thumbnails {
+  max-height: 500px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #e5e7eb transparent;
+}
+.categories-scroll::-webkit-scrollbar,
+.thumbnails::-webkit-scrollbar {
   width: 6px;
 }
-.categories-scroll::-webkit-scrollbar-track {
+.categories-scroll::-webkit-scrollbar-track,
+.thumbnails::-webkit-scrollbar {
   background: transparent;
 }
-.categories-scroll::-webkit-scrollbar-thumb {
+.categories-scroll::-webkit-scrollbar-thumb,
+.thumbnails::-webkit-scrollbar {
   background-color: #e5e7eb;
   border-radius: 3px;
 }

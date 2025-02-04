@@ -1,0 +1,287 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "data": "success",
+      "executionTime": "3.57",
+      "requestTime": "2024-05-24 21:32:09",
+      "requestId": "2024052466510755d5e17",
+      "endpoint": "item_detail_6",
+      "apiVersion": "4.x.x",
+      "functionsVersion": "4.x.x",
+      "la": "4.11",
+      "pmu": 487760,
+      "mu": 487416
+    },
+    "settings": {
+      "locale": "en_US",
+      "currency": "USD",
+      "country": "US",
+      "itemId": "3256806184876753"
+    },
+    "item": {
+      "available": true,
+      "itemId": 3256806184876753,
+      "title": "Manufacture Mobile Modified Container Bar Steel Structure Container House",
+      "catId": 200000280,
+      "itemUrl": "//www.aliexpress.com/item/3256806184876753.html",
+      "images": [
+        "//ae01.alicdn.com/kf/S661d8dedcb9c4ac594ec50867581502em.jpg",
+        "//ae01.alicdn.com/kf/S8c926c60d4f94329a05fd7fd4fd9af2dh.jpg",
+        "//ae01.alicdn.com/kf/S62370106180b41eea4f03f03e11ca1ffD.jpg",
+        "//ae01.alicdn.com/kf/Sf5b75bcdabee46018cb61f8d6918b6001.jpg",
+        "//ae01.alicdn.com/kf/S7ca8420a83614de8a8e8e64a1fcf16b9H.jpg",
+        "//ae01.alicdn.com/kf/Sc18b17cd622e45239c6a6c18ac357860N.jpg"
+      ],
+      "video": null,
+      "properties": {
+        "cut": "Brand Name / Origin / Special Features / Item Width / Model Name / Item Height / Item Type / Item Weight / Maximum Weight Recommendation / Material Type / Item Length / Warranty / After-sale Service / Application / Place of Origin / Material / Use / Product Type / Design Style / Product name / Keyword / Color / Type / Size / Door / Usage / Structure / Advantage",
+        "list": [
+          {
+            "name": "Brand Name",
+            "nameId": 2,
+            "value": "NoEnName_Null",
+            "valueId": 201512802
+          },
+          {
+            "name": "Origin",
+            "nameId": 219,
+            "value": "Mainland China",
+            "valueId": 9441741844
+          },
+          {
+            "name": "Special Features",
+            "nameId": 200000202,
+            "value": "Vending Snack",
+            "valueId": -1
+          },
+          {
+            "name": "Item Width",
+            "nameId": 200000193,
+            "value": "200",
+            "valueId": -1
+          },
+          {
+            "name": "Model Name",
+            "nameId": 200000187,
+            "value": "kn-known",
+            "valueId": -1
+          },
+          {
+            "name": "Item Height",
+            "nameId": 200000194,
+            "value": "210",
+            "valueId": -1
+          },
+          {
+            "name": "Item Type",
+            "nameId": 200000204,
+            "value": "trailer",
+            "valueId": 200000864
+          },
+          {
+            "name": "Item Weight",
+            "nameId": 200000195,
+            "value": "860",
+            "valueId": -1
+          },
+          {
+            "name": "Maximum Weight Recommendation",
+            "nameId": 200000227,
+            "value": "1500",
+            "valueId": -1
+          },
+          {
+            "name": "Material Type",
+            "nameId": 200000199,
+            "value": "stainless steel",
+            "valueId": -1
+          },
+          {
+            "name": "Item Length",
+            "nameId": 200000192,
+            "value": "400",
+            "valueId": -1
+          },
+          {
+            "name": "Warranty",
+            "nameId": -1,
+            "value": "1 Year",
+            "valueId": -1
+          },
+          {
+            "name": "After-sale Service",
+            "nameId": -1,
+            "value": "Free spare parts",
+            "valueId": -1
+          },
+          {
+            "name": "Application",
+            "nameId": -1,
+            "value": "Kitchen, Steel Fabricated House",
+            "valueId": -1
+          },
+          {
+            "name": "Place of Origin",
+            "nameId": -1,
+            "value": "Henan, China",
+            "valueId": -1
+          },
+          {
+            "name": "Material",
+            "nameId": -1,
+            "value": "Sandwich Panel, Steel, Wooden,Log",
+            "valueId": -1
+          },
+          {
+            "name": "Use",
+            "nameId": -1,
+            "value": "Kiosk,Booth",
+            "valueId": -1
+          },
+          {
+            "name": "Product Type",
+            "nameId": -1,
+            "value": "Modified Shipping Container",
+            "valueId": -1
+          },
+          {
+            "name": "Design Style",
+            "nameId": -1,
+            "value": "Craftsman",
+            "valueId": -1
+          },
+          {
+            "name": "Product name",
+            "nameId": -1,
+            "value": "Container Coffee",
+            "valueId": -1
+          },
+          {
+            "name": "Keyword",
+            "nameId": -1,
+            "value": "Mobile Living Container House",
+            "valueId": -1
+          },
+          {
+            "name": "Color",
+            "nameId": -1,
+            "value": "Customized Color",
+            "valueId": -1
+          },
+          {
+            "name": "Type",
+            "nameId": -1,
+            "value": "Prefabricated Modular Houses",
+            "valueId": -1
+          },
+          {
+            "name": "Size",
+            "nameId": -1,
+            "value": "20FT/40FT Customized",
+            "valueId": -1
+          },
+          {
+            "name": "Door",
+            "nameId": -1,
+            "value": "Sandwich Panel Door",
+            "valueId": -1
+          },
+          {
+            "name": "Usage",
+            "nameId": -1,
+            "value": "Multi-function",
+            "valueId": -1
+          },
+          {
+            "name": "Structure",
+            "nameId": -1,
+            "value": "Steel Luxury Container House",
+            "valueId": -1
+          },
+          {
+            "name": "Advantage",
+            "nameId": -1,
+            "value": "Eco Friendly",
+            "valueId": -1
+          }
+        ]
+      },
+      "description": {
+        "html": "<div class=\"detailmodule_text\"><p  style=\"font-size:20px;font-weight:bold;text-align:None;display:block;width:100%;color:#FF0000;\">Please Note</p><p  style=\"font-size:16px;font-weight:normal;text-align:None;display:block;width:100%;color:#FF0000;\">Because the product is customized product, we will tell you final price after getting your exact requirements.<br>The price on website Is the deposit not the full price, and all the products on our website are not free transport prices. The final price of transportation should be constrained according to the actual cost, please confirm with us before you place your order.</p></div>\r\n<div class=\"detailmodule_image\"><img src=\"//ae01.alicdn.com/kf/S8ea30f08e90441599c0af764393c5be8U.jpg\"  class=\"detail-desc-decorate-image\" ></div>\r\n<div class=\"detailmodule_text\"><p  style=\"font-size:20px;font-weight:bold;text-align:None;display:block;width:100%;color:#000000;\">Product Description</p><p  style=\"font-size:13px;font-weight:normal;text-align:None;display:block;width:100%;color:#000000;\">Food Truck 20ft Shipping Container Bar Restaurant Container Coffee Shop Kiosk Cafe Snack Food Container<br><br>This shipping container outdoor bar are not for a single purpose because they have many applications since they are flat pack containers. They can be used as a bar, a cafeteria, a restaurant, among others. With your Shipping Container Bar, it will be easy to open your business anywhere you want or to have a meeting spot to enjoy with some friends and family at home.<br><br>Some applications can be as a bakery, ice cream shop, coffee shop, sporting goods store, restaurant, or festival bar!</p></div>\r\n<div class=\"detailmodule_text-image\"><p class=\"detail-desc-decorate-title\" style=\"text-overflow: ellipsis;font-family: 'OpenSans';color:'#000';word-wrap: break-word;white-space: pre-wrap;font-weight: 900;font-size: 20px;line-height: 28px;color: #000;margin-bottom: 12px;\">Container Bar Details</p><p class=\"detail-desc-decorate-content\" style=\"text-overflow: ellipsis;font-family: 'OpenSans';color:'#000';word-wrap: break-word;white-space: pre-wrap;font-weight: 300;font-size: 14px;line-height: 20px;color: #000;margin-bottom: 12px;\">Shipping containers are available in a wide range of sizes, like 12ft, 16ft, 20ft, 40ft and so on. This is a fully customized shipping container restaurant. So, first, let me know what size you want.</p><img src=\"//ae01.alicdn.com/kf/Sa911beb0f96745e7b9c058b4250d8a31m.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/Sef6cc141f7ae45aab3be7d9016fb45e8v.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/Sf31e52b14b23467c8a6357bedae51b99l.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/Sbd6d6ba3374a4d84b30190bf3a3e9817H.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/S68496c958d634ae288249164d813f77b3.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/Sa7b49a67aacd4147b5f283445dd682edi.jpg\"  class=\"detail-desc-decorate-image\" ></div>\r\n<div class=\"detailmodule_text-image\"><p class=\"detail-desc-decorate-title\" style=\"text-overflow: ellipsis;font-family: 'OpenSans';color:'#000';word-wrap: break-word;white-space: pre-wrap;font-weight: 900;font-size: 20px;line-height: 28px;color: #000;margin-bottom: 12px;\">Customer Feedback</p><p class=\"detail-desc-decorate-content\" style=\"text-overflow: ellipsis;font-family: 'OpenSans';color:'#000';word-wrap: break-word;white-space: pre-wrap;font-weight: 300;font-size: 14px;line-height: 20px;color: #000;margin-bottom: 12px;\">Real Application Scenarios</p><img src=\"//ae01.alicdn.com/kf/Se8e0c6d98db548188db0b5a1fcf5632fD.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/Sf6bf182f27d24460bf50ea1cfbc7c7e2p.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/S7bb3cc61d209459f99952f04decef335p.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/S87f33b292bde4a838fffad9149dd795cc.jpg\"  class=\"detail-desc-decorate-image\" ><img src=\"//ae01.alicdn.com/kf/Sa6bab77930274cc499075a5fbbb6498fn.jpg\"  class=\"detail-desc-decorate-image\" ></div>\r\n<div class=\"detailmodule_text-image\"><p class=\"detail-desc-decorate-title\" style=\"text-overflow: ellipsis;font-family: 'OpenSans';color:'#000';word-wrap: break-word;white-space: pre-wrap;font-weight: 900;font-size: 20px;line-height: 28px;color: #000;margin-bottom: 12px;\">Packing and Shipping</p><img src=\"//ae01.alicdn.com/kf/S8ea2b7ea769e456ab67d963b11795444F.jpg\"  class=\"detail-desc-decorate-image\" ></div>\r\n<div class=\"detailmodule_text\"><p  style=\"font-size:20px;font-weight:bold;text-align:None;display:block;width:100%;color:#000000;\">FAQ</p><p  style=\"font-size:13px;font-weight:normal;text-align:None;display:block;width:100%;color:#000000;\">1.Drawing and Quotation<br>Tell us what you want,our sales man and designer give you the best proposal for your container house project.<br>2.Finalize contract<br>Finalize details for price,payment,shipment time,and sign the contract.<br>3.Producing<br>Start production upon receipt of down payment,the sales follows up the producing progress.<br>4.Inspection<br>QC team will make routine inspection in each process,and provide inspection report.<br>5.Packing&Shipment<br>Packing all the parts onto the steel rack , load into the shipping container ; contact shipping forwarder and ship to the final port as customer directed.<br>6.After-sale service<br>Anytime,any problem,our sales man and engineer will try our best to help your solve it.</p></div>\r\n",
+        "images": [
+          "//ae01.alicdn.com/kf/S8ea30f08e90441599c0af764393c5be8U.jpg",
+          "//ae01.alicdn.com/kf/Sa911beb0f96745e7b9c058b4250d8a31m.jpg",
+          "//ae01.alicdn.com/kf/Sef6cc141f7ae45aab3be7d9016fb45e8v.jpg",
+          "//ae01.alicdn.com/kf/Sf31e52b14b23467c8a6357bedae51b99l.jpg",
+          "//ae01.alicdn.com/kf/Sbd6d6ba3374a4d84b30190bf3a3e9817H.jpg",
+          "//ae01.alicdn.com/kf/S68496c958d634ae288249164d813f77b3.jpg",
+          "//ae01.alicdn.com/kf/Sa7b49a67aacd4147b5f283445dd682edi.jpg",
+          "//ae01.alicdn.com/kf/Se8e0c6d98db548188db0b5a1fcf5632fD.jpg",
+          "//ae01.alicdn.com/kf/Sf6bf182f27d24460bf50ea1cfbc7c7e2p.jpg",
+          "//ae01.alicdn.com/kf/S7bb3cc61d209459f99952f04decef335p.jpg",
+          "//ae01.alicdn.com/kf/S87f33b292bde4a838fffad9149dd795cc.jpg",
+          "//ae01.alicdn.com/kf/Sa6bab77930274cc499075a5fbbb6498fn.jpg",
+          "//ae01.alicdn.com/kf/S8ea2b7ea769e456ab67d963b11795444F.jpg"
+        ]
+      },
+      "sku": {
+        "def": { "quantity": 999, "price": "5760.53", "promotionPrice": null },
+        "base": [
+          {
+            "skuId": "12000036932051533",
+            "skuAttr": "",
+            "propMap": "",
+            "price": "5760.53",
+            "promotionPrice": "5760.53",
+            "quantity": 999,
+            "ext": "s9MQ2ltMWlROZNr3knrCMP_UFi3jYiEwYwjviUNEBu28ofOw3lHenyEVESZRycw-dleDFqjH2F0gIY3yXHgwPGY-0sLA_VUSckEJ6CeEBsdmzfovAgBG_uArhVpaztDQSsqma1tv1M393f880hiWfg=="
+          }
+        ],
+        "props": null,
+        "skuImages": null
+      }
+    },
+    "reviews": { "count": "0", "averageStar": "0.0" },
+    "delivery": {
+      "shippingToCode": "US",
+      "shippingOutDays": 7,
+      "shippingList": [
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "0",
+          "shippingCompany": "DHL",
+          "shippingTime": "11-11",
+          "serviceName": "DHL",
+          "estimateDelivery": "Jun 04",
+          "estimateDeliveryDate": "2024-06-04",
+          "trackingAvailable": true
+        },
+        {
+          "shippingFromCode": "CN",
+          "shippingToCode": "US",
+          "shippingFee": "0",
+          "shippingCompany": "EMS",
+          "shippingTime": "13-13",
+          "serviceName": "EMS",
+          "estimateDelivery": "Jun 06",
+          "estimateDeliveryDate": "2024-06-06",
+          "trackingAvailable": true
+        }
+      ],
+      "packageDetail": {
+        "weight": "1.000",
+        "length": 1,
+        "height": 1,
+        "width": 1
+      }
+    },
+    "seller": {
+      "storeTitle": "Food Truck Trailer Store",
+      "storeId": 1103329148,
+      "storeUrl": "//www.aliexpress.com/store/1103329148"
+    }
+  }
+}

@@ -4,6 +4,7 @@ export { default as Cart } from "@/pages/general/Product/Cart";
 export { default as Checkout } from "@/pages/general/Product/Checkout";
 export { default as PaymentSuccessPage } from "@/pages/general/Product/PaymentSuccessPage";
 export { default as Search } from "@/pages/general/Product/Search";
+export { default as SingleProduct } from "@/pages/general/Product/SingleProduct";
 
 // Auth routes
 export { default as Login } from "@/pages/auth/Login";

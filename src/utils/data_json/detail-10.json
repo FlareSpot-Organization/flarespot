@@ -1,0 +1,319 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "data": "success",
+      "executionTime": "0.86",
+      "requestTime": "2024-05-27 19:13:15",
+      "requestId": "202405276654db4a5a0e3",
+      "endpoint": "item_detail",
+      "apiVersion": "4.x.x",
+      "functionsVersion": "4.x.x",
+      "la": "1.67",
+      "pmu": 1194512,
+      "mu": 955736
+    },
+    "settings": {
+      "locale": "en_US",
+      "currency": "USD",
+      "country": "US",
+      "itemId": "3256805010671715"
+    },
+    "item": {
+      "available": true,
+      "itemId": "3256805010671715",
+      "title": "Men Flap Pocket Side Drawstring Waist Cargo Pants",
+      "catId": 201240202,
+      "breadcrumbs": [
+        { "title": "Men's Clothing", "catId": "200000343" },
+        { "title": "Pants", "catId": "201240601" },
+        { "catId": "201240202" }
+      ],
+      "sales": "1,000+",
+      "wishCount": 13355,
+      "itemUrl": "//www.aliexpress.com/item/3256805010671715.html",
+      "images": [
+        "//ae01.alicdn.com/kf/S2b0d1e5c3d934f419450e220f9001696F/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+        "//ae01.alicdn.com/kf/S74d8a92d25e047efadc83fe94dd6e1d6Q/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+        "//ae01.alicdn.com/kf/S59057753dceb416bb9975368bf483449W/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+        "//ae01.alicdn.com/kf/S92b4dd8adf6142668ad37b7cfc50f874l/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+        "//ae01.alicdn.com/kf/Sdc94172f64cb4f11b697e86a5449e858j/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg"
+      ],
+      "video": null,
+      "properties": {
+        "cut": "Applicable Season / Applicable Scene / Closure Type / Item Type / Style / Material / Gender / Pant Style / Origin / CN",
+        "list": [
+          { "name": "Applicable Season", "value": "Four Seasons" },
+          { "name": "Applicable Scene", "value": "CASUAL" },
+          { "name": "Closure Type", "value": "Elastic Waist" },
+          { "name": "Item Type", "value": "full length" },
+          { "name": "Style", "value": "High Street" },
+          { "name": "Material", "value": "Polyester" },
+          { "name": "Gender", "value": "MEN" },
+          { "name": "Pant Style", "value": "Cargo Pants" },
+          { "name": "Origin", "value": "Mainland China" },
+          { "name": "CN", "value": "Fujian" }
+        ]
+      },
+      "description": {
+        "html": "<p><img width=\"750\" height=\"375\" src=\"//ae01.alicdn.com/kf/S6c9429284cf7470f8b09945edb99b014u.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Sf0bf85d84d8246d58888a978defa6746I.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S8de6ff89540c4612aa0a11752db41d339.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S9da2e68c5a6941ffa2fe2811c1303c0dR.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Sc01ebb04518c40719fc646f2c0355ea9u.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S25fa458861cc44f69fb8e5159a774573x.jpg\" slate-data-type=\"image\"/></p>\n<script>window.adminAccountId=2671369001;</script>\n",
+        "images": [
+          "//ae01.alicdn.com/kf/S6c9429284cf7470f8b09945edb99b014u.jpg",
+          "//ae01.alicdn.com/kf/Sf0bf85d84d8246d58888a978defa6746I.jpg",
+          "//ae01.alicdn.com/kf/S8de6ff89540c4612aa0a11752db41d339.jpg",
+          "//ae01.alicdn.com/kf/S9da2e68c5a6941ffa2fe2811c1303c0dR.jpg",
+          "//ae01.alicdn.com/kf/Sc01ebb04518c40719fc646f2c0355ea9u.jpg",
+          "//ae01.alicdn.com/kf/S25fa458861cc44f69fb8e5159a774573x.jpg"
+        ]
+      },
+      "sku": {
+        "def": {
+          "quantity": 247,
+          "price": "32.06 - 34.44",
+          "promotionPrice": "6.94 - 7.94",
+          "vat": null,
+          "unit": "piece",
+          "isBulk": false
+        },
+        "base": [
+          {
+            "skuId": "12000032095899539",
+            "skuAttr": "5:100014066;14:193#Black",
+            "propMap": "5:100014066;14:193",
+            "price": 32.4,
+            "promotionPrice": 7.08,
+            "quantity": 29,
+            "ext": "qtddINyLOVpW0haLdstgYIOp2jOAmpIyyfaIWBvRVV-Df35FP_Vfk7oUY9kEQP-HSTq7K9W3aQl_dC9W4jjzzIuc5jRRUzls0fo5gJsMUQHR5_kZA9yF9YwO79D2O5Fnz4uKh1AB9W53ppTbRLoeqtySOdk6N-W_nPDGwIFuWqs="
+          },
+          {
+            "skuId": "12000033951234937",
+            "skuAttr": "5:100014065;14:200004890#Black",
+            "propMap": "5:100014065;14:200004890",
+            "price": 34.14,
+            "promotionPrice": 7.81,
+            "quantity": 30,
+            "ext": "ui9VceNHlzmNWU7SzhOyZGauKWzR1I6KdY2HNLsqF4MDaqbpqRpJDTqEFVxGOM43sqnxrZXIDOjj4grnpAXAY5J0i3soSMmKrzzwRygjWGvBfCRWn4Yo_HACW752oXBuLYqZbqo0RlfL412QYT3s3kXaFIxJeFsFuS_gpBN4zKc="
+          },
+          {
+            "skuId": "12000033951234936",
+            "skuAttr": "5:361385;14:200004890#Black",
+            "propMap": "5:361385;14:200004890",
+            "price": 33.95,
+            "promotionPrice": 7.74,
+            "quantity": 0,
+            "ext": "ALSz8Z11HKuZHR_aSLnpRMvchSQZuZe5MYw-diCrfL3fFL8tpva7P8dIMn__w4ZbHAWh8d6WR4Z6179Br53_IR9tT6Dem4XjTsYrjd7fYirUzfOMxfuJkSXQCtz74nCkN2mzhIGw1IFjK0do5RhMUbcuOKTg87dDzdhRKTfCcJg="
+          },
+          {
+            "skuId": "12000033951234939",
+            "skuAttr": "5:100014064;14:1254#Black",
+            "propMap": "5:100014064;14:1254",
+            "price": 32.06,
+            "promotionPrice": 6.94,
+            "quantity": 0,
+            "ext": "tQgPRaon9yj-KmGfQBYDPj9ObldcrzfdMFGpopjcxk7u0EVGpBAMB7a45w8PjmlFUZT9oekOvqWdQOLfwZQQXgiqX0vRNiic_iCpzPOWhWmIYe1GRanPEp5LfjwYo_g87mpIvEY7UmjG29dqbuwTlzODuJsVFnei7e1OPFhyEkw="
+          },
+          {
+            "skuId": "12000033951234938",
+            "skuAttr": "5:100014066;14:1254#Black",
+            "propMap": "5:100014066;14:1254",
+            "price": 33.01,
+            "promotionPrice": 7.34,
+            "quantity": 12,
+            "ext": "frEypUhY0IPxdHYQEKE31j4nQIE4KplGgOLj-UoXa83Aec-9m9OtFi0Q95i5BW1gpxI3Gb1tF_ZzeA9BFuhEMHSGnkgVLP_n6xCBXnVjzjhCbjNrPrBGNWoAgYNsRY6vjqNOjHGdZtHZmHTDE1RKSkFHsb1QxWzWosuLk35vS4Q="
+          },
+          {
+            "skuId": "12000032095899543",
+            "skuAttr": "5:100014065;14:193#Black",
+            "propMap": "5:100014065;14:193",
+            "price": 33.54,
+            "promotionPrice": 7.56,
+            "quantity": 26,
+            "ext": "A7ZDidKwLrnMTaBKCJPQk6IcOzJShWyv2H21wh5jUNX3Nkh-14BA8IpPEgRAmpa3eijD43V8cZPbGxINF7-zF8s_lrhTWGa6QxxW5ewX8BQycBwTEEtzhbFN1awp42Bg7l2W3JgAqHOy2Lq6EdLfuN-XxYOy_qvy0QRomTWIaLw="
+          },
+          {
+            "skuId": "12000033951234941",
+            "skuAttr": "5:361385;14:1254#Black",
+            "propMap": "5:361385;14:1254",
+            "price": 34.17,
+            "promotionPrice": 7.83,
+            "quantity": 0,
+            "ext": "8usa6luoOJZtyKSak7TL4Bg0cHMZSRyPPoqpvSZDERgQIorytGjIMw-EIGHTV0HvaFRNYZOKSK8wkLFSO1gxA3aNRi3k7_Zu7gznyz0lRdw_MUxqOc115YXa7M7v8dQANycETqYiI3F2ASl-_-EWwAH2VYLmlwxvnoPUJm1C2y8="
+          },
+          {
+            "skuId": "12000032095899542",
+            "skuAttr": "5:361385;14:193#Black",
+            "propMap": "5:361385;14:193",
+            "price": 33.6,
+            "promotionPrice": 7.59,
+            "quantity": 38,
+            "ext": "-0uyAkGOgex2McFDsikVtEJDyOIMLIWzOK8xoj4dxH_VnBDWnq7JQeEsAzkLs3HktiDdpMHLBjuBiqVRwJuZSfctC6rpAKfEdbVRVJ_hLI3-i5ur7sUsiRQep_lcF6EswU0uCxVY86KprJrF-mBr9q3QZoImPyaGgIE_1A3t4hY="
+          },
+          {
+            "skuId": "12000033951234940",
+            "skuAttr": "5:361386;14:1254#Black",
+            "propMap": "5:361386;14:1254",
+            "price": 33.66,
+            "promotionPrice": 7.61,
+            "quantity": 0,
+            "ext": "D22dBXtMBp0nTK_eIj4tszcdmIuMfANnJ0lkzkFXLcYw2KNJLhL3UigCrN8MuAWNc2VRVAfgHb-aUcwD0nOQAROmrqGLtiP4DQtBIaLF-3n9y1gC1TV5Vjp6skBvCXQQzvAC2f68Qf9S2OceIkYJraamL1DenYEOUgmOEdlFwMg="
+          },
+          {
+            "skuId": "12000032095899541",
+            "skuAttr": "5:361386;14:193#Black",
+            "propMap": "5:361386;14:193",
+            "price": 33.8,
+            "promotionPrice": 7.67,
+            "quantity": 78,
+            "ext": "9J4qTQEwqGbeKV_U6m6oG0AMG5G2N2pL-cqglk32uCkZQiXEFvF6PskNSCRAJz15vNdzsrRLxtDfOdcXtjSPY5-ojfKK6FchyM6jWzWyZ8id7RY_89YPEahcoqADVCxcHky6o46eQgzozz3bYZe4ks_vRJ3XoYQulG4RPsZRgyU="
+          },
+          {
+            "skuId": "12000032095899540",
+            "skuAttr": "5:100014064;14:193#Black",
+            "propMap": "5:100014064;14:193",
+            "price": 33.67,
+            "promotionPrice": 7.62,
+            "quantity": 11,
+            "ext": "AEiOty7JOJPx2pPXvSqe63wCGyJp4sKJgRYAyo2AUx5BXhBuVeEScsAQvRWACJ5KhAgRgmKqrar-RywkBdoL5OgM1LnDsZZ74JTONuGsRAvBJqlRxajx-ZaYRBZkKVT8EoZBIbozIuUTUoNraJ5WNHyUTlR9n_s_S8UngX9OMnA="
+          },
+          {
+            "skuId": "12000033951234942",
+            "skuAttr": "5:100014065;14:1254#Black",
+            "propMap": "5:100014065;14:1254",
+            "price": 34.44,
+            "promotionPrice": 7.94,
+            "quantity": 0,
+            "ext": "REmEWni-J4qXjBMzocM2rlULhfL14Dr9z19rK4U5JUoZMXdeON3fuS237RbSlSvrPchRdlnL7Z7kUnSMrSWbY0ayzxQm_ifNgnvmOy1huhFD7PESOpRxhWZ6uPypaqQgFILo1E19TpI1cGqBtNKBhnKtxdPJXY_gXa0ar8H3uyQ="
+          },
+          {
+            "skuId": "12000033951234933",
+            "skuAttr": "5:100014066;14:200004890#Black",
+            "propMap": "5:100014066;14:200004890",
+            "price": 33.46,
+            "promotionPrice": 7.53,
+            "quantity": 6,
+            "ext": "AMMplX-sOhi54Vd44-67IdwBomDq8ke5BkDkYQ7MKUEfBqi0QOt5SEO599TeR42LdWT9N6vGBkNciq85ih_FeQ9zXfi2bd3zf-_ZNijgUyA0e27k4eEIY-pYAHyfWI5kxIEWT6J3EkVnozVcIxR_ONZe8mR84-WNlo0y_43axLk="
+          },
+          {
+            "skuId": "12000033951234935",
+            "skuAttr": "5:361386;14:200004890#Black",
+            "propMap": "5:361386;14:200004890",
+            "price": 33.49,
+            "promotionPrice": 7.54,
+            "quantity": 8,
+            "ext": "NxJPryqqivnwsxcTb7a95ktfLtp5NZgya5N0-NXW8no6Z9rPvevojVtIZBetid4PilJBWNt9qwdwYbMWC1W0XZvnlm_F-FE9Jbs9lHrkTKM_GHfGTko5BK7AULEkg7LBXrwFGEdwIDrjjUYxqSm1EReuOxDc5TtnkzC2J0AundE="
+          },
+          {
+            "skuId": "12000033951234934",
+            "skuAttr": "5:100014064;14:200004890#Black",
+            "propMap": "5:100014064;14:200004890",
+            "price": 33.43,
+            "promotionPrice": 7.52,
+            "quantity": 9,
+            "ext": "ZKnj4qUbiqXu2ctohJysxCiRZoaQ9Jp6H6CyARackBQplUXYwtGXOeWfdZT9OgMV339QjzoJhRueTTJCac4hEl4ml5-C4e8PGbDOQ0cbE78O-VGKDNe18SifzDfT2Ho1K9QQyxrFa98kobDjt6khhdfMcOEprxoDtUMyiZTeTuM="
+          }
+        ],
+        "props": [
+          {
+            "pid": 5,
+            "name": "Size",
+            "values": [
+              { "vid": 100014066, "name": "XS", "propTips": "XS" },
+              { "vid": 100014064, "name": "S", "propTips": "S" },
+              { "vid": 361386, "name": "M", "propTips": "M" },
+              { "vid": 361385, "name": "L", "propTips": "L" },
+              { "vid": 100014065, "name": "XL", "propTips": "XL" }
+            ]
+          },
+          {
+            "pid": 14,
+            "name": "Color",
+            "values": [
+              {
+                "vid": 1254,
+                "name": "Black",
+                "image": "//ae01.alicdn.com/kf/Sab0fd070256c440e99509ccc76317f89P/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+                "propTips": "Black"
+              },
+              {
+                "vid": 193,
+                "name": "Black",
+                "image": "//ae01.alicdn.com/kf/Sac94581a11874f07949a28875e40f361t/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+                "propTips": "Black"
+              },
+              {
+                "vid": 200004890,
+                "name": "Black",
+                "image": "//ae01.alicdn.com/kf/S25cdd490bf9f4106ba8681eee0538f0aG/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+                "propTips": "Black"
+              }
+            ]
+          }
+        ],
+        "skuImages": {
+          "14:1254": "//ae01.alicdn.com/kf/Sab0fd070256c440e99509ccc76317f89P/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+          "14:193": "//ae01.alicdn.com/kf/Sac94581a11874f07949a28875e40f361t/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg",
+          "14:200004890": "//ae01.alicdn.com/kf/S25cdd490bf9f4106ba8681eee0538f0aG/Men-Flap-Pocket-Side-Drawstring-Waist-Cargo-Pants.jpg"
+        }
+      }
+    },
+    "reviews": {
+      "count": 307,
+      "averageStar": "4.6",
+      "averageStarRate": "92.2"
+    },
+    "delivery": {
+      "shippingFrom": "China",
+      "shippingFromCode": "CN",
+      "shippingTo": "United States",
+      "shippingToCode": "US",
+      "shippingOutDays": "7",
+      "shippingList": [
+        {
+          "shippingFrom": "China",
+          "shippingFromCode": "CN",
+          "shippingTo": "United States",
+          "shippingToCode": "US",
+          "shippingFee": "1.99",
+          "shippingCompany": "AliExpress Selection Standard",
+          "shippingTime": "5-8",
+          "serviceName": "CAINIAO_FULFILLMENT_STD",
+          "estimateDelivery": "Jun 06",
+          "estimateDeliveryDate": "2024-06-06",
+          "trackingAvailable": true,
+          "note": [
+            "Free shipping",
+            "(55.5% ≤ 8 days) ",
+            "​Collect a $1.00 coupon for late delivery"
+          ]
+        }
+      ],
+      "packageDetail": {
+        "weight": 0.291,
+        "length": 24,
+        "height": 6,
+        "width": 19
+      }
+    },
+    "service": [
+      {
+        "title": "Free returns within 90 days",
+        "desc": "Not satisfied with your order? Send it back within 90 days after order was placed. The first return on each order is free."
+      },
+      {
+        "title": "Fast delivery",
+        "desc": "Collect a $1.00 coupon if your order arrives after the estimated delivery date. "
+      }
+    ],
+    "seller": {
+      "sellerId": 2671369001,
+      "storeTitle": "Jack Factory Store",
+      "storeId": 1102623012,
+      "companyId": 2671369001,
+      "storeUrl": "//www.aliexpress.com/store/1102623012",
+      "storeImage": "//ae01.alicdn.com/kf/S7f770946de0d4e8c80e7d06d15f6009d7.png",
+      "storeFollowers": 3,
+      "storeRating": "94.0"
+    }
+  }
+}

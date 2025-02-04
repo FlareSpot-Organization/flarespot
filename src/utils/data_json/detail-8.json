@@ -1,0 +1,546 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "data": "success",
+      "executionTime": "0.91",
+      "requestTime": "2024-05-24 21:36:51",
+      "requestId": "2024052466510872f10b0",
+      "endpoint": "item_detail",
+      "apiVersion": "4.x.x",
+      "functionsVersion": "4.x.x",
+      "la": "2.51",
+      "pmu": 1515816,
+      "mu": 1150992
+    },
+    "settings": {
+      "locale": "en_US",
+      "currency": "USD",
+      "country": "US",
+      "itemId": "3256806868173696"
+    },
+    "item": {
+      "available": true,
+      "itemId": "3256806868173696",
+      "title": "Nike Air Jordan 4 Retro Bred Men's Basketball Shoes Original High Top Jordan Sneakers Basketball Shoes Men Women  308497-06",
+      "catId": 200000953,
+      "breadcrumbs": [
+        { "title": "Sports Shoes,Clothing&Accessories", "catId": "201768104" },
+        { "title": "Sneakers", "catId": "200000950" },
+        { "catId": "200000953" }
+      ],
+      "sales": "0",
+      "wishCount": 12,
+      "itemUrl": "//www.aliexpress.com/item/3256806868173696.html",
+      "images": [
+        "//ae01.alicdn.com/kf/S952a5a50bbad45e085528c4b49d2c8b4I/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+        "//ae01.alicdn.com/kf/Sf451090ce8e1425e8904afc26ce82890P/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+        "//ae01.alicdn.com/kf/S7f308f79568b41209cc8262830e1cf2ei/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+        "//ae01.alicdn.com/kf/S0184fb5b1fd64f21a0e808385165ac55V/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+        "//ae01.alicdn.com/kf/Sbf780be27ea1422e9ef2cc7855cba66eM/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg"
+      ],
+      "video": null,
+      "properties": {
+        "cut": "Material / Sports Type / Upper Height / Elements / Lining Material / Insole Material / Model Number / Technology / Level Of Practice / Fit / Release Date / Closure Type / Feature / Upper Material / Applicable Place / Outsole Material / Gender / Brand Name / Department Name / Origin / CN / Athletic Shoe Type",
+        "list": [
+          { "name": "Material", "value": "SPANDEX" },
+          { "name": "Sports Type", "value": "JORDAN" },
+          { "name": "Upper Height", "value": "high" },
+          { "name": "Elements", "value": "Thread" },
+          { "name": "Lining Material", "value": "Synthetic" },
+          { "name": "Insole Material", "value": "Rubber" },
+          { "name": "Model Number", "value": "308497-06" },
+          { "name": "Technology", "value": "DMX" },
+          { "name": "Level Of Practice", "value": "Advanced" },
+          {
+            "name": "Fit",
+            "value": "Fits true to size, take your normal size"
+          },
+          { "name": "Release Date", "value": "SPRING2017" },
+          { "name": "Closure Type", "value": "Lace-up" },
+          {
+            "name": "Feature",
+            "value": "Breathable,Height Increasing,Massage"
+          },
+          { "name": "Upper Material", "value": "FullGrainLeather+PU+Fabric" },
+          {
+            "name": "Applicable Place",
+            "value": "Concrete Floor,Hard Court,PVC Floor,Wooden Floor"
+          },
+          { "name": "Outsole Material", "value": "Rubber" },
+          { "name": "Gender", "value": "MEN" },
+          { "name": "Brand Name", "value": "Nike" },
+          { "name": "Department Name", "value": "ADULT" },
+          { "name": "Origin", "value": "Mainland China" },
+          { "name": "CN", "value": "Guangdong" },
+          { "name": "Athletic Shoe Type", "value": "Basketball Shoes" }
+        ]
+      },
+      "description": {
+        "html": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div>\n<div>\n<div>\n<div>\n<p style=\"text-align:center;\"><img alt=\"Hc2809c58c7034e0589d1542d42b417d6G\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S514d28a1479a4fc58490f77250efc700F.jpg?width=800&height=800&hash=1600\"></p>\n\n<p style=\"text-align:center;\"><img alt=\"20200511_175028_009\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S88e862503dc942a9aa479533a9c209bbQ.jpg?width=750&height=480&hash=1230\"><img alt=\"20200511_175028_010\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S6908b36998374699a3595aab2819aa793.jpg?width=750&height=480&hash=1230\"><img alt=\"20200511_175028_011\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Saa25fc51b38d4bbf9585163cc0e1e0c6t.jpg?width=750&height=480&hash=1230\"><img alt=\"20200511_175028_012\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S37484fcad4874f1895f086bc3356b120h.jpg?width=750&height=480&hash=1230\"><img alt=\"20200511_175028_013\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S2d94a37f65ae468d851ee2690cdce512A.jpg?width=750&height=480&hash=1230\"><img alt=\"20200512_112619_000\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sec249431d6b74b27ae03356010fc79320.jpg?width=750&height=480&hash=1230\"><img alt=\"20200512_114321_092\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/Sf9350c7ad7ec4e78a4fe061b6b4c3b17O.jpg?width=750&height=480&hash=1230\"><img alt=\"20200512_113212_073\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S1b15e36a751a4df69257774ead637530E.jpg?width=500&height=320&hash=820\"><img alt=\"20200512_112746_005\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S1ade3c6afed04a0eb0aada7615d341c6t.jpg?width=750&height=480&hash=1230\"><img alt=\"20200511_174610_000\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S4a6b678f44754640bd67e7aae7c54a2eA.jpg?width=500&height=320&hash=820\"><img alt=\"20200511_175028_009\" referrerpolicy=\"no-referrer\" src=\"//ae01.alicdn.com/kf/S88e862503dc942a9aa479533a9c209bbQ.jpg?width=750&height=480&hash=1230\"></p>\n</div>\n</div>\n</div>\n</div>\n</div></div>\r\n\n<script>window.adminAccountId=4585501943;</script>\n",
+        "images": [
+          "//ae01.alicdn.com/kf/S514d28a1479a4fc58490f77250efc700F.jpg",
+          "//ae01.alicdn.com/kf/S88e862503dc942a9aa479533a9c209bbQ.jpg",
+          "//ae01.alicdn.com/kf/S6908b36998374699a3595aab2819aa793.jpg",
+          "//ae01.alicdn.com/kf/Saa25fc51b38d4bbf9585163cc0e1e0c6t.jpg",
+          "//ae01.alicdn.com/kf/S37484fcad4874f1895f086bc3356b120h.jpg",
+          "//ae01.alicdn.com/kf/S2d94a37f65ae468d851ee2690cdce512A.jpg",
+          "//ae01.alicdn.com/kf/Sec249431d6b74b27ae03356010fc79320.jpg",
+          "//ae01.alicdn.com/kf/Sf9350c7ad7ec4e78a4fe061b6b4c3b17O.jpg",
+          "//ae01.alicdn.com/kf/S1b15e36a751a4df69257774ead637530E.jpg",
+          "//ae01.alicdn.com/kf/S1ade3c6afed04a0eb0aada7615d341c6t.jpg",
+          "//ae01.alicdn.com/kf/S4a6b678f44754640bd67e7aae7c54a2eA.jpg",
+          "//ae01.alicdn.com/kf/S88e862503dc942a9aa479533a9c209bbQ.jpg"
+        ]
+      },
+      "sku": {
+        "def": {
+          "quantity": 23907,
+          "price": 138.86,
+          "promotionPrice": 66.65,
+          "vat": null,
+          "unit": "piece",
+          "isBulk": false
+        },
+        "base": [
+          {
+            "skuId": "12000039246611791",
+            "skuAttr": "14:771#CI1184-146;200000124:100010487",
+            "propMap": "14:771;200000124:100010487",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "bApycVFeUMmelJLIqdrIIxI57a2A5qtnblJ1Vhfo1IAAxFHsDVctWFZBrieLcpQYQh5VMz-PRpjv0a54NRT71CyawXJ63YclwOe4Z_PiGR5yWhv_fVPItTX0Rp52b2acXIgSPvM16EvW3EDB1mDb6sH_8xfj5Y8cQqcge9GJ5lY="
+          },
+          {
+            "skuId": "12000039246611790",
+            "skuAttr": "14:771#CI1184-146;200000124:200000338",
+            "propMap": "14:771;200000124:200000338",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "LtCKzVYz0hS9I-C61Txfn-K9vt_qMScs4zBNcDBXAlii19yQJP2jfprSZm-40QKsemulCi0cE16jchtgNoRc-rfDOJVsCuFKSZYbCSOZ4ow8w46JOCfuyub9ZGjZM7HPlmcFDBu7DLBbMfcksy_2qO3jwnTpTU32cYCooMZhJ6c="
+          },
+          {
+            "skuId": "12000039246611789",
+            "skuAttr": "14:771#CI1184-146;200000124:200000337",
+            "propMap": "14:771;200000124:200000337",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "qG5DsILL35eggROCsBSH9gFsxh_ScDyMkDJR9Vr-KwjeyGXkGAkxF5trzTjIs6gxwhu9a_kiUTG6xHQDbJZU-dk5trK2IUYmeUYr1MSSkL-OEgDqMVYlLinge3fdXRthy89ViiE5eSQba9WUAQgatUEtNozMvR9KvULEHK3C5zA="
+          },
+          {
+            "skuId": "12000039246611788",
+            "skuAttr": "14:771#CI1184-146;200000124:100010483",
+            "propMap": "14:771;200000124:100010483",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "z6S26AK03Lq6obWAEZ_nVCjb-xEkEmOIJz29Qpf5fGI2y48AS8RbC0bEPg3zbofkB-rZ8AroZ5oox4uu5aR_XJXfuD_VKi9cYn4nH_N0lnvqWkiTUtWZ-tY9IF5jnS0CbxF-4AZi3Xecq1T7x1YxZtsgCsUlI8zNQL1VPOfAwu0="
+          },
+          {
+            "skuId": "12000039246611787",
+            "skuAttr": "14:771#CI1184-146;200000124:100013888",
+            "propMap": "14:771;200000124:100013888",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "iJtoz5gaFH-MvqdLldydbo-bucp-Cd0tCky7z8d-GfAJnS1QZMWCfmFitMI4oxGgFgcndaXnTY2UZLG_vbsT6svPtqn3Lth0yNvELDikQSgdtZo0slD6-NfDzQATvav0bFyYhmWhIFdH5m0T6K9yWrKmWalsmRkz1RaAdsip1So="
+          },
+          {
+            "skuId": "12000039246611786",
+            "skuAttr": "14:771#CI1184-146;200000124:200000364",
+            "propMap": "14:771;200000124:200000364",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "vxbf9k6AgvXPb1VYnFY2FGXtXWLpvdgT8pwEe6jvv5KdHjK523S_tgVNImof2YlJiutVtwhCjLX837sS7R4PJe9Xpc2u4rwVFhD22WijensKe6cLGXskqTXQYoHUiiqlxEE0DrJ5umCpZEJjKT1gpxDCvpiyN5vXNhkGSQNpS6U="
+          },
+          {
+            "skuId": "12000039246611785",
+            "skuAttr": "14:771#CI1184-146;200000124:200000898",
+            "propMap": "14:771;200000124:200000898",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "dOTR8gTZ_LFzXD2z5QseigPWZiFEYbZct81MMCZz8newWMv2pfY0eprDYU9KsIQQE8-BlFancvdzN5mZXxwNDZFHxZAGm6CPYF4iS-Lkz2s8qwGVcENH0UbrRbOn4x2Ii5gH3FPvqbuURJ_XAmnLmfPVVG6jeZDpkBZq9P8sD38="
+          },
+          {
+            "skuId": "12000039246611792",
+            "skuAttr": "14:771#CI1184-146;200000124:3116",
+            "propMap": "14:771;200000124:3116",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "dmWyZQ5-GHllXe4Doaui66CDn36eO-lJSjSfdsDbd0619dkoeDHHEeKQkDbe1T_7MvHCWlp4q2sCpYXWkWKc6z2q9Fux7zIhx5bMF5TVHWLoTcqMYSkdX6VvaNne6db6T4fO4YHTQvg8ajXdPXW72cxRxZLQi3L4pLIBwlK0lQA="
+          },
+          {
+            "skuId": "12000039246611807",
+            "skuAttr": "14:173#CI1184-001;200000124:100010487",
+            "propMap": "14:173;200000124:100010487",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 497,
+            "ext": "wmy53Unz0LVp8tf1h5d3nZpheiWu7KFDrxRQBZIlsTYXaSr1zmVo37jU2zbc4zn-V49E5hLc7kevEORqiupICrALYpgPrUFLVp0IhSDfz68A5dUh8brBzcM4cljJBI9ezaEQjPDDm1nG0Oz485HlBfX8mhAcs2KQkQzuDaNiS6k="
+          },
+          {
+            "skuId": "12000039246611806",
+            "skuAttr": "14:173#CI1184-001;200000124:200000338",
+            "propMap": "14:173;200000124:200000338",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "Dyu68DI_4EaX4JsSgy1pkLrcLi_gfF9G69n4MpRC_s6VZU0XXNUPAOI-Bv0nkkoXvXzfvmZd4cyRDXjX-Brh_8dsQId9oOsFJE2-pw8yPcEeZoCa1B4xZP20_Xne-IpBfa0yrHgWTgsIesVXB0-GW1NeEmXRyhPp92ZIeTz3wDg="
+          },
+          {
+            "skuId": "12000039246611805",
+            "skuAttr": "14:173#CI1184-001;200000124:200000337",
+            "propMap": "14:173;200000124:200000337",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "MYdqCv3rzie27i1gkJMBrxf-2_ZIDvRNTRUF0rvnMKYXoWfmxDo4aY_wTkVn1LoDCwne1EabeKOQpKvkAZGAKSCDM517M3Huhuv8yzgZ6aMp-ZCqiTl3FlTzBvW6CEJZQ7Blf92ysR_xEAB4BH8hox6qkRZmZVq06s_DbzVnnWo="
+          },
+          {
+            "skuId": "12000039246611804",
+            "skuAttr": "14:173#CI1184-001;200000124:100010483",
+            "propMap": "14:173;200000124:100010483",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 498,
+            "ext": "eCvDRXjYo8ysmSUlEfXOULYs-icAVM7OeeQca_SLOLszGAyv9M2BGEfujSpRBRVQPNmGZn168zV0gM9BsqBmR9RwyQNaWDIjwy92zHZYTrB3D39z3vXGWcZ9lkvCVfiJRchuSZ1kA5DPsr5dYFGK6IDfUh5HoPwIsJZV8qbm5cQ="
+          },
+          {
+            "skuId": "12000039246611803",
+            "skuAttr": "14:173#CI1184-001;200000124:100013888",
+            "propMap": "14:173;200000124:100013888",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "Kt7az0RIXmTehLRtc7tSsRRDxUwOB1guRYKJrx8t_8FK9X-x0AYav828dnVPwUsAf2No3pGOdmCsNjuyha3_vcm4mQADq_8CwYsJRKTceOHOzIFAAAykoRhL3w7T-FkVogSynT7KExWrhdjqfSp0TOJ1nViZVudbetpGEtRrcKU="
+          },
+          {
+            "skuId": "12000039246611802",
+            "skuAttr": "14:173#CI1184-001;200000124:200000364",
+            "propMap": "14:173;200000124:200000364",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "sFpsAoAjP16hEZib2EHF53MnK61ig8rY4YEYVLY-jKdezb5iaxLzevbDdHXfxofX91gwWVI-846LB2TZxOG0qY8Idyu0OAYOnEb4ZkszKdiECuguY8q13NdM6qpmOMqqFeogpX32KZCq7tKLb6SvE2RdYrIuPj73cuP8LZJxRvc="
+          },
+          {
+            "skuId": "12000039246611801",
+            "skuAttr": "14:173#CI1184-001;200000124:200000898",
+            "propMap": "14:173;200000124:200000898",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "ASJ8YIh_2PQ2w5mJn0lxr3OXxJjerALUlBoYz49-_i0z4uYQ9QPkjGOdh3pGg6fI_CYAY8_ufgJow-oHUELbZQshI2sxu6AhDw4cbyr0f0SQ77w7fjHQHvA4iSpzVDmiO-SUXx0CjuR_RTvM2uEmlYE4YY77GTONFtTfcrp_Mck="
+          },
+          {
+            "skuId": "12000039246611811",
+            "skuAttr": "14:1254#308497-060;200000124:100013888",
+            "propMap": "14:1254;200000124:100013888",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "g0E-w6SLPvlmw-kAAsv7hr74U5bYFxAaSqz_tU-5kiSM2OZOKKCTNmo3MHVDXN-4adMZ9Pb9O3XgXYAXoUQTd8H5VZdvSvb89q2otk_hdWxQUzgzpWEt-vbmwucv6mBJ79nndgcc55TzQpvD9JYhqe6tqh_K-mSIrO3Thl115_w="
+          },
+          {
+            "skuId": "12000039246611810",
+            "skuAttr": "14:1254#308497-060;200000124:200000364",
+            "propMap": "14:1254;200000124:200000364",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 498,
+            "ext": "kRyutuol1JFNmp2Di_MLRltZ1uR3DMIwZ1suIG45L9-3pOA_sbTcW88OxlWzr1vZEfPUVMYEEMzOAAICrBu7zFqQ1DHGVu9zeutTii9CyA6pF16SRw7JcJTGQc7jRarntvCPaDlqTwC2Z7er1wqOl5-biDDLmALEwjB-kJAIJ-A="
+          },
+          {
+            "skuId": "12000039246611809",
+            "skuAttr": "14:1254#308497-060;200000124:200000898",
+            "propMap": "14:1254;200000124:200000898",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 496,
+            "ext": "pA_RmrAGwVrnxWtPnAvMtSjHLVcppFFZgIAmsYJsr9U05skLR-KllBplOtar2UleyX2ESoN0HHLpD4KLPfwdPAICVidp7Ad2g8Pg3B5fzTDi6DDVkpr0Humki9hEK7X7eNBOysMqE5WyH-LhKNWaZdOwuWImEL3YUKiZXwN7gWg="
+          },
+          {
+            "skuId": "12000039246611808",
+            "skuAttr": "14:173#CI1184-001;200000124:3116",
+            "propMap": "14:173;200000124:3116",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 497,
+            "ext": "bLuyD9abd4UbG31WtARmF9shzqHSxe2OS_vdnQBuxrmxsdhqIRBNR7LBqMGm3zerR3Mx5PT3w1wIVQaXDDhOkrx6iZ5upNVdciHjNNxTrJYS-e3Whn4Cjrh7kopAsB-Iu645UsK0kMiQJKwclagXj2o4R8zXo1hi26fw71eQaeI="
+          },
+          {
+            "skuId": "12000039246611823",
+            "skuAttr": "14:365458#308497-007;200000124:100010487",
+            "propMap": "14:365458;200000124:100010487",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 498,
+            "ext": "_N1a-SPkto56uqfaUbhFDuOX382FHNpVshW7AbZbJ7U22kNQazKr7e8473hbuWG-PCwxIlvqkAThxampM8cQc84SNw9vtfP0r87GmciRLGakazg1ffQEygUowqlHHyLYANuYERmZF2Qw-Yzt9c9LlOKY91bqufr-VddLrIg8aQo="
+          },
+          {
+            "skuId": "12000039246611822",
+            "skuAttr": "14:365458#308497-007;200000124:200000338",
+            "propMap": "14:365458;200000124:200000338",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "08aNK0je95Thq1T6K7Lha6kxpaG0XxszUv95mFqqOYoszaDb0NBPdlWefd3rxH-RB7TKt_PfKr7AeVzPdhNiYs9FZPugSvhamJZnz8DIsZfa8-S3U1M9h8SopD3aTrw4dzYuksu8WayBYc663gPWCmkEPV7dCrDml_JmGjAKDQ0="
+          },
+          {
+            "skuId": "12000039246611821",
+            "skuAttr": "14:365458#308497-007;200000124:200000337",
+            "propMap": "14:365458;200000124:200000337",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "vww1lcx4j_haUtnCCeWIN-WOw1MfnqpalFjshM0zN2YXUFYewth-RpBkhmgcVsqcehnwmnXzpG53hwAEot1HfB2nJfdS3MRE36K4kVA2WMWkXirkmEYRf0MST9TYjaJuH14pKGN7iaKne6a46shW-2QIOHZyDags6ELGMWeBsIE="
+          },
+          {
+            "skuId": "12000039246611820",
+            "skuAttr": "14:365458#308497-007;200000124:100010483",
+            "propMap": "14:365458;200000124:100010483",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 498,
+            "ext": "N0Yy-KnZN_e8Vzv3zoDNvJakgjivR-y4rfMSv1aXZwTw3UiMhjMb7GPLOg3niqsHETZqLBZ3MvZcbnf097YHdKB3NNGjHcRE9ryNSDYUpUtc-P0iAZ1fTCVbqz1_uI3lGk5Xp6qvYG1zzohQNwK6TP1sHQlvWZntGFzuCSkszMU="
+          },
+          {
+            "skuId": "12000039246611819",
+            "skuAttr": "14:365458#308497-007;200000124:100013888",
+            "propMap": "14:365458;200000124:100013888",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "f9QAimKLeQgZGPr_j3BsJeIsryVqIbgY3q69zcMHU6BhMZuTU2FJc6CLQGDTqy7eoR4eRKM6GNpeAn28DQzDw06vAPs1WO_7Nbywm5oBp9xi2weCXWnRQKos6ktHCWo_UKGyqnCtwEuxiVVNoWZonmtij4SH-B6yltu3SksEgUM="
+          },
+          {
+            "skuId": "12000039246611818",
+            "skuAttr": "14:365458#308497-007;200000124:200000364",
+            "propMap": "14:365458;200000124:200000364",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "i69NLcTwiYUtG13UATje-09YANzl9pEkSINcfTZoBw5LO61WY3NWPEDfxIWfeI8TsE2DrVViQM4khVeoFWWMor4COkntQt2T79UAO_LOnDpp9K_1VHoeH0MBfRZcnMu9wotkgEZEtOmmQRdjPrEYytaSC8vjSTEHB_FJsKPGcQY="
+          },
+          {
+            "skuId": "12000039246611817",
+            "skuAttr": "14:365458#308497-007;200000124:200000898",
+            "propMap": "14:365458;200000124:200000898",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "Qb_ebw6E4uBWsT25lgNJE6ig5yefCpP_PnndhGuywseO-TGZLFztPFD-N_8APA_FQPgLZbh1HD1BlkKhKuKhUGvUOtjb9K0FLyldGndTC0Lzr6WHz61YsjrpVw1n3JLbJupOxfHz35wTYyGYoFXOqAT5938deVcxLexfJ2pm30k="
+          },
+          {
+            "skuId": "12000039246611816",
+            "skuAttr": "14:1254#308497-060;200000124:3116",
+            "propMap": "14:1254;200000124:3116",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 495,
+            "ext": "AZuuzJfWfzqvKAOE-AYE-Ubbh3Uzv6oVMgIt6rG3ZRhZvpvc4vmYB6uVrQkBkeEW-7cppZD7g1rCLDcgmVf2JhnLSmMkh0RPSNO6PlSCgdbXZtCVn0DkIFTEJZI6nMOBozHBQq8gdt1TGyUQFy0zj_kzGq7jpm1HCS7hkpQC42c="
+          },
+          {
+            "skuId": "12000039246611831",
+            "skuAttr": "14:100018786#308497-116;200000124:100010487",
+            "propMap": "14:100018786;200000124:100010487",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 497,
+            "ext": "khUvYuL56d0Xsyg6pGHGr_ZZgbfR52Laeh2IhzeZ3gHAGmnXldxUUFdWvpQAr3FrqCFDSY_tBbWS-sTGYxOK9U8cQJGj42bdsPilSbok_bBg1twrpnpMntN8oc2iksgUjpXGXjF6hDN_FKqSl0qKEB_mDvkTY6ZGsOGPXD3E2dI="
+          },
+          {
+            "skuId": "12000039246611830",
+            "skuAttr": "14:100018786#308497-116;200000124:200000338",
+            "propMap": "14:100018786;200000124:200000338",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 498,
+            "ext": "8PgErUbJmh6uyWkdl4r4_RZDGE1Ebl_CShHJ4vgcPiyYl9PEq_aLuwx77cU_8qWroacMVKsq2eAepRnmVKdwoxDcyvp0gOgt6_rVggckqTKddUusK8uEsq8RbJiInun2sUNERvLA6eoTiNYn1tItjbDuNSt41i_dBnasPrDMGJ8="
+          },
+          {
+            "skuId": "12000039246611829",
+            "skuAttr": "14:100018786#308497-116;200000124:200000337",
+            "propMap": "14:100018786;200000124:200000337",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 498,
+            "ext": "2bsJBVvshfVeJZFXXeleEtuMgBZfIWSr9mj2P1yDmMayS5qmvuRC8Wvw7BchEk9UvvueMTGoEKiJlwukuOhDzUpVFBFglgYQdcZ2BmEEC458MYOm5jA8B5HPMMrYrpcKkF1rcEKYhdg9dnif9yloP7ITf9GoqhXDtRiFWJ3z9DQ="
+          },
+          {
+            "skuId": "12000039246611828",
+            "skuAttr": "14:100018786#308497-116;200000124:100010483",
+            "propMap": "14:100018786;200000124:100010483",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "ZeeWRiTyJ2NzADrztjfj2byMQ_JaI5GzT8TsYqNBGp5WhdXid8KUx_Ohjb_zjGk64vv6k5LpGchy-dBB4Cq7qCl4aths1ZlcHgNwm1SJ1664WqO58bYDFS92jN8Uq3Gk7vcWpT-uVBa0dYI6fGLa8ZMn3o0cvSzBkXsPMiRLNJc="
+          },
+          {
+            "skuId": "12000039246611827",
+            "skuAttr": "14:100018786#308497-116;200000124:100013888",
+            "propMap": "14:100018786;200000124:100013888",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "JmCxnWaRmTsxhMgxhIC5aCA1FGo7EqYUuIeHKVJolFsz12ycbFUgqxg13SGoXfU7z223YjyXghtHZSCNx3c89ud3IT9h5OsiOx1lBuBVop1mfU7Lj6eJSsx8WxIMRcB-rBpGUWCTzyvSxW4KZVeiB4NsGlA9CCLuJ1yiyrXtjdk="
+          },
+          {
+            "skuId": "12000039246611826",
+            "skuAttr": "14:100018786#308497-116;200000124:200000364",
+            "propMap": "14:100018786;200000124:200000364",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "Q7kD24Zl-3nNPfMaVi0jPnWBLSJ-D65rCCkBq7yjeHG-20w4OkjFJNo9Q8Pq_T-DvfEdnqllJdmBo_VEkpSseCzhiN8EBZTaBXe57OvJQRkmglkxTcSXKcgy1o1i23Anu2sJvuJqdMbtEqJWniI38Jcabf1GX2sU8BFrP0S-wCU="
+          },
+          {
+            "skuId": "12000039246611825",
+            "skuAttr": "14:100018786#308497-116;200000124:200000898",
+            "propMap": "14:100018786;200000124:200000898",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "RD05dDpjrlPtI7miFzRBnf_h8G9eH0EBZ02NcAjm-sheX8q_o1J3OfGagZGuuIeQYFGkZjQKdongQgJTCB8r0Hr4fFLnATCAV5g8HG96C49orXENrbogG4NwPwIBH5K_IiCOIDCYJOIT38rxnZKpRy0_pkmZ8UkfZf10bPowVRA="
+          },
+          {
+            "skuId": "12000039246611824",
+            "skuAttr": "14:365458#308497-007;200000124:3116",
+            "propMap": "14:365458;200000124:3116",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 499,
+            "ext": "qqKuZw45uREwHVhzkYQSFhVsju5SUbst763lieM_TbWEO7xRl9Z_tbbAoIUYtdNXrnMsBwz9X4wLrifMMJPP7uIWRdsDcKBYilYejTTUHIJnTvSIdh5p7ksnrBvLR5YWd5JNTEai57XxJcsiar5iH3sXgFIoD8rWnLQSXjJemcI="
+          },
+          {
+            "skuId": "12000039246611832",
+            "skuAttr": "14:100018786#308497-116;200000124:3116",
+            "propMap": "14:100018786;200000124:3116",
+            "price": 138.86,
+            "promotionPrice": 66.65,
+            "quantity": 0,
+            "ext": "7H1x7XfpzBN-P5qTyRZTpf5BPLv_Hgc9Cz8xU-z1a4fQIcXE3_63yDRsilp3jQHsiRFl86G0HRCeOPcdAcPBEEvA8Dquh0G_9hVSpm0CPHAtF46vC8BtBD11niZwUJ56KsgjgXF2yD2XthjfgrEK6PfJ7DFox0n2MFKGFebZKNM="
+          }
+        ],
+        "props": [
+          {
+            "pid": 14,
+            "name": "Color",
+            "values": [
+              {
+                "vid": 771,
+                "name": "CI1184-146",
+                "image": "//ae01.alicdn.com/kf/S893404eee590456b9fdfb2f81669482ai/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+                "propTips": "CI1184-146"
+              },
+              {
+                "vid": 193,
+                "name": "CI1184-617",
+                "image": "//ae01.alicdn.com/kf/S511ce49cb0fb42849263db25666acdd4b/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+                "propTips": "CI1184-617"
+              },
+              {
+                "vid": 173,
+                "name": "CI1184-001",
+                "image": "//ae01.alicdn.com/kf/S012b44b8ed4742028935fe2cfc7b81770/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+                "propTips": "CI1184-001"
+              },
+              {
+                "vid": 1254,
+                "name": "308497-060",
+                "image": "//ae01.alicdn.com/kf/S20894101b37c4ebf8b03c8f29813430c1/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+                "propTips": "308497-060"
+              },
+              {
+                "vid": 365458,
+                "name": "308497-007",
+                "image": "//ae01.alicdn.com/kf/S066760d3d63b4052a59eaba51dc25077p/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+                "propTips": "308497-007"
+              },
+              {
+                "vid": 100018786,
+                "name": "308497-116",
+                "image": "//ae01.alicdn.com/kf/S585e33c529914aa094dbaceefc0fb6227/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+                "propTips": "308497-116"
+              }
+            ]
+          },
+          {
+            "pid": 200000124,
+            "name": "Shoe Size",
+            "values": [
+              { "vid": 200000898, "name": "38", "propTips": "38" },
+              { "vid": 200000364, "name": "39", "propTips": "39" },
+              { "vid": 100013888, "name": "40", "propTips": "40" },
+              { "vid": 100010483, "name": "41", "propTips": "41" },
+              { "vid": 200000337, "name": "42", "propTips": "42" },
+              { "vid": 200000338, "name": "43", "propTips": "43" },
+              { "vid": 100010487, "name": "44", "propTips": "44" },
+              { "vid": 3116, "name": "45", "propTips": "45" }
+            ]
+          }
+        ],
+        "skuImages": {
+          "14:771": "//ae01.alicdn.com/kf/S893404eee590456b9fdfb2f81669482ai/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+          "14:193": "//ae01.alicdn.com/kf/S511ce49cb0fb42849263db25666acdd4b/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+          "14:173": "//ae01.alicdn.com/kf/S012b44b8ed4742028935fe2cfc7b81770/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+          "14:1254": "//ae01.alicdn.com/kf/S20894101b37c4ebf8b03c8f29813430c1/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+          "14:365458": "//ae01.alicdn.com/kf/S066760d3d63b4052a59eaba51dc25077p/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg",
+          "14:100018786": "//ae01.alicdn.com/kf/S585e33c529914aa094dbaceefc0fb6227/Nike-Air-Jordan-4-Retro-Bred-Men-s-Basketball-Shoes-Original-High-Top-Jordan-Sneakers-Basketball.jpg"
+        }
+      }
+    },
+    "reviews": { "count": 0, "averageStar": "0.0", "averageStarRate": "0.0" },
+    "delivery": {
+      "shippingFrom": "Turkey",
+      "shippingFromCode": "TR",
+      "shippingTo": "United States",
+      "shippingToCode": "US",
+      "shippingOutDays": "3",
+      "shippingList": [
+        {
+          "shippingFrom": "Turkey",
+          "shippingFromCode": "TR",
+          "shippingTo": "United States",
+          "shippingToCode": "US",
+          "shippingFee": "0",
+          "shippingCompany": "SHIPENTEGRA_TR",
+          "shippingTime": "2-7",
+          "serviceName": "SHIPENTEGRA_TR",
+          "estimateDelivery": null,
+          "estimateDeliveryDate": null,
+          "trackingAvailable": true,
+          "note": [
+            "Free Shipping",
+            "Estimated delivery: 2-7 days",
+            "From Turkey to United States via SHIPENTEGRA_TR"
+          ]
+        }
+      ],
+      "packageDetail": { "weight": 1, "length": 25, "height": 35, "width": 25 }
+    },
+    "service": [
+      {
+        "title": "Buyer protection",
+        "desc": "Get a refund if the item arrives late or not as described. "
+      }
+    ],
+    "seller": {
+      "sellerId": 4585501943,
+      "storeTitle": "Shop912417060 Store",
+      "storeId": 1101875399,
+      "companyId": 4585501943,
+      "storeUrl": "//www.aliexpress.com/store/1101875399",
+      "storeImage": "//ae01.alicdn.com/kf/S7d14b1b11cc9442c8206ae86db097c21l.jpg",
+      "storeFollowers": 95,
+      "storeRating": "0.0"
+    }
+  }
+}
