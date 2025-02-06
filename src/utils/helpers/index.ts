@@ -1,3 +1,5 @@
+import { Sku } from "@/types/product_types";
+
 export type ColorClass = string;
 export type IconKey = string;
 export type IconValue = string;
@@ -174,4 +176,30 @@ export const getBrowseNodeId = (categoryId: string): string => {
   };
 
   return browseNodeMapping[categoryId] || "";
+};
+
+export const findSkuByValues = (
+  array: Sku[],
+  value1: string,
+  value2: string
+): Sku | undefined => {
+  return array.find((item) => {
+    const pairs = item.skuAttr.split(";");
+    let hasFirstValue = false;
+    let hasSecondValue = false;
+
+    pairs.forEach((pair) => {
+      const [_, valueWithColor] = pair.split(":");
+      const value = valueWithColor.split("#")[0];
+
+      if (value == value1) hasFirstValue = true;
+      if (value == value2) hasSecondValue = true;
+    });
+
+    return hasFirstValue || hasSecondValue;
+  });
+};
+
+export const cleanImageUrl = (url: string) => {
+  return url.replace(/^\/\//, "https://");
 };

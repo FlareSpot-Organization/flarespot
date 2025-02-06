@@ -12,3 +12,26 @@ export type initialProductStateProps = {
   searchResults: [];
   bestSellers: [];
 };
+
+export interface SkuValue {
+  vid?: number | string | undefined;
+  name: string;
+  propTips: string;
+  image?: string; // Making image optional since it might not exist on all objects
+}
+
+export interface SkuProp {
+  pid: number;
+  name: string;
+  values: SkuValue[];
+}
+
+export interface Sku {
+  skuId: string;
+  skuAttr: string;
+  propMap: string;
+  price: number | string;
+  promotionPrice: number | string;
+  quantity: number;
+  ext: string;
+}

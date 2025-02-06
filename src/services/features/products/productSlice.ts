@@ -2,18 +2,18 @@ import { createAsyncThunkWithHandler } from "@/services/api/apiHandler";
 import productService from "./productService";
 import { createSlice } from "@reduxjs/toolkit";
 import { initialProductStateProps } from "@/types/product_types";
-
-const products = JSON.parse(localStorage.getItem("products") || "[]");
+import product from "@/utils/data_json/search.json";
+// const products = JSON.parse(localStorage.getItem("products") || "[]");
 const categories = JSON.parse(localStorage.getItem("categories") || "[]");
-const deals = JSON.parse(localStorage.getItem("deals") || "[]");
+// const deals = JSON.parse(localStorage.getItem("deals") || "[]");
 
 const initialState: initialProductStateProps = {
-  products: products ? products : [],
+  products: product ? (product?.result?.resultList as unknown as any) : [],
   categories: categories ? categories : [],
   singleProduct: {},
   reviews: [],
   bestSellers: [],
-  deals: deals ? deals : [],
+  deals: product ? (product?.result?.resultList as unknown as any) : [],
   searchResults: [],
   isLoading: false,
   message: "",

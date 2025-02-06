@@ -41,7 +41,7 @@ const Home = () => {
         <div className="sm:w-[90%] w-[95%] mx-auto mt-10">
           <FavouriteDeals />
           <Offerings />
-          <LightningDeals products={productsDemo?.data?.products} />
+          <LightningDeals products={productsDemo} />
           <TodaysDeals />
         </div>
         <div className="bg-[#f7f7f7] dark:bg-black mt-10">
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="sm:w-[90%] w-[95%] m-auto">
           <ShopCategory />
-          <MoreProducts productsDemo={productsDemo?.data?.products} />
+          {/* <MoreProducts productsDemo={productsDemo} /> */}
         </div>
       </div>
     </div>

@@ -62,7 +62,7 @@ const LightningDeals = ({ products }: { products: any }) => {
         className="p-4 navigation-styled">
         {products?.map((product: any) => (
           <SwiperSlide key={product.asin}>
-            <ProductCard product={product} />
+            <ProductCard item={product} />
           </SwiperSlide>
         ))}
       </Swiper>
