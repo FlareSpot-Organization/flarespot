@@ -1,0 +1,1690 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "p": "true",
+      "data": "success",
+      "executionTime": "2.84",
+      "requestTime": "2025-02-06 14:32:29",
+      "requestId": "fb5602a1841f2f284d12d779a14f0d0a",
+      "endpoint": "item_search_4",
+      "apiVersion": "4.0.5",
+      "functionsVersion": "4.0.8",
+      "la": "0.10",
+      "pmu": 3256736,
+      "mu": 3256448
+    },
+    "settings": {
+      "q": "bags",
+      "catId": "",
+      "brandId": "",
+      "loc": "",
+      "attr": "",
+      "switches": "",
+      "sort": "default",
+      "page": "1",
+      "startPrice": "",
+      "endPrice": "",
+      "region": "US",
+      "locale": "en_US",
+      "currency": "USD"
+    },
+    "base": {
+      "totalResults": 1495629,
+      "pageSize": 60,
+      "q": "bags",
+      "sortValues": ["default", "salesDesc", "priceAsc", "priceDesc"],
+      "switchesList": [],
+      "brandList": [],
+      "locationList": {
+        "name": "Shipping from ",
+        "list": [{ "name": "United States", "id": "US", "selected": false }]
+      },
+      "attributeList": [],
+      "categoryList": [],
+      "priceList": {
+        "name": "Price",
+        "list": [
+          {
+            "startPrice": "0",
+            "endPrice": "3.59",
+            "range": "Under-3.59",
+            "rate": "Chosen by 9%",
+            "selected": false
+          },
+          {
+            "startPrice": "3.59",
+            "endPrice": "6.44",
+            "range": "3.59-6.44",
+            "rate": "Chosen by 37%",
+            "selected": false
+          },
+          {
+            "startPrice": "6.44",
+            "endPrice": "18.58",
+            "range": "6.44-18.58",
+            "rate": "Chosen by 42%",
+            "selected": false
+          },
+          {
+            "startPrice": "18.58",
+            "endPrice": "38.46",
+            "range": "18.58-38.46",
+            "rate": "Chosen by 10%",
+            "selected": false
+          },
+          {
+            "startPrice": "38.46",
+            "endPrice": "",
+            "range": "38.46-Over",
+            "rate": "Chosen by 1%",
+            "selected": false
+          }
+        ]
+      }
+    },
+    "resultList": [
+      {
+        "item": {
+          "itemId": "3256808126401470",
+          "title": "Sanrio Bag Kawaii Kuromi Cinnamoroll My Melody Cartoon Anime Plush Handbag Cosmetic Bag Travel Storage Bag Women Girl Gifts",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808126401470.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S2e29117d93a642c79536afb9755f7912o/Sanrio-Bag-Kawaii-Kuromi-Cinnamoroll-My-Melody-Cartoon-Anime-Plush-Handbag-Cosmetic-Bag-Travel-Storage-Bag.jpg",
+          "sku": { "def": { "price": 6.48, "promotionPrice": 2.69 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806674610128",
+          "title": "2024 New Versatile Business Bag USB Rechargeable School Bag Waterproof Laptop Bag Backpack",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256806674610128.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S92a0d5ea464b403dbaba8fdd30384f8aw/2024-New-Versatile-Business-Bag-USB-Rechargeable-School-Bag-Waterproof-Laptop-Bag-Backpack.jpg",
+          "sku": { "def": { "price": 14.32, "promotionPrice": 6.3 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          },
+          { "id": "m0000155" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807120345719",
+          "title": "100pcs/lot Transparent Self Adhesive Seal Bags OPP Plastic Cellophane Bags Gifts Bag & Pouch Jewelry Packaging Bags",
+          "sales": 10,
+          "itemUrl": "//www.aliexpress.com/item/3256807120345719.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S80838c5b4ca449e588f3c3115f28357eb/100pcs-lot-Transparent-Self-Adhesive-Seal-Bags-OPP-Plastic-Cellophane-Bags-Gifts-Bag-Pouch-Jewelry-Packaging.jpg",
+          "sku": { "def": { "price": 1.7, "promotionPrice": 0.75 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          },
+          { "id": "m0000155" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807288571909",
+          "title": "TAILI 10Pcs Roll-up Travel Compression Bags for Clothes Luggage Space Saver Bags Reusable Air Vacuum Bags for Packing Suitcases",
+          "sales": 109,
+          "itemUrl": "//www.aliexpress.com/item/3256807288571909.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S7aa1ced6b51a4dd7b92c351b9ce51658Y/TAILI-10Pcs-Roll-up-Travel-Compression-Bags-for-Clothes-Luggage-Space-Saver-Bags-Reusable-Air-Vacuum.jpg",
+          "sku": { "def": { "price": 13.57, "promotionPrice": 12.83 } },
+          "averageStarRate": 4.8,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256808225631917",
+          "title": "High appearance level crossbody bag 2025 Fashion multi-functional adjustable men and women travel leisure dumpling bag",
+          "sales": 15,
+          "itemUrl": "//www.aliexpress.com/item/3256808225631917.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/A2a259d884e9a44d0bc3850f2465e2f7ew/High-appearance-level-crossbody-bag-2025-Fashion-multi-functional-adjustable-men-and-women-travel-leisure-dumpling.png",
+          "sku": { "def": { "price": null, "promotionPrice": 25.7 } },
+          "averageStarRate": 5,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S7cd3a73cdfeb490bafdde288e0cb04bds/173x32.png",
+            "id": "m0000430"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256808108605283",
+          "title": "Travel Backpack for Women Man Large Capacity Carry On Luggage Travel Bag with USB Charging Port Personal Item Backpack 15.6inch",
+          "sales": 3,
+          "itemUrl": "//www.aliexpress.com/item/3256808108605283.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S71a419a03c7244f086a94a2c359fb22cs/Travel-Backpack-for-Women-Man-Large-Capacity-Carry-On-Luggage-Travel-Bag-with-USB-Charging-Port.png",
+          "sku": { "def": { "price": 52.68, "promotionPrice": 22.03 } },
+          "averageStarRate": null,
+          "type": "gem"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/S7cd3a73cdfeb490bafdde288e0cb04bds/173x32.png",
+            "id": "m0000430"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807120481330",
+          "title": "Crossbody Bag With Pleated Design Embroidered Plaid Shoulder Bag Underarm Bags Simple Large Capacity Quilted Tote Bags For Women",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256807120481330.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S727e7f9fb9d643fdbdbe9d49fb0dffa8y/Crossbody-Bag-With-Pleated-Design-Embroidered-Plaid-Shoulder-Bag-Underarm-Bags-Simple-Large-Capacity-Quilted-Tote.jpg",
+          "sku": { "def": { "price": 8.24, "promotionPrice": 3.39 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256804108248376",
+          "title": "Non-woven Tote Bag Shopping Bag For Promotion And Advertisement 10/20 Pcs Wholesale Custom Logo/Printing fee not included",
+          "sales": 373,
+          "itemUrl": "//www.aliexpress.com/item/3256804108248376.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S9fbb074b92b94777a4a0bee18cb5b496H/Non-woven-Tote-Bag-Shopping-Bag-For-Promotion-And-Advertisement-10-20-Pcs-Wholesale-Custom-Logo.jpg",
+          "sku": { "def": { "price": 18.9, "promotionPrice": 9.44 } },
+          "averageStarRate": 4.4,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807352160589",
+          "title": "Multifunctional Clear Data Cable Storage Box Outdoor Travel Headset Storage Bag Data Cable Round Storage",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807352160589.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S2e3d6e05055a4b55bfc18c63b9af3cb7N/Multifunctional-Clear-Data-Cable-Storage-Box-Outdoor-Travel-Headset-Storage-Bag-Data-Cable-Round-Storage.jpg",
+          "sku": { "def": { "price": 1.52, "promotionPrice": 1.42 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256804871934813",
+          "title": "1pc Pink/Grey/Black/Navy Travel Portable Digital Product Storage Bag USB Data Cable Organizer Headset Charging Treasure Box Bag",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256804871934813.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S510cb71380b146219cfedf3c9ad66aecL/1pc-Pink-Grey-Black-Navy-Travel-Portable-Digital-Product-Storage-Bag-USB-Data-Cable-Organizer-Headset.jpg",
+          "sku": { "def": { "price": 7.28, "promotionPrice": 3.39 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807456944013",
+          "title": "Sanrio Bag Kawaii Kuromi Cinnamoroll My Melody Cartoon Anime Plush Handbag Cosmetic Bag Travel Storage Bag Women Girl Gifts",
+          "sales": 3000,
+          "itemUrl": "//www.aliexpress.com/item/3256807456944013.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sd48e12bcd73d4e9f9ac4d8e00e296e9dP/Sanrio-Bag-Kawaii-Kuromi-Cinnamoroll-My-Melody-Cartoon-Anime-Plush-Handbag-Cosmetic-Bag-Travel-Storage-Bag.jpg",
+          "sku": { "def": { "price": 7.7, "promotionPrice": 3.13 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806502954638",
+          "title": "2025 Women's Khaki Velour Tote Bag Original Letter Print Medium Ladies Brand Shopper Handbag Female Square Medium Shoulder Bags",
+          "sales": 194,
+          "itemUrl": "//www.aliexpress.com/item/3256806502954638.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6d9e844815354149b4a2cb3c65a49e54h/2025-Women-s-Khaki-Velour-Tote-Bag-Original-Letter-Print-Medium-Ladies-Brand-Shopper-Handbag-Female.jpg",
+          "sku": { "def": { "price": 37.26, "promotionPrice": 21.51 } },
+          "averageStarRate": 4.9,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806581276440",
+          "title": "35L 50L 80L Outdoor Mountaineering Bag Molle Tactical Backpack Large Duffel Bag Hiking Camping Travel Bags",
+          "sales": 113,
+          "itemUrl": "//www.aliexpress.com/item/3256806581276440.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S088787a8f31042e8aa3a807e4e0b35825/35L-50L-80L-Outdoor-Mountaineering-Bag-Molle-Tactical-Backpack-Large-Duffel-Bag-Hiking-Camping-Travel-Bags.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 43.01 } },
+          "averageStarRate": 4.7,
+          "type": "gem"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/S7cd3a73cdfeb490bafdde288e0cb04bds/173x32.png",
+            "id": "m0000430"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/S1d50c4213f414d6785730b502cbaa432q/184x64.jpg",
+            "id": "m0000405"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806712570733",
+          "title": "Women's Handbag Gift With Gold Letters Mobile Phone Bag Wallet Crossbody Bag Handbag Gift Women's Shoulder Bag",
+          "sales": 800,
+          "itemUrl": "//www.aliexpress.com/item/3256806712570733.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S7097fafe0e234bf6ae0ba961da3fa1b3j/Women-s-Handbag-Gift-With-Gold-Letters-Mobile-Phone-Bag-Wallet-Crossbody-Bag-Handbag-Gift-Women.jpg",
+          "sku": { "def": { "price": 5.62, "promotionPrice": 2.39 } },
+          "averageStarRate": 3.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806809045418",
+          "title": "40L Outdoor Waterproof Large Capacity Hiking Bag",
+          "sales": 10,
+          "itemUrl": "//www.aliexpress.com/item/3256806809045418.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sd09b5a41d0814ab4b251f7cba7fb629dC/40L-Outdoor-Waterproof-Large-Capacity-Hiking-Bag.jpg",
+          "sku": { "def": { "price": 15.03, "promotionPrice": 6.19 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256804085614408",
+          "title": "100 Pcs Customized Logo Color Shopping Bag With Handle Plastic Gift Bag Businss Customer Plastic Bag(excluding printing fee)",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256804085614408.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S06f6f9fbef81459a8eec07cd415f160fe/100-Pcs-Customized-Logo-Color-Shopping-Bag-With-Handle-Plastic-Gift-Bag-Businss-Customer-Plastic-Bag.jpg",
+          "sku": { "def": { "price": 18.18, "promotionPrice": 8.99 } },
+          "averageStarRate": 4.7,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807120415437",
+          "title": "Disney New Cartoon Stitch Plush Children's School Bag Kindergarten Cute Fashion Color Blocking Backpack Mini Backpack",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256807120415437.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sb69204e02e124031a3da5f83fa4b1531d/Disney-New-Cartoon-Stitch-Plush-Children-s-School-Bag-Kindergarten-Cute-Fashion-Color-Blocking-Backpack-Mini.jpg",
+          "sku": { "def": { "price": 12.74, "promotionPrice": 4.99 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806984561017",
+          "title": "Yogodlns Elegant Women Messenger Bags with flower pendant Office Ladies Totes Pure Handbag for female Crossbody Shoulder Bags",
+          "sales": 3000,
+          "itemUrl": "//www.aliexpress.com/item/3256806984561017.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6ce536a8b0a348bca471b9202382f0e2d/Yogodlns-Elegant-Women-Messenger-Bags-with-flower-pendant-Office-Ladies-Totes-Pure-Handbag-for-female-Crossbody.jpg",
+          "sku": { "def": { "price": 21.07, "promotionPrice": 10.01 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807626149418",
+          "title": "Disney Stitch sanrio Canvas Bucket Bag Cute Cartoon Tote Bag Casual and Versatile Crossbody Bag Portable Tote Bag",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807626149418.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S27327d03647746a09aff9f60204a86efg/Disney-Stitch-sanrio-Canvas-Bucket-Bag-Cute-Cartoon-Tote-Bag-Casual-and-Versatile-Crossbody-Bag-Portable.jpg",
+          "sku": { "def": { "price": 10.35, "promotionPrice": 4.35 } },
+          "averageStarRate": 4.4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256803002049002",
+          "title": "JOGUJOS Genuine Leather Women Shoulder Crossbody Bags Small Handbag Ladies CellPhone Bag Simple Style Messenger Bag Phone Pouch",
+          "sales": 146,
+          "itemUrl": "//www.aliexpress.com/item/3256803002049002.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sa6a752cb84ed47b4b2b1ff40a7ea7405t/JOGUJOS-Genuine-Leather-Women-Shoulder-Crossbody-Bags-Small-Handbag-Ladies-CellPhone-Bag-Simple-Style-Messenger-Bag.jpg",
+          "sku": { "def": { "price": 13.26, "promotionPrice": 13.26 } },
+          "averageStarRate": 4.7,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping", "id": "m0000064" },
+          { "name": "Extra 2% off with coins", "id": "m0000063" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806084704106",
+          "title": "Trendy Men's Minimalist Backpack Versatile Backpack Large Capacity School Student Computer Travel Bag Washable Unisex Backpack",
+          "sales": 3000,
+          "itemUrl": "//www.aliexpress.com/item/3256806084704106.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S7d67f4bfa09442cba63e5cd3f6d4bd4fA/Trendy-Men-s-Minimalist-Backpack-Versatile-Backpack-Large-Capacity-School-Student-Computer-Travel-Bag-Washable-Unisex.jpg",
+          "sku": { "def": { "price": 13.45, "promotionPrice": 4.99 } },
+          "averageStarRate": 4.4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807012313539",
+          "title": "Backpack for Men Multifunctional Business Notebook Backpack Waterproof Film Men's Backbag Casual Bag",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807012313539.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S93c2eb85aef14b4e9b37cfdb8649046eG/Backpack-for-Men-Multifunctional-Business-Notebook-Backpack-Waterproof-Film-Men-s-Backbag-Casual-Bag.jpg",
+          "sku": { "def": { "price": 19.74, "promotionPrice": 7.59 } },
+          "averageStarRate": 4.1,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807899315366",
+          "title": "25/50/100pcs Self-Adhesive Sealing Express Logistics Mailing Waterproof & Dustproof Packaging Bag, Gift Packing & Shipping Bag",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807899315366.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sda2d500171214ef28b25c55a594c5f46r/25-50-100pcs-Self-Adhesive-Sealing-Express-Logistics-Mailing-Waterproof-Dustproof-Packaging-Bag-Gift-Packing-Shipping.jpg",
+          "sku": { "def": { "price": 11.48, "promotionPrice": 3.92 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806443025076",
+          "title": "Wholesale Blank Kraft Paper Gift bags Custom Printed Recyclable Kraft Paper Shopping Bag Cosmetic Wedding Candy Grocery Bag",
+          "sales": 24,
+          "itemUrl": "//www.aliexpress.com/item/3256806443025076.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S5f3249a7841649c59eed770c9e6fd67ef/Wholesale-Blank-Kraft-Paper-Gift-bags-Custom-Printed-Recyclable-Kraft-Paper-Shopping-Bag-Cosmetic-Wedding-Candy.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 11.43 } },
+          "averageStarRate": 4.7,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [{ "name": "Free shipping", "id": "m0000064" }]
+      },
+      {
+        "item": {
+          "itemId": "3256806823976996",
+          "title": "Fashion Pleated Handlebags for Women PU Cloud Bags Leisure Armpit Bag Shopping Shoulder Bags Dumpling Handbag Female Hand Bags",
+          "sales": 3000,
+          "itemUrl": "//www.aliexpress.com/item/3256806823976996.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sa0ddd3469f8b4397a7e071dab27bd961h/Fashion-Pleated-Handlebags-for-Women-PU-Cloud-Bags-Leisure-Armpit-Bag-Shopping-Shoulder-Bags-Dumpling-Handbag.jpg",
+          "sku": { "def": { "price": 8.22, "promotionPrice": 3.59 } },
+          "averageStarRate": 5,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806667894165",
+          "title": "Leopard Pattern Tote Bag Vintage Canvas Shoulder Bag Fashion Big Capacity Handbag For School Work Shopping",
+          "sales": 10,
+          "itemUrl": "//www.aliexpress.com/item/3256806667894165.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Se9fb1f4b7f804958a5fbbe4229d40a3f4/Leopard-Pattern-Tote-Bag-Vintage-Canvas-Shoulder-Bag-Fashion-Big-Capacity-Handbag-For-School-Work-Shopping.jpg",
+          "sku": { "def": { "price": 17.13, "promotionPrice": 8.12 } },
+          "averageStarRate": 4.3,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sba3affa33fb2433f934852e5b2abaf25v/250x64.png",
+            "id": "m0000127"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806851580058",
+          "title": "50pcs/Lot Multiple-sizes Printing Star Moon Christmas Organza Sack Drawstring Charm Packaging Bags Daily Jewelry Package",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256806851580058.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S254390ca0d1a4b32a0067b01555114360/50pcs-Lot-Multiple-sizes-Printing-Star-Moon-Christmas-Organza-Sack-Drawstring-Charm-Packaging-Bags-Daily-Jewelry.jpg",
+          "sku": { "def": { "price": 2.92, "promotionPrice": 0.99 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          { "name": "Extra 1% off with coins", "id": "m0000063" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807937707927",
+          "title": "Customized polyethylene mailing bags with logo self-adhesive plastic express bags gift wrapping bags personalized packaging",
+          "sales": 117,
+          "itemUrl": "//www.aliexpress.com/item/3256807937707927.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S7e29a79620474d768f3c25186929ac8fL/Customized-polyethylene-mailing-bags-with-logo-self-adhesive-plastic-express-bags-gift-wrapping-bags-personalized-packaging.png",
+          "sku": { "def": { "price": 29.9, "promotionPrice": 17.84 } },
+          "averageStarRate": 4.9,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          { "name": "Extra 5% off with coins", "id": "m0000063" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807546610613",
+          "title": "Disney 2024 New Cartoon Plush Doll Shoulder Bag Sweet and Cute Stitch Strawberry Bear Soft Cute Girls Handbag",
+          "sales": 500,
+          "itemUrl": "//www.aliexpress.com/item/3256807546610613.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sb282096aeef74ec480e5d6909a0edecbM/Disney-2024-New-Cartoon-Plush-Doll-Shoulder-Bag-Sweet-and-Cute-Stitch-Strawberry-Bear-Soft-Cute.jpg",
+          "sku": { "def": { "price": 13.31, "promotionPrice": 5.62 } },
+          "averageStarRate": 5,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807290675381",
+          "title": "Japanese two-dimensional student JK uniform bag girl PU schoolbag COS wear-resistant waterproof one-shoulder Messenger handbag",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807290675381.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sc22a9f174deb47999016b6597eb0444cU/Japanese-two-dimensional-student-JK-uniform-bag-girl-PU-schoolbag-COS-wear-resistant-waterproof-one-shoulder.jpg",
+          "sku": { "def": { "price": 32.9, "promotionPrice": 14.38 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806713916483",
+          "title": "Women's Bag New Fashionable and High end Texture Single Shoulder Oblique Cross European and American Handheld Women's Bag",
+          "sales": 800,
+          "itemUrl": "//www.aliexpress.com/item/3256806713916483.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S9feb72ea10184d72a57a140396832dc2W/Women-s-Bag-New-Fashionable-and-High-end-Texture-Single-Shoulder-Oblique-Cross-European-and-American.jpg",
+          "sku": { "def": { "price": 24.5, "promotionPrice": 11.41 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "2255800700146374",
+          "title": "50X Custom Logo Paper Shopping Bag With Ribbon Handle for Clothing Gift Packaging Bag Sacola De Papel",
+          "sales": 44,
+          "itemUrl": "//www.aliexpress.com/item/2255800700146374.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/HTB1ZcfXXifrK1RjSspbq6A4pFXa5/50X-Custom-Logo-Paper-Shopping-Bag-With-Ribbon-Handle-for-Clothing-Gift-Packaging-Bag-Sacola-De.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 35.1 } },
+          "averageStarRate": 5,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [{ "name": "Free shipping", "id": "m0000064" }]
+      },
+      {
+        "item": {
+          "itemId": "3256807332231279",
+          "title": "3/5PCS Vacuum Storage Bags For Clothes,Bedding,Space Saving Bags Storage Vacuum Seal Packet,Folding Compressed Organizer Bag",
+          "sales": 3000,
+          "itemUrl": "//www.aliexpress.com/item/3256807332231279.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S5bb09d941dcc4c9199cffc3af5da82ebd/3-5PCS-Vacuum-Storage-Bags-For-Clothes-Bedding-Space-Saving-Bags-Storage-Vacuum-Seal-Packet-Folding.jpg",
+          "sku": { "def": { "price": 4.37, "promotionPrice": 4.13 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sba3affa33fb2433f934852e5b2abaf25v/250x64.png",
+            "id": "m0000127"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807392705161",
+          "title": "500/50Pcs Disposable Food Cover Fruit Food Cover Elastic Plastic Shower Cap Food Grade Storage Bag Kitchen Organizer Cling Film",
+          "sales": 4000,
+          "itemUrl": "//www.aliexpress.com/item/3256807392705161.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S24eb9e714a964eac81b85f3cc7c5a077H/500-50Pcs-Disposable-Food-Cover-Fruit-Food-Cover-Elastic-Plastic-Shower-Cap-Food-Grade-Storage-Bag.jpg",
+          "sku": { "def": { "price": 1.23, "promotionPrice": 1.13 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sba3affa33fb2433f934852e5b2abaf25v/250x64.png",
+            "id": "m0000127"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807593464060",
+          "title": "50/100/200PCS Colorful Disposable Food Cover Food Grade Fruit Fresh-keeping Plastic Bag Transparent Plastic Bag Color Cling Film",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807593464060.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S10d055b962e94e1384746a7bfcdd95ebz/50-100-200PCS-Colorful-Disposable-Food-Cover-Food-Grade-Fruit-Fresh-keeping-Plastic-Bag-Transparent-Plastic.jpg",
+          "sku": { "def": { "price": 2.22, "promotionPrice": 2.12 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256808263717503",
+          "title": "5-50pcs Pink Bow Paper Gift Bags with Handle Pink Coquette Bowknot Goodie Candy Treat Bag for Baby Shower Wedding Birthday Party",
+          "sales": 0,
+          "itemUrl": "//www.aliexpress.com/item/3256808263717503.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S02d97b46f5cb4fa89410faf3ebf28644k/5-50pcs-Pink-Bow-Paper-Gift-Bags-with-Handle-Pink-Coquette-Bowknot-Goodie-Candy-Treat-Bag.jpg",
+          "sku": { "def": { "price": 3.73, "promotionPrice": 3.73 } },
+          "averageStarRate": null,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping", "id": "m0000064" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807891300522",
+          "title": "Fresh Sweet Girl Handbag Fashionable High end Corduroy Printed Shoulder Bag Leisure Shopping Commuter Women's Underarm Bag",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807891300522.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sd8f80fa876c343548be944b216d546d5E/Fresh-Sweet-Girl-Handbag-Fashionable-High-end-Corduroy-Printed-Shoulder-Bag-Leisure-Shopping-Commuter-Women-s.jpg",
+          "sku": { "def": { "price": 11.42, "promotionPrice": 5.02 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          },
+          { "id": "m0000155" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807047831687",
+          "title": "MINISO Disney New Series Cute Snoopy Corduroy Tote Bag Casual Hundred Students Large Capacity Handbag Zipper Shoulder Large Bag",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807047831687.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S5db26f6bdd584f11952040633305b747i/MINISO-Disney-New-Series-Cute-Snoopy-Corduroy-Tote-Bag-Casual-Hundred-Students-Large-Capacity-Handbag-Zipper.jpg",
+          "sku": { "def": { "price": 22.9, "promotionPrice": 9.75 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256805807377573",
+          "title": "New Women's Multifunction Backpack Casual Solid Color School Bag  For Girls Fashion Detachable Strap Travel Shoulder Bag",
+          "sales": 4000,
+          "itemUrl": "//www.aliexpress.com/item/3256805807377573.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6f631a1810684d288c5fd2e94751eb56k/New-Women-s-Multifunction-Backpack-Casual-Solid-Color-School-Bag-For-Girls-Fashion-Detachable-Strap-Travel.jpg",
+          "sku": { "def": { "price": 12.46, "promotionPrice": 4.39 } },
+          "averageStarRate": 4.3,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "2251832527140261",
+          "title": "100pcs/lot 5 Size Transparent Cookie Packaging Bags Self-adhesive Plastic Biscuit Bag Wedding Candy Bags",
+          "sales": 800,
+          "itemUrl": "//www.aliexpress.com/item/2251832527140261.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/HTB1EylgLpXXXXcPXVXXq6xXFXXX9/100pcs-lot-5-Size-Transparent-Cookie-Packaging-Bags-Self-adhesive-Plastic-Biscuit-Bag-Wedding-Candy-Bags.jpg",
+          "sku": { "def": { "price": 1.84, "promotionPrice": 1.74 } },
+          "averageStarRate": 4.9,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806104312373",
+          "title": "Nylon Handbags Shoulder Bag Japanese Large Capacity Crossbody Bag Retro Workwear Postman Bags for Women",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256806104312373.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S79932cfe40fd4b769740dcb4d024ba72a/Nylon-Handbags-Shoulder-Bag-Japanese-Large-Capacity-Crossbody-Bag-Retro-Workwear-Postman-Bags-for-Women.jpg",
+          "sku": { "def": { "price": 19.21, "promotionPrice": 7.97 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807158899194",
+          "title": "Large Capacity Leopard Print Hand Shopping Bag Women's Daily Folding Handbag",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807158899194.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sc105b60c5ee2464cbcf4a72096d18f9b4/Large-Capacity-Leopard-Print-Hand-Shopping-Bag-Women-s-Daily-Folding-Handbag.jpg",
+          "sku": { "def": { "price": 3.49, "promotionPrice": 1.59 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807533599408",
+          "title": "2024 New Versatile Business Bag USB Rechargeable School Bag Waterproof Laptop Bag Backpack",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807533599408.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S92a0d5ea464b403dbaba8fdd30384f8aw/2024-New-Versatile-Business-Bag-USB-Rechargeable-School-Bag-Waterproof-Laptop-Bag-Backpack.jpg",
+          "sku": { "def": { "price": 17.16, "promotionPrice": 7.28 } },
+          "averageStarRate": 4.4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "2255800094416732",
+          "title": "100pcs Custom LOGO Shopping bags High quality thick Paper Tote bags  for  Jewelry bag",
+          "sales": 4,
+          "itemUrl": "//www.aliexpress.com/item/2255800094416732.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/H654d451455794160beec4f9b74ca43d86/100pcs-Custom-LOGO-Shopping-bags-High-quality-thick-Paper-Tote-bags-for-Jewelry-bag.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 144 } },
+          "averageStarRate": null,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [{ "name": "Free shipping", "id": "m0000064" }]
+      },
+      {
+        "item": {
+          "itemId": "3256803205948647",
+          "title": "2022 New Women's Fashion Handbags Retro Solid Color PU Leather Shoulder Underarm Bag Casual Women Hobos Handbags",
+          "sales": 4000,
+          "itemUrl": "//www.aliexpress.com/item/3256803205948647.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Hc7a88d376e944b119fe8dcbb4cb54ac8W/2022-New-Women-s-Fashion-Handbags-Retro-Solid-Color-PU-Leather-Shoulder-Underarm-Bag-Casual-Women.jpg",
+          "sku": { "def": { "price": 3.1, "promotionPrice": 2.9 } },
+          "averageStarRate": 4.1,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807120299215",
+          "title": "Stitch Sanrio Culomi Insulated Tote Lunch Bag - Reusable, foldable, zip fastening, insulated aluminium film inside canvas bag",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256807120299215.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S46bf2ea364c44a14984c650d01541d326/Stitch-Sanrio-Culomi-Insulated-Tote-Lunch-Bag-Reusable-foldable-zip-fastening-insulated-aluminium-film-inside-canvas.jpg",
+          "sku": { "def": { "price": 8.93, "promotionPrice": 3.59 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806963243390",
+          "title": "Women's Patent Leather Handbag Versatile Fashion Shoulder Casual Commuting Bags Girl Brand Designer Zipper Handbag Korean 2024",
+          "sales": 500,
+          "itemUrl": "//www.aliexpress.com/item/3256806963243390.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S81e5bbf5874b4737b32074d8ef2e09e1K/Women-s-Patent-Leather-Handbag-Versatile-Fashion-Shoulder-Casual-Commuting-Bags-Girl-Brand-Designer-Zipper-Handbag.jpg",
+          "sku": { "def": { "price": 4.5, "promotionPrice": 4.4 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806331566025",
+          "title": "10pcs/lot High Quality Pretty Pink Gift Bag Gift Box Ornament Pajama Book Black Handle With Ribbon Paper Box Bag Kraft Packaging",
+          "sales": 141,
+          "itemUrl": "//www.aliexpress.com/item/3256806331566025.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S3e80a3f529794d7e9dfa8281da86af4ez/10pcs-lot-High-Quality-Pretty-Pink-Gift-Bag-Gift-Box-Ornament-Pajama-Book-Black-Handle-With.jpg",
+          "sku": { "def": { "price": 18.8, "promotionPrice": 11.18 } },
+          "averageStarRate": 5,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807448379089",
+          "title": "High Quality Nylon Panelled Waist Packs 2024 New Brand Unisex Chest Pack Casual Outdoor Travel Crossbody Bag Men Wasit Belt Bags",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807448379089.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S8757223cbe444ebeaeb09dbc0828109a3/High-Quality-Nylon-Panelled-Waist-Packs-2024-New-Brand-Unisex-Chest-Pack-Casual-Outdoor-Travel-Crossbody.jpg",
+          "sku": { "def": { "price": 20.34, "promotionPrice": 8.85 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806810005947",
+          "title": "Motorcycle leg bag, waterproof rider waist bag, cycling bike, crossbody bag, motorcycle equipment",
+          "sales": 4000,
+          "itemUrl": "//www.aliexpress.com/item/3256806810005947.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S0392a654217948759fce41365aff803bw/Motorcycle-leg-bag-waterproof-rider-waist-bag-cycling-bike-crossbody-bag-motorcycle-equipment.jpg",
+          "sku": { "def": { "price": 15.99, "promotionPrice": 6.99 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          { "name": "Extra 2% off with coins", "id": "m0000063" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806997750838",
+          "title": "Corduroy Crossbody Tote Bag, Women's Square Crossbody Bag, Casual Tote Bag, Shoulder Bag, Travel Organiser Bag",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256806997750838.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S16eb46f171c8467e963577d26f2989b66/Corduroy-Crossbody-Tote-Bag-Women-s-Square-Crossbody-Bag-Casual-Tote-Bag-Shoulder-Bag-Travel-Organiser.jpg",
+          "sku": { "def": { "price": 7.91, "promotionPrice": 3.19 } },
+          "averageStarRate": 4.4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806732283684",
+          "title": "500pcs/Lot Customize Logo Non Woven Bag for Clothing Packing Recycled Eco Fabric Shopping Bags with Multiple Colors for Women",
+          "sales": 0,
+          "itemUrl": "//www.aliexpress.com/item/3256806732283684.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S830e58b766ca4f49bb215a3dc544214cy/500pcs-Lot-Customize-Logo-Non-Woven-Bag-for-Clothing-Packing-Recycled-Eco-Fabric-Shopping-Bags-with.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 280 } },
+          "averageStarRate": null,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [{ "name": "Free shipping", "id": "m0000064" }]
+      },
+      {
+        "item": {
+          "itemId": "3256806158251327",
+          "title": "Casual Nylon Hobos Crossbody Bag for Women Designer Shoulder Bags Large Capacity Tote Lady Travel Shopper Bag Female Purses 2025",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256806158251327.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S23b5e7328e8448f78383ba75b0bb151a7/Casual-Nylon-Hobos-Crossbody-Bag-for-Women-Designer-Shoulder-Bags-Large-Capacity-Tote-Lady-Travel-Shopper.png",
+          "sku": { "def": { "price": 4.68, "promotionPrice": 4.58 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sba3affa33fb2433f934852e5b2abaf25v/250x64.png",
+            "id": "m0000127"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807580381173",
+          "title": "Fashionable Underarm Bow Bag for Women 2024 Korean Edition New Simple Leisure Pillow Bag Trendy Versatile Shoulder Bag",
+          "sales": 479,
+          "itemUrl": "//www.aliexpress.com/item/3256807580381173.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S190ca3fcae73499dbe47b46de64b1720G/Fashionable-Underarm-Bow-Bag-for-Women-2024-Korean-Edition-New-Simple-Leisure-Pillow-Bag-Trendy-Versatile.jpg",
+          "sku": { "def": { "price": 27.41, "promotionPrice": 11.51 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/S1510b748f1554c51b5d8897476bca188w/234x64.png",
+            "id": "m0000139"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807158397111",
+          "title": "Disney's New Stitched Cartoon Sequined Back Fashionable and Versatile Trendy Kindergarten School Bag for Boys and Girls",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256807158397111.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Seccf2502b1c94ebd99c89ffbd03adad74/Disney-s-New-Stitched-Cartoon-Sequined-Back-Fashionable-and-Versatile-Trendy-Kindergarten-School-Bag-for-Boys.jpg",
+          "sku": { "def": { "price": 13.73, "promotionPrice": 5.39 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "2255799851296555",
+          "title": "100pcs/Lot 7x9 9x12 10x15 13x18cm White Organza Gift Bags Jewelry Drawstrings Bags Wedding Christmas Gift Package Bags",
+          "sales": 91,
+          "itemUrl": "//www.aliexpress.com/item/2255799851296555.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/H8c630371b35047ba8d8ab062867486e1F/100pcs-Lot-7x9-9x12-10x15-13x18cm-White-Organza-Gift-Bags-Jewelry-Drawstrings-Bags-Wedding-Christmas-Gift.jpg",
+          "sku": { "def": { "price": 9.5, "promotionPrice": 6.07 } },
+          "averageStarRate": 5,
+          "type": "ad"
+        },
+        "delivery": { "freeShipping": true, "shippingFee": 0 },
+        "sellingPoints": [
+          { "name": "Free shipping", "id": "m0000064" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256807619326872",
+          "title": "Ryanair Backpack 40x20x25 Cabin Bag Travel Backpack for Men Women Hand Luggage Leisure Laptop Backpack mochila para viaje cabina",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256807619326872.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sba4e38c451b34bcbb407f38c193f57f6F/Ryanair-Backpack-40x20x25-Cabin-Bag-Travel-Backpack-for-Men-Women-Hand-Luggage-Leisure-Laptop-Backpack-mochila.jpg",
+          "sku": { "def": { "price": 41.87, "promotionPrice": 17.9 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806022702387",
+          "title": "Large Capacity Shoulder Bag Women Female Fashion Casual Handbags PU Leather Crossobdy Clutch Flap Bag Streetwear Accessory",
+          "sales": 270,
+          "itemUrl": "//www.aliexpress.com/item/3256806022702387.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sd8251be0f7834ea88364e4e5884fc825h/Large-Capacity-Shoulder-Bag-Women-Female-Fashion-Casual-Handbags-PU-Leather-Crossobdy-Clutch-Flap-Bag-Streetwear.jpg",
+          "sku": { "def": { "price": 13.3, "promotionPrice": 5.85 } },
+          "averageStarRate": 4.5,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/S1070fe6ce9fd4b2bb6760161cf556f9ag/372x64.png",
+            "id": "m0000165"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          },
+          { "id": "m0000155" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256806626860731",
+          "title": "Disposable Food Cover Plastic Wrap Elastic Food Lids for Fruit Bowls Cups Caps Storage Kitchen Fresh Keeping Saver Bag 500pcs",
+          "sales": 4000,
+          "itemUrl": "//www.aliexpress.com/item/3256806626860731.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S34746d0c29f341609e748e9140dae776z/Disposable-Food-Cover-Plastic-Wrap-Elastic-Food-Lids-for-Fruit-Bowls-Cups-Caps-Storage-Kitchen-Fresh.jpg",
+          "sku": { "def": { "price": 1.27, "promotionPrice": 1.25 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sba3affa33fb2433f934852e5b2abaf25v/250x64.png",
+            "id": "m0000127"
+          },
+          {
+            "image": "//ae01.alicdn.com/kf/Sb6a0486896c44dd8b19b117646c39e36J/116x64.png",
+            "id": "m0000026"
+          },
+          { "id": "m0000155" }
+        ]
+      },
+      {
+        "item": {
+          "itemId": "3256803320786717",
+          "title": "10/20/30/40/50pcs lot color kraft paper bag with handles 21x15x8cm Festival gift bag High Quality shopping bags",
+          "sales": 134,
+          "itemUrl": "//www.aliexpress.com/item/3256803320786717.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S4a5dc552dc86430bac5ab61aa9d5bf63w/10-20-30-40-50pcs-lot-color-kraft-paper-bag-with-handles-21x15x8cm-Festival-gift-bag.jpg",
+          "sku": { "def": { "price": 5.28, "promotionPrice": 5.27 } },
+          "averageStarRate": 4.7,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": [
+          {
+            "image": "//ae01.alicdn.com/kf/S1887a285b60743859ac7bdbfca5e0896Z/154x64.png",
+            "id": "m0000094"
+          },
+          { "name": "Free shipping over $10", "id": "m0000095" },
+          {
+            "image": "//ae01.alicdn.com/kf/Sf1ff53f3b80f474b9cea8f77a281ca3bN/298x64.png",
+            "id": "m0000040"
+          }
+        ]
+      }
+    ]
+  }
+}

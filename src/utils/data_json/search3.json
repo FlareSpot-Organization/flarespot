@@ -1,0 +1,348 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "p": "true",
+      "data": "success",
+      "executionTime": "2.68",
+      "requestTime": "2025-02-06 13:51:21",
+      "requestId": "b2eb73aa1045d2cbcdf982a680570de6",
+      "endpoint": "item_search_2",
+      "apiVersion": "4.0.5",
+      "functionsVersion": "4.0.8",
+      "la": "0.74",
+      "pmu": 1167432,
+      "mu": 936936
+    },
+    "settings": {
+      "q": "bags",
+      "catId": "",
+      "brandId": "",
+      "loc": "",
+      "attr": "",
+      "switches": "",
+      "sort": "default",
+      "page": "1",
+      "startPrice": "",
+      "endPrice": "",
+      "region": "US",
+      "locale": "en_US",
+      "currency": "USD"
+    },
+    "base": {
+      "totalResults": "1393447",
+      "pageSize": "20",
+      "q": "bags",
+      "sortValues": ["default", "salesDesc", "priceAsc", "priceDesc"],
+      "switchesList": [
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Sale", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Ship from US", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Choice", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Big Save", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Free shipping", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Brand", "id": false, "selected": false }]
+        }
+      ]
+    },
+    "resultList": [
+      {
+        "item": {
+          "itemId": "3256805450268335",
+          "title": "100Pcs/lot 7x9 9x12 10x15 13x18CM Organza Bags Jewelry Bag Wedding Party Decoration Drawable Bags Gift Pouches Jewelry Packaging",
+          "sales": 2909,
+          "itemUrl": "//www.aliexpress.com/item/3256805450268335.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S84af0d64ae234bada1d22d9e3504821eY.jpg",
+          "sku": { "def": { "price": 4.14, "promotionPrice": 3.85 } },
+          "averageStarRate": 4.9,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807877873814",
+          "title": "5PCS/1PCS Large Capacity Storage Bag for Christmas Dustproof Cover Waterproof Storage Bag Home Organizer for Holiday Gifts",
+          "sales": 0,
+          "itemUrl": "//www.aliexpress.com/item/3256807877873814.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S831a9d8b75f94a6fa8f79faa123d3625q.jpg",
+          "sku": { "def": { "price": 35.47, "promotionPrice": 11.34 } },
+          "averageStarRate": null,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807913212248",
+          "title": "2024 ALAI New Luxury Heart Bag For Sac De Luxe Femme Bags For Women Bolsos De Mujer Mini Cross Bag Calfskin Love Bags A01",
+          "sales": 14,
+          "itemUrl": "//www.aliexpress.com/item/3256807913212248.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S39b4d8458e14400aa566e43a1c624d78U.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 101.21 } },
+          "averageStarRate": 5,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807533599408",
+          "title": "2024 New Versatile Business Bag USB Rechargeable School Bag Waterproof Laptop Bag Backpack",
+          "sales": 3020,
+          "itemUrl": "//www.aliexpress.com/item/3256807533599408.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S92a0d5ea464b403dbaba8fdd30384f8aw.jpg",
+          "sku": { "def": { "price": 17.16, "promotionPrice": 7.28 } },
+          "averageStarRate": 4.4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807047831687",
+          "title": "MINISO Disney New Series Cute Snoopy Corduroy Tote Bag Casual Hundred Students Large Capacity Handbag Zipper Shoulder Large Bag",
+          "sales": 2629,
+          "itemUrl": "//www.aliexpress.com/item/3256807047831687.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S5db26f6bdd584f11952040633305b747i.jpg",
+          "sku": { "def": { "price": 22.9, "promotionPrice": 9.75 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806713916483",
+          "title": "Women's Bag New Fashionable and High end Texture Single Shoulder Oblique Cross European and American Handheld Women's Bag",
+          "sales": 1220,
+          "itemUrl": "//www.aliexpress.com/item/3256806713916483.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S9feb72ea10184d72a57a140396832dc2W.jpg",
+          "sku": { "def": { "price": 24.5, "promotionPrice": 11.41 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256804900170094",
+          "title": "Yogodlns Elegant Women Messenger Bags with flower pendant Office Ladies Totes Pure Handbag for female Crossbody Shoulder Bags",
+          "sales": 3070,
+          "itemUrl": "//www.aliexpress.com/item/3256804900170094.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6ce536a8b0a348bca471b9202382f0e2d.jpg",
+          "sku": { "def": { "price": 22.68, "promotionPrice": 10.11 } },
+          "averageStarRate": 4.4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806756878753",
+          "title": "Embroidery Messenger Bags Women, Perfect Handbag For Everyday Use",
+          "sales": 2248,
+          "itemUrl": "//www.aliexpress.com/item/3256806756878753.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S05e9c75cdd1d4a208f5d1741115604d7C.jpg",
+          "sku": { "def": { "price": 18.35, "promotionPrice": 9.08 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807626149418",
+          "title": "Disney Stitch sanrio Canvas Bucket Bag Cute Cartoon Tote Bag Casual and Versatile Crossbody Bag Portable Tote Bag",
+          "sales": 9865,
+          "itemUrl": "//www.aliexpress.com/item/3256807626149418.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S27327d03647746a09aff9f60204a86efg.jpg",
+          "sku": { "def": { "price": 10.35, "promotionPrice": 4.35 } },
+          "averageStarRate": 4.4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256803205948647",
+          "title": "2022 New Women's Fashion Handbags Retro Solid Color PU Leather Shoulder Underarm Bag Casual Women Hobos Handbags",
+          "sales": 6025,
+          "itemUrl": "//www.aliexpress.com/item/3256803205948647.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Hc7a88d376e944b119fe8dcbb4cb54ac8W.jpg",
+          "sku": { "def": { "price": 3.1, "promotionPrice": 2.9 } },
+          "averageStarRate": 4.1,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256804085614408",
+          "title": "100 Pcs Customized Logo Color Shopping Bag With Handle Plastic Gift Bag Businss Customer Plastic Bag(excluding printing fee)",
+          "sales": 1665,
+          "itemUrl": "//www.aliexpress.com/item/3256804085614408.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S20d3b982c4044dffb024f7d86218d08en.jpg",
+          "sku": { "def": { "price": 18.18, "promotionPrice": 8.99 } },
+          "averageStarRate": 4.7,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806617035378",
+          "title": "Classic Designer PU Leather Crossbody Bag for Women Travel Handle Handbag Fashion Shoulder Messenger Bag Ladies Small Flap Bag",
+          "sales": 11838,
+          "itemUrl": "//www.aliexpress.com/item/3256806617035378.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sa4bb8c26d51c4fe390c0ed12369b612a0.jpg",
+          "sku": { "def": { "price": 9.44, "promotionPrice": 4.43 } },
+          "averageStarRate": 4.3,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256805481388294",
+          "title": "Women's Casual Tote Bag, Fashion PU Leather Shoulder Bag, Large Capacity Travel Handbag",
+          "sales": 1799,
+          "itemUrl": "//www.aliexpress.com/item/3256805481388294.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S0986629a4d0a4ce687cbdd981460b05dC.jpg",
+          "sku": { "def": { "price": 34.06, "promotionPrice": 15.23 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256805967716897",
+          "title": "Trendy Fashion Ladies Crossbody Small Square Bag Girls Shoulder Bag Cross Square Tassel Pendant Sequin Embellished PU Polyester",
+          "sales": 1597,
+          "itemUrl": "//www.aliexpress.com/item/3256805967716897.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sbe3c7535b59040a7ad408c928ef0f722n.jpg",
+          "sku": { "def": { "price": 17.01, "promotionPrice": 7.72 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806158251327",
+          "title": "Casual Nylon Hobos Crossbody Bag for Women Designer Shoulder Bags Large Capacity Tote Lady Travel Shopper Bag Female Purses 2025",
+          "sales": 10877,
+          "itemUrl": "//www.aliexpress.com/item/3256806158251327.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S23b5e7328e8448f78383ba75b0bb151a7.png",
+          "sku": { "def": { "price": 4.68, "promotionPrice": 4.58 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807770666727",
+          "title": "Vintage Cartoon Women Canvas Messenger Bag Large Capacity Tote Bag Women Shoulder Handbag",
+          "sales": 836,
+          "itemUrl": "//www.aliexpress.com/item/3256807770666727.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S800bf5d8b3464d5eb851165aaaf729c0I.jpg",
+          "sku": { "def": { "price": 30.65, "promotionPrice": 12.77 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807456944013",
+          "title": "Sanrio Bag Kawaii Kuromi Cinnamoroll My Melody Cartoon Anime Plush Handbag Cosmetic Bag Travel Storage Bag Women Girl Gifts",
+          "sales": 3922,
+          "itemUrl": "//www.aliexpress.com/item/3256807456944013.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sd48e12bcd73d4e9f9ac4d8e00e296e9dP.jpg",
+          "sku": { "def": { "price": 7.7, "promotionPrice": 3.13 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806512577553",
+          "title": "Large Capacity Canvas Tote Bags for Work Commuting Carrying Bag College Style Student Outfit Book Shoulder Bag Bolsos Para Mujer",
+          "sales": 14959,
+          "itemUrl": "//www.aliexpress.com/item/3256806512577553.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Scecbf7d4fbcd4fe09d44b8273d2538b0y.jpg",
+          "sku": { "def": { "price": 7.38, "promotionPrice": 7.28 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806502954638",
+          "title": "2025 Women's Khaki Velour Tote Bag Original Letter Print Medium Ladies Brand Shopper Handbag Female Square Medium Shoulder Bags",
+          "sales": 194,
+          "itemUrl": "//www.aliexpress.com/item/3256806502954638.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6d9e844815354149b4a2cb3c65a49e54h.jpg",
+          "sku": { "def": { "price": 37.26, "promotionPrice": 21.51 } },
+          "averageStarRate": 4.9,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807535588791",
+          "title": "Crossbody Bag With Pleated Design Embroidered Plaid Shoulder Bag Underarm Bags Simple Large Capacity Quilted Tote Bags For Women",
+          "sales": 357,
+          "itemUrl": "//www.aliexpress.com/item/3256807535588791.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S727e7f9fb9d643fdbdbe9d49fb0dffa8y.jpg",
+          "sku": { "def": { "price": 11.05, "promotionPrice": 4.54 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      }
+    ]
+  }
+}

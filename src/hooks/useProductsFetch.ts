@@ -13,6 +13,8 @@ const useProductsFetch = () => {
   );
   const dispatch = useDispatch<AppDispatch>();
 
+  console.log(products);
+
   useEffect(() => {
     dispatch(getProductCategories());
     dispatch(getDeals());

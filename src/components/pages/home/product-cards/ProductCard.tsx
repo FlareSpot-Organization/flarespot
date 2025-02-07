@@ -9,7 +9,6 @@ const ProductCard = ({ item }: { item: any }) => {
   const promotionPrice = item?.item?.sku?.def?.promotionPrice ?? originalPrice;
 
   const calculateDiscount = (original: number, current: number) => {
-    // Handle cases with no promotion price or invalid calculations
     if (!original || current >= original) return 0;
     return Math.round(((original - current) / original) * 100);
   };
@@ -48,48 +47,52 @@ const ProductCard = ({ item }: { item: any }) => {
   const averageStarRate = item?.item?.averageStarRate ?? item?.averageStarRate;
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-sm my-2 cursor-pointer hover:shadow-lg h-[60vh] flex flex-col">
+    <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col h-full max-w-xs mx-auto">
       {/* Product Image with zoom and view button */}
       <div
-        className="relative aspect-square overflow-hidden rounded-lg mb-3"
+        className="relative aspect-square rounded-lg mb-3 overflow-hidden"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}>
         <div
-          className={`w-full  transform transition-transform duration-700 ease-in-out ${
+          className={`w-full h-full transform transition-transform duration-700 ease-in-out ${
             isHovered ? "scale-110" : "scale-100"
           }`}>
           <img
-            src={item?.image?.replace("//", "https://")}
-            alt={item?.title}
-            className="w-full h-[40vh] border object-cover"
+            src={`${item?.item?.image}_480x480.png_.webp`}
+            alt={item?.item?.title}
+            className="w-full h-full object-cover"
           />
         </div>
 
         {/* View Button - Only visible on hover */}
         <div
-          className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 ${
+          className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 bg-black/30 ${
             isHovered ? "opacity-100" : "opacity-0"
           }`}>
           <a
             href={`https:${item?.itemUrl}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-1.5 text-[11px] bg-black/90 hover:bg-black/70 text-white rounded-full transition-colors">
+            className="px-6 py-2 text-sm bg-white hover:bg-gray-100 text-black rounded-full transition-colors">
             View Item
           </a>
         </div>
 
         {/* Sales Badge */}
         {item?.sales > 0 && (
-          <div className="absolute bottom-2 right-2 bg-black/80 text-white px-2 py-1 rounded text-sm">
+          <div className="absolute bottom-2 right-2 bg-orange-500 text-white px-2 py-1 rounded text-xs">
             {item?.sales} sold
           </div>
         )}
       </div>
 
       {/* Product Details */}
-      <div className="space-y-2 flex-grow flex flex-col justify-between">
+      <div className="flex-grow flex flex-col justify-between space-y-2">
         <div>
+          <h2 className="text-sm font-semibold line-clamp-2 mb-2">
+            {item?.item?.title}
+          </h2>
+
           <div className="flex justify-between items-baseline mb-2">
             <div className="flex items-baseline gap-2">
               <span className="text-lg font-bold text-orange-500">
@@ -109,7 +112,7 @@ const ProductCard = ({ item }: { item: any }) => {
           </div>
 
           {discountPercentage > 0 && (
-            <div className="flex items-center gap-1 mb-2">
+            <div className="flex items-center gap-2 mb-2">
               <div className="flex-grow h-2 bg-gray-200 rounded-full overflow-hidden">
                 <div
                   className="h-full bg-orange-500 rounded-full"
@@ -123,11 +126,9 @@ const ProductCard = ({ item }: { item: any }) => {
               </span>
             </div>
           )}
+        </div>
 
-          <h3 className="text-sm font-medium line-clamp-2 mb-2">
-            {item?.title}
-          </h3>
-
+        <div className="space-y-2">
           <div className="min-h-[24px]">
             {averageStarRate ? (
               <div className="flex items-center gap-1">
@@ -154,14 +155,14 @@ const ProductCard = ({ item }: { item: any }) => {
               <span className="text-[12px] text-[#777]">No rating</span>
             )}
           </div>
-        </div>
 
-        {/* Selling Points */}
-        {renderSellingPoints().length > 0 && (
-          <div className="flex flex-wrap items-center gap-2 mt-2">
-            {renderSellingPoints()}
-          </div>
-        )}
+          {/* Selling Points */}
+          {renderSellingPoints().length > 0 && (
+            <div className="flex flex-wrap items-center gap-2">
+              {renderSellingPoints()}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

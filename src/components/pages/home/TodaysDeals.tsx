@@ -41,7 +41,7 @@ const TodaysDeals: React.FC = () => {
               title="Bundle deals"
               icon={Package}
               badge="3+ from $2.99">
-              {deals?.data?.deals
+              {deals
                 ?.slice(0, 4)
                 ?.map((deal: { deal: any }, index: number) => (
                   <DealsCard key={index} {...deal} />
@@ -52,7 +52,7 @@ const TodaysDeals: React.FC = () => {
               title="SuperDeals"
               icon={Clock}
               badge="Ends in: 22:48:10">
-              {deals?.data?.deals
+              {deals
                 ?.slice(5, 9)
                 ?.map((deal: { deal: any }, index: number) => (
                   <DealsCard key={index} {...deal} />
@@ -60,7 +60,7 @@ const TodaysDeals: React.FC = () => {
             </DealsSection>
 
             <DealsSection title="Big Save" icon={Tags} badge="500+ Brands">
-              {deals?.data?.deals
+              {deals
                 ?.slice(10, 14)
                 ?.map((deal: { deal: any }, index: number) => (
                   <DealsCard key={index} {...deal} />

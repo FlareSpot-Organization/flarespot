@@ -1,0 +1,348 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "attempt": 1,
+      "p": "true",
+      "data": "success",
+      "executionTime": "1.05",
+      "requestTime": "2025-02-06 13:56:44",
+      "requestId": "85c87ccc93252c8d975584442fc26c1b",
+      "endpoint": "item_search_2",
+      "apiVersion": "4.0.5",
+      "functionsVersion": "4.0.8",
+      "la": "0.20",
+      "pmu": 1143304,
+      "mu": 912808
+    },
+    "settings": {
+      "q": "lap",
+      "catId": "",
+      "brandId": "",
+      "loc": "",
+      "attr": "",
+      "switches": "",
+      "sort": "default",
+      "page": "1",
+      "startPrice": "",
+      "endPrice": "",
+      "region": "US",
+      "locale": "en_US",
+      "currency": "USD"
+    },
+    "base": {
+      "totalResults": "761144",
+      "pageSize": "20",
+      "q": "lap",
+      "sortValues": ["default", "salesDesc", "priceAsc", "priceDesc"],
+      "switchesList": [
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Sale", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Ship from US", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Choice", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Big Save", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Free shipping", "id": false, "selected": false }]
+        },
+        {
+          "name": "Special services & ratings",
+          "list": [{ "name": "Brand", "id": false, "selected": false }]
+        }
+      ]
+    },
+    "resultList": [
+      {
+        "item": {
+          "itemId": "3256804894147301",
+          "title": "6inch/8inch 12.7mm Aluminum Master Lap Polishing Plate Holder for Diamond Grinding Pad / Sanding Disc Grinding Pads",
+          "sales": 230,
+          "itemUrl": "//www.aliexpress.com/item/3256804894147301.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S206cc942c2b44600b6adf846e347bd36w.jpg",
+          "sku": { "def": { "price": 8.75, "promotionPrice": 8.25 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807960920400",
+          "title": "Justthink 14 Inch Lightweight Laptop Intel Celeron N4000 DDR4 8GB RAM 256GB 512GB SSD Windows 11 Adult Office Laptop Computer",
+          "sales": 17,
+          "itemUrl": "//www.aliexpress.com/item/3256807960920400.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sb4ff2ed2f9f249a687a2e1932cc2e8f9i.png",
+          "sku": { "def": { "price": 193.08, "promotionPrice": 154.36 } },
+          "averageStarRate": 4.9,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256802701814623",
+          "title": "12pcs W0.5 ~40 Diamond Polishing Abrasive Paste Compound Syringes Grinding Polishing Lapping Paste Micron Glass Metal Tools",
+          "sales": 11,
+          "itemUrl": "//www.aliexpress.com/item/3256802701814623.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/H1a4da73536354dcf9dd13d8ad6d7012b6.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 11.69 } },
+          "averageStarRate": 4,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256803109779584",
+          "title": "Xiaomi REDMI Book 16 2025 C5-220H 2.5K 120Hz Screen/ REDMI Book 14 2025 C5-220H 2.8K 120Hz Screen",
+          "sales": 251,
+          "itemUrl": "//www.aliexpress.com/item/3256803109779584.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sdc5211ddd8cc49ec83252b908538e76cA.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 881.84 } },
+          "averageStarRate": 4.9,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "2251801501983550",
+          "title": "200 carats / 40g Diamond Abrasive  Polishing Powder Grinding Lapping Compound W0.5-W40",
+          "sales": 46,
+          "itemUrl": "//www.aliexpress.com/item/2251801501983550.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/H1c825307e7da4c7a9dde04fde65b5ea8o.jpg",
+          "sku": { "def": { "price": 15.61, "promotionPrice": 15.51 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807973843680",
+          "title": "Dopesplay 15.6inch Portable Lapdock Monitor For Samsung Deck with Keyboard FHD 1080P IPS External Second Monitors For Mac Laptop",
+          "sales": 3,
+          "itemUrl": "//www.aliexpress.com/item/3256807973843680.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S1f3d540f827740f3bcd9442bad3a5029w.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 201.94 } },
+          "averageStarRate": null,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807142612468",
+          "title": "Arzopa 15.6'' FHD 1080P Portable Monitor with HDMI USB IPS Second Monitor External for PC Laptop Mac Switch Xbox ps4,S1 Table",
+          "sales": 6076,
+          "itemUrl": "//www.aliexpress.com/item/3256807142612468.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S71380a844c9e4fe192dcab5e6b79eb39l.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 65.93 } },
+          "averageStarRate": 4.8,
+          "type": "gem"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806498980736",
+          "title": "【New】Teclast T50 Plus Android 14 Tablet 11\" 2K 90Hz High Refresh 6GB +256GB UNISOC T620 8000mAh Battery 8MP+13MP Camera 4G Tab",
+          "sales": 2194,
+          "itemUrl": "//www.aliexpress.com/item/3256806498980736.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sa686daa27c804682b32b5b3e64fcf0d2U.png",
+          "sku": { "def": { "price": 259.98, "promotionPrice": 127.29 } },
+          "averageStarRate": 4.8,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807904808135",
+          "title": "NO CENTER HOLE 12\" 300mm Inch Grit Diamond Grinding Disc Abrasive Wheels Coated Flat Lap Disk for Gemstone Jewelry Tools",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807904808135.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Seb43f560b1134de3ae566693b2893770E.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 27.98 } },
+          "averageStarRate": null,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806670385249",
+          "title": "【World Premiere】Teclast T65 Max 13\" HD Display Android 14 Tablet MediaTek G99 8GB RAM 256GB ROM 10000mAh Battery Widevine L1",
+          "sales": 2350,
+          "itemUrl": "//www.aliexpress.com/item/3256806670385249.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sf5304e465ce04d1fa6d712a00f64fb93h.jpg",
+          "sku": { "def": { "price": 379.98, "promotionPrice": 205.09 } },
+          "averageStarRate": 4.8,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806251703922",
+          "title": "8Pcs Diamond Polishing Lapping Pastes Compound Syringes Set 0.5-10 Micron Tools",
+          "sales": 293,
+          "itemUrl": "//www.aliexpress.com/item/3256806251703922.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S76ba9143820b47d69e1bd66db2a9f691K.jpg",
+          "sku": { "def": { "price": 4.71, "promotionPrice": 4.61 } },
+          "averageStarRate": 4.5,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807153172821",
+          "title": "ARZOPA 16.1 inch 100% sRGB 144Hz Portable Monitor Gaming  Laptop Display with Type C Mini HDMI For PS/Steam/Deck/Switch/PC/Mac",
+          "sales": 10201,
+          "itemUrl": "//www.aliexpress.com/item/3256807153172821.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S4dfd64da24234600b72648aed876dc60m.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 86.58 } },
+          "averageStarRate": 4.8,
+          "type": "gem"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256805845337103",
+          "title": "12 Pieces Diamond Polishing Lapping Paste 320-10000 Grit W40-W0.5 Metal Glass Jewerly Grinding Compound Abrasive Tools",
+          "sales": 128,
+          "itemUrl": "//www.aliexpress.com/item/3256805845337103.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Se543f26667884e76b892c60d28ad58fec.jpg",
+          "sku": { "def": { "price": 8.5, "promotionPrice": 8.4 } },
+          "averageStarRate": 4.8,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807085879479",
+          "title": "8Pcs Diamond Polishing Lapping Pastes Compound Syringes Set 0.5-10 Micron Tools",
+          "sales": 28,
+          "itemUrl": "//www.aliexpress.com/item/3256807085879479.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S4db6f9d417c347fe838dde5c024cd288a.jpg",
+          "sku": { "def": { "price": 4.68, "promotionPrice": 4.58 } },
+          "averageStarRate": 4.7,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256807288621317",
+          "title": "6\" 150mm Aluminum Master Lap Polishing Plate Holder for Diamond Grinding Pad / Sanding Disc",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807288621317.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S49dd0b35708f4e88a0a756b3b59c6b5fX.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 11.87 } },
+          "averageStarRate": null,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256804524807521",
+          "title": "1Pcs  6\" 150mm Diamond Coated Flat Lap Disc Jewelry Polish Grinding Whee Diamond Grinding Disc Grinding Sheet Sand Tray",
+          "sales": 675,
+          "itemUrl": "//www.aliexpress.com/item/3256804524807521.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S3f2b9abbc06248b8bb53fa797467a24fg.jpg",
+          "sku": { "def": { "price": 5.19, "promotionPrice": 4.87 } },
+          "averageStarRate": 4.9,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256806494955755",
+          "title": "1pcs 8inches 200mm Diamond Coated Flat Lap Wheel Grinding Polish Disc Disk 46 60 80 120 150 180 240 320 400 600 800-2000 Grit",
+          "sales": 55,
+          "itemUrl": "//www.aliexpress.com/item/3256806494955755.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Se04e16f65ac24c9fbd2c1ef2a715b38bX.jpeg",
+          "sku": { "def": { "price": null, "promotionPrice": 6.84 } },
+          "averageStarRate": 5,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "3256808075385165",
+          "title": "ACEMAGIC RX16 AMD Ryzen 9 6900HX 16.1\" Ultra Slim 4000MAH Laptop 16GB LPDDR5 Ram 512GB Rom Windows 11Pro BT5.2 Wifi 6 Notebook",
+          "sales": 17,
+          "itemUrl": "//www.aliexpress.com/item/3256808075385165.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S989361554d4b4507a8ebeb443a0c5909f.jpg",
+          "sku": { "def": { "price": null, "promotionPrice": 497.26 } },
+          "averageStarRate": 5,
+          "type": "ad"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "2251801842302311",
+          "title": "12pcs 5 gram Diamond Polishing Lapping Paste Compound Syringes 0.5 to 40 Micron",
+          "sales": 142,
+          "itemUrl": "//www.aliexpress.com/item/2251801842302311.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/HTB1cFFaIXXXXXXWXVXXq6xXFXXXY.jpg",
+          "sku": { "def": { "price": 6.97, "promotionPrice": 6.87 } },
+          "averageStarRate": 4.6,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      },
+      {
+        "item": {
+          "itemId": "2251832460003843",
+          "title": "12pcs  5 gram Diamond Polishing Lapping Paste Compound Syringes 0.5 to 40 Micron",
+          "sales": 157,
+          "itemUrl": "//www.aliexpress.com/item/2251832460003843.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/HTB1sctcMpXXXXbzXFXXq6xXFXXXH.jpg",
+          "sku": { "def": { "price": 7.34, "promotionPrice": 7.24 } },
+          "averageStarRate": 5,
+          "type": "natural"
+        },
+        "delivery": null,
+        "sellingPoints": null
+      }
+    ]
+  }
+}

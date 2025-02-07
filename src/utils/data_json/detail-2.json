@@ -4,563 +4,213 @@
       "code": 200,
       "attempt": 1,
       "data": "success",
-      "executionTime": "1.94",
-      "requestTime": "2024-05-24 21:28:22",
-      "requestId": "202405246651067464c69",
-      "endpoint": "item_detail_6",
-      "apiVersion": "4.x.x",
-      "functionsVersion": "4.x.x",
-      "la": "3.83",
-      "pmu": 638560,
-      "mu": 638216
+      "executionTime": "1.64",
+      "requestTime": "2025-02-06 13:55:11",
+      "requestId": "0e7b1b6012142e2436261a9eceaadb45",
+      "endpoint": "item_detail",
+      "apiVersion": "4.0.5",
+      "functionsVersion": "4.0.8",
+      "la": "0.38",
+      "pmu": 722912,
+      "mu": 627608
     },
     "settings": {
       "locale": "en_US",
       "currency": "USD",
       "country": "US",
-      "itemId": "3256806371998779"
+      "itemId": "3256807785647021"
     },
     "item": {
       "available": true,
-      "itemId": 3256806371998779,
-      "title": "Music Band Gorillaz PUNK ROCK T Shirt Men Women Summer 90s O-neck Cotton Short Sleeve T-shirts Clothes Vintage Y2K Clothing Tee",
-      "catId": 200000783,
-      "itemUrl": "//www.aliexpress.com/item/3256806371998779.html",
+      "itemId": "3256807785647021",
+      "title": "Men Casual Sport Shoes Breathable Lightweight Sneakers Outdoor Mesh Black Running Shoes Athletic Jogging Tenis Walking Shoes",
+      "catId": 200000960,
+      "sales": "352",
+      "wishCount": 134,
+      "itemUrl": "//www.aliexpress.com/item/3256807785647021.html",
       "images": [
-        "//ae01.alicdn.com/kf/Se5ee88f795494404a5176e5451ebbf69I.jpg",
-        "//ae01.alicdn.com/kf/S45e7f4504aa5466a93fd0255a227c669F.jpg",
-        "//ae01.alicdn.com/kf/Sfb67ae9c558d474fb1b4c83f514ec8b05.jpg",
-        "//ae01.alicdn.com/kf/S7eb0a84dc602491480a8d441f7f52332Q.jpg",
-        "//ae01.alicdn.com/kf/Sa5e2415049c44fbb80c6a5a15b1a94f4F.jpg",
-        "//ae01.alicdn.com/kf/S590e4d0ba7b641aeabc79824ce65995bk.jpg"
+        "//ae01.alicdn.com/kf/S603069ad099e4ae586990dcd3c5fdc9ca/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+        "//ae01.alicdn.com/kf/S79893a486a724939b941a684688bc712k/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+        "//ae01.alicdn.com/kf/Sfc22dbba2394413b9f0614f2efbc049dW/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+        "//ae01.alicdn.com/kf/S6bc125d6d7e946539a489db8d58ce111Y/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+        "//ae01.alicdn.com/kf/S50540661d32d4fe78df760e05eaf8c7av/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+        "//ae01.alicdn.com/kf/Sf57023848e094ef1b9f6b0c49a984fa06/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.png"
       ],
       "video": null,
       "properties": {
-        "cut": "Brand Name / Applicable Scene / Sleeve Length(cm) / Applicable Season / Style / Origin / CN / Material / Collar / Hooded / Gender / Tops Type / Item Type / Place Of Origin / Choice",
+        "cut": "Toe Shape / Hign-concerned Chemical / Occasion / Fashion Element / Shoes Type / Pattern Type / Season / Outsole Material / Closure Type / Upper Material / Origin / Item Type / Department Name",
         "list": [
-          {
-            "name": "Brand Name",
-            "nameId": 2,
-            "value": "NoEnName_Null",
-            "valueId": 201512802
-          },
-          {
-            "name": "Applicable Scene",
-            "nameId": 200006489,
-            "value": "CASUAL",
-            "valueId": 100006596
-          },
-          {
-            "name": "Sleeve Length(cm)",
-            "nameId": 100007732,
-            "value": "short",
-            "valueId": 200001498
-          },
-          {
-            "name": "Applicable Season",
-            "nameId": 200443303,
-            "value": "Spring and Summer",
-            "valueId": 202984819
-          },
-          {
-            "name": "Style",
-            "nameId": 326,
-            "value": "Casual",
-            "valueId": 200000072
-          },
-          {
-            "name": "Origin",
-            "nameId": 219,
-            "value": "Mainland China",
-            "valueId": 9441741844
-          },
-          {
-            "name": "CN",
-            "nameId": 266081643,
-            "value": "Anhui",
-            "valueId": 100015188
-          },
-          {
-            "name": "Material",
-            "nameId": 10,
-            "value": "COTTON",
-            "valueId": 47
-          },
-          {
-            "name": "Collar",
-            "nameId": 200000457,
-            "value": "O-Neck",
-            "valueId": 100006504
-          },
-          {
-            "name": "Hooded",
-            "nameId": 200001031,
-            "value": "No",
-            "valueId": 200005297
-          },
-          { "name": "Gender", "nameId": 284, "value": "MEN", "valueId": 493 },
-          {
-            "name": "Tops Type",
-            "nameId": 200000317,
-            "value": "TEES",
-            "valueId": 200001205
-          },
-          {
-            "name": "Item Type",
-            "nameId": 200000137,
-            "value": "tops",
-            "valueId": 3233
-          },
-          {
-            "name": "Place Of Origin",
-            "nameId": 200005985,
-            "value": "China (mainland)",
-            "valueId": 200660004
-          },
-          { "name": "Choice", "nameId": -1, "value": "yes" }
+          { "name": "Toe Shape", "value": "round toe" },
+          { "name": "Hign-concerned Chemical", "value": "None" },
+          { "name": "Occasion", "value": "Casual" },
+          { "name": "Fashion Element", "value": "TOTEM" },
+          { "name": "Shoes Type", "value": "outdoor" },
+          { "name": "Pattern Type", "value": "Striped" },
+          { "name": "Season", "value": "Spring/Autumn" },
+          { "name": "Outsole Material", "value": "PVC" },
+          { "name": "Closure Type", "value": "Lace-up" },
+          { "name": "Upper Material", "value": "Mesh (Air mesh)" },
+          { "name": "Origin", "value": "Mainland China" },
+          { "name": "Item Type", "value": "Casual Shoes" },
+          { "name": "Department Name", "value": "ADULT" }
         ]
       },
       "description": {
-        "html": "<div class=\"detailmodule_image\"><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S08a77c5dec9a4f8ab4b785b25c3cab21p.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S15f82aceec1e47ad922d99997c3cda92g.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S668bd3c20d37491f95a7e587d9fae63fM.png\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Se784a8ffc094483090f791ac591cd4705.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S542055d863d24ec687631bb2f3360cd73.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Se5064dfd3c844688b3ad0a4780a8a0ecD.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Sd950663157ce49b285334042e579a2482.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Se32db736d61445abbaadd6a936c26c46L.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S43ea0bf248f84009ae0e4495d1043210t.jpg\" slate-data-type=\"image\"/><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Sc0e0fffad27e420d8cae6db50e1f1e3eM.jpg\" slate-data-type=\"image\"/></div><div class=\"detailmodule_image\"><img style=\"margin-bottom:10px\" class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S590e4d0ba7b641aeabc79824ce65995bk.jpg\" slate-data-type=\"image\"/><img style=\"margin-bottom:10px\" class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Sa5e2415049c44fbb80c6a5a15b1a94f4F.jpg\" slate-data-type=\"image\"/><img style=\"margin-bottom:10px\" class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S7eb0a84dc602491480a8d441f7f52332Q.jpg\" slate-data-type=\"image\"/><img style=\"margin-bottom:10px\" class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Sfb67ae9c558d474fb1b4c83f514ec8b05.jpg\" slate-data-type=\"image\"/><img style=\"margin-bottom:10px\" class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/S45e7f4504aa5466a93fd0255a227c669F.jpg\" slate-data-type=\"image\"/><img style=\"margin-bottom:10px\" class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Se5ee88f795494404a5176e5451ebbf69I.jpg\" slate-data-type=\"image\"/></div><div class=\"detailmodule_image\"><img class=\"detail-desc-decorate-image\" src=\"//ae01.alicdn.com/kf/Sdf1040f7ec8b48efbcfaf63f6220b3fdh.jpg\" slate-data-type=\"image\"/></div><br/>",
+        "html": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><span style=\"color:rgb(211, 49, 21)\">How to choose the right size:</span></p><p><span style=\"color:rgb(211, 49, 21)\">Step 1. When choosing a size, please measure your foot length carefully.</span></p><p><span style=\"color:rgb(211, 49, 21)\">Step 2. Please choose the correct size according to your foot length</span></p><p><span style=\"color:rgb(211, 49, 21)\">For example, if your foot length is 26 cm, you should choose size 42.</span></p><p><img width=\"891\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sbc521a5bce5d45579fab7d27f466f9daY.png\" slate-data-type=\"image\"/><img width=\"892\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sb457dbcfc4e246b99de8c6302c5db922T.png\" slate-data-type=\"image\"/><img width=\"892\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sf70a91981b334a96bba1046e03b4f4b2d.png\" slate-data-type=\"image\"/><img width=\"894\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Scaa130c2b68449ecaa67c3ac4e9bb40ef.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"897\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S9cf938c95ad84e7b89178d81b34251e7c.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"895\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S24a288f4ee3d42d89a4527b6eebc56fa5.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"895\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S37bc5d0002a3488288cae02efc480fc1G.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"895\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S384b466beece42e2ad33c289ed946674p.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"896\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S6c444401b04b41d5a9e34166bda5286fq.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"897\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sb69645359d1b430ea64eed0377208471b.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"898\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sc59479ed8d064c3a8c61c6e0606241f9T.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"899\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S6a589f9b20d2455ea5ba22d3c08d9ea4E.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><br/></p></div></div><br/>\n<script>window.adminAccountId=6001017918;</script>\n<link href=\"//g.alicdn.com/ae-seller-gsp/ams-tools/0.0.2/material/itemdesc/parse.css\" rel=\"stylesheet\">\n<script src=\"//g.alicdn.com/ae-seller-gsp/ams-tools/0.0.2/material/itemdesc/parse.js\"></script>\n",
         "images": [
-          "//ae01.alicdn.com/kf/S08a77c5dec9a4f8ab4b785b25c3cab21p.jpg",
-          "//ae01.alicdn.com/kf/S15f82aceec1e47ad922d99997c3cda92g.jpg",
-          "//ae01.alicdn.com/kf/Se784a8ffc094483090f791ac591cd4705.jpg",
-          "//ae01.alicdn.com/kf/S542055d863d24ec687631bb2f3360cd73.jpg",
-          "//ae01.alicdn.com/kf/Se5064dfd3c844688b3ad0a4780a8a0ecD.jpg",
-          "//ae01.alicdn.com/kf/Sd950663157ce49b285334042e579a2482.jpg",
-          "//ae01.alicdn.com/kf/Se32db736d61445abbaadd6a936c26c46L.jpg",
-          "//ae01.alicdn.com/kf/S43ea0bf248f84009ae0e4495d1043210t.jpg",
-          "//ae01.alicdn.com/kf/Sc0e0fffad27e420d8cae6db50e1f1e3eM.jpg",
-          "//ae01.alicdn.com/kf/S590e4d0ba7b641aeabc79824ce65995bk.jpg",
-          "//ae01.alicdn.com/kf/Sa5e2415049c44fbb80c6a5a15b1a94f4F.jpg",
-          "//ae01.alicdn.com/kf/S7eb0a84dc602491480a8d441f7f52332Q.jpg",
-          "//ae01.alicdn.com/kf/Sfb67ae9c558d474fb1b4c83f514ec8b05.jpg",
-          "//ae01.alicdn.com/kf/S45e7f4504aa5466a93fd0255a227c669F.jpg",
-          "//ae01.alicdn.com/kf/Se5ee88f795494404a5176e5451ebbf69I.jpg",
-          "//ae01.alicdn.com/kf/Sdf1040f7ec8b48efbcfaf63f6220b3fdh.jpg"
+          "//ae01.alicdn.com/kf/Scaa130c2b68449ecaa67c3ac4e9bb40ef.jpg",
+          "//ae01.alicdn.com/kf/S9cf938c95ad84e7b89178d81b34251e7c.jpg",
+          "//ae01.alicdn.com/kf/S24a288f4ee3d42d89a4527b6eebc56fa5.jpg",
+          "//ae01.alicdn.com/kf/S37bc5d0002a3488288cae02efc480fc1G.jpg",
+          "//ae01.alicdn.com/kf/S384b466beece42e2ad33c289ed946674p.jpg",
+          "//ae01.alicdn.com/kf/S6c444401b04b41d5a9e34166bda5286fq.jpg",
+          "//ae01.alicdn.com/kf/Sb69645359d1b430ea64eed0377208471b.jpg",
+          "//ae01.alicdn.com/kf/Sc59479ed8d064c3a8c61c6e0606241f9T.jpg",
+          "//ae01.alicdn.com/kf/S6a589f9b20d2455ea5ba22d3c08d9ea4E.jpg"
         ]
       },
       "sku": {
         "def": {
-          "quantity": 3812,
-          "price": "16.91 - 22.61",
-          "promotionPrice": "7.42 - 9.92"
+          "quantity": 718,
+          "price": "7.99 - 8.06",
+          "promotionPrice": "3.51 - 3.55",
+          "vat": { "desc": "Tax excluded, add at checkout if applicable." },
+          "unit": "piece",
+          "isBulk": false
         },
         "base": [
           {
-            "skuId": "12000037664295687",
-            "skuAttr": "5:4182;14:365458",
-            "propMap": "5:4182;14:365458",
-            "price": "19.14",
-            "promotionPrice": "8.40",
+            "skuId": "12000043093758966",
+            "propMap": "14:173;200000124:100010487",
+            "price": 8.06,
+            "promotionPrice": 3.55,
+            "quantity": 162,
+            "ext": "RBVNOIsdKCItTwgwijzX-GSxq34wgIuOZKaozmbkQGrqzgA9wALHDgHRgqllnnNezqyVWLDFh_gwboQVBhm4z8fGT-FZE0Fl-0I3pmrISjo3pGcpSeyoS28l3t-WPc27cVmqUjzGyaNFNyKJ7egbHKh8Chakvsj4PAbUVXCoyBo="
+          },
+          {
+            "skuId": "12000043093758965",
+            "propMap": "14:173;200000124:200000338",
+            "price": 8.06,
+            "promotionPrice": 3.55,
+            "quantity": 160,
+            "ext": "ntJCt8yfetfvb0Dah4dwWxbu5EZyptcEtC57aHgpEbWQqBNH1SkabehjwIeAXgKHB8RTVsYE3MmApTwzPj0KfyVLYkE54HZqT4782loje43LSi6W7BNo4pSBkju0khW_XuiBDbJJSG3jYwaifclIrrT4wr8bZ3BdybOGi2_rp_0="
+          },
+          {
+            "skuId": "12000043093758964",
+            "propMap": "14:173;200000124:200000337",
+            "price": 8.06,
+            "promotionPrice": 3.55,
+            "quantity": 147,
+            "ext": "2RTPl0MwzxtMTnz3ObsM2sMpKrFfjUBzCB1Aodr17kBsTo3bZNF-A33CF8TJSGKmdUavtRWDVyunu7w_CCphTeVNjbuGxQkWkgrbzRqP2NBmQN-wiE4k-Q9ZfVAmCYAHc-cYDyC3v0xcG8WHpqUCBQQqx6rB5NghQm4lcRytKMM="
+          },
+          {
+            "skuId": "12000043093758963",
+            "propMap": "14:193;200000124:100010487",
+            "price": 7.99,
+            "promotionPrice": 3.51,
             "quantity": 0,
-            "ext": "r1WPA_6GE-yoIN1U_rpgBPVtkv2761rQbPROavSsZxYRITEvqReaZZc8HeUfavhEPESKIqHO-YBUou0ffJAD_0klZwcrT8Sm-RwkPzkQGGFZhdwVEclQTimVwU1igRPJs8lrIBBI5a1fRuyqSkMMtg=="
+            "ext": "_PSRbiYnNgztO2wZHRzR2-wFPDTu5BL3LRE7-SHtnSu9OtIZ9gLjdakwv7CCenuuhVoPhJUBF010ZJKAJ3pONJ6_pGu79hQ8g2lKxQlMEYsMM6usF4LomEl7lfGWKyv5lw_C8TzuLFU2NvG21IFaMauYqwkqATb-P_vIE3g7_n0="
           },
           {
-            "skuId": "12000037664295686",
-            "skuAttr": "5:100014065;14:365458",
-            "propMap": "5:100014065;14:365458",
-            "price": "19.00",
-            "promotionPrice": "8.33",
-            "quantity": 124,
-            "ext": "zZqbPQxm8pXPB5Fd87FisMg6BCCuO5mMqWZs_WyexzFRNL-_EEtILaO8viG8Wrr2lg5R9Ctfbm1iQl_iDPH9u93-huDOyDTEIYAgmObZevi6rdiKz7keB0t6PUgxhxwsuQSJdtQOS-YHxMJrieMU6F4ivG1rEXuDKwqZ8ct3RRc="
+            "skuId": "12000043093758962",
+            "propMap": "14:193;200000124:200000338",
+            "price": 8.06,
+            "promotionPrice": 3.55,
+            "quantity": 135,
+            "ext": "kJbw7xmihNWsPBXfaX4HN3WQZNpjPZpYpmEVY69Rom82IA9TU1u0yhrx0Vlb-WQ5F2_xB6KDquHCZzJVAW9aDdAYx40pCM6h3ioLLUo9alBWpOgjjT0Urmm_JMvpGSvAv-arr2sZQS51AVm5cJvggUnlZToJ_w0ynumQc_C90Pw="
           },
           {
-            "skuId": "12000037664295685",
-            "skuAttr": "5:361385;14:365458",
-            "propMap": "5:361385;14:365458",
-            "price": "17.19",
-            "promotionPrice": "7.55",
-            "quantity": 126,
-            "ext": "fd_Zb8AQDQrI3BX733rteQyCclctDFHX-3rGc7ghJMuB5XK4JYQloCk9AT4fs5n4roEGq_UuO9oRGkWLUTrxUioPLFZqnf7FIfPyTCxgn9rB4VhTitCM6p9t3jyZzTtDxstTqLPH36g6n2kDoZel6jaKgC3WPwQUZ_ky_Tef75k="
-          },
-          {
-            "skuId": "12000037664295684",
-            "skuAttr": "5:361386;14:365458",
-            "propMap": "5:361386;14:365458",
-            "price": "17.46",
-            "promotionPrice": "7.66",
-            "quantity": 121,
-            "ext": "0cS1rzcUr7JTVh7ymYZ9CViOjulFqSP0Ug-rA4m_K-JsL1OxHLGPSdLYecEgielhnOzMeAVocfmcLblvPfyel877ECYa8z4j6itl6sIBfyMSEQjXncC4rlAZdcbKkpK8aNnPOmENIpJECPAU-6QUyne0PcwwnuR3vtcWhpTIIzU="
-          },
-          {
-            "skuId": "12000037664295683",
-            "skuAttr": "5:200000990;14:1254",
-            "propMap": "5:200000990;14:1254",
-            "price": "18.65",
-            "promotionPrice": "8.18",
-            "quantity": 124,
-            "ext": "EkvQfO05GlKeONH29NvKKXcgPtnXY3szDM76fG-WJ1KmUECkYmIRrMS9OpC3EiQjfnzDdylQ72iZI3XPJRbkm5WOIWTq3-MoVlZIWCNNuGkX8zYWSHyZZXp7IWcPt66-C13sziCwwZ6Gez9j_MvL2pdJZGaEw_Ec5jDbGmdfv2M="
-          },
-          {
-            "skuId": "12000037664295682",
-            "skuAttr": "5:4183;14:1254",
-            "propMap": "5:4183;14:1254",
-            "price": "19.46",
-            "promotionPrice": "8.54",
-            "quantity": 121,
-            "ext": "st7fH7tosPL4QRwzvwLrtcaXP1AM_wsP2yDbvF2BiIKzLG7kVpEvtkk9EBY9t0Z2xV4yFgyMiJkLfyViL6_zAsRphuoqkQEXKvT9ePrYB520VvAcvrzlDFOuQa5mSzF46WNgyvdfcDZ3KlnCzzWIsg=="
-          },
-          {
-            "skuId": "12000037664295681",
-            "skuAttr": "5:4182;14:1254",
-            "propMap": "5:4182;14:1254",
-            "price": "22.61",
-            "promotionPrice": "9.92",
-            "quantity": 117,
-            "ext": "7t4-7SADALS-wofxcao8hcbDx9gXLACgzEmBTqASvv4SrN_r09nOANDTnhzU5_fmyCauxb_Ptuxehohilkhp6JXzZmdAUygArMkjGKsiAboGJTSB6beaEXELTgodi6PlxIYGxO5OPscjt9Uh-5_tuQ=="
-          },
-          {
-            "skuId": "12000037664295680",
-            "skuAttr": "5:100014065;14:1254",
-            "propMap": "5:100014065;14:1254",
-            "price": "18.74",
-            "promotionPrice": "8.22",
-            "quantity": 103,
-            "ext": "y0joli_HpIAE5btVOv1iEGLsih0gbwhPJ2btwwsam_76UZz3gycMkCGjfpnwdVkIVXdeE6OII9_-rnQ6GH_rwXt4oBs-lo2nBWFzp_BFdh1yP4AyOu4KEkGTTjLmNP4BRUBcsQUf7X7UC4K4yhQffGLu8hGTVy0xKiuWGZqki1Y="
-          },
-          {
-            "skuId": "12000037664295695",
-            "skuAttr": "5:200000990;14:350850",
-            "propMap": "5:200000990;14:350850",
-            "price": "18.78",
-            "promotionPrice": "8.24",
+            "skuId": "12000043093758961",
+            "propMap": "14:193;200000124:200000337",
+            "price": 8.06,
+            "promotionPrice": 3.55,
             "quantity": 114,
-            "ext": "Q7Yy6sC34UKQGmrlpqG07dFrBTu0RWec1INiwlO9ReD5f-Zyyu4taELCrfeWCjngYjTrTMkv7NreeZ1-phh2tC9Yzb7nhv7R4sMHQAkKtuEZ40es-GUOHkb0csLmooXAiKo8WwXZ-Z3ut7XuqQuq3aceeZM4Yo7mBFLsjrdd_EM="
-          },
-          {
-            "skuId": "12000037664295694",
-            "skuAttr": "5:4183;14:350850",
-            "propMap": "5:4183;14:350850",
-            "price": "18.35",
-            "promotionPrice": "8.05",
-            "quantity": 103,
-            "ext": "JQLgDWfbADU3yWIZnmPg5BYyGpsIGCvhbBqblIQbAVIQuwPQjKdKVMIh0_1-IQW1gDduKPVb0G7sTrA36AU_gGB0MmHRDJTmoZCh3PWF7bujs5_m6eMPVH0QHw3gr7v55m0pLitV29xiQjhgKBJp9g=="
-          },
-          {
-            "skuId": "12000037664295693",
-            "skuAttr": "5:4182;14:350850",
-            "propMap": "5:4182;14:350850",
-            "price": "17.80",
-            "promotionPrice": "7.81",
-            "quantity": 88,
-            "ext": "n0C--9vr5MjEM_GaxpukYnIiOX5zQ8xUdW_sr_DLKC46dk97rgiujPwg9_QjI80TlfP5jOa3Btz2EonrRLb5nXvddfLPe5eKsH4qTMMYRqOyUMgdnG_2WiqLPi31Cnd-HT1Y14ICG7D2X1uFQe_RYA=="
-          },
-          {
-            "skuId": "12000037664295692",
-            "skuAttr": "5:100014065;14:350850",
-            "propMap": "5:100014065;14:350850",
-            "price": "18.61",
-            "promotionPrice": "8.16",
-            "quantity": 51,
-            "ext": "2jRzF3frY4Wejp3n9dl93SUVapy5oRc0XNNoEN4IG-2ci0tXVkIgIRkBia5Q5RZmZ4xFbJSbdBaHZSX-W4dVPIAZxo0q84jmBQ2M2aSvrjgL1Mxbfb1otocqLFCJ6zRFwCGyc2Y9hTklFmjI5R0T6k65c9rN-Kgm25K0itBU5w0="
-          },
-          {
-            "skuId": "12000037664295691",
-            "skuAttr": "5:361385;14:350850",
-            "propMap": "5:361385;14:350850",
-            "price": "18.52",
-            "promotionPrice": "8.13",
-            "quantity": 33,
-            "ext": "LOMAFnLYll7KP9B9ctc_NGSp-fjbD44KYZcEDsMGB5nKLS9HiA7OhcTlenNsHu1nm_yfJ8BbrSvHbd11A5l8bTGgzGteb-yQ7iZTnoVwU4dl7mjoGEbTNcnJYWq5QF8EmytVwL2sMRHJ4kMkO1nrwksuaZ5nKhfB6iewwv1nWBQ="
-          },
-          {
-            "skuId": "12000037664295690",
-            "skuAttr": "5:361386;14:350850",
-            "propMap": "5:361386;14:350850",
-            "price": "17.20",
-            "promotionPrice": "7.55",
-            "quantity": 38,
-            "ext": "LCJI-VKzOadvzLiagWjLEXKzTxchoRN3fzTMD-Xpf226EUjjeButMqsJGaNsL-ZW6117_GKlB2WEUVb6MepypK9xKZ9miF27N3cALXLDAGDTli1bxUB_M1rFydSj22UM53DFp_FBz09x6S-erR7qdhvx66NEjA-XpTOR9tkWY5U="
-          },
-          {
-            "skuId": "12000037664295689",
-            "skuAttr": "5:200000990;14:365458",
-            "propMap": "5:200000990;14:365458",
-            "price": "18.35",
-            "promotionPrice": "8.05",
-            "quantity": 129,
-            "ext": "b8qVzORlVWzk9Lo2yYXNIzrdC75ELpg9efZ-q_KGpePZNmtiNL9vBrlZnbvcvPCC0W-8jXn_M7OHbFDQeKFEDhUfgXdW-KK6FKmF-Pa7KwljpQhWSV0TeQ9xTIh_gAHdPaQ7D7UUG2Ry5_S3gaMBASJeqQSIk8cmP1cG-IV8FWM="
-          },
-          {
-            "skuId": "12000037664295688",
-            "skuAttr": "5:4183;14:365458",
-            "propMap": "5:4183;14:365458",
-            "price": "19.33",
-            "promotionPrice": "8.48",
-            "quantity": 127,
-            "ext": "_JVgP_JdXEClXgBPWOmQZq2Upm13GJI_3JaXbrvWu7Ch2ACstdTBLajSSBB4MjTbNObjCWTBm1-3jvxWbQW8llSqu-dcR_oXU-M4BHm80p7NaY56lR1eXe5Fp7i3dF5CqKDJL3un0edPo4f8IHElTg=="
-          },
-          {
-            "skuId": "12000037664295671",
-            "skuAttr": "5:200000990;14:193",
-            "propMap": "5:200000990;14:193",
-            "price": "19.20",
-            "promotionPrice": "8.42",
-            "quantity": 109,
-            "ext": "lfwRIsLYiTP4UBuy5JSAEyKKOP0MGnHr-mdhBJjEQus189T9-iG7F_XPoQ6VAfoqvhT8UnZOxMndHzGVMS_pV0zWOxjVlFPWQ4e7MmN2aRjaaRCmHUgirBvOPgHUCBbhT59j2dh7WIbRz18UZn-qBDq9AUTcAo_4In4m7iAhyxA="
-          },
-          {
-            "skuId": "12000037664295670",
-            "skuAttr": "5:4183;14:193",
-            "propMap": "5:4183;14:193",
-            "price": "19.75",
-            "promotionPrice": "8.67",
-            "quantity": 121,
-            "ext": "6ZOgfONyGltpVhXIRNpCY3_SwaUf42EB0fGCUOMlWyzb1Bpdt700hvnXFWLD1iiOVrFij27ssYN4jswY_GZU5rcqSEp_rdRkBIg08X7i8Hzq3uQ2IBPFhFpJdageiPkB7M-MgAaGMHHyaPt0_lrVWg=="
-          },
-          {
-            "skuId": "12000037664295669",
-            "skuAttr": "5:4182;14:193",
-            "propMap": "5:4182;14:193",
-            "price": "17.84",
-            "promotionPrice": "7.83",
-            "quantity": 84,
-            "ext": "KyNjSjTRMZtDznB3LxXggpZuzyi3_S_b6DBT8mrs2vmQovBqJjC0CVHk-XMJXiXA1RJw1mw0tRrydGcU9qH4jklbKR-i3iq_5V_lvw90xcw1VExF_uRPKdIWTPG_WKyxYbMs_DIVOs4lV_MRg-bWjw=="
-          },
-          {
-            "skuId": "12000037664295668",
-            "skuAttr": "5:100014065;14:193",
-            "propMap": "5:100014065;14:193",
-            "price": "18.71",
-            "promotionPrice": "8.21",
-            "quantity": 87,
-            "ext": "5EHEOmwGmw0DsOfkNxQVBzNEF5JeLE1nfAeJOb701iSMUiOUQLZ6YJEc4e9EEP8aUljjgvNbLvCO7WkhguDuNZHla0BMCh5I4Q5gfoTvB1NuwKZosnvHpiUh7r3HiS8ClQxDSu-pTT6fRq05eewP9Em8V1qX9HQ1mKyuKmNnVzg="
-          },
-          {
-            "skuId": "12000037664295667",
-            "skuAttr": "5:361385;14:193",
-            "propMap": "5:361385;14:193",
-            "price": "18.65",
-            "promotionPrice": "8.18",
-            "quantity": 74,
-            "ext": "K7MuI2UipH1DsGX3u7ruR6KV94gMamge5ifNMdXc0eFFRt_q_gme5AOLq6GJrfW-6kLb4DwSCTumILPuBMVoKhKC0-gzgwIf9WFQXMBvig2MGSsjpS_wmKrIKuBtqi3rfn-JbdcateNbTaQePiCo0w=="
-          },
-          {
-            "skuId": "12000037664295666",
-            "skuAttr": "5:361386;14:193",
-            "propMap": "5:361386;14:193",
-            "price": "18.13",
-            "promotionPrice": "7.96",
-            "quantity": 88,
-            "ext": "Y_AOjoba48YX3gAptzjEikiMZDoeann0nvW3KaIXkOLGyOlI5pzvAv7f78wqP4SuD785y3fbaHW0Lxhl6tSvrwSpWr6SQjXkl0JYAsnUXzVEsUzsWP6zpKUunOIWwJFX9xYc9CQBbQ3OBontsUBsgg=="
-          },
-          {
-            "skuId": "12000037664295665",
-            "skuAttr": "5:200000990;14:771",
-            "propMap": "5:200000990;14:771",
-            "price": "18.35",
-            "promotionPrice": "8.05",
-            "quantity": 116,
-            "ext": "wopxF5kN24fmy8bV4_OQ00nczIPLbQt_mTDlMbFMplayXVj7V-do2UHF-9nP9cAtq93NcNiGgGzpKidTdF73X57yqqwXH-wwxjLPHp2CeV6PM9DNnYreTO_N3nY8hKrTohITcPcrf9ko4vz22T224e9WGEde3N5M_KfNb-VWCVw="
-          },
-          {
-            "skuId": "12000037664295664",
-            "skuAttr": "5:4183;14:771",
-            "propMap": "5:4183;14:771",
-            "price": "18.35",
-            "promotionPrice": "8.05",
-            "quantity": 121,
-            "ext": "Vfq_PDkXY0cUojze_BMNur5Dk44StaCWZVsNjF-1yqTbSjXpiQNeKznDSSkBjoNxisVFXvLw4a8cpf0uZ2NeIPLTYF7d16_jiOuaevoXS8i1DklbwUluSOS0R5nQASpPUFjzorAREy06YBcC1eVG4g=="
-          },
-          {
-            "skuId": "12000037664295679",
-            "skuAttr": "5:361385;14:1254",
-            "propMap": "5:361385;14:1254",
-            "price": "18.13",
-            "promotionPrice": "7.96",
-            "quantity": 110,
-            "ext": "tCXkkjMaXMtHCPUY2b_kQEfc9WTB6L8T4nbjqDSZaleJX7RkSwIVYcvCMo4jgEZ_uIv8C8lJIteUZhDp3iETktdg41yuI0f42xJV2NH-_ykIFm23Z0WvPGQmcrjOA6KLmpi3KDv12i-BwDCukfeQgg=="
-          },
-          {
-            "skuId": "12000037664295678",
-            "skuAttr": "5:361386;14:1254",
-            "propMap": "5:361386;14:1254",
-            "price": "17.67",
-            "promotionPrice": "7.75",
-            "quantity": 102,
-            "ext": "3p05VCdkj2XsyPErgKS281eYM6C0boIZVVZUgZHDz8O0l4GrPMcl-Qy9tjVIdCy5nbnS4XiUDkTkAvSrVteglh-lKo1i3nfJ0J61LKJzjQiVg2GLEJmKgb7HW8UNOsMEB4LCDppFBzJGzorKJs9Lhg=="
-          },
-          {
-            "skuId": "12000037664295677",
-            "skuAttr": "5:200000990;14:173",
-            "propMap": "5:200000990;14:173",
-            "price": "18.55",
-            "promotionPrice": "8.14",
-            "quantity": 120,
-            "ext": "GDJ4q-4Inn4JTDfRXql0GowPD2v-LkbX-N6_62JJzuVnFy2lYGDP-uiIupbe1iRRc1hpw2Bc5MVlFQZgkLSgsJMMfnqyZwOdBbp__my23nbHZYcWG_uwD1YlGgIMWSXLQsMUzz9DuTQPcmAQ3c50uKoNq54pna4NLVJ1WLEUEgA="
-          },
-          {
-            "skuId": "12000037664295676",
-            "skuAttr": "5:4183;14:173",
-            "propMap": "5:4183;14:173",
-            "price": "18.29",
-            "promotionPrice": "8.03",
-            "quantity": 129,
-            "ext": "5IyZjfvnY1CLfP-2SidQlWlZbLVmEbrf6wlJzgiwKQu-8g0JF3SZvHaZuAcoM39YbtqQ6yYhz7LB4qKytOvGu_D-X3UZAs1FiGmnfN6Wp6YeCfL3chT5jKL5P1X3eRuLyXtE82GlNqZe1VmjO8mq5g=="
-          },
-          {
-            "skuId": "12000037664295675",
-            "skuAttr": "5:4182;14:173",
-            "propMap": "5:4182;14:173",
-            "price": "17.80",
-            "promotionPrice": "7.81",
-            "quantity": 125,
-            "ext": "7tbj5J-bwKwTMY6DyYKWz1J6kZ7hN-2-kS3rDR6DO_e32hxKHFhZrA2BobWRsHGz4GHrygHhw01r039V3fdI5jZyoACnMl8c401c3nYwgjZZ46m8CZ_W-GEp3Zc2Lu6D7frmHTQEagMXSNodooCxjw=="
-          },
-          {
-            "skuId": "12000037664295674",
-            "skuAttr": "5:100014065;14:173",
-            "propMap": "5:100014065;14:173",
-            "price": "17.90",
-            "promotionPrice": "7.85",
-            "quantity": 115,
-            "ext": "phLBFEBWUZfYvpWFYMXemhNUDqyJTGPOc5cElgo2Xbx5_G9sSu-4s4RrIYly7F8u3UqTjEVJwK0cEWmwJbwYuRuTI1cyo1jioaYEErXARVXH_2yYRqpOXY9ncaxZmCgmJtNc-pf8y7KOyv-wsiJd0tfA-CU6H-YtBtDB2bQ-p2g="
-          },
-          {
-            "skuId": "12000037664295673",
-            "skuAttr": "5:361385;14:173",
-            "propMap": "5:361385;14:173",
-            "price": "17.20",
-            "promotionPrice": "7.55",
-            "quantity": 116,
-            "ext": "MzQB30aq8LaU81ZfJUZCLvBkhqv-tzmLWVtKz0gmbywVDgz0PuIJDMxVa7yKDaS1ywERQ7r37UIAl91wgskXYyVWE0xzglS4WcpHgnAGGCgmDxfjevxTLLcZpYxNXOQOeQXNMnh_g6tdMnoMJiJGug=="
-          },
-          {
-            "skuId": "12000037664295672",
-            "skuAttr": "5:361386;14:173",
-            "propMap": "5:361386;14:173",
-            "price": "16.91",
-            "promotionPrice": "7.42",
-            "quantity": 116,
-            "ext": "rcjmtkjEx5de0VSBX5RuFDyDRAh3bgzyjKuqrKDE8tUs1BgVl4vim76ZDZ5UDIXqJzjHPlennq6wPBLz97Eyl22waC8LEMaeYC74xcufXESXthpzzqFGS8Sn_uDI0UbSkPEF8vrImdKRTfPFiXEVWA=="
-          },
-          {
-            "skuId": "12000037664295663",
-            "skuAttr": "5:4182;14:771",
-            "propMap": "5:4182;14:771",
-            "price": "18.49",
-            "promotionPrice": "8.11",
-            "quantity": 113,
-            "ext": "3NNeYSK67xu5MnwsQZSJFSr0gaxztC1LLi9WKhOTRd-QcpO6NtdsTTABrbQ-tYgClN2yjtJv3fgIyNMx3ttss4c4IZcoxvbANW8JV8KcLog_dO73wGmhh8ksYkHeea8xXn2tFLQFCYegBp8zqCD5Aw=="
-          },
-          {
-            "skuId": "12000037664295662",
-            "skuAttr": "5:100014065;14:771",
-            "propMap": "5:100014065;14:771",
-            "price": "18.45",
-            "promotionPrice": "8.09",
-            "quantity": 107,
-            "ext": "b9ir56GL3XqP44_ODX_4gte2he0zOzLGTf06USI3f-odAMeCyXjoePSFq285sCld34JT7U1RK5R-BIOqT3YYz-wTSz9jfHYmgEm4h9B157B2sRpxpE-MsyOjpLA-qke6TrFi7Jos3Cat3cXJCQehyuvytwTOleYkXocMboiHY1w="
-          },
-          {
-            "skuId": "12000037664295661",
-            "skuAttr": "5:361385;14:771",
-            "propMap": "5:361385;14:771",
-            "price": "17.36",
-            "promotionPrice": "7.62",
-            "quantity": 105,
-            "ext": "F1RWoa2xlC1kHQm3tyaKHhmscPt1VV8tJ_uEfbarqCCir2I18YRVgUa-5BAD_CWkN3MPSzYewMwS3tbTWfqejal0yF2YODq1CN9Cv4KtXdz9XfYr31AUusqmaYiyhD_OzE-2UbDg-iOHi13UtF1Utw=="
-          },
-          {
-            "skuId": "12000037664295660",
-            "skuAttr": "5:361386;14:771",
-            "propMap": "5:361386;14:771",
-            "price": "17.96",
-            "promotionPrice": "7.88",
-            "quantity": 108,
-            "ext": "7ffnVbhtwi6AG646cF5AjpAAbHHpzFZCfeoiQFR2nm94L_zPPpQm0SMSm_p96g8OiLopf6IXgJko8iJfrkhVfHCUvvbBY6MoCUh1RZ2ZScmf-xv1FsPosLb-iecRIpbvsvh5YMo-mjr1dQxhU_89qg=="
+            "ext": "7Hrn1X1XKxim6NxKYjpQtwUHMjkjORG5uTiWkSW11qN5e1aLKFsCKosRu6dAQNpqRkdecOmWOORVJ3Rfc923Dndm0Y_P0IpUTa9Vb613lovvqe9hhwt8q8wnNbNA7u57v_zKTr74gWrenBow7-8iyn6htNzd6mF9Xxut7VHXHF4="
           }
         ],
         "props": [
-          {
-            "pid": 5,
-            "name": "Size",
-            "values": [
-              { "vid": 4182, "name": "XXL" },
-              { "vid": 100014065, "name": "XL" },
-              { "vid": 361385, "name": "L" },
-              { "vid": 361386, "name": "M" },
-              { "vid": 200000990, "name": "4XL" },
-              { "vid": 4183, "name": "XXXL" }
-            ]
-          },
           {
             "pid": 14,
             "name": "Color",
             "values": [
               {
-                "vid": 365458,
-                "name": "Brown",
-                "image": "//ae01.alicdn.com/kf/S45e7f4504aa5466a93fd0255a227c669F.jpg"
-              },
-              {
-                "vid": 1254,
-                "name": "Sky blue",
-                "image": "//ae01.alicdn.com/kf/Sfb67ae9c558d474fb1b4c83f514ec8b05.jpg"
-              },
-              {
-                "vid": 350850,
-                "name": "Gold",
-                "image": "//ae01.alicdn.com/kf/Se5ee88f795494404a5176e5451ebbf69I.jpg"
-              },
-              {
                 "vid": 193,
-                "name": "Black",
-                "image": "//ae01.alicdn.com/kf/Sa5e2415049c44fbb80c6a5a15b1a94f4F.jpg"
-              },
-              {
-                "vid": 771,
-                "name": "Beige",
-                "image": "//ae01.alicdn.com/kf/S590e4d0ba7b641aeabc79824ce65995bk.jpg"
+                "name": "black",
+                "image": "//ae01.alicdn.com/kf/S6bc125d6d7e946539a489db8d58ce111Y/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+                "propTips": "black"
               },
               {
                 "vid": 173,
-                "name": "Blue",
-                "image": "//ae01.alicdn.com/kf/S7eb0a84dc602491480a8d441f7f52332Q.jpg"
+                "name": "black orange",
+                "image": "//ae01.alicdn.com/kf/S94402bff59b4460ca8385713123e0edfN/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+                "propTips": "black orange"
               }
+            ]
+          },
+          {
+            "pid": 200000124,
+            "name": "Shoe Size",
+            "values": [
+              { "vid": 200000337, "name": "42", "propTips": "" },
+              { "vid": 200000338, "name": "43", "propTips": "" },
+              { "vid": 100010487, "name": "44", "propTips": "" }
             ]
           }
         ],
         "skuImages": {
-          "14:365458": "//ae01.alicdn.com/kf/S45e7f4504aa5466a93fd0255a227c669F.jpg",
-          "14:1254": "//ae01.alicdn.com/kf/Sfb67ae9c558d474fb1b4c83f514ec8b05.jpg",
-          "14:350850": "//ae01.alicdn.com/kf/Se5ee88f795494404a5176e5451ebbf69I.jpg",
-          "14:193": "//ae01.alicdn.com/kf/Sa5e2415049c44fbb80c6a5a15b1a94f4F.jpg",
-          "14:771": "//ae01.alicdn.com/kf/S590e4d0ba7b641aeabc79824ce65995bk.jpg",
-          "14:173": "//ae01.alicdn.com/kf/S7eb0a84dc602491480a8d441f7f52332Q.jpg"
+          "14:193": "//ae01.alicdn.com/kf/S6bc125d6d7e946539a489db8d58ce111Y/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
+          "14:173": "//ae01.alicdn.com/kf/S94402bff59b4460ca8385713123e0edfN/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg"
         }
       }
     },
-    "reviews": { "count": "75", "averageStar": "4.8" },
+    "reviews": { "count": 25, "averageStar": "4.0" },
     "delivery": {
+      "shippingFrom": "China",
+      "shippingFromCode": "CN",
+      "shippingTo": "United States",
       "shippingToCode": "US",
-      "shippingOutDays": 7,
+      "shippingOutDays": "7",
       "shippingList": [
         {
+          "shippingFrom": "China",
           "shippingFromCode": "CN",
+          "shippingTo": "United States",
           "shippingToCode": "US",
           "shippingFee": "1.99",
           "shippingCompany": "AliExpress Selection Standard",
-          "shippingTime": "7-10",
+          "shippingTime": "25-28",
           "serviceName": "CAINIAO_FULFILLMENT_STD",
-          "estimateDelivery": "Jun 04 - 07",
-          "estimateDeliveryDate": "2024-06-03",
-          "trackingAvailable": true
+          "estimateDelivery": "Mar. 06",
+          "estimateDeliveryDate": "2025-03-06",
+          "trackingAvailable": true,
+          "note": [
+            "Free shipping over $10.00 ",
+            "Shipping: $1.99",
+            "Mar 03 - 06"
+          ]
         }
       ],
       "packageDetail": {
-        "weight": "0.236",
-        "length": 22,
-        "height": 5,
-        "width": 15
+        "weight": 0.009,
+        "length": 12,
+        "height": 3,
+        "width": 10
       }
     },
+    "service": [
+      {
+        "title": "Free returns",
+        "desc": "Not satisfied with your order? Send it back within 15 days after order was placed. The first return on each order is free."
+      }
+    ],
     "seller": {
-      "storeTitle": "Jiu Jiu Men Clothing Store",
-      "storeId": 1103262013,
-      "storeUrl": "//www.aliexpress.com/store/1103262013"
+      "sellerId": 6001017918,
+      "storeTitle": "Shop1104224086 Store",
+      "storeId": 1104204802,
+      "companyId": 6001017918,
+      "storeUrl": "//www.aliexpress.com/store/1104204802",
+      "storeImage": "//ae01.alicdn.com/kf/Se90fceedf9d34ad1a8979283c98a1e45I/144x144.png",
+      "storeRating": "94.5"
     }
   }
 }
