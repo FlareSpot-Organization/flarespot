@@ -1,6 +1,7 @@
 import DealsCard from "@/components/common/DealsCard";
 import DealsSection from "@/components/common/DealsSection";
 import useProductsFetch from "@/hooks/useProductsFetch";
+import { ProductCardProps } from "@/types/product_types";
 import { Clock, Package, Tags } from "lucide-react";
 import React from "react";
 
@@ -44,7 +45,7 @@ const TodaysDeals: React.FC = () => {
               {deals
                 ?.slice(0, 4)
                 ?.map((deal: { deal: any }, index: number) => (
-                  <DealsCard key={index} {...deal} />
+                  <DealsCard key={index} item={deal} />
                 ))}
             </DealsSection>
 
@@ -55,7 +56,7 @@ const TodaysDeals: React.FC = () => {
               {deals
                 ?.slice(5, 9)
                 ?.map((deal: { deal: any }, index: number) => (
-                  <DealsCard key={index} {...deal} />
+                  <DealsCard key={index} item={deal} />
                 ))}
             </DealsSection>
 
@@ -63,7 +64,7 @@ const TodaysDeals: React.FC = () => {
               {deals
                 ?.slice(10, 14)
                 ?.map((deal: { deal: any }, index: number) => (
-                  <DealsCard key={index} {...deal} />
+                  <DealsCard key={index} item={deal} />
                 ))}
             </DealsSection>
           </>

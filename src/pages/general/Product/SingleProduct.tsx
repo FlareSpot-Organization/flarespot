@@ -1,6 +1,8 @@
 import ProductDescription from "@/components/pages/product/ProductDescription";
 import { Button } from "@/components/ui/button";
-import { Sku, SkuValue } from "@/types/product_types";
+import { addToCart } from "@/services/features/cart/cartSlice";
+import { AppDispatch } from "@/store";
+import { CartItem, Sku, SkuValue } from "@/types/product_types";
 import myData from "@/utils/data_json/detail-10.json";
 import { findSkuByValues } from "@/utils/helpers";
 import {
@@ -12,7 +14,9 @@ import {
   Timer,
   TruckIcon,
 } from "lucide-react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { toast } from "sonner";
 
 const SingleProduct = () => {
   const skuImages = Object.values(myData.result.item.sku.skuImages);
@@ -25,11 +29,14 @@ const SingleProduct = () => {
     setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
   };
 
+  const dispatch = useDispatch<AppDispatch>();
+
   const [selectedImage, setSelectedImage] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
   const [selectedImageProperty, setSelectedImageProperty] =
     useState<SkuValue>();
   const [skuSinglSkuInfo, setSkuSingleInfo] = useState<Sku>();
+  const [inCart, setInCart] = useState(false);
 
   const colorSchemes = myData?.result?.item?.sku?.props?.find(
     (prop) => prop?.name == "Color"
@@ -94,6 +101,22 @@ const SingleProduct = () => {
     ) {
       setQuantity(value);
     }
+  };
+
+  useEffect(() => {
+    const cart = JSON.parse(localStorage.getItem("user_cart") || "[]");
+    const cartProductIds = cart.find(
+      (item: CartItem) => item.itemId == parseInt(myData?.result?.item?.itemId)
+    );
+    setInCart(true);
+  }, []);
+
+  const handleAdd = (product: CartItem) => {
+    dispatch(addToCart({ ...product }));
+    toast.success("Item Added Successfully", {
+      description: `${product.title}`,
+    });
+    setInCart(true);
   };
 
   return (
@@ -397,7 +420,14 @@ const SingleProduct = () => {
               </div>
             </div>
             <div className="mt-4 flex gap-4 flex-col sm:flex-row">
-              <Button className="w-full sm:flex-1">Add to Cart</Button>
+              <Button
+                disabled={inCart}
+                className="w-full sm:flex-1"
+                onClick={() =>
+                  handleAdd({ ...myData?.result?.item, quantity })
+                }>
+                {inCart ? "In Cart" : "Add to Cart"}
+              </Button>
               <Button className="w-full sm:flex-1 bg-orange-500">
                 Buy Now
               </Button>

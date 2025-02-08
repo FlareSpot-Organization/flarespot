@@ -1,11 +1,6 @@
+import { CartItem } from "@/types/product_types";
+
 // CartDb.ts
-export interface CartItem {
-  asin: string;
-  product_title: string;
-  product_price: number;
-  quantity: number;
-  product_photo?: string;
-}
 
 const CART_KEY = "user_cart";
 
@@ -19,22 +14,22 @@ export const getCartItems = (): CartItem[] => {
 export const addItemToCart = (product: CartItem): void => {
   const cart = getCartItems();
   const existingItemIndex = cart.findIndex(
-    (item) => item.asin === product.asin
+    (item) => item.itemId == product.itemId
   );
 
   if (existingItemIndex !== -1) {
     cart[existingItemIndex].quantity += 1;
   } else {
-    cart.push({ ...product, quantity: 1 });
+    cart.push({ ...product });
   }
 
   localStorage.setItem(CART_KEY, JSON.stringify(cart));
 };
 
 // Update the quantity of an item in the cart
-export const updateCartItem = (asin: string, quantity: number): void => {
+export const updateCartItem = (itemId: number, quantity: number): void => {
   const cart = getCartItems();
-  const itemIndex = cart.findIndex((item) => item.asin === asin);
+  const itemIndex = cart.findIndex((item) => item.itemId === itemId);
 
   if (itemIndex !== -1) {
     if (quantity > 0) {
@@ -48,9 +43,9 @@ export const updateCartItem = (asin: string, quantity: number): void => {
 };
 
 // Remove an item from the cart
-export const removeCartItem = (asin: string): void => {
+export const removeCartItem = (itemId: number): void => {
   const cart = getCartItems();
-  const updatedCart = cart.filter((item) => item.asin !== asin);
+  const updatedCart = cart.filter((item) => item.itemId !== itemId);
 
   localStorage.setItem(CART_KEY, JSON.stringify(updatedCart));
 };

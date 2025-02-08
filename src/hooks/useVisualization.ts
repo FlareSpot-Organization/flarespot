@@ -1,3 +1,4 @@
+import { ProductCardProps } from "@/types/product_types";
 import { useEffect, useRef, useState } from "react";
 
 interface Product {
@@ -12,19 +13,16 @@ interface Product {
   product_star_rating: number;
 }
 
-const useVisualization = (productsDemo: Product[] = []) => {
+const useVisualization = (productsDemo: ProductCardProps[] = []) => {
   const ITEMS_PER_PAGE = 20;
-  const [products, setProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<ProductCardProps[]>([]);
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
   const loadingRef = useRef<HTMLDivElement>(null);
   const currentPage = useRef(1);
 
-  const formatPrice = (price: number): string => {
-    return price?.toLocaleString("en-NG", {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
-    });
+  const formatPrice = (price: number | string) => {
+    return `$${Number(price).toFixed(2)}`;
   };
 
   // Initialize products when productsDemo changes

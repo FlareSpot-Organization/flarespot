@@ -58,7 +58,7 @@ const ProductCard = ({ item }: { item: any }) => {
             isHovered ? "scale-110" : "scale-100"
           }`}>
           <img
-            src={`${item?.item?.image}_480x480.png_.webp`}
+            src={`${item?.item?.image}`}
             alt={item?.item?.title}
             className="w-full h-full object-cover"
           />
@@ -96,11 +96,11 @@ const ProductCard = ({ item }: { item: any }) => {
           <div className="flex justify-between items-baseline mb-2">
             <div className="flex items-baseline gap-2">
               <span className="text-lg font-bold text-orange-500">
-                ${promotionPrice.toFixed(2)}
+                ${promotionPrice}
               </span>
               {originalPrice !== promotionPrice && (
                 <span className="text-xs text-gray-500 line-through">
-                  ${originalPrice.toFixed(2)}
+                  ${originalPrice}
                 </span>
               )}
             </div>
@@ -111,7 +111,7 @@ const ProductCard = ({ item }: { item: any }) => {
             )}
           </div>
 
-          {discountPercentage > 0 && (
+          {/* {discountPercentage > 0 && (
             <div className="flex items-center gap-2 mb-2">
               <div className="flex-grow h-2 bg-gray-200 rounded-full overflow-hidden">
                 <div
@@ -125,7 +125,7 @@ const ProductCard = ({ item }: { item: any }) => {
                 -{discountPercentage}%
               </span>
             </div>
-          )}
+          )} */}
         </div>
 
         <div className="space-y-2">
@@ -152,7 +152,8 @@ const ProductCard = ({ item }: { item: any }) => {
                 </span>
               </div>
             ) : (
-              <span className="text-[12px] text-[#777]">No rating</span>
+              // <span className="text-[12px] text-[#777]">No rating</span>
+              ""
             )}
           </div>
 

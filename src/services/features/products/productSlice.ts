@@ -2,19 +2,24 @@ import { createAsyncThunkWithHandler } from "@/services/api/apiHandler";
 import productService from "./productService";
 import { createSlice } from "@reduxjs/toolkit";
 import { initialProductStateProps } from "@/types/product_types";
-import product from "@/utils/data_json/search.json";
+import product from "@/utils/data_json/search3.json";
+import product2 from "@/utils/data_json/search.json";
+import categories from "@/utils/data_json/category.json";
+import searchResult from "@/utils/data_json/search5.json";
 // const products = JSON.parse(localStorage.getItem("products") || "[]");
-const categories = JSON.parse(localStorage.getItem("categories") || "[]");
+// const categories = JSON.parse(localStorage.getItem("categories") || "[]");
 // const deals = JSON.parse(localStorage.getItem("deals") || "[]");
 
 const initialState: initialProductStateProps = {
   products: product ? (product?.result?.resultList as unknown as any) : [],
-  categories: categories ? categories : [],
+  categories: categories ? (categories as unknown as any) : [],
   singleProduct: {},
   reviews: [],
   bestSellers: [],
-  deals: product ? (product?.result?.resultList as unknown as any) : [],
-  searchResults: [],
+  deals: product2 ? (product2?.result?.resultList as unknown as any) : [],
+  searchResults: searchResult
+    ? (searchResult?.result?.resultList as unknown as any)
+    : [],
   isLoading: false,
   message: "",
   isSuccess: false,

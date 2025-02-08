@@ -22,12 +22,12 @@ const LoginForm = () => {
     <Card className="w-full pb-5 px-5 shadow-xs">
       <CardHeader className="space-y-1 flex items-center flex-col justify-center">
         <Link to="/" className="flex items-center justify-center">
-          <img src={logo} alt="Logo" className="w-[30%] mb-3" />
+          <img src={logo} alt="Logo" className="w-[40%] mb-3" />
         </Link>
         <hr className="h-2 w-full " />
 
-        <CardDescription className="text-center">
-          Sign in to your account
+        <CardDescription className="text-center font-bold text-[#000] text-[22px]">
+          Sign in
         </CardDescription>
       </CardHeader>
       <form onSubmit={formik.handleSubmit} className="">
@@ -77,14 +77,14 @@ const LoginForm = () => {
           <div className="flex items-center mt-2 justify-between text-sm">
             <Button
               variant="link"
-              className="p-0 h-auto text-[10px]"
+              className="p-0 h-auto text-[12px]"
               type="button">
               Forgot password?
             </Button>
             <Link to="/auth/register">
               <Button
                 variant="link"
-                className="p-0 h-auto text-[10px]"
+                className="p-0 h-auto text-[12px]"
                 type="button">
                 Create account
               </Button>

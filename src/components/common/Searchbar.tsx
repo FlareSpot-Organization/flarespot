@@ -2,6 +2,7 @@ import React, { useState, FormEvent, ChangeEvent } from "react";
 import { Search, Camera } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import useProductsFetch from "@/hooks/useProductsFetch";
+import { ProductCardProps } from "@/types/product_types";
 
 interface Price {
   amount: string;
@@ -47,14 +48,14 @@ const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
     }
   };
 
-  const handleSuggestionClick = (suggestion: Deal): void => {
-    setSearchTerm(suggestion.deal_title);
+  const handleSuggestionClick = (suggestion: ProductCardProps): void => {
+    setSearchTerm(suggestion?.item?.title);
     setShowSuggestions(false);
-    navigate(`/search?q=${encodeURIComponent(suggestion.deal_title)}`);
+    navigate(`/search?q=${encodeURIComponent(suggestion?.item?.title)}`);
   };
 
-  const filteredSuggestions = deals?.data?.deals?.filter((deal: Deal) =>
-    deal.deal_title.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredSuggestions = deals?.filter((deal: ProductCardProps) =>
+    deal?.item?.title?.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -81,32 +82,29 @@ const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
 
       {showSuggestions && filteredSuggestions.length > 0 && (
         <div className="absolute mt-2 w-full bg-white dark:bg-gray-800 rounded-md shadow-lg dark:shadow-gray-900/50 z-50 max-h-96 overflow-y-auto border dark:border-gray-700">
-          {filteredSuggestions.map((suggestion: any) => (
+          {filteredSuggestions.map((suggestion: ProductCardProps) => (
             <button
-              key={suggestion.deal_id}
+              key={suggestion.item.itemId}
               onClick={() => handleSuggestionClick(suggestion)}
               className="w-full text-left px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-700/50 flex justify-between items-center group border-b dark:border-gray-700 last:border-b-0">
               <div className="flex items-center space-x-3">
                 <img
-                  src={suggestion.deal_photo}
-                  alt={suggestion.deal_title}
+                  src={suggestion?.item?.image}
+                  alt={suggestion?.item?.title}
                   className="w-12 h-12 object-cover rounded"
                 />
                 <div className="flex flex-col">
                   <span className="text-sm text-gray-700 dark:text-gray-200 group-hover:text-gray-900 dark:group-hover:text-white">
-                    {suggestion.deal_title}
-                  </span>
-                  <span className="text-xs text-gray-500 dark:text-gray-400">
-                    {suggestion.deal_badge}
+                    {suggestion?.item?.title}
                   </span>
                 </div>
               </div>
               <div className="flex flex-col items-end">
                 <span className="text-sm font-medium text-gray-900 dark:text-gray-100">
-                  ${suggestion.deal_price?.amount}
+                  ${suggestion?.item?.sku?.def?.promotionPrice}
                 </span>
                 <span className="text-xs text-gray-500 dark:text-gray-400 line-through">
-                  ${suggestion.list_price?.amount}
+                  ${suggestion?.item?.sku?.def?.price}
                 </span>
               </div>
             </button>

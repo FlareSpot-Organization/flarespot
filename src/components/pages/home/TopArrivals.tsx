@@ -41,10 +41,10 @@ const TopArrivals: React.FC = () => {
               title="Trending deals"
               icon={Package}
               badge="3+ from $2.99">
-              {deals?.data?.deals
+              {deals
                 ?.slice(12, 16)
                 ?.map((deal: { deal: any }, index: number) => (
-                  <DealsCard key={index} {...deal} />
+                  <DealsCard key={index} item={deal} />
                 ))}
             </DealsSection>
 
@@ -52,18 +52,18 @@ const TopArrivals: React.FC = () => {
               title="Hot deals"
               icon={Clock}
               badge="Ends in: 22:48:10">
-              {deals?.data?.deals
+              {deals
                 ?.slice(17, 21)
                 ?.map((deal: { deal: any }, index: number) => (
-                  <DealsCard key={index} {...deal} />
+                  <DealsCard key={index} item={deal} />
                 ))}
             </DealsSection>
 
             <DealsSection title="Top Arrivals" icon={Tags} badge="500+ Brands">
-              {deals?.data?.deals
+              {deals
                 ?.slice(22, 26)
                 ?.map?.((deal: { deal: any }, index: number) => (
-                  <DealsCard key={index} {...deal} />
+                  <DealsCard key={index} item={deal} />
                 ))}
             </DealsSection>
           </>

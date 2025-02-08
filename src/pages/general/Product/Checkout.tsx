@@ -43,16 +43,16 @@ const Checkout = () => {
   const cartItems: CartItem[] = useSelector((state: any) => state.cart.items);
   const [isProcessing, setIsProcessing] = useState(false);
 
-  const handleIncreaseQuantity = (asin: string) => {
-    dispatch(updateItemQuantity({ asin, quantity: 1 }));
+  const handleIncreaseQuantity = (itemId: number) => {
+    dispatch(updateItemQuantity({ itemId, quantity: 1 }));
   };
 
-  const handleDecreaseQuantity = (asin: string) => {
-    dispatch(updateItemQuantity({ asin, quantity: -1 }));
+  const handleDecreaseQuantity = (itemId: number) => {
+    dispatch(updateItemQuantity({ itemId, quantity: -1 }));
   };
 
-  const handleRemoveItem = (asin: string) => {
-    dispatch(removeItem(asin));
+  const handleRemoveItem = (itemId: number) => {
+    dispatch(removeItem(itemId));
     toast.success("Item removed from cart");
   };
 
@@ -141,12 +141,12 @@ const Checkout = () => {
                       <p className="text-sm text-gray-500 mb-4">
                         {item.product_price} each
                       </p>
-                      <div className="flex items-center justify-between">
+                      {/* <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
                           <Button
                             variant="outline"
                             size="icon"
-                            onClick={() => handleDecreaseQuantity(item.asin)}
+                            onClick={() => handleDecreaseQuantity(item.itemId)}
                             className="h-8 w-8">
                             <Minus className="w-4 h-4" />
                           </Button>
@@ -156,7 +156,7 @@ const Checkout = () => {
                           <Button
                             variant="outline"
                             size="icon"
-                            onClick={() => handleIncreaseQuantity(item.asin)}
+                            onClick={() => handleIncreaseQuantity(item.itemId)}
                             className="h-8 w-8">
                             <Plus className="w-4 h-4" />
                           </Button>
@@ -164,12 +164,12 @@ const Checkout = () => {
                         <Button
                           variant="ghost"
                           size="sm"
-                          onClick={() => handleRemoveItem(item.asin)}
+                          onClick={() => handleRemoveItem(item.itemId)}
                           className="text-red-500 hover:text-red-600 hover:bg-red-50">
                           <Trash2 className="w-4 h-4 mr-2" />
                           Remove
                         </Button>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ))}

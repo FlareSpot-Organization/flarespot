@@ -26,60 +26,53 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-
-interface CartItem {
-  asin: string;
-  product_title: string;
-  product_price: string;
-  product_photo: string;
-  quantity: number;
-}
+import { CartItem } from "@/types/product_types";
 
 const Cart = () => {
   const dispatch = useDispatch<AppDispatch>();
-  const { token } = useSelector((state: any) => state.auth);
+  const { token } = useSelector((state: any) => state?.auth);
   const navigate = useNavigate();
-  const cartItems: CartItem[] = useSelector((state: any) => state.cart.items);
+  const cartItems: CartItem[] = useSelector((state: any) => state?.cart?.items);
 
-  const handleIncreaseQuantity = (asin: string) => {
-    dispatch(updateItemQuantity({ asin, quantity: 1 }));
+  const handleIncreaseQuantity = (itemId: number) => {
+    dispatch(updateItemQuantity({ itemId, quantity: 1 }));
   };
 
-  const handleDecreaseQuantity = (asin: string) => {
-    dispatch(updateItemQuantity({ asin, quantity: -1 }));
+  const handleDecreaseQuantity = (itemId: number) => {
+    dispatch(updateItemQuantity({ itemId, quantity: -1 }));
   };
 
-  const handleRemoveItem = (asin: string) => {
-    dispatch(removeItem(asin));
-    toast.success("Item removed from cart");
+  const handleRemoveItem = (itemId: number) => {
+    dispatch(removeItem(itemId));
+    toast?.success("Item removed from cart");
   };
 
   const handleClearCart = () => {
     dispatch(clearCartItems());
-    toast.success("Cart cleared");
+    toast?.success("Cart cleared");
   };
 
   const handleCheckout = () => {
-    toast.success("Proceeding to checkout...");
+    toast?.success("Proceeding to checkout?.?.?.");
     navigate("/checkout");
   };
 
   const handleContinueShopping = () => {
-    toast.info("Redirecting to products...");
+    toast?.info("Redirecting to products?.?.?.");
     navigate("/");
   };
 
-  const totalAmount = cartItems.reduce((total, item) => {
-    const price = parseFloat(item.product_price.replace("$", ""));
-    return total + price * item.quantity;
+  const totalAmount = cartItems?.reduce((total, item) => {
+    const price = parseFloat(item?.sku?.def?.promotionPrice);
+    return total + price * item?.quantity;
   }, 0);
 
-  const totalItems = cartItems.reduce(
-    (total, item) => total + item.quantity,
+  const totalItems = cartItems?.reduce(
+    (total, item) => total + item?.quantity,
     0
   );
 
-  if (cartItems.length === 0) {
+  if (cartItems?.length === 0) {
     return (
       <div className="container mx-auto px-4 py-16">
         <Card className="max-w-md mx-auto text-center">
@@ -89,7 +82,7 @@ const Cart = () => {
               Your cart is empty
             </h2>
             <p className="text-gray-500 dark:text-gray-400 mb-8">
-              Looks like you haven't added any items yet.
+              Looks like you haven't added any items yet?.
             </p>
             <Button onClick={handleContinueShopping} className="w-full">
               <ShoppingBag className="w-4 h-4 mr-2" />
@@ -121,27 +114,27 @@ const Cart = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-4">
-            {cartItems.map((item) => (
-              <Card key={item.asin} className="overflow-hidden">
+            {cartItems?.map((item) => (
+              <Card key={item?.itemId} className="overflow-hidden">
                 <CardContent className="p-4 dark:bg-gray-900">
                   <div className="flex gap-4">
                     <div className="relative w-24 h-24 flex-shrink-0">
                       <img
-                        src={item.product_photo}
-                        alt={item.product_title}
+                        src={item?.image}
+                        alt={item?.title}
                         className="w-full h-full object-cover rounded-lg"
                       />
                       <Badge className="absolute -top-2 -right-2">
-                        {item.quantity}
+                        {item?.quantity}
                       </Badge>
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex justify-between">
                         <h3 className="font-medium text-lg truncate pr-4 text-gray-900 dark:text-gray-100">
-                          {item.product_title}
+                          {item?.title}
                         </h3>
                         <p className="font-semibold whitespace-nowrap text-gray-900 dark:text-gray-100">
-                          {item.product_price}
+                          {item?.sku?.def?.promotionPrice}
                         </p>
                       </div>
                       <div className="mt-4 flex items-center justify-between">
@@ -149,17 +142,17 @@ const Cart = () => {
                           <Button
                             variant="outline"
                             size="icon"
-                            onClick={() => handleDecreaseQuantity(item.asin)}
+                            onClick={() => handleDecreaseQuantity(item?.itemId)}
                             className="h-8 w-8">
                             <Minus className="w-4 h-4" />
                           </Button>
                           <span className="w-8 text-center dark:text-gray-300">
-                            {item.quantity}
+                            {item?.quantity}
                           </span>
                           <Button
                             variant="outline"
                             size="icon"
-                            onClick={() => handleIncreaseQuantity(item.asin)}
+                            onClick={() => handleIncreaseQuantity(item?.itemId)}
                             className="h-8 w-8">
                             <Plus className="w-4 h-4" />
                           </Button>
@@ -167,7 +160,7 @@ const Cart = () => {
                         <Button
                           variant="ghost"
                           size="sm"
-                          onClick={() => handleRemoveItem(item.asin)}
+                          onClick={() => handleRemoveItem(item?.itemId)}
                           className="text-red-500 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-950/50 dark:hover:text-red-400">
                           <Trash2 className="w-4 h-4 mr-2" />
                           Remove

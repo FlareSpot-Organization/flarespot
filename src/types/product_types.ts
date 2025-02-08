@@ -35,3 +35,30 @@ export interface Sku {
   quantity: number;
   ext: string;
 }
+
+export interface ProductCardProps {
+  item: {
+    itemId: number;
+    title: string;
+    image: string;
+    sku: {
+      def: {
+        price: string;
+        promotionPrice: string;
+      };
+    };
+  };
+}
+
+export interface CartItem {
+  quantity: number;
+  itemId: number;
+  title: string;
+  image: string;
+  sku: {
+    def: {
+      price: string;
+      promotionPrice: string;
+    };
+  };
+}

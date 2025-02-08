@@ -2,26 +2,20 @@
   "result": {
     "status": {
       "code": 200,
-      "attempt": 1,
-      "p": "true",
       "data": "success",
-      "executionTime": "2.68",
-      "requestTime": "2025-02-06 13:51:21",
-      "requestId": "b2eb73aa1045d2cbcdf982a680570de6",
-      "endpoint": "item_search_2",
+      "executionTime": "3.13",
+      "requestTime": "2025-02-07 13:48:41",
+      "requestId": "5590735af725d765044b9d4c7ff72d04",
+      "endpoint": "item_search_5",
       "apiVersion": "4.0.5",
       "functionsVersion": "4.0.8",
-      "la": "0.74",
-      "pmu": 1167432,
-      "mu": 936936
+      "la": "0.18",
+      "pmu": 793600,
+      "mu": 793280
     },
     "settings": {
-      "q": "bags",
+      "q": "shoes",
       "catId": "",
-      "brandId": "",
-      "loc": "",
-      "attr": "",
-      "switches": "",
       "sort": "default",
       "page": "1",
       "startPrice": "",
@@ -31,317 +25,457 @@
       "currency": "USD"
     },
     "base": {
-      "totalResults": "1393447",
-      "pageSize": "20",
-      "q": "bags",
-      "sortValues": ["default", "salesDesc", "priceAsc", "priceDesc"],
-      "switchesList": [
-        {
-          "name": "Special services & ratings",
-          "list": [{ "name": "Sale", "id": false, "selected": false }]
-        },
-        {
-          "name": "Special services & ratings",
-          "list": [{ "name": "Ship from US", "id": false, "selected": false }]
-        },
-        {
-          "name": "Special services & ratings",
-          "list": [{ "name": "Choice", "id": false, "selected": false }]
-        },
-        {
-          "name": "Special services & ratings",
-          "list": [{ "name": "Big Save", "id": false, "selected": false }]
-        },
-        {
-          "name": "Special services & ratings",
-          "list": [{ "name": "Free shipping", "id": false, "selected": false }]
-        },
-        {
-          "name": "Special services & ratings",
-          "list": [{ "name": "Brand", "id": false, "selected": false }]
-        }
+      "totalResults": 1411350,
+      "pageSize": 40,
+      "page": 1,
+      "sortValues": [
+        "default",
+        "salesAsc",
+        "salesDesc",
+        "priceAsc",
+        "priceDesc"
       ]
     },
     "resultList": [
       {
         "item": {
-          "itemId": "3256805450268335",
-          "title": "100Pcs/lot 7x9 9x12 10x15 13x18CM Organza Bags Jewelry Bag Wedding Party Decoration Drawable Bags Gift Pouches Jewelry Packaging",
-          "sales": 2909,
-          "itemUrl": "//www.aliexpress.com/item/3256805450268335.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S84af0d64ae234bada1d22d9e3504821eY.jpg",
-          "sku": { "def": { "price": 4.14, "promotionPrice": 3.85 } },
-          "averageStarRate": 4.9,
-          "type": "ad"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808164669647,
+          "title": "Cat and Mouse Tom And Jerry white Canvas shoes For Man 2025 Spring New Cartoon Students Versatile Hand-Painted Board women Shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808164669647.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Se6803554737c46398a885492701ec26b3.jpg",
+          "video": "",
+          "sku": { "def": { "price": "21.14", "promotionPrice": "21.14" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807877873814",
-          "title": "5PCS/1PCS Large Capacity Storage Bag for Christmas Dustproof Cover Waterproof Storage Bag Home Organizer for Holiday Gifts",
+          "itemId": 3256807623810377,
+          "title": "Women Walking Shoes Spring Autumn Casual Sport Shoes Lightweight Air Cushion Running Shoes Soft Mesh Breathable Woman Rock Shoes",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807623810377.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sb27fadde60a14b94a64c37d18d8c69ff6.jpg",
+          "video": "",
+          "sku": { "def": { "price": "35.11", "promotionPrice": "24.58" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807545865746,
+          "title": "Shoes for Woman High Quality Female Sneakers Breathable Fashion Gym Casual Light Walking Size 36-42 Footwear Zapatillas Hombre",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807545865746.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sb9a3ef806c2648229acc26c1cc23a6e1R.jpg",
+          "video": "",
+          "sku": { "def": { "price": "12.14", "promotionPrice": "12.14" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807491706601,
+          "title": "Sport Shoes for Women Lightweight Lace-up Outdoor Walking Shoe Casual Sneakers Breathable Zapatillas Athletic Jogging Tenis",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807491706601.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sadf065c6b5f243ccbd2810363c2c8dd1s.jpg",
+          "video": "",
+          "sku": { "def": { "price": "12.03", "promotionPrice": "12.03" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808236634112,
+          "title": "2pcs Bow Shoe Clips Satin Shoes Buckle Removable Shoe Clips Elegant Shoes Clip Shoe Jewelry Clips for Women Wedding",
           "sales": 0,
-          "itemUrl": "//www.aliexpress.com/item/3256807877873814.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S831a9d8b75f94a6fa8f79faa123d3625q.jpg",
-          "sku": { "def": { "price": 35.47, "promotionPrice": 11.34 } },
-          "averageStarRate": null,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemUrl": "//www.aliexpress.com/item/3256808236634112.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S61d15fa393e748acb4ca1e404f42fe6d7.jpg",
+          "video": "",
+          "sku": { "def": { "price": "6.96", "promotionPrice": "4.31" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807913212248",
-          "title": "2024 ALAI New Luxury Heart Bag For Sac De Luxe Femme Bags For Women Bolsos De Mujer Mini Cross Bag Calfskin Love Bags A01",
-          "sales": 14,
-          "itemUrl": "//www.aliexpress.com/item/3256807913212248.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S39b4d8458e14400aa566e43a1c624d78U.jpg",
-          "sku": { "def": { "price": null, "promotionPrice": 101.21 } },
-          "averageStarRate": 5,
-          "type": "ad"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807682305098,
+          "title": "High Platform Sneakers 8CM Wedge Heels Leather Walking Shoes Woman New Autumn Leopard Vulcanize Shoes Female Chunky Sneakers",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256807682305098.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S9dfa8bec78254c23a7267e34fd481f53p.png",
+          "video": "",
+          "sku": { "def": { "price": "67.26", "promotionPrice": "35.65" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807533599408",
-          "title": "2024 New Versatile Business Bag USB Rechargeable School Bag Waterproof Laptop Bag Backpack",
-          "sales": 3020,
-          "itemUrl": "//www.aliexpress.com/item/3256807533599408.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S92a0d5ea464b403dbaba8fdd30384f8aw.jpg",
-          "sku": { "def": { "price": 17.16, "promotionPrice": 7.28 } },
-          "averageStarRate": 4.4,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808203457945,
+          "title": "Shallow Patchwork Cross Tied Flat with Shoes Round Toe Retro Style Platform Shoes Fashion Casual 2025 New Arrivals Autumn Shoes",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256808203457945.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S1a3b59832edc4f619983683b37b97aaeZ.jpg",
+          "video": "",
+          "sku": { "def": { "price": "130.08", "promotionPrice": "65.04" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807047831687",
-          "title": "MINISO Disney New Series Cute Snoopy Corduroy Tote Bag Casual Hundred Students Large Capacity Handbag Zipper Shoulder Large Bag",
-          "sales": 2629,
-          "itemUrl": "//www.aliexpress.com/item/3256807047831687.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S5db26f6bdd584f11952040633305b747i.jpg",
-          "sku": { "def": { "price": 22.9, "promotionPrice": 9.75 } },
-          "averageStarRate": 4.7,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808201993907,
+          "title": "Fashion Sneaker Woman Soft Shoes Woman Platform Casual Sneaker Women Slip On Sock Shoes Flat Women's Sneaker Zapatos De Mujer",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256808201993907.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S7691cc707a02423aa837fda37e28a69er.jpg",
+          "video": "",
+          "sku": { "def": { "price": "17.92", "promotionPrice": "10.04" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256806713916483",
-          "title": "Women's Bag New Fashionable and High end Texture Single Shoulder Oblique Cross European and American Handheld Women's Bag",
-          "sales": 1220,
-          "itemUrl": "//www.aliexpress.com/item/3256806713916483.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S9feb72ea10184d72a57a140396832dc2W.jpg",
-          "sku": { "def": { "price": 24.5, "promotionPrice": 11.41 } },
-          "averageStarRate": 4.6,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807954838777,
+          "title": "Hot selling Hello Kitty low top canvas shoes for women, men's plus size cute student sports shoes, couple casual shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807954838777.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S1bd107a55c7d43b4ae7ebde69ebbd3fb0.jpg",
+          "video": "",
+          "sku": { "def": { "price": "15.90", "promotionPrice": "15.90" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256804900170094",
-          "title": "Yogodlns Elegant Women Messenger Bags with flower pendant Office Ladies Totes Pure Handbag for female Crossbody Shoulder Bags",
-          "sales": 3070,
-          "itemUrl": "//www.aliexpress.com/item/3256804900170094.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6ce536a8b0a348bca471b9202382f0e2d.jpg",
-          "sku": { "def": { "price": 22.68, "promotionPrice": 10.11 } },
-          "averageStarRate": 4.4,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807778258426,
+          "title": "Women's Spring and Autumn Breathable Casual Sports Shoes All Fashion Fly Woven Lazy Casual Shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807778258426.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S7b84126e7725466aba75caa6e477a0550.jpg",
+          "video": "",
+          "sku": { "def": { "price": "38.95", "promotionPrice": "20.25" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256806756878753",
-          "title": "Embroidery Messenger Bags Women, Perfect Handbag For Everyday Use",
-          "sales": 2248,
-          "itemUrl": "//www.aliexpress.com/item/3256806756878753.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S05e9c75cdd1d4a208f5d1741115604d7C.jpg",
-          "sku": { "def": { "price": 18.35, "promotionPrice": 9.08 } },
-          "averageStarRate": 4.7,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808202393536,
+          "title": "Fashion Women's Sneakers Chunky Shoes Women Casual Sneaker Woman Comfortable Ladies Shoes Walking Zapatillas Mujer Sneaker Women",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808202393536.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6867ac9e38a44b42aefd2edf4cf23089E.jpg",
+          "video": "",
+          "sku": { "def": { "price": "15.73", "promotionPrice": "8.97" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807626149418",
-          "title": "Disney Stitch sanrio Canvas Bucket Bag Cute Cartoon Tote Bag Casual and Versatile Crossbody Bag Portable Tote Bag",
-          "sales": 9865,
-          "itemUrl": "//www.aliexpress.com/item/3256807626149418.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S27327d03647746a09aff9f60204a86efg.jpg",
-          "sku": { "def": { "price": 10.35, "promotionPrice": 4.35 } },
-          "averageStarRate": 4.4,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807901831831,
+          "title": "Men's casual shoes cartoon Tom and Jerry Pikachu white shoes women's sports shoes mandarin duck couple board shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807901831831.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S85a5038d7bfa4f1385fed27928a6faa7d.jpg",
+          "video": "",
+          "sku": { "def": { "price": "16.60", "promotionPrice": "16.60" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256803205948647",
-          "title": "2022 New Women's Fashion Handbags Retro Solid Color PU Leather Shoulder Underarm Bag Casual Women Hobos Handbags",
-          "sales": 6025,
-          "itemUrl": "//www.aliexpress.com/item/3256803205948647.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/Hc7a88d376e944b119fe8dcbb4cb54ac8W.jpg",
-          "sku": { "def": { "price": 3.1, "promotionPrice": 2.9 } },
-          "averageStarRate": 4.1,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807461442888,
+          "title": "Women's Casual Walking Shoes Walking Breathable Anti-Slip Tennis Sneakers Lightweight Soft Sole Mesh Workout Shoes For Women",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807461442888.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sb38ecb336ffa4cbea045083463ff7193F.jpg",
+          "video": "",
+          "sku": { "def": { "price": "19.79", "promotionPrice": "19.79" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256804085614408",
-          "title": "100 Pcs Customized Logo Color Shopping Bag With Handle Plastic Gift Bag Businss Customer Plastic Bag(excluding printing fee)",
-          "sales": 1665,
-          "itemUrl": "//www.aliexpress.com/item/3256804085614408.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S20d3b982c4044dffb024f7d86218d08en.jpg",
-          "sku": { "def": { "price": 18.18, "promotionPrice": 8.99 } },
-          "averageStarRate": 4.7,
-          "type": "ad"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808162347841,
+          "title": "Height Increase Platform Women Sneakers Breathable and Cushion Casual Shoes For Women Dance Walking Shoes Slip On Sock Footwear",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808162347841.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S0f0514fed9af4b118d85bae4b4528a53U.jpg",
+          "video": "",
+          "sku": { "def": { "price": "31.24", "promotionPrice": "10.93" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256806617035378",
-          "title": "Classic Designer PU Leather Crossbody Bag for Women Travel Handle Handbag Fashion Shoulder Messenger Bag Ladies Small Flap Bag",
-          "sales": 11838,
-          "itemUrl": "//www.aliexpress.com/item/3256806617035378.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sa4bb8c26d51c4fe390c0ed12369b612a0.jpg",
-          "sku": { "def": { "price": 9.44, "promotionPrice": 4.43 } },
-          "averageStarRate": 4.3,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807994589952,
+          "title": "Hot Fashion Red Women's Sneaker Comfortable Flat Low Cut Casual Sneaker Shoes Women Autumn Mirrors Plus Size 46 Skateboard Shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807994589952.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S70356993578542a095a78fcfe5f80b66W.jpg",
+          "video": "",
+          "sku": { "def": { "price": "32.26", "promotionPrice": "19.36" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256805481388294",
-          "title": "Women's Casual Tote Bag, Fashion PU Leather Shoulder Bag, Large Capacity Travel Handbag",
-          "sales": 1799,
-          "itemUrl": "//www.aliexpress.com/item/3256805481388294.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S0986629a4d0a4ce687cbdd981460b05dC.jpg",
-          "sku": { "def": { "price": 34.06, "promotionPrice": 15.23 } },
-          "averageStarRate": 4.6,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808212633985,
+          "title": "2025 Summer New Women's Shoes Fashion Mesh Breathable Comfortable Soft Sole Casual Single Shoes Women Zapatos Casuales",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808212633985.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S4a3265dc02784f94875af179ee82fafeV.jpg",
+          "video": "",
+          "sku": { "def": { "price": "11.27", "promotionPrice": "3.94" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256805967716897",
-          "title": "Trendy Fashion Ladies Crossbody Small Square Bag Girls Shoulder Bag Cross Square Tassel Pendant Sequin Embellished PU Polyester",
-          "sales": 1597,
-          "itemUrl": "//www.aliexpress.com/item/3256805967716897.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sbe3c7535b59040a7ad408c928ef0f722n.jpg",
-          "sku": { "def": { "price": 17.01, "promotionPrice": 7.72 } },
-          "averageStarRate": 4.8,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807770597086,
+          "title": "Women Casual Shoes new Breathable Casual Lace Up Sport Shoes for Women Outdoor Fashion Comfortable Tennis Casual Sneakers Women",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807770597086.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Safa606743cf342e1bf4e957a4ba77997o.jpg",
+          "video": "",
+          "sku": { "def": { "price": "11.98", "promotionPrice": "8.38" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256806158251327",
-          "title": "Casual Nylon Hobos Crossbody Bag for Women Designer Shoulder Bags Large Capacity Tote Lady Travel Shopper Bag Female Purses 2025",
-          "sales": 10877,
-          "itemUrl": "//www.aliexpress.com/item/3256806158251327.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S23b5e7328e8448f78383ba75b0bb151a7.png",
-          "sku": { "def": { "price": 4.68, "promotionPrice": 4.58 } },
-          "averageStarRate": 4.8,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808137507067,
+          "title": "Cute Hello Kitty Women Sports Shoes Sanrios Leather Board Shoes Anime Kt Printing Sneakers Cartoon Fashion Kawaii Casual Shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808137507067.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S1162339df2334be48a579cd552cad2d0w.jpg",
+          "video": "",
+          "sku": { "def": { "price": "11.05", "promotionPrice": "8.84" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807770666727",
-          "title": "Vintage Cartoon Women Canvas Messenger Bag Large Capacity Tote Bag Women Shoulder Handbag",
-          "sales": 836,
-          "itemUrl": "//www.aliexpress.com/item/3256807770666727.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S800bf5d8b3464d5eb851165aaaf729c0I.jpg",
-          "sku": { "def": { "price": 30.65, "promotionPrice": 12.77 } },
-          "averageStarRate": 4.7,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808111060184,
+          "title": "High Platform Women Casual Shoes Cow Suede Flats Female Autumn Lace Up Shoes New Brand 2025 Trend Walking Comfort Zapatillas",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808111060184.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Scbe7ae12f5be484aa5dabf00a9dd66d5Y.jpg",
+          "video": "",
+          "sku": { "def": { "price": "108.94", "promotionPrice": "66.45" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807456944013",
-          "title": "Sanrio Bag Kawaii Kuromi Cinnamoroll My Melody Cartoon Anime Plush Handbag Cosmetic Bag Travel Storage Bag Women Girl Gifts",
-          "sales": 3922,
-          "itemUrl": "//www.aliexpress.com/item/3256807456944013.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sd48e12bcd73d4e9f9ac4d8e00e296e9dP.jpg",
-          "sku": { "def": { "price": 7.7, "promotionPrice": 3.13 } },
-          "averageStarRate": 4.8,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807448464646,
+          "title": "Women's Rhinestone Shoes Autumn Fashionable and Versatile Inner Height Increasing Women's Shoes Thick-soled Casual Sports Shoes",
+          "sales": 22,
+          "itemUrl": "//www.aliexpress.com/item/3256807448464646.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S79924cec2b9b4c4192dd97e736ec26cew.jpg",
+          "video": "",
+          "sku": { "def": { "price": "74.09", "promotionPrice": "31.86" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256806512577553",
-          "title": "Large Capacity Canvas Tote Bags for Work Commuting Carrying Bag College Style Student Outfit Book Shoulder Bag Bolsos Para Mujer",
-          "sales": 14959,
-          "itemUrl": "//www.aliexpress.com/item/3256806512577553.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/Scecbf7d4fbcd4fe09d44b8273d2538b0y.jpg",
-          "sku": { "def": { "price": 7.38, "promotionPrice": 7.28 } },
-          "averageStarRate": 4.6,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808086093761,
+          "title": "2025 Spring New Women's Casual Leather Shoes Korean Edition Small Single Shoes Fashion Women's Shoes Lightweight Soft soled Comf",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256808086093761.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Ab9a5bba332594c42a4a46cde963ed2b5y.jpg",
+          "video": "",
+          "sku": { "def": { "price": "16.56", "promotionPrice": "16.56" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256806502954638",
-          "title": "2025 Women's Khaki Velour Tote Bag Original Letter Print Medium Ladies Brand Shopper Handbag Female Square Medium Shoulder Bags",
-          "sales": 194,
-          "itemUrl": "//www.aliexpress.com/item/3256806502954638.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6d9e844815354149b4a2cb3c65a49e54h.jpg",
-          "sku": { "def": { "price": 37.26, "promotionPrice": 21.51 } },
-          "averageStarRate": 4.9,
-          "type": "ad"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256807807696681,
+          "title": "Bicycle Lock Pedal Adapter Road Convert Pedal SPD Shoe Cleat Cover Dual-Use Adapter Cleats Bicycle Accessories",
+          "sales": 0,
+          "itemUrl": "//www.aliexpress.com/item/3256807807696681.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sa8791ab1ed5e46d7afc1b0571ef501den.jpg",
+          "video": "",
+          "sku": { "def": { "price": "10.45", "promotionPrice": "7.42" } }
+        }
       },
       {
         "item": {
-          "itemId": "3256807535588791",
-          "title": "Crossbody Bag With Pleated Design Embroidered Plaid Shoulder Bag Underarm Bags Simple Large Capacity Quilted Tote Bags For Women",
-          "sales": 357,
-          "itemUrl": "//www.aliexpress.com/item/3256807535588791.html",
-          "image": "//ae-pic-a1.aliexpress-media.com/kf/S727e7f9fb9d643fdbdbe9d49fb0dffa8y.jpg",
-          "sku": { "def": { "price": 11.05, "promotionPrice": 4.54 } },
-          "averageStarRate": 4.9,
-          "type": "natural"
-        },
-        "delivery": null,
-        "sellingPoints": null
+          "itemId": 3256808188435517,
+          "title": "Women's sports shoes slip-on shoes oversocksflying knit air cushion sports shoe lightweight breathable for outdoor sports",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808188435517.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sbceb9189a7384536b6ed3d3e6a85ee6fk.jpg",
+          "video": "",
+          "sku": { "def": { "price": "48.13", "promotionPrice": "22.14" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808053633997,
+          "title": "Women Sneakers winter shoes PU Leather trainers Woman Warm plush High Top sport shoes 2001",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808053633997.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S6e29c291d24840119bbb3ae8ef6c573eu.jpg",
+          "video": "",
+          "sku": { "def": { "price": "35.96", "promotionPrice": "17.98" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807954391828,
+          "title": "Samilor Height Increasing Non Slip Casual Slippers Comfortable Lightweight Anti Skid Indoor Outdoor Fashion Platform Home Shoes",
+          "sales": 7,
+          "itemUrl": "//www.aliexpress.com/item/3256807954391828.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S1313c129a80c4d0eb590a95c0eb953beE.jpg",
+          "video": "",
+          "sku": { "def": { "price": "10.64", "promotionPrice": "10.19" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807832520604,
+          "title": "Plush Doll'S Clothes Outfit Accessories For Korea Kpop Exo Labubu Idol Dolls Clothing Fashion Outfit With Bag Shoes Hat Overalls",
+          "sales": 0,
+          "itemUrl": "//www.aliexpress.com/item/3256807832520604.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S902f641b83dd4cb2a775b62efa4ba3a7L.jpg",
+          "video": "",
+          "sku": { "def": { "price": "17.38", "promotionPrice": "8.87" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808023913144,
+          "title": "Inner Height Increasing Casual Women Shoes 2025 Autumn Winter New Style Velvet Thick-Soled Platform Dad Shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808023913144.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S14dbb9b7c6f9467a88a40916affacda56.jpg",
+          "video": "",
+          "sku": { "def": { "price": "18.60", "promotionPrice": "18.60" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807838235689,
+          "title": "Fashion Fly Woven Casual Shoes Korean Version Fashion Short Boots Lovers Thick Soled Elastic Socks Shoes Women",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807838235689.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S57caff06dc184025b4403ceedef5b269Z.jpg",
+          "video": "",
+          "sku": { "def": { "price": "40.69", "promotionPrice": "21.16" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808017539480,
+          "title": "Soft Soles Anti-slip Functions Cotton Shoes Walking Shoes, Casual Shoes, Mother's Sports Shoes Fleece Lining Warmth",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808017539480.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S80261ed54a944b1da8dd66fbca11b74dL.jpg",
+          "video": "",
+          "sku": { "def": { "price": "13.85", "promotionPrice": "13.85" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807956432251,
+          "title": "Women's Casual Boots Classic Buckle Decoration Charming Lightweight Material High-quality Exquisite Casual Shoes",
+          "sales": 5,
+          "itemUrl": "//www.aliexpress.com/item/3256807956432251.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S89e08371c757412a91a83dffddac7a029.jpg",
+          "video": "",
+          "sku": { "def": { "price": "32.27", "promotionPrice": "30.66" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807756159562,
+          "title": "Star Walking Sneakers Y2K Platform Shoes Thick Sole Comfortable Running Shoes Aesthetic Tennis Shoes for Walking Jogging",
+          "sales": 3,
+          "itemUrl": "//www.aliexpress.com/item/3256807756159562.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sa1cb82ac9b0541d284adc95a294e29888.jpg",
+          "video": "",
+          "sku": { "def": { "price": "14.01", "promotionPrice": "10.51" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808151977825,
+          "title": "Height Increase Platform Women Sneakers Breathable and Cushion Casual Shoes For Women Dance Walking Shoes Slip On Sport Footwear",
+          "sales": 6,
+          "itemUrl": "//www.aliexpress.com/item/3256808151977825.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sc55075b18f1c42c89cdcf65eed76dfa06.jpg",
+          "video": "",
+          "sku": { "def": { "price": "25.06", "promotionPrice": "12.53" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807479506709,
+          "title": "Leopard Metal Buckle Lace Up Casual Shoes Women Round Toe 5cm Platform Punk Shoes 2024 Spring Autumn Newest Fashion Shoes",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807479506709.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sadce768e38ac4524a9341bbbe63c5979b.png",
+          "video": "",
+          "sku": { "def": { "price": "152.21", "promotionPrice": "76.11" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808222544911,
+          "title": "Leather Lace-in Boot Zipper Inserts 7 Eyelet Black Zipper Boot No Tie Zipper Boot Laces Smooth Tieless Shoe Laces for Making Kit",
+          "sales": 0,
+          "itemUrl": "//www.aliexpress.com/item/3256808222544911.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S689d79e259e746f886b7b975aae54352t.jpg",
+          "video": "",
+          "sku": { "def": { "price": "14.30", "promotionPrice": "9.59" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807971656825,
+          "title": "Women Shoes Comfort And Elegant Female Loafers Casual Sneaker Round Toe Flats Slip-on New Mesh Footwear Sandals",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807971656825.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Se7500e38c9a84da98bc49b71e70f8e71s.jpg",
+          "video": "",
+          "sku": { "def": { "price": "9.46", "promotionPrice": "8.51" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807764990872,
+          "title": "Hight Top Woman Vulcanize Shoes 2024 Fashion Flower Ladies Wedge Lace Up Casual Shoes 35-41 Large-Sized Platform Female Sneaker",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807764990872.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S0ed63db98fad4c5b8ec38cb08127ccacg.jpg",
+          "video": "",
+          "sku": { "def": { "price": "24.83", "promotionPrice": "17.88" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808073379431,
+          "title": "Soft Suede Leather Casual Shoes Women Sneakers Clogs Platform  All-Match Spring Round Toe Cross-tied Frosted Flats Shoes Women",
+          "sales": 2,
+          "itemUrl": "//www.aliexpress.com/item/3256808073379431.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Se83ad7a5b08f438cb032cbe484cd359b0.jpg",
+          "video": "",
+          "sku": { "def": { "price": "20.15", "promotionPrice": "13.10" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807866585930,
+          "title": "Mesh Breathable Thick Platform Women's Sneaker Multi Color Lace-Up Sport Shoes Tennis Shoes Spring New Anti-Slip Women Sneakers",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807866585930.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S2f95b27d0b34458b9b39e4ae307653ebB.jpg",
+          "video": "",
+          "sku": { "def": { "price": "30.77", "promotionPrice": "16.92" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256807806991769,
+          "title": "2024 Women Flat Cloth Stylish Light Durable Breathable Casual Shoes Slip-On Trend Classic Spring Women Metal Decoration Sneakers",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256807806991769.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/Sbae43f6ce8b94916839fbe78362dce21v.jpg",
+          "video": "",
+          "sku": { "def": { "price": "10.76", "promotionPrice": "7.53" } }
+        }
+      },
+      {
+        "item": {
+          "itemId": 3256808073292924,
+          "title": "Women's Mid-top Skateboard Shoes Outdoor Lightweight Retro Sports Shoes Leisure Versatile Fashion Daily Commute Tenis De Mujer",
+          "sales": 1,
+          "itemUrl": "//www.aliexpress.com/item/3256808073292924.html",
+          "image": "//ae-pic-a1.aliexpress-media.com/kf/S9b15eee1275d48b6b78aaf7a1e9aff832.jpg",
+          "video": "",
+          "sku": { "def": { "price": "17.24", "promotionPrice": "11.21" } }
+        }
       }
     ]
   }

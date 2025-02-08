@@ -1,19 +1,20 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import {
-  getCartItems,
   addItemToCart,
-  updateCartItem,
-  removeCartItem,
   clearCart,
+  getCartItems,
+  removeCartItem,
+  updateCartItem,
 } from "@/utils/CartDb";
-import { CartItem } from "@/utils/CartDb";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+
+import { CartItem } from "@/types/product_types";
 
 interface CartState {
   items: CartItem[];
 }
 
 const initialState: CartState = {
-  items: getCartItems() || [], // Add fallback empty array
+  items: getCartItems() || [],
 };
 
 const cartSlice = createSlice({
@@ -26,19 +27,21 @@ const cartSlice = createSlice({
     },
     updateItemQuantity: (
       state,
-      action: PayloadAction<{ asin: string; quantity: number }>
+      action: PayloadAction<{ itemId: number; quantity: number }>
     ) => {
-      const { asin, quantity } = action.payload;
-      const itemIndex = state.items?.findIndex((item) => item.asin === asin);
+      const { itemId, quantity } = action.payload;
+      const itemIndex = state.items?.findIndex(
+        (item) => item.itemId === itemId
+      );
       if (itemIndex !== -1) {
         const newQuantity = state.items[itemIndex].quantity + quantity;
         if (newQuantity > 0) {
-          updateCartItem(asin, newQuantity);
+          updateCartItem(itemId, newQuantity);
           state.items = getCartItems() || [];
         }
       }
     },
-    removeItem: (state, action: PayloadAction<string>) => {
+    removeItem: (state, action: PayloadAction<number>) => {
       removeCartItem(action.payload);
       state.items = getCartItems() || [];
     },

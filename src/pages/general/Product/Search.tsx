@@ -1,3 +1,4 @@
+import FilterSection from "@/components/common/FilterSection";
 import Loader from "@/components/common/Loader";
 import NotFound from "@/components/common/NotFound";
 import MoreProducts2 from "@/components/pages/home/product-cards/MoreProducts2";
@@ -20,18 +21,15 @@ const Search = () => {
   }, [query]);
 
   return (
-    <div className="w-[90%] mx-auto px-4 py-8">
-      {searchResults?.data?.products?.length > 0 && (
-        <h1 className="text-xl font-semibold mb-4">
-          Search Results for: <span className="text-primary">{query}</span>
-        </h1>
-      )}
-
-      <div className="sm:w-[90%] w-[95%] m-auto">
+    <div className=" mx-auto px-4 py-2">
+      <div className="w-full lg:w-[95%] mx-auto relative">
         {isLoading ? (
           <Loader />
-        ) : searchResults?.data?.products?.length > 0 ? (
-          <MoreProducts2 productsDemo={searchResults?.data?.products} />
+        ) : searchResults?.length > 0 ? (
+          <>
+            <FilterSection />
+            <MoreProducts2 productsDemo={searchResults} />
+          </>
         ) : (
           <NotFound query={query} />
         )}

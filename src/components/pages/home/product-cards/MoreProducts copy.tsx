@@ -1,33 +1,33 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import useVisualization from "@/hooks/useVisualization";
-import { addToCart } from "@/services/features/cart/cartSlice";
-import { CartItem } from "@/types/product_types";
-import { Heart, ShoppingCart, Star } from "lucide-react";
+import { Heart, Loader2, ShoppingCart, Star } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { toast } from "sonner";
 
 const MoreProducts = ({ productsDemo }: { productsDemo: any[] }) => {
-  const { products, loading, hasMore, loadingRef, formatPrice } =
-    useVisualization(productsDemo);
-
-  const [cartItems, setCartItems] = useState<number[]>([]);
+  const [products, setProducts] = useState<any[]>(productsDemo);
+  const [cartItems, setCartItems] = useState<string[]>([]);
   const dispatch = useDispatch();
 
+  const formatPrice = (price: number | string) => {
+    return `$${Number(price).toFixed(2)}`;
+  };
+
   useEffect(() => {
-    const cart = JSON.parse(localStorage.getItem("user_cart") || "[]");
+    const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     const cartProductIds = cart.map((item: any) => item.itemId);
     setCartItems(cartProductIds);
   }, []);
 
-  const handleAdd = (product: CartItem) => {
-    dispatch(addToCart({ ...product }));
+  const handleAdd = (product: any) => {
+    dispatch({ type: "ADD_TO_CART", payload: product });
     toast.success("Item Added Successfully", {
       description: `${product.title}`,
     });
     setCartItems((prev) => [...prev, product.itemId]);
   };
+
   return (
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold my-8 text-gray-800 dark:text-gray-100">
@@ -109,7 +109,7 @@ const MoreProducts = ({ productsDemo }: { productsDemo: any[] }) => {
                 </div>
 
                 {/* Add to Cart Button */}
-                {cartItems.includes(product.item.itemId) ? (
+                {cartItems.includes(product.itemId) ? (
                   <Button disabled className="cursor-not-allowed w-full">
                     <ShoppingCart className="w-4 h-4" />
                     <span>In Cart</span>
@@ -117,7 +117,7 @@ const MoreProducts = ({ productsDemo }: { productsDemo: any[] }) => {
                 ) : (
                   <Button
                     className="w-full"
-                    onClick={() => handleAdd({ ...product.item, quantity: 1 })}>
+                    onClick={() => handleAdd(product.item)}>
                     <ShoppingCart className="w-4 h-4" />
                     <span>Add to Cart</span>
                   </Button>
@@ -126,19 +126,6 @@ const MoreProducts = ({ productsDemo }: { productsDemo: any[] }) => {
             </Card>
           );
         })}
-      </div>
-      {/* Loading State */}
-      <div ref={loadingRef} className="my-12 text-center">
-        {loading && (
-          <div className="text-gray-500 dark:text-gray-400">
-            Loading more products...
-          </div>
-        )}
-        {!hasMore && products.length > 0 && (
-          <div className="text-gray-500 dark:text-gray-400">
-            You've reached the end of the list
-          </div>
-        )}
       </div>
     </div>
   );

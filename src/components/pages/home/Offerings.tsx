@@ -123,7 +123,7 @@ const Offerings: React.FC = () => {
           </div>
         ) : (
           <Slider {...settings}>
-            {categories?.data?.slice(7).map(
+            {categories?.result?.resultList?.slice(7).map(
               (
                 category: {
                   name: string;

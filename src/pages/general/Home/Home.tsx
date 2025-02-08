@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="sm:w-[90%] w-[95%] m-auto">
           <ShopCategory />
-          {/* <MoreProducts productsDemo={productsDemo} /> */}
+          <MoreProducts productsDemo={productsDemo} />
         </div>
       </div>
     </div>

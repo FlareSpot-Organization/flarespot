@@ -8,13 +8,6 @@ const Register = () => {
 
   return (
     <div className="min-h-screen flex max-w-[2000px] mx-auto">
-      {/* Register Form Side */}
-      <div className="w-full min-h-screen lg:w-1/2 flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-4 sm:px-6 lg:max-w-[50vw] lg:min-h-[100vh]">
-        <div className="w-full max-w-[min(500px,100%)] mx-auto my-8 lg:my-0">
-          <RegisterForm />
-        </div>
-      </div>
-
       {/* Fashion Showcase Side */}
       <div className="hidden lg:flex w-1/2 relative overflow-hidden bg-black lg:max-w-[50vw]">
         <AnimatePresence mode="wait">
@@ -49,6 +42,12 @@ const Register = () => {
             </div>
           </motion.div>
         </AnimatePresence>
+      </div>
+      {/* Register Form Side */}
+      <div className="w-full min-h-screen lg:w-1/2 flex items-center justify-center bg-gray-50 dark:bg-gray-950 px-4 sm:px-6 lg:max-w-[50vw] lg:min-h-[100vh]">
+        <div className="w-full max-w-[min(400px,100%)] mx-auto my-8 lg:my-0">
+          <RegisterForm />
+        </div>
       </div>
     </div>
   );
