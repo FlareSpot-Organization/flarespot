@@ -6,9 +6,9 @@ import ProductCard from "./product-cards/ProductCard";
 
 const LightningDeals = ({ products }: { products: any }) => {
   return (
-    <div className="w-full relative group mt-10">
+    <div className="max-w-[1600px] mx-auto relative group mt-10">
       {/* Header */}
-      <div className="bg-gray-900 text-white px-2 py-3 rounded-md flex items-center justify-between">
+      <div className="bg-[#131920] text-white px-2 py-3 rounded-md flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Zap className="w-6 h-6" />
           <h2 className="text-xl font-bold">Lightning deals</h2>

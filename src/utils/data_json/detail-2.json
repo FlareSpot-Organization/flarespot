@@ -4,128 +4,2148 @@
       "code": 200,
       "attempt": 1,
       "data": "success",
-      "executionTime": "1.64",
-      "requestTime": "2025-02-06 13:55:11",
-      "requestId": "0e7b1b6012142e2436261a9eceaadb45",
-      "endpoint": "item_detail",
+      "debug": { "dealType": "welcome" },
+      "executionTime": "3.60",
+      "requestTime": "2025-02-18 11:45:29",
+      "requestId": "33ca45a46ebc234db06957079267aa4f",
+      "endpoint": "item_detail_5",
       "apiVersion": "4.0.5",
       "functionsVersion": "4.0.8",
-      "la": "0.38",
-      "pmu": 722912,
-      "mu": 627608
+      "la": "0.08",
+      "pmu": 3634784,
+      "mu": 2650488
     },
     "settings": {
       "locale": "en_US",
       "currency": "USD",
       "country": "US",
-      "itemId": "3256807785647021"
+      "itemId": "3256806103378197"
     },
     "item": {
       "available": true,
-      "itemId": "3256807785647021",
-      "title": "Men Casual Sport Shoes Breathable Lightweight Sneakers Outdoor Mesh Black Running Shoes Athletic Jogging Tenis Walking Shoes",
-      "catId": 200000960,
-      "sales": "352",
-      "wishCount": 134,
-      "itemUrl": "//www.aliexpress.com/item/3256807785647021.html",
+      "itemId": "3256806103378197",
+      "title": "For Magsafe Liquid Silicone Magnetic Case For iPhone 16 15 13 12 11 14 Pro Max 16 Plus Wireless Charging Shockproof Accessories",
+      "catId": 380230,
+      "sales": "10,000+",
+      "wishCount": 5166,
+      "itemUrl": "//www.aliexpress.com/item/3256806103378197.html",
       "images": [
-        "//ae01.alicdn.com/kf/S603069ad099e4ae586990dcd3c5fdc9ca/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-        "//ae01.alicdn.com/kf/S79893a486a724939b941a684688bc712k/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-        "//ae01.alicdn.com/kf/Sfc22dbba2394413b9f0614f2efbc049dW/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-        "//ae01.alicdn.com/kf/S6bc125d6d7e946539a489db8d58ce111Y/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-        "//ae01.alicdn.com/kf/S50540661d32d4fe78df760e05eaf8c7av/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-        "//ae01.alicdn.com/kf/Sf57023848e094ef1b9f6b0c49a984fa06/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.png"
+        "//ae01.alicdn.com/kf/S95273acc6ce24dfda109d25e55293805q/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+        "//ae01.alicdn.com/kf/S47358c6649b0441aade9c99ddbace77de/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+        "//ae01.alicdn.com/kf/S2b05ad9c166448ccb12a7a5462e8a221J/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+        "//ae01.alicdn.com/kf/S60bbfbf82713465eaa54c2f7ef5403e13/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+        "//ae01.alicdn.com/kf/Sb08854f99e4e44d3832d6814ccbae679Q/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+        "//ae01.alicdn.com/kf/Sf7091e9c0436447fb6e06a4f97533d5aT/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg"
       ],
       "video": null,
       "properties": {
-        "cut": "Toe Shape / Hign-concerned Chemical / Occasion / Fashion Element / Shoes Type / Pattern Type / Season / Outsole Material / Closure Type / Upper Material / Origin / Item Type / Department Name",
+        "cut": "Hign-concerned Chemical / Features / Design / Type / Brand Name / Origin / Compatible Brand / Feature 1 / Feature 2 / Feature 3 / Feature 4 / Model 1 / Model 2 / Model 3 / Model 4 / Model 5 / Model 6 / Model 7 / Model 8 / Model 9 / Model 10 / Model 11 / Model 12 / Model 13 / Model 14 / Model 15 / Model 16 / Model 17 / Model 18 / Model 19 / Model 20 / Model 21 / Model 22 / Model 23",
         "list": [
-          { "name": "Toe Shape", "value": "round toe" },
           { "name": "Hign-concerned Chemical", "value": "None" },
-          { "name": "Occasion", "value": "Casual" },
-          { "name": "Fashion Element", "value": "TOTEM" },
-          { "name": "Shoes Type", "value": "outdoor" },
-          { "name": "Pattern Type", "value": "Striped" },
-          { "name": "Season", "value": "Spring/Autumn" },
-          { "name": "Outsole Material", "value": "PVC" },
-          { "name": "Closure Type", "value": "Lace-up" },
-          { "name": "Upper Material", "value": "Mesh (Air mesh)" },
+          {
+            "name": "Features",
+            "value": "Magnetic,Washable,Anti-Fingerprint,Anti-Scratch,Non-Slip,Water-Resistant,Wireless charging"
+          },
+          { "name": "Design", "value": "Plain,Fur Case" },
+          { "name": "Type", "value": "Half-Wrapped Case" },
+          { "name": "Brand Name", "value": "keai" },
           { "name": "Origin", "value": "Mainland China" },
-          { "name": "Item Type", "value": "Casual Shoes" },
-          { "name": "Department Name", "value": "ADULT" }
+          { "name": "Compatible Brand", "value": "APPLE" },
+          { "name": "Feature 1", "value": "Liquid Silicone" },
+          { "name": "Feature 2", "value": "For Magsafe Magnetic Case" },
+          { "name": "Feature 3", "value": "Wireless Charging Cover" },
+          { "name": "Feature 4", "value": "phone accessories" },
+          { "name": "Model 1", "value": "For Apple iPhone 11" },
+          { "name": "Model 2", "value": "For Apple iPhone 11 Pro" },
+          { "name": "Model 3", "value": "For Apple iPhone 11 Pro Max" },
+          { "name": "Model 4", "value": "For Apple iPhone 12 Mini" },
+          { "name": "Model 5", "value": "For Apple iPhone 12" },
+          { "name": "Model 6", "value": "For Apple iPhone 12 Pro" },
+          { "name": "Model 7", "value": "For Apple iPhone 12 Pro Max" },
+          { "name": "Model 8", "value": "For Apple iPhone 13 Mini" },
+          { "name": "Model 9", "value": "For Apple iPhone 13" },
+          { "name": "Model 10", "value": "For Apple iPhone 13 Pro" },
+          { "name": "Model 11", "value": "For Apple iPhone 13 Pro Max" },
+          { "name": "Model 12", "value": "For Apple iPhone 14" },
+          { "name": "Model 13", "value": "For Apple iPhone 14 Plus" },
+          { "name": "Model 14", "value": "For Apple iPhone 14 Pro" },
+          { "name": "Model 15", "value": "For Apple iPhone 14 Pro Max" },
+          { "name": "Model 16", "value": "For Apple iPhone 15" },
+          { "name": "Model 17", "value": "For Apple iPhone 15 Plus" },
+          { "name": "Model 18", "value": "For Apple iPhone 15 Pro" },
+          { "name": "Model 19", "value": "For Apple iPhone 15 Pro Max" },
+          { "name": "Model 20", "value": "For Apple iPhone 16" },
+          { "name": "Model 21", "value": "For Apple iPhone 16 Plus" },
+          { "name": "Model 22", "value": "For Apple iPhone 16 Pro" },
+          { "name": "Model 23", "value": "For Apple iPhone 16 Pro Max" }
         ]
       },
       "description": {
-        "html": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><span style=\"color:rgb(211, 49, 21)\">How to choose the right size:</span></p><p><span style=\"color:rgb(211, 49, 21)\">Step 1. When choosing a size, please measure your foot length carefully.</span></p><p><span style=\"color:rgb(211, 49, 21)\">Step 2. Please choose the correct size according to your foot length</span></p><p><span style=\"color:rgb(211, 49, 21)\">For example, if your foot length is 26 cm, you should choose size 42.</span></p><p><img width=\"891\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sbc521a5bce5d45579fab7d27f466f9daY.png\" slate-data-type=\"image\"/><img width=\"892\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sb457dbcfc4e246b99de8c6302c5db922T.png\" slate-data-type=\"image\"/><img width=\"892\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sf70a91981b334a96bba1046e03b4f4b2d.png\" slate-data-type=\"image\"/><img width=\"894\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Scaa130c2b68449ecaa67c3ac4e9bb40ef.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"897\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S9cf938c95ad84e7b89178d81b34251e7c.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"895\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S24a288f4ee3d42d89a4527b6eebc56fa5.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"895\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S37bc5d0002a3488288cae02efc480fc1G.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"895\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S384b466beece42e2ad33c289ed946674p.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"896\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S6c444401b04b41d5a9e34166bda5286fq.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"897\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sb69645359d1b430ea64eed0377208471b.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"898\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/Sc59479ed8d064c3a8c61c6e0606241f9T.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img width=\"899\" height=\"NaN\" src=\"//ae01.alicdn.com/kf/S6a589f9b20d2455ea5ba22d3c08d9ea4E.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><br/></p></div></div><br/>\n<script>window.adminAccountId=6001017918;</script>\n<link href=\"//g.alicdn.com/ae-seller-gsp/ams-tools/0.0.2/material/itemdesc/parse.css\" rel=\"stylesheet\">\n<script src=\"//g.alicdn.com/ae-seller-gsp/ams-tools/0.0.2/material/itemdesc/parse.js\"></script>\n",
+        "html": "<p><img src=\"//ae01.alicdn.com/kf/Scd509f346b6a437087cc65d8d89d145f1.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S6adbe3a8efc849f1a4a486b1ab66c31fu.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Se358322b3e45405ca0cacfa1e3aabeafK.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S28dde763033e474497c530eaa9b279c2P.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S1c6c9a1a217248f4a75c9d3d08bdb93a4.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S3b41cbc46b8d436298cf45e00624c0d7y.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S8e7ad38cbb344307b62edf561f021028v.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S32ff6cd0ce0f40fca5bf48c0fbb94923l.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S0847eb95a6944ea38a8d2a838d261175k.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S1b87231471b343a4818002cfa42381b15.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/Sef5db71cf94249f7a45cc3a093a7d41aO.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><img src=\"//ae01.alicdn.com/kf/S5caf04afef2b4853a0073d0772c78ac2O.jpg_640x640q90.jpg\" slate-data-type=\"image\"/><br/></p>\n<script>window.adminAccountId=230920811;</script>\n<link href=\"//g.alicdn.com/ae-seller-gsp/ams-tools/0.0.2/material/itemdesc/parse.css\" rel=\"stylesheet\">\n<script src=\"//g.alicdn.com/ae-seller-gsp/ams-tools/0.0.2/material/itemdesc/parse.js\"></script>\n",
         "images": [
-          "//ae01.alicdn.com/kf/Scaa130c2b68449ecaa67c3ac4e9bb40ef.jpg",
-          "//ae01.alicdn.com/kf/S9cf938c95ad84e7b89178d81b34251e7c.jpg",
-          "//ae01.alicdn.com/kf/S24a288f4ee3d42d89a4527b6eebc56fa5.jpg",
-          "//ae01.alicdn.com/kf/S37bc5d0002a3488288cae02efc480fc1G.jpg",
-          "//ae01.alicdn.com/kf/S384b466beece42e2ad33c289ed946674p.jpg",
-          "//ae01.alicdn.com/kf/S6c444401b04b41d5a9e34166bda5286fq.jpg",
-          "//ae01.alicdn.com/kf/Sb69645359d1b430ea64eed0377208471b.jpg",
-          "//ae01.alicdn.com/kf/Sc59479ed8d064c3a8c61c6e0606241f9T.jpg",
-          "//ae01.alicdn.com/kf/S6a589f9b20d2455ea5ba22d3c08d9ea4E.jpg"
+          "//ae01.alicdn.com/kf/Scd509f346b6a437087cc65d8d89d145f1.jpg",
+          "//ae01.alicdn.com/kf/S6adbe3a8efc849f1a4a486b1ab66c31fu.jpg",
+          "//ae01.alicdn.com/kf/Se358322b3e45405ca0cacfa1e3aabeafK.jpg",
+          "//ae01.alicdn.com/kf/S28dde763033e474497c530eaa9b279c2P.jpg",
+          "//ae01.alicdn.com/kf/S1c6c9a1a217248f4a75c9d3d08bdb93a4.jpg",
+          "//ae01.alicdn.com/kf/S3b41cbc46b8d436298cf45e00624c0d7y.jpg",
+          "//ae01.alicdn.com/kf/S8e7ad38cbb344307b62edf561f021028v.jpg",
+          "//ae01.alicdn.com/kf/S32ff6cd0ce0f40fca5bf48c0fbb94923l.jpg",
+          "//ae01.alicdn.com/kf/S0847eb95a6944ea38a8d2a838d261175k.jpg",
+          "//ae01.alicdn.com/kf/S1b87231471b343a4818002cfa42381b15.jpg",
+          "//ae01.alicdn.com/kf/Sef5db71cf94249f7a45cc3a093a7d41aO.jpg",
+          "//ae01.alicdn.com/kf/S5caf04afef2b4853a0073d0772c78ac2O.jpg"
         ]
       },
       "sku": {
         "def": {
-          "quantity": 718,
-          "price": "7.99 - 8.06",
-          "promotionPrice": "3.51 - 3.55",
+          "quantity": 41515,
+          "price": "2.3 - 3.44",
+          "promotionPrice": 0.99,
           "vat": { "desc": "Tax excluded, add at checkout if applicable." },
           "unit": "piece",
           "isBulk": false
         },
         "base": [
           {
-            "skuId": "12000043093758966",
-            "propMap": "14:173;200000124:100010487",
-            "price": 8.06,
-            "promotionPrice": 3.55,
-            "quantity": 162,
-            "ext": "RBVNOIsdKCItTwgwijzX-GSxq34wgIuOZKaozmbkQGrqzgA9wALHDgHRgqllnnNezqyVWLDFh_gwboQVBhm4z8fGT-FZE0Fl-0I3pmrISjo3pGcpSeyoS28l3t-WPc27cVmqUjzGyaNFNyKJ7egbHKh8Chakvsj4PAbUVXCoyBo="
+            "skuId": "12000036628527962",
+            "propMap": "14:1302530329;10:1064",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 29,
+            "ext": "dTIavy_1O8UtJbelGeHrL0ZMdZOrDpwkmUSYoOo_qMbiwE2ydaTzsqZhzoOioIo4tn1DtnHm1JaFv0qV3oIwNGqhAo9tRrt9qS8lM6CuJhlIzbUp3Q23eMEY7VymlMy1EqNmmRdbleIw2MDRsfk7eUOOEzCBWfAN0pTxaxDi-fk="
           },
           {
-            "skuId": "12000043093758965",
-            "propMap": "14:173;200000124:200000338",
-            "price": 8.06,
-            "promotionPrice": 3.55,
-            "quantity": 160,
-            "ext": "ntJCt8yfetfvb0Dah4dwWxbu5EZyptcEtC57aHgpEbWQqBNH1SkabehjwIeAXgKHB8RTVsYE3MmApTwzPj0KfyVLYkE54HZqT4782loje43LSi6W7BNo4pSBkju0khW_XuiBDbJJSG3jYwaifclIrrT4wr8bZ3BdybOGi2_rp_0="
+            "skuId": "12000036628527963",
+            "propMap": "14:1302530329;10:63",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 28,
+            "ext": "CjQbKBPMVX7bKcKw2C31C5mAJ5A5oaGSWuR322RZHPdOMB6D_fzuG_OQqGugNjOE05uv3qADwiknNB5gnwuah9zt9ZKmQ11nlXujokCvD1KIFbcph22WHAnFnHrjyZETQd_qETch0D8aIMl5lOw04mfXzezgvqVislKB261Tcac="
           },
           {
-            "skuId": "12000043093758964",
-            "propMap": "14:173;200000124:200000337",
-            "price": 8.06,
-            "promotionPrice": 3.55,
-            "quantity": 147,
-            "ext": "2RTPl0MwzxtMTnz3ObsM2sMpKrFfjUBzCB1Aodr17kBsTo3bZNF-A33CF8TJSGKmdUavtRWDVyunu7w_CCphTeVNjbuGxQkWkgrbzRqP2NBmQN-wiE4k-Q9ZfVAmCYAHc-cYDyC3v0xcG8WHpqUCBQQqx6rB5NghQm4lcRytKMM="
+            "skuId": "12000036628724056",
+            "propMap": "14:989712581;10:352621",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 22,
+            "ext": "2HFwPDJLE30t8TWRTaGVRNYV5loiuUQsvNjCqgnjOLQjEtsFk0TcMZSMg7hJFPE35t6OJA2osBCHIkNpsIxT5ufqIzMHC2e4DkLYwO-HwI6VbggIsJvQXctsJaf1O7zDbm1om0tVdodaE8xKFSHBWM1FC-QTtZTtak5RnJjRqoQ="
           },
           {
-            "skuId": "12000043093758963",
-            "propMap": "14:193;200000124:100010487",
-            "price": 7.99,
-            "promotionPrice": 3.51,
+            "skuId": "12000036628527960",
+            "propMap": "14:1302530329;10:395",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 39,
+            "ext": "N4KvUoVDU7KWJjuiVgOHUjcOVytdFACcvaVSBQSYtbajp3yq3F_3j2GTC_p3_gBucTxoGWPzoPcpx15OzGRFcSROWmoH0NmQG0av3lrjHF9A9SnlPFyRlnLsrgw0x55erMjOB5QCmq5msxMCLdvxvo-nd-jFStLwHDk_nzdJL_A="
+          },
+          {
+            "skuId": "12000036628724059",
+            "propMap": "14:14505590;10:529",
+            "price": 2.61,
+            "promotionPrice": 0.99,
+            "quantity": 1041,
+            "ext": "LJ0lySwtZHLgrlK4ZASKPtU5pzt5hXCarIfxso3xSl41pU4iXp_6Jf7XiurPyGMK2OvNkR9B2VHI7tidHs8LFIVMhjyNWdCShMuu8WkMj4wCUHjw-J3GZomIxxFtzRU30m2woBxeGZfFAc7abejmwJSBkIR7fWoZ1-yA0xP9SOg="
+          },
+          {
+            "skuId": "12000036628527961",
+            "propMap": "14:1302530329;10:365213",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 51,
+            "ext": "zWmHnoYSMLXKbUlFa0mxEeHt3zxNH9QFKN5ouzTkSDlaf-vIdchcwjd5Qmh8fRfsgqCLqYk29ehuvKgrt-zwWWxSRsLE3sAGJuy5zVLFnZ34bWGnoi7O8o338pyoI4k-4LY5JXOcS8qJz9u7GOv_E4zmjcqn6VZM6AI04wmFgnM="
+          },
+          {
+            "skuId": "12000036628527966",
+            "propMap": "14:1302530329;10:48",
+            "price": 2.38,
+            "promotionPrice": 0.99,
+            "quantity": 34,
+            "ext": "wB3Ly1TMwQr62kYvlt6cYF6mcSDXgCDgXhBUimX-9lybWvvrDDrbuBQIXFAVCo7FBWU34OZh8Vmn6Inndcdd-ASWSI30HLh7xRuLWaQTKrojhzz8CdzzxuoWbLezdtuEhKXjFxePlOz54vXFu4oI9r_7HyUm667oOWeGQQl6wxg="
+          },
+          {
+            "skuId": "12000036628724061",
+            "propMap": "14:14505590;10:365212",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 1018,
+            "ext": "HUwJSM1-rCnx-EYbxTXTp8MhChj8w_i6BW2rOK3f7iwNeYmTojWLrZkxDjqDQCj8yfNQNKIIqtk1kvJj02OHvhdtcxRUob2GKKBVfAJDgK0-NYMw1GZenbImIPjkWi7utdjL2sOjWk6v-OCOUyUbdqGA7Z9TZLvRC2qKTT3hdr4="
+          },
+          {
+            "skuId": "12000036628527967",
+            "propMap": "14:1302530329;10:438",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "1IW0f19GdI2fnHloKZGG--a2Iq2zkS0mNrlvl-4Puajlrew9Dir66xnRB0EWyNku3IIrIqaB6_v2CPTmoMP2YpBA1lDKZXSLrZVUH858q-VqsuWt11Aa-eI9BVQxv6fCdvCwZHgNdvPvTI6kemBZcw9iTl6BDYxtjs69-bnmm_g="
+          },
+          {
+            "skuId": "12000036628724060",
+            "propMap": "14:14505590;10:365211",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 10,
+            "ext": "KqcaVLlKM6GzYeEEac2b1QR7G3nH2XJsL5GSPQYqJ3UJLSGDpAYDlUGzRztHc9Ef6V5hDdbuTbei7qW7DcZvcDuPWv64VUwMgmXKQaNAYZYmLmneJfH8eK0EPOiIk-4kTPtgRwGQlSOOp-LeqjRkyRnR4IPOWaoBbH9upFgXjcw="
+          },
+          {
+            "skuId": "12000036628527964",
+            "propMap": "14:1302530329;10:437",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 51,
+            "ext": "_9ZdGY7zkU6jLUae49c8zGJVv_XUhS8M5gnm1dKoaXwLORh_GHiEPGCbdzshvupA1NozTJRGrh1vEK5Q2TFCeRZvjyHlP9QzG9gsFyzI0S_LBp-XblG3Owdm7TBfyVvi8KIjoFAHpFhaJ8DYI226xvkg-OB2JUmFSnnwQM4VbsU="
+          },
+          {
+            "skuId": "12000036628724063",
+            "propMap": "14:14505590;10:365213",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 30,
+            "ext": "OWyu0SdvLBAB6X58PaEmXsa6g00tN9W_L7--ybDfkmVVC1vHWvTSwGrhcIBpYRavkDfAfdOh48xDbogwe_HkggEXYDaNeGqScy3-NbalqAVVTKVEj3etwEXfk8G9DfBUaagCriaHCr6t8dlP3WjKuC3rHczHbJqk5cofQdn5NNk="
+          },
+          {
+            "skuId": "12000036628724062",
+            "propMap": "14:14505590;10:395",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 1040,
+            "ext": "jTv9yhWEJfrLAG4xmdtFf8JR7lLxhbg7uUYRZsT90uGsGZKyUsgxjF4LgoBWUfmIUBcUs3IW_opVKFJHkIshJJXoZNT1XiPbNJ18XTz5JHb6drsZ3o7Lvurli-5bm5KNLNoi5wGrqKYqyTJNALv-hkqEsZM2zXzYjKgZC5SWrNs="
+          },
+          {
+            "skuId": "12000036628527954",
+            "propMap": "14:200002985;10:352621",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "nJ_g0QifGplQdI_gJkSizzCUujpdLHOeNN_DyrXU25nf7ZzcMyL_iTvddhDYvU6De6kheLW54Ez3Y_XD0Xep0GYH6UP52a3KIYfUNnKpW8FhE4iBkfCupjTmwF7T8HsiTW6Ncjz9FLin90kNBenyG3u_DvtJxgqU_Xn2E3v39kY="
+          },
+          {
+            "skuId": "12000036628724049",
+            "propMap": "14:989712581;10:437",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 35,
+            "ext": "7F3yII_Z5hzQ4mD7au5XSWMzVCrNF66I0GWCdqg9J2PDR5KnxlwUKkTDhnG77IqIXVRAOZ8PxK-aa-dzpAFS1A37KaNbVdsnrNHk_T_soxeP2FEvWyZ3_d3AcSf62HGgt5SLrwR1JVBePqff9Xr_Qah37IzS0IdZJJtnyTSMTbU="
+          },
+          {
+            "skuId": "12000036628724048",
+            "propMap": "14:989712581;10:63",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 20,
+            "ext": "5X19LYE0UkbevZdT6oybj8Q5xU5f_STtPzL4pRug84DgJQDHRDJB5lPFK2l3MD4XYGAh5KhG4KpEfsCDJEkk_lDe44kbe6iUNDKcYZj2J9e7vDx7YARiNcaab-jJlLadChmF0RXaIm17EdPjFknGS_VPjVmciQM5J8HqvyYPFO8="
+          },
+          {
+            "skuId": "12000036628724051",
+            "propMap": "14:989712581;10:48",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "DPzEjx7dzvZOYhBJL5aWIf2d-KaZHC0SDP69XRH82ywV-7odnvsCthgLCPAdboUoJCvSvAGWbG05jY5S1pOdKO9l_bB-Ccmr9Cj2198zukVlwsivjF9FSmofLXgLY8pctNm9yp4uSFSesjg9TGYFpeRG_vYRBYJSMc4VbTXoiC8="
+          },
+          {
+            "skuId": "12000036628527953",
+            "propMap": "14:200002985;10:1170",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 29,
+            "ext": "w_4LfL77mA_wK5HqFcudsKrcfTo6-cbe0_vB0bsRpSuqN5loo6lnWRRe3cdseRyq1Ke9ZN14MIbR4GXLuEwRhaZAdYKsci5nQd4XTOoW68otO44YFy_rBLDNoycYAveuZEXSyRTjVgT9v8lDuV0tyOcQ-_CNLGXmJf0y74iiglU="
+          },
+          {
+            "skuId": "12000036628527958",
+            "propMap": "14:1302530329;10:365211",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 34,
+            "ext": "Pep9jjHqxmg-xlrfYmy0eR-7kJypLaIQtqgD38bUGFnOLDqA00EmFFq1f_56-IPf89ya3mUw86V3xbsPd0ANA1MF0ruSjp4p7cDhGd9inEzM1ohYcZYmpVTfAHaHi5c1EOkmDLdR5ue40CoZcypJCvmeZHulSX3PRNFNAgD3eLI="
+          },
+          {
+            "skuId": "12000036628724053",
+            "propMap": "14:989712581;10:452",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 23,
+            "ext": "z-LV7gWYC7pWSi5mJmhK6rFakZYGK1ukdoPprEYUvBhCSEmSnCldO4pjM2osMZZvx-Y9BnkrxW2EqNJMr2kVJKWjRlFZfmLysqBqm3kf70O5EgQL0AIn_jy5BR8v4US8DZZ2MwvJKqUygQdqqe2ud_o3DcCO3abpaBJhzo0Rw9U="
+          },
+          {
+            "skuId": "12000036628527959",
+            "propMap": "14:1302530329;10:365212",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 21,
+            "ext": "HzA-gEukD_43di-q-_VjkM6A2qXPk9YLGoubCaQKWhqchSP4kLVdL9-kyQAKn0kXwYl_xzQqHRiLD3s1r5Xp8UnaqK2tI0w_8nN9d_sVksLMKGZI7E7uJKfFq13iSxvBfyldBnBH-R_NepY4rZ0DxDpd5HeFLpXCaeahqdI8kQg="
+          },
+          {
+            "skuId": "12000036628724052",
+            "propMap": "14:989712581;10:438",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 22,
+            "ext": "kxdZSBRMBf3xR0RCTfeot45BNb_p_u5no71O_Bvf2ktsJqdVX1UogZ80xg32Zk9UhwHc0mjxt3cC3Em2KrNDZcpamWhHstksOBb5RAcW12X60WFDuseHoYsu1rTbjRT36lv2ESN1yGDPBOmD-mpFj9YAvZr7gLjhPCY73k82zPY="
+          },
+          {
+            "skuId": "12000036628724055",
+            "propMap": "14:989712581;10:1170",
+            "price": 2.3,
+            "promotionPrice": 0.99,
+            "quantity": 25,
+            "ext": "wgoqXSGw_i6VtvG_7i-Wg6qBt48kytwFNdMBzV8ogYGpFkTcxHFIV4jcremTUzh8jhQfhEvC9fyWu9BGeyE5WixyIgycZSG2GOAdUU62d6C9Tz_tTBTwAXSdOHwmPHRnAjZ1xHSfTlmSphbx3ni5A-TvoLfhVwk2DwVFNOtLtdI="
+          },
+          {
+            "skuId": "12000036628527957",
+            "propMap": "14:1302530329;10:529",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 9,
+            "ext": "pd2GT9tbNkLOnon-Ph2YJ1wejaoJNQBix7wNivBwXURnGzZhvKB8Zp3KC1-Qrg1bs1zgqR5tBHVvruAqxSHLUWUGw2zelHfPVmQGgeYM7lAG4U-Q42QJd9Bo6IWqTvdJlIjdMadV5gadhTVZV_O2CRrXCIpOsSF4bgUxzRypJqA="
+          },
+          {
+            "skuId": "12000036628527946",
+            "propMap": "14:200002985;10:63",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 33,
+            "ext": "gJS2iJHkK7SpEDFGC-OTb0Oc7RRZe85BPbV7QCnhbct99v5089GBwdGbuCYRqtWNdSmfmjOWQNSM8Z7yAYmRUFYb6U4PPUIsTzSWLrs9nJaDHzVxje-mq0DnP6F_R09KsNfpDS7Gl5L9sG2HnS-GyavxD_s0RYglTufHJlqrEnc="
+          },
+          {
+            "skuId": "12000036628527947",
+            "propMap": "14:200002985;10:437",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 25,
+            "ext": "kimsR1uig4-EB5yUQHnWZHIOiUm15AONuTabDfhqmoVgu_pXeo1hP5HCC_8YnUTurvQz8ViBKPcF2JxcqTeh6Vn_k_FtJDy7MpauioPWSgTCJshh2_hFg7rQhkNR3c7MxHzyQwjUxebMeqEK_rcVwWJQSEfZz4h9AZCxrFNVdzA="
+          },
+          {
+            "skuId": "12000036628527944",
+            "propMap": "14:200002985;10:365213",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 37,
+            "ext": "Jru_fKuDDCaYlOJGop_huBmrpvGMb30i0puXdCr5NSsoUdgjMjvWqhX2A8FtS3blaBc-PSCoBOHpzth3mTrP2-lIwdeaaUsvwLfac6Y_Ph6X1UaHtUTXzN6nXe-WVAzAJbmNrPl1K2p1-C4FDGug4dakOhitMxH2fCYrVoXs3Pc="
+          },
+          {
+            "skuId": "12000036628724043",
+            "propMap": "14:989712581;10:365211",
+            "price": 2.32,
+            "promotionPrice": 0.99,
+            "quantity": 27,
+            "ext": "bBtBUBGjh2gvy2bm8yUzfcpXHX21Nh-qQvVf-sMt0hTDpiOJZtnJ1bVD5tZUjmTCx-9-mFquVgevo3ZQ-lUShjuTDKHnzsnXxtMfxDE63EUECEso0iceMjPG18Oh9MwofRfRRBYXEylOGCH49A0tzvk4CcZCLID-4Q9on8c-S-U="
+          },
+          {
+            "skuId": "12000036628527945",
+            "propMap": "14:200002985;10:1064",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 31,
+            "ext": "NMqsHTcmBFdd2d9tB_WM3VNn3hngAWGNgtmpRCS34sg8L7Tio8Q47t3Eqq_v2BOevXrybm2C0Ukb7ETIrPwW5gJQybbb0XwrdTp2VXgV1y35tDWP4lzcE3o5AE_xG3NnmqbCC_akLrQBRItdYbDmT6d-2vRXLD3wz3uTmxLX9fg="
+          },
+          {
+            "skuId": "12000036628724042",
+            "propMap": "14:989712581;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 1038,
+            "ext": "jMDHqscwQZvXqkOp16Bz1ULavGcx6-CnYZj5coTrFeCBY0k56dbufXxg6BkHNxTC8VyB6IRGZHAJEazEhKvbrHQDwc0GRFxxN7e0zOt18IN4LXK000UCT5bKucSbkqx2ZwobWMJrXBxpH25yjkmIUdNLh3z3RrNV02Hxt62XY6I="
+          },
+          {
+            "skuId": "12000036628527950",
+            "propMap": "14:200002985;10:438",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "2wIBXbv1NiBwslWvg-_OVKq5YnC327uHURGWJea7cwp__bCsMc2JZW-vqlBFani73WBLHPH1Whq02XnxTJDACX-gF57M3rv9QQb6ihzPP3IMqLmvGbFyTeEb5HPkEVR4sXHHnrcupEksUQhazGM3xv1UFmzpVee2nxwNtXCpe9A="
+          },
+          {
+            "skuId": "12000036628724045",
+            "propMap": "14:989712581;10:395",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 13,
+            "ext": "bHynPKh_RMypipd2OAw0aPcdrZQCR5OFQoEvZrIS2Iy7i0mMVHDuqt39WeyxU5XIPhf_lzjrv4Ok2fVcpIVdH4NXNXD-3CiySxjvGkUbxX6uvGrDavZxYsQfadj1vzH7iJSlk9bkqZiFgToqcPD-OJs7FWfpWXBKZCXfHQERURE="
+          },
+          {
+            "skuId": "12000036628527951",
+            "propMap": "14:200002985;10:452",
+            "price": 2.67,
+            "promotionPrice": 0.99,
+            "quantity": 22,
+            "ext": "ofz2WWk8myftEjj4H6tchdWBtE0ElKPHZ8IVurJJfIUc4Ig5cWgNPu4oJ2WlOXwESpoPZDgeNVT6bEwlr_IgReGKy6u1O3ZUVGhYBa4VThsf3I__GkWKIM2YixvNxWF2OSe3woG3b9iGZDkM8pfBbyINRb39DELBC3rYfATpGhA="
+          },
+          {
+            "skuId": "12000036628724044",
+            "propMap": "14:989712581;10:365212",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "UZXCkNnhKsTA3JQdzFx2i9QYrW_tpqPDG6P7_JfOWuKhVwTv7P4ITx0ywuPf9DGgkKqgNyZSWqGHL4bWRpnGal25DfQoQF-efGwbUYjbPDoAdJ8_fGOcm18-mj2Eb5IU8ts_XCPFVNh6Xo1jLAh-rpupKPFUHXmTL9II8SJT9IM="
+          },
+          {
+            "skuId": "12000036628724047",
+            "propMap": "14:989712581;10:1064",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 19,
+            "ext": "Y75xpfdAvnQQwF8X1XfhA4gcovG9OtqkRY0wtPfH6qFKLV8_2gMjFIqRAiGzIIJPWFYoQs8DpAHEW8njeVrB6RWhb2t_V_3vlAN_de9XxmJ1hL5g8z-RGCWzOCc-P6K_wfjTBCVEHJe8bEkgYb2jgENstyhduRrpDC6z_un6k28="
+          },
+          {
+            "skuId": "12000036628527949",
+            "propMap": "14:200002985;10:48",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 20,
+            "ext": "kg2cLcyAYFaUsOCVkU0jfZH_NyS7BJj2Fe6swRvAXvwrkXD2BkEmBuhU8NnTwehI14a_u-HJeWuCeRB8p26QpB9X4RuZhxap3-my9fFCBOO8pz3DkZ4p4mXGOUQZPZ8JlwzmKThTqoONkxfp8J3_oQGSUwgnuatGvNNXUk3Zbgg="
+          },
+          {
+            "skuId": "12000036628724046",
+            "propMap": "14:989712581;10:365213",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 21,
+            "ext": "vevxpjLMvd8rZ-Jr5K5lva9253NerZ0aKZGnu8iJMdn1abSm4Y_unnKLdOKG1g_8Qgy_OTSdppCONX6eroYUBxDP2NQIWum_QdcUTpZw7HBnTAsFJfqiikBCCehpAccqmLwRfaFYK75S8hiceLR6Z6DMziIGrVJKxRLsdBbeyjY="
+          },
+          {
+            "skuId": "12000036628724032",
+            "propMap": "14:297688431;10:437",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 28,
+            "ext": "A6MGkajtvcZ8PE5qeinF5dXpCMDyHO_h04G1MaTYhj7JCcou9SQn3t-QyyuhpWv6FVhT8cOTfiy1n4Xb8vSXdAx6Szjnc8lppxTpEYiuTysP4giCW-O_m9T1375ZqAMnYAF0f5v8Y7_YYj6_z71rx2CQ0BbZCd6qd6W2rYwYi8Y="
+          },
+          {
+            "skuId": "12000036628527936",
+            "propMap": "14:202997807;10:1170",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 5,
+            "ext": "D-hmLg3KIkPOR6lVDehWVa7-4F-6YBgXkd2Rc0I6bvB0OoxPjZd79I2odaT77j08qKzGumJhdh7bGXPJBknT1nQD0I3xeIDwiyWljMWWxfOzvzYHl_fUr7SRI34Df5AkOfP_tV2dbn3GD_Ngyk7ri8RSHD4s-hNo-lsdv2AilaI="
+          },
+          {
+            "skuId": "12000036628724035",
+            "propMap": "14:297688431;10:438",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 24,
+            "ext": "XpgND41KNL6eeGC_AHe1tzg4zubPmmKqWqxj8ABPvKDE5FhIaTin_MAVqEfX8S19z7WWhzaBZ7XbiPA7td1hZHvbmMWfq__l-367wvHpftCcTllvK9KDuK632WronHzoziD_C-d8eMW17aDMlOQyG-YrgHY-o-_77_WaO9dayVA="
+          },
+          {
+            "skuId": "12000036628527937",
+            "propMap": "14:202997807;10:352621",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 999,
+            "ext": "_dIYkhUE1VTlF5iUtIw8RRxgtRMrGmXuHV6j00Jg61kyq6Y4u17PQaqtckkSPGb3Z7CYK7k8Ph1a_jv7y-YFWoNtdww3UzmNzv56vFeqnY1IqVSMOCfKKCfA6DmR43rKRicd_GDmTqM7jncnQZ8XLPCAtu3yhYA5vL1y0c-Kg9c="
+          },
+          {
+            "skuId": "12000036628724034",
+            "propMap": "14:297688431;10:48",
+            "price": 2.38,
+            "promotionPrice": 0.99,
+            "quantity": 53,
+            "ext": "c_qhZINfuvLx_xag3UfTI5Vej5QCNF89pCUpzKfY0SgGhybORvBdMCqZ9tbnsk7wsAGj6kaRTzUe5LxZLhHVoJOlfvZZKo2VHBbiRsBkXmJ0MB6RYno-8aKcdK2ItEeF8vMGPwgNQ6oAK3naWETSHuMiWRpjbIWh7KdiiJZEDLc="
+          },
+          {
+            "skuId": "12000036628527942",
+            "propMap": "14:200002985;10:365212",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "9gxcvD1iK-tuoYirnfTdAa62s93OmqFi1j7N81INte6_yCobMH0w76qHbgSsUwklrk0MHOv2Fzf_tB3zmzP4w8H08jD7M7IURl4YMUVzX8Dn2kwwfIc-fPYMtk5fa8HXXRozmGPf6s_acEBxYRYgdIh4fPGrGBeWiDNh19kdpw4="
+          },
+          {
+            "skuId": "12000036628527943",
+            "propMap": "14:200002985;10:395",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "LH4_PWtLDlPxBgePtZ8BdvHIYm47wV4bt2aViPddLp3feAXJr11BxfFuIcKFa665YgXFEsjleuoS-kPS1mrl79JS8LB7H6q0HY2q2XdwwRywovm2ULZVLjPeqo8Yb6UWNoEKFfd8Y9WCSA5TDBhbIATQMm0fgQTCwBGLnwb1NiY="
+          },
+          {
+            "skuId": "12000036628724036",
+            "propMap": "14:297688431;10:452",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 19,
+            "ext": "G71qpNCXHq3uZFfuNGyfpDVWw7to-GyrOgF00C1LlEfg7Ge7x2DMBTyXK4alYuHwxlDovGj9EcyNivN5QXvaYjv_Sz5xBtBgkW628MEGH1C0QeHjEEvvyUin9adh4hhJGQgqdAr3H-kuEjm551mrxDobuuSAlv819N0IxEGE5PA="
+          },
+          {
+            "skuId": "12000036628527940",
+            "propMap": "14:200002985;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 10,
+            "ext": "3YeWOHRbnOfHQHqtfiNecjWbOdw4Ni10oZymMKF6qdlD1Hi3PHJv52QeLQWUrRujnpo6q0Cq4bM_T6Gkft_-OlHm533fiAeqC1XO0Yeveq3c_sxOnHe0GuegbYvsmXn_35Kwz8dGkiRNvs581Zt7Ht2gIjlrxvFFC3zk1uCBKv4="
+          },
+          {
+            "skuId": "12000036628724039",
+            "propMap": "14:297688431;10:352621",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 35,
+            "ext": "0dvJT1tIx485AmlQWsId8c16fcKTqpxKWjgnbwKL1xV7B4SesMY9xlaaCvmWJV-4wWkFMlMLXpbjtMDvzxXpe5RsoeB90lOdLKqurX4gBQUlSmXpR-QaxK4uyisz5_Z7Dp798NUHVLo-1gRux9tuFs2jtaRa2gIDldh4GHrgxmU="
+          },
+          {
+            "skuId": "12000036628527941",
+            "propMap": "14:200002985;10:365211",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 16,
+            "ext": "cBWDOXwXNCfOvGD-8VKX-bH33Q1Q6hoI_78RIH5cAjN9hVt1fNWelQX1Hyrt3bVLWQzcAo6QilcksP_jlv-3QhaLwNBI4gWv-LVZGVD-CCMn9JevAfzAUTPwK9wcwkSvAyRH3VXllN2XUAvw_1ObdjyYVaEs9uu0LluxCLmcv7I="
+          },
+          {
+            "skuId": "12000036628724038",
+            "propMap": "14:297688431;10:1170",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 53,
+            "ext": "UPI9mGLeUFdf18PAwMD3CuVjmajDHZhxaeU9JA0HK1swLdv1VGyWxHu7ytzkIOkZXzTK58nuHwzWTRJP1kjMD0SO4v4r-VHHNuR4E3klVuZnaiqeooDxOxKpE7Sf4yGkOuZNuufZg7aKqQd4gQeWcDamqyjIJmVgQ-LWwzKrhVQ="
+          },
+          {
+            "skuId": "12000036628527994",
+            "propMap": "14:201659834;10:395",
+            "price": 2.52,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "Pjd5M_sCJAEN36rX6aQtmGw8MrrpIrl-ikQOlDBWIL1iWwGNE7HyPPuAh9zK3ULCFSMHrAQJDnXniaLB9nKAMtYPUuDEW0ObZF70G-HTiLJ4NApS3ME252dkSYnd8ssnGRsCaui3AX91fI723ZTEpgEZsQ44cPyqlvfi9x18fsQ="
+          },
+          {
+            "skuId": "12000036628527995",
+            "propMap": "14:201659834;10:365213",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 20,
+            "ext": "6Rngo2pSYIhDW5a99Rck-nxj8TiwzjmkNeg9aFH79Zh-DHJ2YYidEJz-Br0qE5uddPAFLwzkCxZ7O8vKQ5rHzt-pdto1KyRgf7n2x-SQxMf0uwjU0V8VYyU04KE6bByZgH91xS7xlmFTSiZVu1PKqF1S7Cyi-5_pVdNIsHaEHR0="
+          },
+          {
+            "skuId": "12000036628527992",
+            "propMap": "14:201659834;10:365211",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "NYKiY52rM05J3YpGMOITvrzNDOD3kVlcXuDHud5-FWfrO6HUpotlsJXrXEmcfQMu6zvg7ELKZCJ08Fl1xaafZxj8IKjR_cszSsB6Q0yIu9EsPk4yuYcLSg-5er9sxufH0IK013Hww059AjyNbb2yieYhOS0gTfhNofwhfP6869I="
+          },
+          {
+            "skuId": "12000036628527993",
+            "propMap": "14:201659834;10:365212",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 1026,
+            "ext": "HWwJMiGs7pWa1I3PrRpGRQGm_MaBO-gzAmBf8LkwOBNszamd1jwKgukEpiU1ZiCSRfX2h111JoLEz_DfMRAwMIQTwuEkrQXLeR1T5Xki--Kkvx5ic1P1c0N26VfCEZu8r8OOtW_HjpJl8j18DbVsdhWpH0NdsxviQXP-K5Ch8uA="
+          },
+          {
+            "skuId": "12000036628527998",
+            "propMap": "14:201659834;10:437",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 6,
+            "ext": "npghPyuKCUlYHW04KCzcwm2sqYAoo7SFsjHtneFvNulY1IkIORRvrHdJ94YBvS9BOI1-FjYQh7s2aosrfMgkGhoSl1d-yTQrpeevevdSkLxlpUdZOs-UtyQKZMOfrAcrXVZZ8t3bPv2jCfdfNbGs8JupRZoddJuioVSJNiYzf_U="
+          },
+          {
+            "skuId": "12000036628527996",
+            "propMap": "14:201659834;10:1064",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "wJp5whTicaKMy-ztGp76oATgvfoym3ZwP96_R5cftAuVuIOaPC72XwZ-1S4n0UVFv9mmiw9n4RD9aS0hIsHBLhNJ5OPABppzLap3E799ws_NHIw8ccB_1Ua20pKwkuWFLOeWvKUpaPjGD_1IA9rt2o7PxvyVywmgKqMvNeFrfgs="
+          },
+          {
+            "skuId": "12000036628527997",
+            "propMap": "14:201659834;10:63",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 3,
+            "ext": "9tqg4i3tsbkRRPuKZ5D2tZHeLOpzPsAuqEU8FJXpCAopTtZCY_-45mCUE3cbh4F4CsUNy-aeFebM0MHKr4x3SEZZh33n7pGZruLa-g5fQ9zv4Ip2quuzcmBxuHFFSeq3MnDLs2WHco9zhj5qEf4V9G3TmMn8DCij7OTl6jgEMKk="
+          },
+          {
+            "skuId": "12000036628527987",
+            "propMap": "14:202191808;10:1170",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 10,
+            "ext": "h5q0jVrvpgvLHL-3GxL4UpybceugOsPpn6tKug_afg8_1okDJ4o1v5TgZN6st4FMGgJorvlsrA4riLmC2kRRnFfd2Qen05VyRUWIwbzSyHp4QPbCi5Nt7EpsNnKIw6TbwfndRCCjVbuvNkDAuu9VMj1TumlCnvCtvikPvK8G3Yg="
+          },
+          {
+            "skuId": "12000036628527984",
+            "propMap": "14:202191808;10:438",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 5,
+            "ext": "7GdpnIG5cG8gwO6NSZZ4OB_2gJQy8LJIl1qdrMu-JXE55EtpfqMcL3QnzYc6XNny1W5OqxAPwLRikr_z122h_14qIlcGxmt7X8oopQjx62vkZOye4Jhc8_AaVRrY_y6Hx5P9lGfBwME5KRzwMWn2fv7yhRZVe_mr6IPUBrsD6TY="
+          },
+          {
+            "skuId": "12000036628527985",
+            "propMap": "14:202191808;10:452",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 26,
+            "ext": "jixEsAb8is2XULTRKVnSIU8azdL9o7mb7NEy3xU6KqpYvDvtikahI8V7yPgvE_nFow3Uzx4kbbhNY-IQqQ0JD8a-CWYSGLfBNt-X_P7Z_sYDdtIBSlOzI5Ta7Gap89qF_p0MGxz2v8736ZAwKRGv6BHiBVHk7vX6N507k17oz3o="
+          },
+          {
+            "skuId": "12000036628527991",
+            "propMap": "14:201659834;10:529",
+            "price": 2.67,
+            "promotionPrice": 0.99,
+            "quantity": 1044,
+            "ext": "mOfAiOE-vVEEo-ZExvR8uhFH7qvIB2oSfH3hgMuk-z2WrMT__uvdjoKsj2rFPM-RKQUXJ7XTeaMmVwStIDNYZpxqjoAxuum2uAJ7GvDHvL19_6vQy2924Dzo8dDcBayOk-7FdAUGQgnFLjvplXNRsFyIGfradfG9DNGz2__TUl4="
+          },
+          {
+            "skuId": "12000036628527988",
+            "propMap": "14:202191808;10:352621",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "BQX1JVAM6Ya8lu6JV_SQMxL8w7D2c_Nmrlf6PZSremVhxsVpDqI4wWRjQOAaITyCUZ3j-ZwBL8aagtzSyNQ7fnDjslZbBd9Ghf0hCApeJuA04qsX2Pb2CIoU0iYPRd3uLGOa5XuZvnFr7NjIFV9_ZyYfKqvx-p4jIL946VMfqzM="
+          },
+          {
+            "skuId": "12000036628527978",
+            "propMap": "14:202191808;10:365213",
+            "price": 2.38,
+            "promotionPrice": 0.99,
+            "quantity": 21,
+            "ext": "BaBKLYcewJ6Nv71gEPzoPtf-SF-6hNpU5Tk2-dLfLvsEeeMFYnqCu4rfBE5Izgr9P8gSCGAv_2d98ZLGm4yMoJIKdVQwm5Oq0ZYni5AnmOVpUn9qTprGqUfDLXFtLxP9j-xSaUVYjGFOe2v8VyjQ7j9pjsXue3ErOBe2TXpWtZ4="
+          },
+          {
+            "skuId": "12000036628724073",
+            "propMap": "14:14505590;10:352621",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "sg-_ljgsVN6qWmq-onu5wNj2757nx-8H0lun0jjGVOu5ABZmnixMs9OZrinqro90wm6NTKa-xWt3KsxWPc9s8HW2kZ1LBPFLPpsZAtsOprF3cDeWtSgokHnkkt0dtBEDSCr9NeceNTBnfhlifr1hyOFyZ3w6CMzsBwunWYo8u0c="
+          },
+          {
+            "skuId": "12000036628527979",
+            "propMap": "14:202191808;10:1064",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 22,
+            "ext": "QMAQHb3twhAWj3XKHJcWFQe-S3mIoOX-UlaDB8mVQK7_KkV0WczWKBMt8kdR4lzhEeLRY_-zWCcaT9ZHYPw4NYW8FWz9biasNN21Hj_A_z8vtfQOxkCnN8c6U_VWkq-ov2ME-2ntA_Op4FuqY-b1nTWyvYIlfCIOtitvH_kiKAY="
+          },
+          {
+            "skuId": "12000036628724072",
+            "propMap": "14:14505590;10:1170",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 15,
+            "ext": "F4xf-X54QNvn3zbBe9_yGge4NpiZZQGD9ugyuSaBbe8kYZZK82K1-OaJKPfvESJojPZLx89t2CFBqU2t-OCpiJ-LmqW-bw0l9CCX0oZVpl4BASPcv8Uh0P34bV5x0W3rDjtRuaKRo5Bhfy3ZO5iWH03lqTZuJHg8vAzMDWi-Scw="
+          },
+          {
+            "skuId": "12000036628527976",
+            "propMap": "14:202191808;10:365212",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "4df0vZhCFbEhYOP0fzZX5aYHC10Y3A6R6J9z2qKwrTPM45TuZN3ETgB-MZ5AALUf11jKeajZXQ6yzTzg5-2QD9qbDRytNnWBWR0t6ePtQ8rbOpypgqhBItPoTxmBX5RTtOS82VQrqpatQmRc2OkmGELP-H1eWvFG_ONmRidpOYY="
+          },
+          {
+            "skuId": "12000036628527977",
+            "propMap": "14:202191808;10:395",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 6,
+            "ext": "e49LUtXLzZw8RTDKuZcc5t8Ndnss-oZ_eSmcdJvIdTFV5jNZbG9mNaCtXXX6M0DIPTiLGL1dZv02JTVDR4fdRT6gkRLu795LAMe9TkLIE_-ZKqpq-1tbgqcLy-lnZtwkA9yjEGPXRMar5EmeTawqISFqUheznaqeoVGqrWwLkwI="
+          },
+          {
+            "skuId": "12000036628527983",
+            "propMap": "14:202191808;10:48",
+            "price": 2.38,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "5l0tDGpVSxHqD5LAgz0qcyLQvyjm3GoYSc6-QmJfsYUUtwr7eUuEPbirM8OB5n7JNFtlOC_md5xw3dfL9BQc9F8X2j39m8cZnVyvcYKU_VIFbkmYtPx1zngnX3QShyqU4Cvwx09IfFHO4xqwBnZWHFMjT84nM0kN4BEdSB1MzN0="
+          },
+          {
+            "skuId": "12000036628527980",
+            "propMap": "14:202191808;10:63",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "aNgZpcIXz6vdtkmr7aqISOXXE2RQ0acLrfN4RuXNJlvebsiqnlAWx_B8MzjzOR3_ajXetkWMkfTwDsjBG_lyVYX1_t6ebPsenPVmWOgDwpr56sqdzlrjNLQsgzf4GVqUMWGJE13Vt09gZ_RSIb3JI5_B_6IJPU5nLnCOcZRvp3Y="
+          },
+          {
+            "skuId": "12000036628527981",
+            "propMap": "14:202191808;10:437",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 21,
+            "ext": "yAPu3vcmzf5F22MEoJ2Zle-_FJUdNbi-9D9pyTI9yHHsH3C85dDbWSKXdrcwxZBKrOQUvnT1qHKk7Z344K6oIc0070v5p4Q-anzHxAr73fpu5l1tiptTqcV-GBhLGkVBz8SDms79bWNWoHB5qcdd8uyYMMspvhFQsucSABNGn7A="
+          },
+          {
+            "skuId": "12000036628527970",
+            "propMap": "14:1302530329;10:1170",
+            "price": 2.32,
+            "promotionPrice": 0.99,
+            "quantity": 53,
+            "ext": "HybgdnnMHh2DdZ1fi4qWvxbL1YlNLKCEPatKS1LK2LNVKq-6p9M7cZZKIFXjYGmK-_7VTO3tl1O6h6t4YcXiaaDjMKv0c6IjgzKKofg_75ljl3suCfDAcSiMusrwWr2laVUX6aRU0mnF-i0BIYi_IuGdhcGiZ8TaRLSU0EKUdnE="
+          },
+          {
+            "skuId": "12000036628724065",
+            "propMap": "14:14505590;10:63",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 1018,
+            "ext": "Ysf90955iZjjl46hXFoFtOivqUhzU5BWn-crhp856aNlP0rPYyRc1-Bcc2vlqLciXAt5lZsWmIsb6GIkRndkPQ6qM54Gp86jm26XYKP6SVcQ5zhA-KUx2q8vtA21TI17hYEkdpJFMQtkedTyVWArFfC-q4QSs2sIc-w4Q1j_nMw="
+          },
+          {
+            "skuId": "12000036628527971",
+            "propMap": "14:1302530329;10:352621",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 87,
+            "ext": "gIdN-US3tqa_4nuBjMi3OuW07oUDGbIUbjO5HQGt9mtCpXkBFcDnQAYJy9l71JAJ8DKidEcf4J48lhpG_wbhy91FyzFqASuelvOiQ5_8xy2frjKAMAFVEQc_CNKMkKaZw-K-089h_yUMKb0dKUmSyN6ZfeRM44dXP_XDEWsVH7g="
+          },
+          {
+            "skuId": "12000036628724064",
+            "propMap": "14:14505590;10:1064",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "Wl1-bNnqv22OTAtnzEs5Mz2jIaevudpDD4dN3k6rM2XM_u2W6JlDlYaqezWjG3GjkxI6gGL6__Yuaar-EdffyCao20_LVdUyDVjX4W6eo66kWlc8OIbb3Wst33tpuFg0bPtqC9NeIg1_N2QxX4B_VRoA2XVuM7s3szDjsa8VAWQ="
+          },
+          {
+            "skuId": "12000036628527968",
+            "propMap": "14:1302530329;10:452",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 52,
+            "ext": "v0BZarHkIac6Kz65E5TWqzdjRhcpdhJBqg2C4cTaukQbHbFzSe1zJPOTqTMe4bmeE_ANLpUds8V506vpQBKF2PlwDDb4mCy16jewimX7HrZVDdmM-M9outIfTvzPOkeWg19Mr4Yd4wG7H8tHeh7mOlJmJeL-QUcvKkybhxIL8qc="
+          },
+          {
+            "skuId": "12000036628724066",
+            "propMap": "14:14505590;10:437",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "5tB6-Jr1zT8UHv95wRo9OBdCMhwr-b6c7VmDfpH2T_R0kw1A-Uk8vefSawOs-qLQ0JFnxY9GsRFz0ecM1LT1yw2QCZsoQHrNyUukewYT60fdvEc5bL3_aQogIwTjtFCG0Yb2BizrkixURA76c3H1hRGYrAvJZEx-g1GmpEzd1N4="
+          },
+          {
+            "skuId": "12000036628527974",
+            "propMap": "14:202191808;10:529",
+            "price": 2.61,
+            "promotionPrice": 0.99,
+            "quantity": 1037,
+            "ext": "YfnmLk4dUTIxs9O2sGmer_5pZNn0kc0XW9gE5YvVecCT1rG9A1LCn9ZiVKf0h-2YVAG6kBuxCeRc--fgo8Oc5HJj3odtS5cm9WMKRP4jW0MIMQ6ow-0ivGQeg9gUqy1cuqyKq65KjIk3TfQKoO0cF5fHiHzbsQMs9gmggWXiijY="
+          },
+          {
+            "skuId": "12000036628724069",
+            "propMap": "14:14505590;10:438",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 6,
+            "ext": "3_mIikxN7awjo5YAVOlyW9OXSoBV2WW5XvAFnxp6acZv4gAfE5TyD10nlmUUtz1mbLv4AgfUKrHeNcjJjEDFQPeTCAmZRzPFrHB1sdbFL5uKW2rrlImgFg7aaxDT_rqIoyrNxzrCQCi43oW6nnH66Fj9RAYcr2wPyMxDCh_hI4o="
+          },
+          {
+            "skuId": "12000036628527975",
+            "propMap": "14:202191808;10:365211",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 15,
+            "ext": "q5cJ3l_6mRvsRc2HETBbs1gQzlnGnYc7yCFNGsias6oDX0_g8HuwvE2HoS0Wg9UvOUuwXwlDhWa0obiz_aXcAZ7wB2fFUGq8uskEvFDyNUGDuPVTslZCCGyBMgdnS3GTXnKyxJVtXUqCxENMv9jIkK5m6dqdxNY07sS_JSx_VCk="
+          },
+          {
+            "skuId": "12000036628724068",
+            "propMap": "14:14505590;10:48",
+            "price": 2.43,
+            "promotionPrice": 0.99,
             "quantity": 0,
-            "ext": "_PSRbiYnNgztO2wZHRzR2-wFPDTu5BL3LRE7-SHtnSu9OtIZ9gLjdakwv7CCenuuhVoPhJUBF010ZJKAJ3pONJ6_pGu79hQ8g2lKxQlMEYsMM6usF4LomEl7lfGWKyv5lw_C8TzuLFU2NvG21IFaMauYqwkqATb-P_vIE3g7_n0="
+            "ext": "vQYCCmEjcBGGdcJGuD9j67iUa_xvqabihnG-RM6p9oEgZonaAGHi9NVaQIfCIWXES3mcE7eG9TDdjpYGj04lmW8OvG2A5pQomLnNaAPoBmPltZ3gTnnWpUW1_qOioa3ttyGoEQO0seSzeDuLbGCnquFR-jlbHkMR9JCUmRkGzs0="
           },
           {
-            "skuId": "12000043093758962",
-            "propMap": "14:193;200000124:200000338",
-            "price": 8.06,
-            "promotionPrice": 3.55,
-            "quantity": 135,
-            "ext": "kJbw7xmihNWsPBXfaX4HN3WQZNpjPZpYpmEVY69Rom82IA9TU1u0yhrx0Vlb-WQ5F2_xB6KDquHCZzJVAW9aDdAYx40pCM6h3ioLLUo9alBWpOgjjT0Urmm_JMvpGSvAv-arr2sZQS51AVm5cJvggUnlZToJ_w0ynumQc_C90Pw="
+            "skuId": "12000036628724070",
+            "propMap": "14:14505590;10:452",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 1,
+            "ext": "nWnKOU_vbGEd8D88qD-zCIfZJgsTHTfo2svrzL8iDtImDnKUjEh3RZxyW4eac6rbHQVTEiJiVhFT9lWfSjRdNgUQvTCOLqYcOfliBPb9xTFfC8OE2aW_wvWeokfb9usNk5vSmLb4oIFNi9uDrHcKxGkrDOij5EVoKnvK2MOPeII="
           },
           {
-            "skuId": "12000043093758961",
-            "propMap": "14:193;200000124:200000337",
-            "price": 8.06,
-            "promotionPrice": 3.55,
-            "quantity": 114,
-            "ext": "7Hrn1X1XKxim6NxKYjpQtwUHMjkjORG5uTiWkSW11qN5e1aLKFsCKosRu6dAQNpqRkdecOmWOORVJ3Rfc923Dndm0Y_P0IpUTa9Vb613lovvqe9hhwt8q8wnNbNA7u57v_zKTr74gWrenBow7-8iyn6htNzd6mF9Xxut7VHXHF4="
+            "skuId": "12000036628527898",
+            "propMap": "14:365458;10:48",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "YDxkuvlf1Y7m-eels1bNAjyYDtPJ-EBamaPnSzTCkMXzw51meBzA4VJmnpPKsFcCxXv9RtdE8OhZgKI7BG7GPaLLZBui1cEeml5YH-Sx6Db7iM0KfcLgsu2mVlSUhmerUUl1E7ts18LIe8qQB7qcOE5OVdVD-4rCZGB6twTROJI="
+          },
+          {
+            "skuId": "12000036628527899",
+            "propMap": "14:365458;10:438",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 14,
+            "ext": "F0KZdP1Al_tFfdCYxomEGRvrjyAiHdvKffvdBwXFFqLSMrEdUsDwJ6SdJQyAnFmzfEiPqbUUM7moPdSWbnB3EQ61wnay0b6qXD2IYTeO0hs3H2Ko6TsP0OLdFvxAHWc_lx8YP0GbsjaAx6upgAmB7A_jZ26wWoLohJY6mFlUwbo="
+          },
+          {
+            "skuId": "12000036628527896",
+            "propMap": "14:365458;10:437",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 9,
+            "ext": "2ivRP8b4kPOzK1X8Q84yEs1W5gzz2hAtZ14qhag7_Zx_zYcBVU5VuP0fbUpJI78fg540wZXXV_eHdUTLstSk2NDtsGhO5Blbu6tQN57qvmnZiYXt67CYniVpSKFEso3VKUsVo2eAnTh0klj0lgK324BK1BIq-E1oKEn8EOq2014="
+          },
+          {
+            "skuId": "12000036628527902",
+            "propMap": "14:365458;10:1170",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 14,
+            "ext": "28EbOXCsshtqnMAp5-JxIMlQCT8Y_kycwMkzsuePk0Ozy6Teb0LVNHO9zrTG2YMTnyVqHbLgdItV0Y0Qy9hbyfX12wPuWOP-cGv01yc2HLZylba2w_0UQ6ZjhJPj3SHkLzJ-LkbORM3x7EFJ6j1LRmM5613fJ0rD6w23URTLHx8="
+          },
+          {
+            "skuId": "12000036628527903",
+            "propMap": "14:365458;10:352621",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 5,
+            "ext": "cYp_-hiOYeZs6DiRtMbKY-y5ddPrNlLOJHnewVtD0ICK_fVzAtmKqRMGGeHcV1rcvr-m8dbMMYhniEmoSAq3LgGnDsLu2jCG4y6gPFablkZ35ic1BurVQfNgwEkiFcJ-YBDb-AbwwO5XNw-nLgCesxgVQh48lmVAwW66LSu33tY="
+          },
+          {
+            "skuId": "12000036628527900",
+            "propMap": "14:365458;10:452",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 24,
+            "ext": "ekpElZsfKTo0nEpcduWtPt0Whebo6BBudDxLRf4Mizqc21sIXZBuE_tgzYsN7NPWpa9THSHcWLkj3ypU9rzV2dQfQez-BCYzXqFMHY0AjxZ59CzARWw5GQa4a32_npeeZQORu633P-woR5y738YmgynHVh-hmmbRKgFbwQXXFB4="
+          },
+          {
+            "skuId": "12000036628527890",
+            "propMap": "14:365458;10:365211",
+            "price": 2.32,
+            "promotionPrice": 0.99,
+            "quantity": 17,
+            "ext": "u7pLSLKKXCGdTvkir5YYITeqEt8oS7YZ6XvtU704Ygfai1101ADjYFj7bKow3yTbwdi5oRXMD43afo5klRAn6qDQ8F-v7Wb-0zpotxu3NLXF12g_mNMZQGmW2syIusOmUPqYjgB6Kd37stM0j7M4esMLv0VdackJVrh35Nj2ubE="
+          },
+          {
+            "skuId": "12000036628527891",
+            "propMap": "14:365458;10:365212",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 0,
+            "ext": "HeQH--fCHlP46RQfiWQb8VFeaq5L8kxQr968j5l2W17jL9772xPdFWbq__hdJuSnghdLabxgwowszN5BLd-xiMLc6n7HGKnMbeBz9UGyXoW-OYUSEIoy2VoWo6uzMtE7RATbnAjPXj2r9f2DYxJN5b0MEkTEpBgQMjdG5z7q8qI="
+          },
+          {
+            "skuId": "12000036628527889",
+            "propMap": "14:365458;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 1036,
+            "ext": "CZ2VVW4vsmKrsNvYZccvSNFS4z85yTuR1_M3lwX1dRwpH7WpnBZZu95arkhjAGDcRWW-7UUpCRSF9QMTR8PALLY4A7vYZufWXEpvXfwvYA8vgLj5nD7CnrAXpjskSOg4-F5WyZSQJgroRv3RNBf5z63Puz3kPilL08McyuHf2Aw="
+          },
+          {
+            "skuId": "12000036628527894",
+            "propMap": "14:365458;10:1064",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "tB1lr7pKMbQpKNf7gjMotk2sP9ZuS4tdkWO_HrI7GOVqxzG556zutigjAf05gO0n2mJ_9-kfiM3lNXI7se98Lr04jUA9dG5yuFLsq780EkByAa_AMcDZDiUFSVMD8IcKQGyHTiKLcpaBHHt_llxOXWqMovNU_PNbRd1HRnBqQRE="
+          },
+          {
+            "skuId": "12000036628527895",
+            "propMap": "14:365458;10:63",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "gs1pgYPpSYJjybE_kMZOf_RCGaGLb-Vf1IQ6s5UHaycGzPq5pl2OIxNLFCAbZTUWmFG-8abEf9CbrkJ7tU944A5SIwE3CUI5R7KhcezSyo3RH89eh1HSHJFYLsb5S_FkHM5tp3c348FW39wl48unEMIa3UJ__kkfwqu56oCKyeM="
+          },
+          {
+            "skuId": "12000036628527892",
+            "propMap": "14:365458;10:395",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 1034,
+            "ext": "pD9UOgps3vf82dlSJcA0ZWh0c_o7PEK2sGNJEbBbyrRzyzTZH9VKbPqE1yZCTg5LtIfEqto6nGwsrzfvc_nx3k0_ogAre1BEuV-tB56i3ZFIzlkRmt1-gFhqITHQWo9H8pKsiYbwbodTdtHvKwLLl_TJL_b-qnMPirVXEK_I3YI="
+          },
+          {
+            "skuId": "12000036628527893",
+            "propMap": "14:365458;10:365213",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 2,
+            "ext": "ishm_-0HkJCtjcxbtNl8SYHNJ4Vbh617h_apb7ggO60b164Wl-66QUyzHgmY4G4iQWeKaMjnuxJ6bSxkZrAETjfGJGWVRIzILDJ5h8uTQKimI1mcCp8NhC3pNV_cfW2PmWahOYyE9dSxGr0PEim3YSvmrvfYVMJZoPNaaXZKy-U="
+          },
+          {
+            "skuId": "12000036628527882",
+            "propMap": "14:1254;10:438",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 63,
+            "ext": "SEQacnpMJHIU83otsayO4LDvsC08sGgBEHzEsJDvAG2eevBxHskNz-pRpbKtW5AVuRWxCm2HqhZiqv9MbcEdp5J3IBtQPU4ytYgEvRnrfCmZ41GkDFZ6zyc1D-DwtlIEX_-rXt0XlR6dzv6TQwJojRUTouvhRTXpoi0VvA84sPQ="
+          },
+          {
+            "skuId": "12000036628527883",
+            "propMap": "14:1254;10:452",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "42VZQDZ-fE11l6WzpQraghzat3nj4MY_Dmh3NMGpqRGXUJBCAllgJkDMU2KTU1YI9puDsMGLfCb8U2JMC4JFMpOtXlRnFn0w5WB0iA8AJEl8wBCIA57EyGWkurKa71YXIMCDvvygMGIHX8I2Pn2fmReUfZ5dZFxMPqYsk8x6hMw="
+          },
+          {
+            "skuId": "12000036628527881",
+            "propMap": "14:1254;10:48",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 57,
+            "ext": "0Y9xGnjGHJaW3THcRjCVZL4ygm0sRT0KJw3X8R-y1rdtqOzzc6fdtK0i5X2td1ZKjZYiUCofXuPb7QxjJHuRKxYpg2p2mP6yabaiVBc9wxpwkGXyQUlvxKdugO79FdaGuwmcmI91BYpvxukTgem1nHihpMOShp8rpb_PwZmMgt0="
+          },
+          {
+            "skuId": "12000036628527886",
+            "propMap": "14:1254;10:352621",
+            "price": 2.98,
+            "promotionPrice": 0.99,
+            "quantity": 30,
+            "ext": "2cGMRcTUOB6w6RJpdZUtYHiuHxES2crdJFS07wOnkrW2o4NKS-8vwq7a8USoap8Zd3wdAvy4GMvaF83NeqhcQQ6eIG6A40Z9rS4PSTrVts_PFnbldrry9kXOwT7jiGVUGZSuHNtDxhOXZ0_q-NL2DqTMu9Vx1ZVGHhElo_fR8nY="
+          },
+          {
+            "skuId": "12000036628527885",
+            "propMap": "14:1254;10:1170",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 50,
+            "ext": "kMrjgldG8INuejpuxlHlivKKhPZW0Q33B71JkamU9GKVXaQSupW7H-5TQbHZ3IbnxM05dL88q-U0y-mS7EzHf4prBz_lyS8JCLWWLNtPFWaY1ximWVmaC3__N2U1XLX-ibmRdnf_3-f5yGN79tnAUBchowGoUFjuBMPlJueyYwA="
+          },
+          {
+            "skuId": "12000036628527874",
+            "propMap": "14:1254;10:365212",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 9,
+            "ext": "Nd2RBn5ilRhiio-FHeUMX728Dsl-R8fWDEhqGCQpSA_wuHCwnDVXBvsjMRyQNwlFhKpLa73CvI1xnkG90lpH3Xxg2sl217sI5nZTogyyQJn_fWwM4oBN35nShbvBGK-yVxUCjPfj3Pifi-h7j34n_IjacLyrGMWqnn6iJkiFGUQ="
+          },
+          {
+            "skuId": "12000036628527875",
+            "propMap": "14:1254;10:395",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 14,
+            "ext": "Y8HSUlwrMYiMFrmefmIRdZKsYbT2O-XNvn3U0aKHXKthCKGQ0xtee_ZJpFZJldLoNesC1l7-kWQrOFSG83f07lEgFuaYs5GOKBEwXOftTSt9tSnkUeRtQSOunMogwv2Q4OXIACDPA14T3kxg3R3hf5ijPvYxmhxEzPWBR4GhOUM="
+          },
+          {
+            "skuId": "12000036628527872",
+            "propMap": "14:1254;10:529",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 1028,
+            "ext": "sTWpw96vG6Zpi9UbomztkF8UMQrSm6S85kmmPN8zZMukUSyOrp6X3b5DXyWsmbURfOpwiliq9pPJ6YcoRd7hV2Az6E6cZqJ4I9lvjsauHdbKO6ybHhDG5gKKwEYwr7inRo3roEoKhKBHqeQ_DLhg_b9ja6JYBkqmKn0Vja9PTEY="
+          },
+          {
+            "skuId": "12000036628527873",
+            "propMap": "14:1254;10:365211",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 28,
+            "ext": "Kw6IkTFoPSKVmaMjvztKdZk7pT18eRjLMzUFffflP7a3lqYnNHyjiwfhqBO9FMJ51RZUHjayKGWn4aiuEX_fbDgOrsMn8A-KBxGP-TUyMZ1QQPGLRR79tzmocKIR9AGNdZKmSRx91gsJTMxYpU3RDiWiN2sLC9CsJhzR-8HVg-Q="
+          },
+          {
+            "skuId": "12000036628527878",
+            "propMap": "14:1254;10:63",
+            "price": 2.52,
+            "promotionPrice": 0.99,
+            "quantity": 9,
+            "ext": "9ajr-hCl8LcdVzctiEOqSEF3etYLxDJY2w4AyLdyZIGDrimYWVKFM4CJSuxb11eyz0ImEx7LeS4vK-glCIMP3yKeciFpTAXYz1rr8JuBsu84dNGvzX1BtOSpDDI_DT-mKbE_vo5DGcw-BW83SctNqNl4zTK-jphIqoiuKSlvTEU="
+          },
+          {
+            "skuId": "12000036628527879",
+            "propMap": "14:1254;10:437",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "sPT4HSOVNzXmwkbsNMX2FAATo8TVum32UcZZGmkfrintpReqajr4XZVtQ7QEnSwtrV-H0ppdGYgX3ZI_uUgJG5ct2pp37H-vVQ-TnSYZw2JqJOULM02o7ph-n7NGEKqn5y8a2vKgLkNHDVUABQYXfw1SIZ2Lx3XzkkAZoflDqZ4="
+          },
+          {
+            "skuId": "12000036628527876",
+            "propMap": "14:1254;10:365213",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 28,
+            "ext": "bj6evZjhuvCzHzo_JYMLW4Sh_ldddTew3ewMfWrC-0kmTxaGtRtlPp-h2L3WddDS-q2RX7r7e52WUbsz_Suxk0hFYoVHBAZv6sMNyH6pDExceYivRNNQ6DEBKlFTomkLoWuyFA3sGGrtJrvkzGyF3J_0dlzRM6xdWGTe-3FY9lU="
+          },
+          {
+            "skuId": "12000036628527877",
+            "propMap": "14:1254;10:1064",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "zXzzDyEK-yHU0nCNtLYHe_jj5NHrYr9VE4jEaLoqstSooqS5hMKTXAn83hT2zKXvnUpTg0XakJh6DJoU_ouAVy_J2bqyqEuQVTw5xa7uWFciXt3ZefBPLX5edt2rnWFV0-Knrf6LoiLKn11bA0TXDX4OEp0cc_l9jmHI-wmy874="
+          },
+          {
+            "skuId": "12000036628527930",
+            "propMap": "14:202997807;10:437",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 1036,
+            "ext": "-f_Q6kd4PvY1xT4JUSc70nVRuTmO3rB5WjAwRpU3hBSj4w3mvWGkqoI7orX9TMHI8dF_cEGGZKI7JYPJWeDgyN4s4mBKH58jJGoX1Y0gcSHkmFY2VTK4tM5DzoeO4G598eaNmnltFx4MdaNGEP6091Q0IXWordVnjy4pXNtoaVg="
+          },
+          {
+            "skuId": "12000036628724025",
+            "propMap": "14:297688431;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 1034,
+            "ext": "fuEfMc8rPM0UIiZtnz4iJCQ4BDRsmOsgcaZFFbudf-Rnz2YP-2RfKrFWOSr08lEAPb_KW_Bt-B5gUjFGIflhHwMWg8tS6fB8kVvr23B34o0yRudGmW4T_CQMxhFScEZCaoFrs4e-JD6V2MXHNHhYnamUVq1NXOomkdUJOaM0I6E="
+          },
+          {
+            "skuId": "12000036628527928",
+            "propMap": "14:202997807;10:1064",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 0,
+            "ext": "3TfHyBcMR52WqGl4AAPZMuvhepoWdDetU2oqEYqOwm8GYMVCzLy9fAoJSm2SF7lTtF3Stvw-sQrxCClmatiOA7X0umeGp5cOfrEI5yhSMfzGt3yIn-NZV1tJCYD4PjKZlLOAAw4Po28Y3kvlRk8nrW3nurACizZnqdavDaa0cO4="
+          },
+          {
+            "skuId": "12000036628724027",
+            "propMap": "14:297688431;10:365212",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "9Pyn99YdDDHGSbmCoXHhr2LIwYQDXijZnroJFGrjQ2hoGFC1oxy7BfOexhES-kqscNgt7vpKs7E9aPpbZX5mh5SlKiD9BmfFWKcLMNIeWByLEQh0hn_PExHD4q5xqUFukyVmJ0gS-fY5mp-VVV-q6WJFm9LkSz1dLcgrLawZmFg="
+          },
+          {
+            "skuId": "12000036628527929",
+            "propMap": "14:202997807;10:63",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 10,
+            "ext": "5Rb0SAzRicE5k8ungm334SaT-L7wAO3Uhm48iG8aavItDQjXET9Nct5bDLU71A2tEr5ogJOAjqYXcefAeUECX0stELvxhp5uSfzzV8y6zJ4mj8xkL3CzUCyoBMr8TY1RwqodrIuiNhacNBxiRWrUpLbBzpWg1vMzGoNIEtzlJyU="
+          },
+          {
+            "skuId": "12000036628724026",
+            "propMap": "14:297688431;10:365211",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 19,
+            "ext": "RydQYljsbCRPGaIcB4rnlfVjD0Tp-bR7RpTcqDjcOfXZZqM_6f8qps_rnoiz4K2RhqSSMlK7PLHnQ1W20t-KFYcQSfBg1su1xvvDkJ8mB4lHu6TqrWZfYfmF8uMkFJRo7Eo8gOHx4p2SIQw6G4EJZ8oMrSBF3GnfS-AQm-Gc9-I="
+          },
+          {
+            "skuId": "12000036628527934",
+            "propMap": "14:202997807;10:452",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 15,
+            "ext": "_tXy4IQ_LDkvUC6E3LNbBm7w2yEXEmxOjgdapqnpjFmGvHTI0Sy2x4HRqCTzEvQN3v1J2FfRcAh0-FZmRVBdF7bKmcBPRBPVR3XGc6_YDlJGLIFqRhEyIhDTX12MKddwz-zmomksjFuuq4-4cwU1PZiiENPKzMcc54PfQBv3mJM="
+          },
+          {
+            "skuId": "12000036628724029",
+            "propMap": "14:297688431;10:365213",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 23,
+            "ext": "VpNCmdW37R0k1skOPBi08Yc7-gOJfs8mf6E8Q_xdnUeVTZdhXgB6Nti9DQ7zAKMEHMtrCBCgX_lJSQJGpsiqgss1VDrp-kRYAw_h_SZ1uaO7S4DMpvZVF-JG_J8B-bxewbBXvPSfSY__zrigajok1ikFN5OmQ9FF1n8slml8Gi0="
+          },
+          {
+            "skuId": "12000036628724028",
+            "propMap": "14:297688431;10:395",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 1,
+            "ext": "fZBc2g6u8HVh6OnZdz8VCViTDJXTeH8oCK6Cb1xdrq8NAO4qVm-rG8uCDbhv4XoWJZ8C9HxVoh69yZcJpopEYDa4_5mc_wAiQ5PCzxJDocIZJ_uQnmPtT0rgAl5tkFwTlxZ6H44WN06i-eVeH0V9m1K7Rtet5jm_3xtQUbt6tkI="
+          },
+          {
+            "skuId": "12000036628527932",
+            "propMap": "14:202997807;10:48",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "xHfHk9MXlCmVCClajDEOeIvoGcXg0zK98T8_GKhBP82mhjHpqy8oilfWp6s3fNf_FVFNylNnfv_D1sYgPUBUf7jz7pfoyRNPgiWMd4JVAfepJEkt4SuoTfYJZZovqlWqIL2lB10tBnzAWwMLi0xQZ8BqiHJmA4yEW_PR2lA2zA4="
+          },
+          {
+            "skuId": "12000036628724031",
+            "propMap": "14:297688431;10:63",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "gjizzA6E37SgxFjuwSl2F-0KsXvdQefUz0TvabTsd3VagxwvMRydoFTGvMS2SiJTWesiVhv5WrobESFDUhdeEzDXAkzj431AbBBGhzmBQwsCvScHf0e8olFG5U8Br9tnw_l35chCKdWFw2mZwNmA9LUYEyRIV9jLIrBuxCHeu64="
+          },
+          {
+            "skuId": "12000036628527933",
+            "propMap": "14:202997807;10:438",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 4,
+            "ext": "CIiAdvkHBB1UDAnzR-Lem0BnEPTUMilwbUEz5miBpjUCkq6bWQ9pucOO-YIt7UQl3OpKzkzFtHrlVp5OyDqZ7MGX851AjoUejadLIpurRv5JT9GmtCdICT034zqgnfGuQgjkhMQ4jx8nyTOlg--Q70ot2GAZoWgJm4NYhOoEIAM="
+          },
+          {
+            "skuId": "12000036628724030",
+            "propMap": "14:297688431;10:1064",
+            "price": 3.44,
+            "promotionPrice": 0.99,
+            "quantity": 26,
+            "ext": "VudWqxWZJVnHrf5t31VdB9vk2T99tQNjVzEF1a-jnP81PN6pKxyPy-_UVkg_SDdtGBdaDTT4z5oZDmgDb8LkBFV_LwmRArbxN8YZ-jt_OOZIEMukO6lmhs27zmQylBepuIL0oBjNIdKrVI0Xv0hmQtR-GpgunntsR8Kj1LO6agI="
+          },
+          {
+            "skuId": "12000036628724017",
+            "propMap": "14:203027875;10:48",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "GtFJAG4ITxhslIfPyg9sZvdsfLMMGtJlDeW5nc7sYLikPfonXDik-9UNF_Mx4CoDguzo0yL-BhG7rLvRFEjCiv6L1kXLOFgjeTmSjhFEXW8h0HaeKZL-917RS7kpgo0TSoOCH-GMSEN_n6RmWJJ7QEh12LykCk_swizsKl6HhEo="
+          },
+          {
+            "skuId": "12000036628527923",
+            "propMap": "14:202997807;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 1038,
+            "ext": "mmXSemCIYRiiGgG_eZhEkcCJyKiz3gExJfecOKvhiEUqqK1MKDm9bd1bhGDlXVGaWXR1EtmQEKuFvvOVaNhQr-xu5YozKZ-ZbodyIme-V1fhC3w5LdDGHgonIVOmOxTOCkbQb7bFQyKF0-HoP8sg8NZ2W260lZ4XlLacLF5cPZY="
+          },
+          {
+            "skuId": "12000036628527920",
+            "propMap": "14:201739817;10:352621",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 25,
+            "ext": "szpHcJlT3elTjgk9M8fKLR6qyWNdf7zBW6F3-jYO6o96C5QsOsuYVEZmwEPL6SCXE8fQaa61B1rQ9M601TzivxNADocVQe8q8wSJUTrTdxxxmfc97xShANrKLOzIbqfr7Ilt2iZTPDJbFjpzPiTQ3-RqyuCBBpuQO7RqPJHquv4="
+          },
+          {
+            "skuId": "12000036628724019",
+            "propMap": "14:203027875;10:452",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 1023,
+            "ext": "4psx5121sLubZL0FdkoXYKI-OjsJPmucVe6cyVvGTaeO8Ct7dJE4yWHagWv5bDV_wGQ47h_41MhZf4pqgGSbMfQDW55hNeFg1CGURb3MMNcJ_03U4SH_ZSlNv8wKocS17BDoeCpiLP0h8hUmjj2REF7wf32u0K4onWRx3YfetFY="
+          },
+          {
+            "skuId": "12000036628724018",
+            "propMap": "14:203027875;10:438",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 1034,
+            "ext": "VbH2LGx4j26ZLX6vODsq1-oz__l0EyTFSVRpQ_0JjKwgyGHXHu376j3M_XDYC259baJNVwwhs063ksDsGGTc8FghazK-VGaNzy9vRtv68PWsbhnNSSe7nuZzpcxc76gjkepMMge8b_q1W8-XkFlSJD62e-akPKX14xIDdNxXsWQ="
+          },
+          {
+            "skuId": "12000036628527926",
+            "propMap": "14:202997807;10:395",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "eEAWIyqh8ki77DGKrhm70C67vtDDyNtCEwtmIPLzgsSs8V_aVWlp3OLAPeP3nYHr8arq1lA12_ZUIwcypTpeGCA46zfqnEMtXDUTjs9mpc32OPdTkoemjtjTolGE7RM9_Swk1LeDFDKKlEALIXQkudBwlUDP9hUxqvF0btdRwLc="
+          },
+          {
+            "skuId": "12000036628724021",
+            "propMap": "14:203027875;10:1170",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 10,
+            "ext": "GXtYFHIsy5mHEcF5U5oDGtHJs_0Fu0i3VxKCdjv1DwMVMZicd95BN4wWo5gv80SMIHfHO6Mi07QKzXbyKL9McwIVfDTXG5_1wKIXBzyegmzYxh8anjGyP7gDVjeAUuSE_dC2XKPFoRjvEFwct_ixKwM5vkLyRfCPxNJf2jiPf7Y="
+          },
+          {
+            "skuId": "12000036628527927",
+            "propMap": "14:202997807;10:365213",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 36,
+            "ext": "jM4rOWqNnb15EGi4PKs8TXJPxLyIwGUPLN-5IGaDcfqYy78gn2XIwkqdiBcIBsiRLmfMtmwqucRyi3PKeEgjAOFjY4Syz6gtcxskYjg8sJjygtUKmgLrpjLqHXyBuVM9cKQ9d980YqxYiP7qupgEZeKlDVj3sVUu3X9Iqkxp5bc="
+          },
+          {
+            "skuId": "12000036628527924",
+            "propMap": "14:202997807;10:365211",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 1026,
+            "ext": "0Fy0FQSta4Ru3hvPfeJUhLGWbvRM03-ldACk_HLnoQvb1bxbbGScQhVrtOt82_dVzvdCx7EnxfdVID64_KwpDshXtaSuV8ckp7XgjoL2Z-8RZ4OWNRVzuLhK_QgaoTRYnGD5FQIuGHvJrZjR0LWjwgycmF89StNlc23a0sxiLn4="
+          },
+          {
+            "skuId": "12000036628527925",
+            "propMap": "14:202997807;10:365212",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 4,
+            "ext": "TKK7J1t0xOSjOuQoEFc5cNuPo9BcKcFn5yPvrldKG7oAj63iXa56caWnUBZaiAUXP2JNHAPOIHvCeHKxp0oIc1BohG8SWPeQdBBlTWNxfTK_qKX7mfslxyaWFvL7WfXE39ZIm70FuDFOh-GqRWgWZY9mr17ZpoQEQ4o06h19Svk="
+          },
+          {
+            "skuId": "12000036628724022",
+            "propMap": "14:203027875;10:352621",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "4G0Ff-EgdTJyd7JzKDCqlyVqoMfo6H-lkLaC9VO9EZ3R9m6Dg-FzlAIgkWWSTWZv4YdLevpW6Uv0CW5u-yUbsSGeEpsFo_jbTg0xV2gls8PQ5u8hdCeC-cGMa-QMY6ne3WH_MM8w7yOpnxIn90av1pMBunL5Xk6mV_aPoew8Lus="
+          },
+          {
+            "skuId": "12000036628724009",
+            "propMap": "14:203027875;10:365211",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 1034,
+            "ext": "8dZySL_Ktj_OoAJDyI7THHku1Rg0GqX0ijt8XRDKpb1awGzwgoStc_N7BuuQEWjRFSG9Gh6B1TlhA0sxCMIUrKb7_VeAYe6SIBmXFdNi1wxXtQysc_96t4pjjrqb7EBHupbQdH4TMjrogSAUlS0oYjIH-riZ_I7hw2HYZO4arfM="
+          },
+          {
+            "skuId": "12000036628527915",
+            "propMap": "14:201739817;10:48",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 36,
+            "ext": "nSUFJp-0KivCbF1YaK01-DpQXIrJQTAAnGZkBnAWL5M2q8yMd__VwBMv3IBbT7PPY107RtUVypkhrKN01CAqgFOTEOTkHZsovsNtgRYuFwDf234Ep98ogLqLBUJ3zyMBRQe4M5BdF2cx_ET_j1r_EIk7yJyZ8EdvPzbVDOvmfM8="
+          },
+          {
+            "skuId": "12000036628724008",
+            "propMap": "14:203027875;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 1043,
+            "ext": "lTFr4AIWgblYykFzOCqtAP_2RpZTqzWjXGwOHTaORDLSI_Qwm9-NrC-oi74J861Wn8Oubdzkkj17UcF3NsxUav2452jCwmcLQSySJjuwhydw2HeLQu-v3pIBKXekq3YCHAKd3fIuqiFvL5us0SIzTC6GYXxq6M9M0ih5Wx2JJUw="
+          },
+          {
+            "skuId": "12000036628527912",
+            "propMap": "14:201739817;10:63",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 14,
+            "ext": "eDgHL28-Dr_nBwqsqHZSoH5J2secgQBcWCkJO_G6c1SlUeTesPDsE3r0U8QEFnMIDcuSZ3QaoZXm5fU5yir5KlxbauetMFCXkonAVEg32xWuZPxa1ft11ubhsQAZa0nUozjFaGEgVQHZ82sQjYcEH2gDgwZb208iXl0KgqjIhY8="
+          },
+          {
+            "skuId": "12000036628724011",
+            "propMap": "14:203027875;10:395",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 1038,
+            "ext": "3Hir2L1lTBDuFF26sWbEoXDzuW49hJ1S7a-eFiuVuurpSbJm3zUrbM5HG0obTQVOoJKY8buPm9CexC2mbuaCWG7ENisidP297_ubgpIUROcoR-r8k2HmPYsTm6Nq9SFZ3IWCRDjsx7QWLkpr842bnwoW0wEN3efO0kP-KFb516g="
+          },
+          {
+            "skuId": "12000036628527913",
+            "propMap": "14:201739817;10:437",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 19,
+            "ext": "QowK63iISIEXBybqKaaCqmyQoecxV0htRh5hWBaTJOKCAWCoQOJl2qqATGC8VsjF78Chho0-Ycgw3z2Pc7bq3XSv91lLGwKP3fa8FpM969y0Ln7RumWwYjo1uCTcha0UdjmhDU61Xc9IHfezcf55J_Hd3leglZFzroLK2U0ChDI="
+          },
+          {
+            "skuId": "12000036628724010",
+            "propMap": "14:203027875;10:365212",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 1033,
+            "ext": "s7IPQFuKE4GWBG-223VaFJJ1Y4Ac8DdBb9TjPrsgjYopdy5plhaVXS2g2Fo88DCyLjozvhUCMK--2ozn-Fef8nHe--obELvGD7rE_I0_Bgbe1DZxR5h8QfAwuwwIkOJsKXaCkBHXPFR2jA5HSdRnI3r4_6khIhVyvwt6NZp-CgQ="
+          },
+          {
+            "skuId": "12000036628724013",
+            "propMap": "14:203027875;10:1064",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 1025,
+            "ext": "9idfLPKrKLkIV33HTUzEAyZifaSoqNR4NGlt4tb2WPMM0YN8qa6CKY6C9GN6ElOzeRk0ikLczZiv56yCyY0Gwx7v5HihRqEcOUFvCpD9l6g1YomucsgtP7HaxlAY53y3T-tZVX2nwvGavrSNux580lS2POz5a_f6en3P-a35yhc="
+          },
+          {
+            "skuId": "12000036628527919",
+            "propMap": "14:201739817;10:1170",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 39,
+            "ext": "aBBY6btn4Y4eczTToWr2c5qU_mpn5dulFi8uLbDuchFrXUcoJoJfXk0GSWESc_DbRGGhPgmM403AuHvDJEWkQsRzB4JV5f54x3RoJ668xcoeSbTuVVSlrBGuK7Y0T1mWE2q0dijCVUBH1ktQnAfX2KwPKz7hz8sktc8BNpfx3jc="
+          },
+          {
+            "skuId": "12000036628724012",
+            "propMap": "14:203027875;10:365213",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 9,
+            "ext": "BktFVrjY0Z41ko0tXMSlrwSfQ6hmeoEmbhRpoar-Y8JWjSkQ-OgWFcuY99tdvEvViVImuh-gSFLBv8PsvBebGP7t4YUJpe-UYMe-gMwRqR6vd1_0uwmhxF1n9_D4ojtqQxDFNvWCpdpkkXhc8J1KUsICkl3EAIFwT5U3Q_VjG-c="
+          },
+          {
+            "skuId": "12000036628527916",
+            "propMap": "14:201739817;10:438",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 36,
+            "ext": "FjzMNCTqQI52w2RDk2US7qxLbmKoe_GTJO7ssYOkcld_TLN0m9T1eRP601qELMf9OsOyJjqok__6kXwkFB31ZDyiJrBJfXEpBu5qhelTzNDRsHn6ZZDmrgFUcWp84fYwQuK4dY-78pM4bywX5Yg-ltpAiZjiTdpG_tWENtO2xP0="
+          },
+          {
+            "skuId": "12000036628724015",
+            "propMap": "14:203027875;10:437",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 1030,
+            "ext": "xMVYJ84ufDHAPu9aehE8u29KZB3ehNUFQtOqq-1H2u3IV-pgVYPATD4S-s9M7TVsQUi3Em9Tsp78loBKK2_R6gGibw-YMLY1VewFMnsLDXC2bcFOdA-75LdAabDua2JZ7hhT7b9tBgL3wmCncXF1s72PbxQjKca3_pIWxtdEPH8="
+          },
+          {
+            "skuId": "12000036628527917",
+            "propMap": "14:201739817;10:452",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 36,
+            "ext": "yyFY-dCDOEQGZpPzdbFBe6uvcqvJI3IMmTpVNKRnjy4m7dyweLYUW8etCsX9dePmKJK-zZ2sJgRKtSEMwthlXmtcMoHrX9b7RxZiGRMu60ApYsybj5AC7FTB3lWBIzXsR5G3n8z_c3ggdXfnoCwg1knG7fpECnhiSfHRQ04gRn4="
+          },
+          {
+            "skuId": "12000036628724014",
+            "propMap": "14:203027875;10:63",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 1034,
+            "ext": "p5c6DopBrZGTah5ZDC2ibfepiS2IZX-gnwl6hmln43l7talS-Zzh1i7YcBBghkG2OrOEhM2R_RGFzrA7qDPV-1V7mRAj9z3vpr0AgFmdqy-3OyCZWz9FiA7JOmOioVT7XiIgv2ajtsbdRwJa80WjODFWrbGDGbUW0p0P-2ykoPE="
+          },
+          {
+            "skuId": "12000036628527906",
+            "propMap": "14:201739817;10:529",
+            "price": 2.61,
+            "promotionPrice": 0.99,
+            "quantity": 22,
+            "ext": "xG0OGHhINwjiqrMd_KjfzDHWD2jxIV31pgsV6xm7tbaRgyDLDtdOkVyPrjy72DuuEWfFezEHx-SBgSkHToflY5ggMk7ROLztpIrEO2jMSjt6OkQuKY4bty1IBEB-OChlFCnnc77RA9bEck0ZWM0g3IsQc7lpRE4Gq-sts0lTldE="
+          },
+          {
+            "skuId": "12000036628724001",
+            "propMap": "14:201659834;10:438",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "RelAHVSqcjzEldVhG8LraDNFRJ4LyhggvUh356_8Hb3S5DNl32NzjoY5695-wJAe8yKbpZtstFjNnHiS3d2xr4OAUrMgWKeAaojC_gzfcg6myQanccwa7-RObaqdGGsYP8t2lLHSuSN3_5NEHXHSo7kiyCzzXAmCW3xEB3XSThk="
+          },
+          {
+            "skuId": "12000036628527907",
+            "propMap": "14:201739817;10:365211",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 29,
+            "ext": "LAv7tr2pNEx0weNst-IMx-7E6ZeBoEARxcqo67fbMg8PyPBfWr9V7aunO5L2AMavae43PLVNZYLqzVZcIfrLP6KmTciblK-8P7Rv5TcXGOSCvAKCKRvYs2qDtjNK3nxR6d-6QGYzfaZawHR7rVtBW5xh91VDrAWT5JI1gDMpZl4="
+          },
+          {
+            "skuId": "12000036628724002",
+            "propMap": "14:201659834;10:452",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 4,
+            "ext": "IBFXoAHD6bmCo-cev77SsBfxvnQGiVP_qw8sWHsod78HHYMlRBo1fO77wJk6E-X0oMKzvLTP3CGarxXNGUUkz2yt5t2iNeUtHS60WozwFJ5ep714CNXpHAYK64qXQhYiJowGMPrFSZTtIDLpKbpSf84k69iCUJB8hHTUeVONh0M="
+          },
+          {
+            "skuId": "12000036628527910",
+            "propMap": "14:201739817;10:365213",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 51,
+            "ext": "FxdwPWH2CdqnohrkGcRtR-44mcfWNRrBJb0X-pneig6REsXzZ1-iB2zVIIbW0swonWMwFgO8fh6rQ9nlLfQR7A-fR0AadH4GSdPgB6px5b4_VBbxCTnoUEoYARSawQYSJbcvixWI0e5uR2S0fermvPrqCSkQaRY0Igi5KwoYk9U="
+          },
+          {
+            "skuId": "12000036628724005",
+            "propMap": "14:201659834;10:352621",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 4,
+            "ext": "HgGEFgaQJphlHQ8IBX3IA0rv6L9maXUdhoNbZt3unCQRuKj0VTvD19ilNMMuR-uqrhUrrWCW_k2mjewADBxb1ncAmXYdDJWorp5UpTKaW9PIVHY0-zyjg2gOFEa7cWUaWR9t65-0XuhRShTdBRzvm9BsiyYZqcTDJruPs320HCM="
+          },
+          {
+            "skuId": "12000036628527911",
+            "propMap": "14:201739817;10:1064",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 41,
+            "ext": "eeL_6pEOT0irruxdcrzWdtY13Ap6HLO8AroE9UFHx0eBlMbfslxDhpSu6S8CeKCn7d9n1x13nCQcx8Rahb4zy2FxpYEiGzHut9uarnZon8-p6QZrONPz4o3VAeTFMAsj7unFgCCXoGJq-_7QgZBQnJmqn6iBAPh-h9cr4LePJzg="
+          },
+          {
+            "skuId": "12000036628724004",
+            "propMap": "14:201659834;10:1170",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 13,
+            "ext": "NpeyTnCxWS3Rc4-5s71ZM60k42Hi_lWQggYGHYG148j7SqRLgwbFwivTQ_3qlBWJxWlmKFXGxuUtZUgSnTQI7PInY3WNzeqgGI2E95ILyUKWuK_nJuGJvialc2ZoVbZ1xfu4TChd30abDZnL2O36wPlsxR70zsSb4NdsBYUq2-c="
+          },
+          {
+            "skuId": "12000036628527908",
+            "propMap": "14:201739817;10:365212",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 9,
+            "ext": "Yd0OclrTIUMMcQt-hmxktLhdYmoYjRjj1EDmK2rUJgdoSUdNNALeCnK8_YFttFTumwKfFRdgUvWiYerdufPGqpyjUvJ5bprTU_nlmgTkoJLyp_GeDkA8YWW6snJMGOqOXMLZXlXmXilMpvjokMv9BngZeq2In1oD65iXwXZRX90="
+          },
+          {
+            "skuId": "12000036628527909",
+            "propMap": "14:201739817;10:395",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "axWnVoeBC8LnySe-nDOc29DSCa6pWjNjvCjVYjAPnMX0Vfw5IZWph1suT46H3wHFVED3F53_F-QsPmbNslqIYK3Y9uZizWynyGPPhDTaxTTuhLNMHssV9ZFLC0hlyxJIZ4G-jiFj-8WjvXc9OKxu51ienlExO-SF0SKrYPqhS_E="
+          },
+          {
+            "skuId": "12000042741262834",
+            "propMap": "14:297688431;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 21,
+            "ext": "ttNouUa1Xkrt_W-oxDd7KPu-49Rm6AxMPp_8ai8iV56b5WuJtTdGnL79fsbO5Mc2sMKTxSicPubFhVofOuP_4DNEbfJa7sEy9zKcrF6R_iA9T-txno58IvDJ2jp3H5oJb9_iO727EVPem8UeZWS56EQvzDIjtcgj0y-NV2bqFCw="
+          },
+          {
+            "skuId": "12000042741262835",
+            "propMap": "14:203027875;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 5,
+            "ext": "fehTTM914numwG1Jd9nddjcFAPESIrYZmrHR7HKMZyxgdqwe5HsRbHAsVx-HM_aOnxZbfSaMArTUAGB9EFfvjYvT_mn-GD6hKGd0a-TuHqso33ScNdUOu35X-PliKtz3PZRHzGZiWQ8c1_q9ZHskioP6G6HWFJJdP1TqBUpb8Yk="
+          },
+          {
+            "skuId": "12000042741262832",
+            "propMap": "14:297688431;10:1179",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 3,
+            "ext": "38ui9_dwliqx4ZjBf-9__VNmzFAuPkuAVGbdlYoyChw_3RDFSqav5yhg7Crw9QVl0_vmcIOk2eNzxVIjOJtZlGaM_l8EfreHEUcevWp9ukzxEkDgoqxiyor6SZ0rnmBobcQ7j62X4He8ARm5xp3jqNRBwhPHixOoJ10IaDMsnw4="
+          },
+          {
+            "skuId": "12000042741262833",
+            "propMap": "14:297688431;10:501",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 74,
+            "ext": "Nna2qliFYORvL2D8NmL3D0HS_zU5aDtl_sRJ9s4nw1KVrUMPPoEtnSsFJW-HULieVWV2T9F8wcRMKuux9r35QAn3YxtslGqchaCLdLPKybwWQzZomDBTj15PqW3A0aZet4sNGuKjlYuzncA0fdIAxAXQ_zqJbfGtuh83Bor8o6w="
+          },
+          {
+            "skuId": "12000042741262838",
+            "propMap": "14:203027875;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 10,
+            "ext": "wSxfw__vjqW76hhuT2Iuvtr_Amw2XRfevlUKyhg1djWdLcf3y3uOOiPCAOBQi4BLODX93xrqGp17Bh57ek550EW9uB_8aNGkwIRm-EQQgrHplzKUaSNOFM4egjot0r0KjwKVu1bIhms_b6oLuISu5EMD7yve9obRYBfcm1AqZK8="
+          },
+          {
+            "skuId": "12000042741262839",
+            "propMap": "14:201659834;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "UPqIaO_IOyRigSBYwFPJA-PQy_Xd-acBybusoU74d_RYgCuUYyRnguTfO7rYpjy54-CbBs7hizF-M7fDJhge2UgvsVBpBdWVku9SBtKevpE4nCeZ4KBymDOyxyZuhcjTnuN62CXRcOsF2_u5SyoLaqZbmcfkXajHokVQjRegzjI="
+          },
+          {
+            "skuId": "12000042741262836",
+            "propMap": "14:203027875;10:1179",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 980,
+            "ext": "XzfTzuFoB8NW0Qav3Opp8Ac80npAzM22ubGjSWbh4pwx0a8QOCW25t5gnhw-dECp-Q9f58a5fhcNTVdiEezwkBLW5HV2kARsFVxXUKLNg3CTodB5BL-kcleT8sm_bxb9r4UOKzclfSy8mGnxGfQ7yGt7D-52zMIm_pH6RJ2RzcQ="
+          },
+          {
+            "skuId": "12000042741262837",
+            "propMap": "14:203027875;10:501",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "5EF1imxHdFH41IT71ByqSy79GQ2Nj_wkmxbROkfuIJ7lvgE9a_1hdFXhEiBwGYoVD4XPPvvgq454J5CDRpEICYMJO4SIyvo_EGGN1JFzKjctDWUWckEhpejU3q40fMLkgztjBGY4juG8vHC6Sj7LK5euRpd_YszsILUqeqf-IqQ="
+          },
+          {
+            "skuId": "12000042741262842",
+            "propMap": "14:201659834;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "g-iaukF7H_PgK9LFdtKiYCBKXcpb3kyGd5oWgBpMAg0aIOmJ6-1_N5pFWBqbXp1-LA4IFuWS22JB-BNE3G56mV7ypQmK4G7ELzsAvqKbGSqchnB3QxySsiNmVHUGK8OpQM9ga2xiDGm8pw1jWcSfsoQAUlBY6VW7IRDbb8bsLQE="
+          },
+          {
+            "skuId": "12000042741262843",
+            "propMap": "14:202191808;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 13,
+            "ext": "FYG1a-RqaIFNxukxkeLETNFMSsfr1MEFJ2KHPpWDV_M9HsjjN6BgPaui1EA1KUfa40Pb31aC4H5WFOci_5qbe5tME_361udGDCcG2ybzGc9q9-U-bxTPelZ0iTZ0B6gSUcR-din4i5KQx0txUK3lWHUzBeZ4Q31QFu35UDVWp44="
+          },
+          {
+            "skuId": "12000042741262840",
+            "propMap": "14:201659834;10:1179",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 981,
+            "ext": "fiMkB7vRrqkWt7fdBeAyiRlDi2j5vqE0SLHhSzC78MEFkn5Rwnn09ymBV9u8bGKG3V2RXv2nbdXJfyaqtDEXAtg_Y0DyqKxensN5us-6gXuMQH3renOnYH5x3ZSFpT2Npi266qJGvIO8AsB3jhKkFi4LPXht5A4nmbtNJvkASqU="
+          },
+          {
+            "skuId": "12000042741262841",
+            "propMap": "14:201659834;10:501",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "dEdewSi7BHBkyOSvk8ona1XkKtp5VFLK0Sp7YbRpxiFCOn1N9MjXagVpRBNhv8K72yOSTfu_nRemqgJuCrIbvrh4wmt3DnptdycXWpuq5xoPsX4zaMOO4dqqXVysBucv6RhD8qS41EoXtxjnQgk2tC5meoLqlLupSj99vU6rGA0="
+          },
+          {
+            "skuId": "12000042741262846",
+            "propMap": "14:202191808;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 19,
+            "ext": "PBs6O-3COTT4iLN7ECrBGfhs-T0zov9We134boH8AsVHE2U_JExjeZVE7uVMCuEUt-2zl8bYcyeAC47GUF5DWfOdKtq4y7iwZJB7XY_5mR0G614LyEGgUYyBwYxXXD4qPDmjcXoLKwRLRZDdv26hy00pkEPdfAegI3e0nV0Oajk="
+          },
+          {
+            "skuId": "12000042741262847",
+            "propMap": "14:1302530329;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 16,
+            "ext": "H-u68Xs6PiFzqrBgfdB48msy6QLfyHg3OpwaIyVP-P5mvV66AEC9tarCcIqlgs0BrFWdUQMcw4K62mkXgKMxbG7P9dJm0FyGh3XnkBukTnQPz9m_ppM6fDMKrZRbVtzl6P9sOD_qaGhQLP4M575HcOOj57Sx6VZ3k8GyZ4agR98="
+          },
+          {
+            "skuId": "12000042741262844",
+            "propMap": "14:202191808;10:1179",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 963,
+            "ext": "SBtmw6Y8cT1PmmYkPvmNz3PucLTgXmW81ESvvvXuyHxbQT8ilK5-wKvU_XybcahDbRK9kgIJ1V2GdsMrDot6-FcaroZub-R_J4Y9WiYVYdRcny1hVlMoa78i856tGmXdxjUsiGJUoHMBQ9-7Xlv3Sn_DmcPkDq0qBksa2UNQcAE="
+          },
+          {
+            "skuId": "12000042741262845",
+            "propMap": "14:202191808;10:501",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 24,
+            "ext": "VLC8Kcy-LV5hQfpK2hEc589PhkuhD4hH40HkrnOCHNEIQCOBDTNfiiijHLBUiv6s_ClYZNCwYRnv2rgEF8rpBd2JfYKSW3VLtnrvh0RAqsZSf19zgPPZgQXHp4LSD4Q4ZcpI2msFXFhyrNCToryrf1ILk0ciJSAtdh0OqEmEqjg="
+          },
+          {
+            "skuId": "12000042741262818",
+            "propMap": "14:1254;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 50,
+            "ext": "eqeECHFmsPgNJOF8rVUhO1qoiYZO1VTjJjz4gTimOgsjssJSFNQYovNy12zUAXnd_ncZ2f_v-oRgv2WIu3RleLZWoK1VJUFG4n7JzZvpuN3H9C1eA_ko0dQZ08fIra0pw9j7kBr-MghAmMzVY_fo0M041Jj3VBhTFuuvTyZNytA="
+          },
+          {
+            "skuId": "12000042741262819",
+            "propMap": "14:365458;10:1042",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 6,
+            "ext": "7bI2lMqizd1BnBMYCmezWXksHAm_3VJdne7bI-IWmXrLcjs5r-MWGnQMRovYF7vSsiO1BFKGfJZXEen9qSVe8LfUWM3OlaCzYbpnqoQo1HN1ZPvLibLljLd1jsuQ1_6-5Dvf_ETkUWNw60P6gNg0yHiYnKqanCyrGjWjpQPOj6Y="
+          },
+          {
+            "skuId": "12000042741262816",
+            "propMap": "14:1254;10:1179",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 972,
+            "ext": "Uv6LWGgBysoH2E2rmqrrZr1UwODHy5SzBVuUA6idgSDfbFtkOiVSCawfYuViluwQ4REY8hGMerrq3K_4yPpqhP2_LMF27NxbosQ-SOgkgT56Okq2noH2B1WjFOfRmqCRm1Ay3b6NPZURMj-vVDaukAGlpk2vt0oa88QCrH7QwNk="
+          },
+          {
+            "skuId": "12000042741262817",
+            "propMap": "14:1254;10:501",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 57,
+            "ext": "I_9bWCl79ip4_8f_W9hGRmSbZTYk0i2v46vB8Mk7J_v4GssJB-IxxkWDXWPg89JQ7eFb9imj87oWAqy4WkxPZZF2wucTAiQBIYQXJZXvEqp6ATikXBWjC1Uye3EJQNWsORvIs9uR_veI3A0A29NCc-JNPlnU_BUR6Jky-JW87j4="
+          },
+          {
+            "skuId": "12000042741262822",
+            "propMap": "14:365458;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 38,
+            "ext": "eyasrVlRQxaHSC06CAPHSImFoqYWFfLKpBgJttcfokTczPJQKW-tLGypgCwvqh-pkqjl-nd91HaiGHBkgRlXxOmreiDjpGZI5686CdfxwiFHjR2tlGN-DhUpiZDqIWSwHecmNDg8Hy_kAXo8oqQvf-W4YHB72Qkeh_vFCXkqkSg="
+          },
+          {
+            "skuId": "12000042741262823",
+            "propMap": "14:14505590;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "eZNMq7Ba79T-I29vLlMShMFUM1uVI0qzyHrM1zkWUi_0rcQWTeddFfkprrWFNrzOaD_Z5wnEAf7C0sI9-ivVbHlpqEzpILvm2iu6lRWNXVNcfWktbrYtc4b1TPKZG8Sk0V96iScEhKv26BoipxbkikM-oCaxKtQE2J3vLHe24PE="
+          },
+          {
+            "skuId": "12000042741262820",
+            "propMap": "14:365458;10:1179",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 971,
+            "ext": "U7ZdL0SOEoqrcTMtLy-AXB1PRfXS1rv1qzyqIcMfj6TkMuJ9lqgN14Dh1ycvQIjXDC8rjfuyUYM2qm18l6R1F5LYRa0cyc3YoqIV2oca9V0OVrsVk6mnaWbUq2Bcn6UknOXXbTd5zkddnwg31oN1Z3LtLKq6hoqDrjtUzRpfYNM="
+          },
+          {
+            "skuId": "12000042741262821",
+            "propMap": "14:365458;10:501",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 19,
+            "ext": "iytdPoQEo4KhxgKQnwUACwWW3qyWrqJnUEXQEPOKcE5vedd5u0Gk68tBg0aHhCL2IcBLusd_sGmGLFu4sTo2Wotkc1MQ57hWTa--p9AM6T8ACDOgnOipDIVmN9fBo20iOGZ4mAJDmTavD_d3a01ZNsdCrdXTFAMpThTJcP7U7jM="
+          },
+          {
+            "skuId": "12000042741262826",
+            "propMap": "14:14505590;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 39,
+            "ext": "2o7NGMQmF1G_mlMgEBSvzaclHLwBEF4ISUerLYOolXEdnHNpG0naUJW7FGrKW-QWRFEkGygIIYzeK5btZ56qoCLELlxWl7Q-tvko4eqKRhI_ZDzekEdDNrBnftyd8I-1ZuXh2-tP1V7P_hdCo3OYOylQL9MhADknsz9SLeMD4JY="
+          },
+          {
+            "skuId": "12000042741262827",
+            "propMap": "14:989712581;10:1042",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "SJrD7nqIizHaSDsApmeKFcG1dwpnecrQ1iOdyEqau7foeH55zUN-4Phncptxu_MMDeNksmhd9e2v_cYFYwLKCxd6cdVyfMy9vkNhOGwJTcNTwp81QLkOcFmlD1OprG0FV8_5Vg90ZkeA3FiXVQfcS9aon3X2YXeGKvjhzpJ-GHs="
+          },
+          {
+            "skuId": "12000036628528000",
+            "propMap": "14:201659834;10:48",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 13,
+            "ext": "6jA2PF-HtNxYkEfArIp85-tK4ln3j0AtBb0kcdRBkbfHgWRkbaB-XErUAeeLYvJFoTe3kBonEk-P-pk9ImqrPa_DMQp_B2QUD_6sM8T9z6mDXGMwLfR1kfLNC8fjc3ur4bCYjxYkTSy9ZeC3dw3KuVanfveKZDjCQiGXDe4Mqr8="
+          },
+          {
+            "skuId": "12000042741262824",
+            "propMap": "14:14505590;10:1179",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 978,
+            "ext": "16XUHTToDy7W7rwO8NFNrtgk1_EYO0bFhSHhtZiTaFzbT14GX-mh_KDP4JcxnhuaIGxVXQkPymasTM240bmVQBnGiPnHO22nNApqOrj4NIAvfwgE1dOEIoN_tc1bXukoK-GCJlWv09HAUMmtWwccaTaroc5SEioqBnlIZGxPnMc="
+          },
+          {
+            "skuId": "12000042741262825",
+            "propMap": "14:14505590;10:501",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 24,
+            "ext": "rXfe41INXEbPQajeNSqhDVlQbeUIGTFUhrF_vzvyCL0um4AS42MHiyV0b_zoAnrQKkSPi2sitSN5ikIhRXdKRhOrQHkK8aW9GN4mPjf7q1uSyJN_eK6_ReG0-BWNKPmTfJyxribiMrASnTJzgpLbHuAVnQuD2P7dkuRt4Y1hX2M="
+          },
+          {
+            "skuId": "12000042741262830",
+            "propMap": "14:989712581;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 25,
+            "ext": "-KAHLFSdE7ZLCeYLdnvJO6F1kHGbIOlfMoWKJG8XMa13xe8Cnu2MmMuGjz28Ld2WpCNhO4eGzeUeDX03mFcv6cXMPVk_DaukogKfKV0K2dIYlAEPPHPkolTb4mKYtWpTwWjWot8cXj1-eygeWSoqQ_JFcd2IE7MaNTVLBZatxsA="
+          },
+          {
+            "skuId": "12000042741262831",
+            "propMap": "14:297688431;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "xTDev4xt9CPnhAE1ekghPv2THDCqM2mGbft6lK8gKNnHxlqVan4GWtaipAkvufDyQeAd0_-_5ww2Hqa3MyPLBKwWufvgiFisahGDsKtDlzLo--vkod6NIk8NWJPt_TuUCe5bD0wneFCuh80cREaglYQOeLK2g2kq0MeI5e_LJ7g="
+          },
+          {
+            "skuId": "12000042741262828",
+            "propMap": "14:989712581;10:1179",
+            "price": 2.52,
+            "promotionPrice": 0.99,
+            "quantity": 5,
+            "ext": "sm3yvKzxKEZgLpeEO5cV2bfbI-ETYzK_ERt4ICi7Z0Lm1pAjEtLY-D4qjLgSYIFufSYT7TosXskDuWV9dYpGR2NaokFF2-9zJnu4R4gGb5OT8wSFmjoYO_tnWFIeRloR3HB5_E7QdSEqPwshGBVXrPiU39CAlwqDJf4gqn-V-kc="
+          },
+          {
+            "skuId": "12000042741262829",
+            "propMap": "14:989712581;10:501",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 41,
+            "ext": "xkzO_440qZq8iy6JQBS3uCtpgFDdo-gKT8hUg2rREL04JZq8Pusrgojzgrz5s-4BfBkICTb_9M42cbPRxorMIdeqzLVoMOyzfN5Say0OuF2tyP6f3EXzXcOpxrUOGaK9mpVUVNxI_2A7bqOZIRktuvJJuMJoBple1vempKT46_g="
+          },
+          {
+            "skuId": "12000042741262803",
+            "propMap": "14:771;10:1042",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 33,
+            "ext": "6nhicpiX2bWfvwfoyTUNDMrzW3RBSqTlsbcFqSSnk6mSZeDz4EqfvJ5L3eLjChIKz1zR0vWeE9lChrP14unoa84s-QRbPRGj1RpvSDQOzMl-vR0b5JVban_OzY_-r5v_pJEFOaBaTW_CEQBI3kQiJXD5bQt9QJT9ot6GNgA_Nyo="
+          },
+          {
+            "skuId": "12000042741262806",
+            "propMap": "14:771;10:396",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 108,
+            "ext": "FWtczvH5FkIUixeEuuGZSnNqQkY7-DB-fVuoafVHxj846MUuhqzTCwSVStRQ4vRVKaRL1J5a7V23P9fap5VkQvI2SjzFnKsdmG1mNXUMSny_ZaknSWomss3F0sgc0Ewf03vtQnhjMTomP0ujEvvGK-MqyfAgdowHQsIUtXNmSsg="
+          },
+          {
+            "skuId": "12000042741262807",
+            "propMap": "14:193;10:1042",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 91,
+            "ext": "ZMG2AOGYWnaJF3JnG0rhWpYKPs9C1maNc9YDX3wZCVcqpaxqZzhP8WnCP2003gS-RNRKvMvvKedfmF0_OMDvVOZKQ5zq_n9LvikHGJ23O4hDv0IvB9JFGvyrymQYpK1r7iS_CaliOqNX-oevChR6GSFFMH0gIh12vV2rN8BDlQE="
+          },
+          {
+            "skuId": "12000042741262804",
+            "propMap": "14:771;10:1179",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 14,
+            "ext": "rNdgnn6bTINcxRS4dHir7quSXL-Be82Sj8FZLzw_1hBSJ2bCivtqIQhNs2mCudUn2RMWahuIGn0SZxw6IfVgJMN7fm-mIr4tTgPudpB2asmE8hFv5gSt0oiB0pC5aQmMDXJ2fCot-sGQlHSYQGa11qCCHab6mukci4j0n5BgMDo="
+          },
+          {
+            "skuId": "12000042741262805",
+            "propMap": "14:771;10:501",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 162,
+            "ext": "ow6-Ww3mIF8QJxZjABsmkYE34VVsz5KV6vob3PpzpMeTIhj3zE0fNyy83qj9XNReN3rs6iPfqbscdmHK50NzokK23swGVy3zlb65jzd_yajnz0DXMvugM0ncyvc_8nAkrqK9zKBbG0sbiOTK3XXpAegEyQdraEu4t1bA4crrMhM="
+          },
+          {
+            "skuId": "12000042741262810",
+            "propMap": "14:193;10:396",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 117,
+            "ext": "DY_eLZBoMwsDxRjK-GU3dBMlBiJJrzyrutfyTwA1MEKGAAWRqOyh65PIhb-KI2Bhp7QaT1AL23nC5D0x9BtDoyH3KkkJ56NsR9eKCKKDohQfdnsr8Hsv08_AGf_Rz39EB6s4bdRjHHrTknU0JEQjLBeNLM_zLN9cSkWNrgkoPCE="
+          },
+          {
+            "skuId": "12000042741262811",
+            "propMap": "14:173;10:1042",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 6,
+            "ext": "sy4VQk3ud5FBRfvEWog1c3QtD2xW3fUKBOKafH4kwE47Zuwd_BuPvtNnZv7eVVO7dMX5crgbEJwPBTHqeOJYO-swj0Xt5kbMv1879MW39z9cMjCNAOgQXq3xkM7JgPBvxU6EJeXkSiSO0lCo-N3z7W37vy8I9jgnozYBlVzz11M="
+          },
+          {
+            "skuId": "12000042741262808",
+            "propMap": "14:193;10:1179",
+            "price": 2.52,
+            "promotionPrice": 0.99,
+            "quantity": 32,
+            "ext": "aqWBwiKJQt5QpNdUa1xjbSmm1LyXiaMmAZshlg0Mcu_-RHmB47uysxzbTcjzIaYPQpdm7VpgCdgTDe07319VZ0PuUni9_RvIXQPRPJNdRbRjRRlh6soyCmHABqQDa8jH_6t4q7g_3cACpAPUYYakR3qQwK2S866QZNkl7FR7coY="
+          },
+          {
+            "skuId": "12000042741262809",
+            "propMap": "14:193;10:501",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 202,
+            "ext": "8CgQWqMK_zikdJy4ZFn-M-s6Kf_lwP_0LYpHTgNOQ7JpmFISOXY6S9UB9JbBibi8FE1o71NbBk7uNGDB7Nie5RQv29lvOGCceuOOX68ZPhXCN0PyYJGUvkuxt2UElXIJyi687dxqhvnVWJCQpzXthp17KFzaJwziTdkg6KPLEso="
+          },
+          {
+            "skuId": "12000042741262814",
+            "propMap": "14:173;10:396",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 30,
+            "ext": "UILSy29qzYa_XDJ6jULCX-SLnx_YU4XzX-dzEGsyXSCSFK17q_zxjcO3H8MzCkPqGCrc3OkdcbQJm1lW6pMI53ErXqFyOdNQJya2C19MXcm3v229oym7O6huNPzxFRY9n_-nIALQkTULDKnUwbfchreNqQ6Gnt0kAXKB2AzreHQ="
+          },
+          {
+            "skuId": "12000042741262815",
+            "propMap": "14:1254;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 10,
+            "ext": "-gjZkpBitcmb-5N3pwS54i-ejH9OFJpHy-oGqvmFTw2dlMwFlZuKuJv9-ELda4M5ANkM5H_hV6xedcSEsfupm_0infQZmBkoZZNgKI24xcJgiHsj_0BIBf265RhBhVIVrIfJU_GVGi9biJ1KByboKku4V6vZqxh7GC-JbUch12U="
+          },
+          {
+            "skuId": "12000042741262812",
+            "propMap": "14:173;10:1179",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 11,
+            "ext": "ct_GB37IsYdDpRDN8I4qa6VWulNNRNmuy1-15lZjNPajuEALieWWIw9KNAlU8OCm_YUYEbNHhjeA8xGXhi7vuGenAKFtmx_alUQsa23PXgCel_eCae2YRhO9uCS0kN0RwXtvXK-5UYcz925SULvFwZvko_sniDBF5EUrbQD98CM="
+          },
+          {
+            "skuId": "12000042741262813",
+            "propMap": "14:173;10:501",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 62,
+            "ext": "43oWWfOaZiBEYLhTQDABusOKVUIWTJQNGWhPa1tv4nMhNhKE4vklXFYRZYRhfEJc-YdMFICZ8xRreHlFlXq7nKykBW1PxzjKv9eF5SCdsoqWnZWRMjaX2M8OP7ZglwY_GfKPZL9dfywioYFrDwfb5a0JHnhEMhu406-QScBbAk0="
+          },
+          {
+            "skuId": "12000042741262850",
+            "propMap": "14:1302530329;10:396",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 41,
+            "ext": "AdBLQiYeNbm44QXMEdgaaqqr_TmPm9HsAvHlT47Ig4gT5ETTVJ339A948chyDcAzXjsBwgs7Qh2jnMPBcXVDZyQ4tbduSr_HAVkNHuiyfcYlAAKZYrWuInFlilYxXU44B1fXIxgV29YYelZuL8_hcC4z058nSmNAwwHacDp96Cw="
+          },
+          {
+            "skuId": "12000042741262851",
+            "propMap": "14:201739817;10:1042",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 14,
+            "ext": "VerYZA7FsoqCRPNUZtH1ozJ59_tchgC5nMtTDH3F2_HMMKtdfMRfVFEEM6F0AhQfzLJ57r830O2V-cqRmbCYN4qLjCuTNKjYxihVi8KS9WUlLxPCuZlKWsujb_12O1weOJ6pGUhMCyQuNzQukwc339ZvhcZZTe8g1fbwOhakQPg="
+          },
+          {
+            "skuId": "12000042741262848",
+            "propMap": "14:1302530329;10:1179",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 7,
+            "ext": "KYVY8p19czeHhRwnXZvr-4XWDbo1avHpyGc_beVf4TMBHiriVRY_V6ZDOv7oj5fEt9VrFVxr-wo3uHOVmu39PgCAdm-9DjWi9GjR5Z3tptPZzKPDkqzrk6Q3Drki3iBV6zMwF0cSNqMNzKdzL_D21-vaBRW_UarqlCS4HcqcEl0="
+          },
+          {
+            "skuId": "12000042741262849",
+            "propMap": "14:1302530329;10:501",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 57,
+            "ext": "MQP61cci-Oimmi5W_Et-wXmPyhahRB1h8PIMQDKTe07fGPxVWltg5oiL_43yN_fZ4dItIvaF8oYG0JE1KmJkth5_CU3FZm5KM-ItjF699jxB9CRCHufI31fKcz7TmqpUU7RWabhAa6oeg7qBle27hk732DtPCzQhYpB1BZkrbFQ="
+          },
+          {
+            "skuId": "12000042741262854",
+            "propMap": "14:201739817;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 30,
+            "ext": "Cx4Ieqlaz6P4jwaQ1RWYcqcCRC3859WJfyNXESAkNqIU75IZM_7J1NCE6xEQc-dXluB79wyljXPlqKNtmmCEySfmkNFIi-jxKom0wbYnOW-InaY3jS9BOAsZGevuRnzEuTxTjcZJwgA63lwekmYxhUYQaZ3sk5om-ekOQFpVS3A="
+          },
+          {
+            "skuId": "12000042741262855",
+            "propMap": "14:202997807;10:1042",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 962,
+            "ext": "-KBoX3Ns4sFICxAty_hWRpRpsF0PTmTbmmIgGbL__v-vGJTvDGLiQ-zzLmGhVdOCGkXaHQUjiztzOvwvHy9bpNcTbceSdAEYJ1bkDiJmhvsOCTMb67tpnkDyNrOXz39DtH0Uc-bwRkHv4BRoAuvJnfmYFHqPdP0fCNUQT1351xk="
+          },
+          {
+            "skuId": "12000042741262852",
+            "propMap": "14:201739817;10:1179",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 5,
+            "ext": "dn6aUS77UJxKv3jFx6IZEXekT5lvWYL0Zm5UElalvO22HHifONaWfGDs3GGo917XSZ7XSe3m2SSX6l4UZCYqUWSMYEly5JARC_9MLDOQUrooRfTabS02kRqp3mBGbG7NCw5aW33-swGb4prvm630Mq_a9fojRirsL9E9YcqhicY="
+          },
+          {
+            "skuId": "12000042741262853",
+            "propMap": "14:201739817;10:501",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 104,
+            "ext": "WVkhhEfevqZ0QroEHITbo-O6H-DjMXNBqz-Sa_E_e6MBzLExaDXrCYd23g0yE1jjxur_PvxD_lyJ47rLb5F_sr2BTjNB6pixJ6UzfQVxiE4pzT9wKgT53QKDBwanKT-Ws768ZSNrbBgIlpMdfC8rf75XWm0hRVGcs00MYaeKUCs="
+          },
+          {
+            "skuId": "12000042741262858",
+            "propMap": "14:202997807;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 19,
+            "ext": "JNHl5B_18Q63stFkeaeOq32ICifppqp5hWjB68rHLpA6pyShDTlyafv8Ju_WCCggVFlv1YEquDzBrD8vwlbyE4VnPD8khb3KqaX0_1cZXoTUAZ-C5N716kRDXkXYNQMz2_dlTX0xlIng-c9oXs7-XncjD3Xs5muz9X3xrOuFkXA="
+          },
+          {
+            "skuId": "12000042741262859",
+            "propMap": "14:200002985;10:1042",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 13,
+            "ext": "xp0Uqu0ENNy7xbmvnqckNXoWZTBTQeMG-H5Vxxh8Ci5A9JKKxYrys7RXITMyA2DnlEoG-qLuiXi4bN_Hmec7_g9EjG9CFqAPPD_vcMDYBly32Uq3hKR8PzPtObN_gjDgVPBWHBVM3YdOrAUs82Nyd6MLij_CXCjJxsp-bn81BZY="
+          },
+          {
+            "skuId": "12000042741262856",
+            "propMap": "14:202997807;10:1179",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 981,
+            "ext": "W1e1emA-fQceH8Ovm2gaFJUn6iXZifQrsPxsOxR9qjsLxaPuBp74HHu9XtsHQt7aHJGGhuQnspX8tRSN1pP7obro_1IApod2iMQDL7lrJuDt9ft9syGzgkL0aCeggKwtNh052SjckXbTxgOzpG8G_E3Cx3gZHyTN2EBAXCyg73s="
+          },
+          {
+            "skuId": "12000042741262857",
+            "propMap": "14:202997807;10:501",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 20,
+            "ext": "CrLntboLvfGOyZif-zsoXTwQAmhsnUpBAqMwY1tdnFarzCfxCuTaYJyJVQerQRrsFCYIzIbh47Aqflzh4dv9og6_8iicFhYSALA_6hr_e_dLq9uwm6mluNsubdszjI9Q3wo4xCOWIIRHbDsJz0WzF-nZYNxgK3lXcet2h46nDf8="
+          },
+          {
+            "skuId": "12000042741262862",
+            "propMap": "14:200002985;10:396",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 39,
+            "ext": "NCCd-JwcJp61dH7U7DULeCUlIYLhnvSoBymLOegYdvX5oyMhTJ82HkMMLwyjzp8qxoTP1LYReNZE-qUITrpuDgC5G_aPNjDrrbfUxvV6n-q0TGcK_JtrsfwZdUvfpGTS7a-VBTr3cnHl-kOU9bFiTxVBOInTdy8fKzh92SkxWfE="
+          },
+          {
+            "skuId": "12000042741262860",
+            "propMap": "14:200002985;10:1179",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 966,
+            "ext": "B8VmgroTwfkUZMb_E9w3ME3R4YPxU4wxTSBM_r_JCy4rn5BU-MjbpFajIIb1aN8XMOJHpSTYu9fGCoa-vOz5UkL70UZ7wn1vRzDwZCTjS3wDceCaxDhwQpsdpI-HUIokWzuBaSuLnsgAzZUroUCMTDI0XFmH47zqOzgMlaCGbG8="
+          },
+          {
+            "skuId": "12000042741262861",
+            "propMap": "14:200002985;10:501",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 45,
+            "ext": "GTw_hogkgjn1tJZMK8SLeSl6POhhLCaO5MS_Vj6ZXtXNC0x9lL8j2cUEGWIPHfN6hOibiPYmluth8WFsrhPWe3nuxhHr9R1ITK8zOfyGxP8Kousc1aSzaB--oIwaahvHgCdPBcBv7Bg-9Sc6Ygo1VGVZRyMVAz6Ru3LtE-1OsjU="
+          },
+          {
+            "skuId": "12000036628527834",
+            "propMap": "14:771;10:1170",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 113,
+            "ext": "cSPZb7LZuW50dvUqnx5TTi5y8X7MgEDwEWpUQlS6hH3NvvFhaBPLfYkkyqkVYCY41DXhwMCYibZgtFa9koY0-yK2-puPGc02cI5Fx9jRAP41UHr2tKlorXY2cE2xp3JaxX1_XJ0Lr1LKuC8rz703GrJWxLKDENYFtoU2LYA_T4c="
+          },
+          {
+            "skuId": "12000036628527835",
+            "propMap": "14:771;10:352621",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 87,
+            "ext": "tI1cYZb88_xsvu10zQtgvPdgWR_YY8R8ydinRdwsvLks2zE71eaHgaV1dR8M1-u-3BxfpIfN-Holgklm204_PqiLKwH7fJjpE4Aq1336V92rmn_HmTotSfpEXJtttLw8lMlsl7fP3xeozOKIvjyjUrg8sTAhSr0cbww5FHKrv78="
+          },
+          {
+            "skuId": "12000036628527832",
+            "propMap": "14:771;10:452",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 37,
+            "ext": "XcLWiWKB1AihQrxKpk2ZA7jEX0bkP4kL_c8l1SAELbQat8olaJ3FtjNKUXTjmqELp2CAq-QcW9h1NJI38b8xJU2WTJemwpCIHXiusZflKi1wmnFV_aNOaatR69x2hQR6nBo-lduqGmLemdquHx-KqjgYRr1-yzhFIzxgHvoASd8="
+          },
+          {
+            "skuId": "12000036628527838",
+            "propMap": "14:193;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 70,
+            "ext": "i-tuUiZ9SPwjrjuZN0FWMUGKUzMldqm6nNO5unPMhbGCEfFqYABknqQEr0utgcLKq3j6C8rZsRlogkR5JWXj1WCpdtjGh5NoMZ7X2kji9HEdBb5HshBIOdCHM8SX_LgtDNpxm-LbmXRwslvYImC1NYBNAo2sE5kAmq40f6alpW8="
+          },
+          {
+            "skuId": "12000036628527839",
+            "propMap": "14:193;10:365211",
+            "price": 2.36,
+            "promotionPrice": 0.99,
+            "quantity": 133,
+            "ext": "MGihgbfWSih6LUv-PZHrIuNXomMjyRyGAEd0nSuZOyuq02G0xQViRa49mSiWGgqVVyquyBvY2SFvsLXgS8tFgCvkFAaIwTatiOj75Nck1Dk4Q5hDgjcTY2n_6XJ1XzpfdL9isBvtvAXowNwxFweh9DkzgkWIILEwrElau605AeU="
+          },
+          {
+            "skuId": "12000036628527826",
+            "propMap": "14:771;10:1064",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 41,
+            "ext": "WF3aY-xmj5bM4lNbfBGyrb_0oS3cFeMhiGyaKtuGu4KvS-XiPpyqYpL11cJOyENfq-mgY77ecahkW21UDK5brlJ4xZ_c5GpZugaBpNptXSwYXWXWfx7c8VX8mvpu-ozagBjUiN-zIEqHscHLhhvIvCtREPHnOQdUYUIgDrI5WNc="
+          },
+          {
+            "skuId": "12000036628527827",
+            "propMap": "14:771;10:63",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 73,
+            "ext": "cf8PVPmoV0_zK1Dc8B1zFp_Vc-aBEAco3ukXZ9VevqvD7z8eE7P_WsFVmhSywAyKdzJSkPx8hJ2dypOkQf_r85tLjCeuqjaJ9cYtyYlvcFPijmVdfEyHzGo9yTxN7GIK3NXZnmOFFBto8TeLREuih5PZCwXJCDp_5EWFoKcc3LA="
+          },
+          {
+            "skuId": "12000036628527824",
+            "propMap": "14:771;10:395",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 41,
+            "ext": "pAtO0X4rA8jf8rs6aFC0WEENp0yduPnK-VaGkyDmjsYRxIUYPmdlkpOrKXvUB6oYQYRDy7Yaom1zPK7FfiTOUeBLa3ERZ2-Y6rY6Amnd0lhB5z8x8jc9gzRuJVgHhfxzkiK0O3-w4PH2i4Nqd8XLcD-2d1gtbIcK7d5DD3YFpg4="
+          },
+          {
+            "skuId": "12000036628527825",
+            "propMap": "14:771;10:365213",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 94,
+            "ext": "nVlejnIYUm51SMg4Dd7Qm3GmQQtjqGJkGlbZH0dkizkumn0s3R4VvgXZ0UlyMRftI3lVXHsGWzwrhA3vQjCI4ND6JyaqWX1tO5dKEUioWxSdfddpIQ1IuMYpD6hCSQXC8u5OJMb7vANesI3_62ukTyaqjEAnp87DdsEiwphcpwk="
+          },
+          {
+            "skuId": "12000036628527830",
+            "propMap": "14:771;10:48",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 73,
+            "ext": "ZCDoKrc5l_W8OdsN87SAxSY7W0jkVFPfgBRT_M-VdvJ6XWhbnZtUZeFR9l4c84-2F3mvzcnxTpNPsTIef5HPY-hlAYzrDsKLQyClRCOLXw1-5HJm7giXd-KS9IlOErqEUbgnXv4_aqR3JwX0kIB3OPauyoQfS_P-0EYVUX7DIDg="
+          },
+          {
+            "skuId": "12000036628527831",
+            "propMap": "14:771;10:438",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 59,
+            "ext": "gannGZNNnC6X3FkfG14BaIb7Le1saWpbpZ9EwucnWcMyMoha04MW7pREHmHbZEyyMM_GaWYfvHHiS29oP__eTP4Zc0s3URnI9bTRCbO0vaPDtZssxr8mQLNApJi5gTB7XPMTe6bsZTp3RyJ4rOQCP0qKtDG3FXicIb0bFPNUixM="
+          },
+          {
+            "skuId": "12000036628527828",
+            "propMap": "14:771;10:437",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 61,
+            "ext": "-d60IPtyJHMf9_AFxQCMGwv-lQktfFoQ9iAGMyXf0iMdGhMA4olj42LxQ0CHH5eWy8bEYz8Ko53DZMz47dQunT7mSnWU2xiWlhrjwPvty0LEVoREhXDVOdKsQ-HSwpFBnR2Ajg2Ze7jPLfhW6SxQK2Q3CgqO0UIITlnAT5YMMEE="
+          },
+          {
+            "skuId": "12000036628527822",
+            "propMap": "14:771;10:365211",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 71,
+            "ext": "IWCE2iDkusUIRdhTIMoRqYiBljkkGUyV0k0etBbBYL5uMg_v2y65zp-E4ZmLRlwO3OxfBJGppmLA15nFTrKqqWWfVefziHdL75slJ_u8StNCepKJOQz03QVe_6eC9F52H1HatS34lzHvyhVBn6DT6DP3qq0TiaKzdyw-yodFVWU="
+          },
+          {
+            "skuId": "12000036628527823",
+            "propMap": "14:771;10:365212",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 94,
+            "ext": "xJakF5JXx3WqMvVGOPfPuwoTVbumBYihB09rDylGxfZ4_Rag1B6WkUb113A30pyjJWY566tZ0YNz_EzPnQDNwmWTHRPWUlS5KQLyg1VuEMslleZDxlc4xij0YFW1G66Zyo7Ep-wTF28L2Ztom-ayJxqPkp_DEVEivFqWw_hFkfc="
+          },
+          {
+            "skuId": "12000036628527821",
+            "propMap": "14:771;10:529",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 23,
+            "ext": "WoiLmYo3KI8l_r2d0zgd3l79ZHRc-d8Q7wFag_YjR3vI_10oUSz_1l_THcxAyslKk8eo4w7FJU79fI8hwMqCekafEpHjDhUwG9cl7a1CYlBLIZmCwJ7fm2v6iohFR_qnSu67nOreVbvxiusV9pfamNaG25fzduBRU4cX4r2n2ck="
+          },
+          {
+            "skuId": "12000036628527866",
+            "propMap": "14:173;10:452",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "00fbV3uC_F_FY80kQpVOSuaPyhVY5fAEcS8c91PXhrDnM4e1I3RK9qcEG5izwszVaQ4HRY1gmj72VZPGwCgWUzSRey9925ETUK1Mq5AWkBF4-fYUw0mX-ljI4KTLcae_8HTK1juJJPsRNPH5VCcNLZYU0_u9HgckkcNpxwufpmU="
+          },
+          {
+            "skuId": "12000036628527864",
+            "propMap": "14:173;10:48",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 39,
+            "ext": "dO6fxLeiJtojTOeq6S6GyxCxMGKlyKbAEc4yKxRmVfcfO899z1QeHi1VP-p26PTrRxP3hB3kJI3z3BXQFyLj-uLBbSvTfEsJEe4un7UYELJkWmGR2gmsVKNvoEhRQu42SdfbqiYF6akxjSO_Ww0nI8r-ZGkBJidBBQvx10ZU9xo="
+          },
+          {
+            "skuId": "12000036628527865",
+            "propMap": "14:173;10:438",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 18,
+            "ext": "IYg9gTDTvvfuAGKN86LwLdSc1DAM68u4K1haCB4XP56s_r-DStB3QvjO_Ris49Ouf6Na9GY4BDIeUQTN91jIYxcHYERCpRbxf168Meyt6oalfFnoHWmX-GItIj_NiL6ZrOk_CkADaX79mw6GPYr3PQ92STjOJg3qsllHO5Vl-Ow="
+          },
+          {
+            "skuId": "12000036628527868",
+            "propMap": "14:173;10:1170",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 23,
+            "ext": "7xky37tH_S1_GUKtJIPu109MGkedVGJh0u0_kiVaEDv8bIOBNfQtEhxlWbLSOGZQ_RlukoIz87E6pgveRnaTGsksEotz1SpW6OOtxTX0txHYzfv2rE-wQvEcX-0MxaiTAIBHPvswok7pH8oJfcYaf7JqlY41RKc1MN_0htqp1cw="
+          },
+          {
+            "skuId": "12000036628527869",
+            "propMap": "14:173;10:352621",
+            "price": 2.3,
+            "promotionPrice": 0.99,
+            "quantity": 0,
+            "ext": "N4CWsRv-_CZRc3qaZFes76wVSZSzXd-KmWnfEcsSD71CrhZIkT6CTUFpS6I407tW0u7Ds6VSNot3R5huhY25rxzbOcHHhZIWBBMpI1b5WegC-0WByDp2yxYF0SZJ2ADHEKa7YN1AWEVFZlWNXbaWYzTEzjf9cTBebPxwJiOYYsc="
+          },
+          {
+            "skuId": "12000036628527858",
+            "propMap": "14:173;10:395",
+            "price": 2.59,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "GstNm_A7_fIa-b8xaofzkkiJyLwZKYzPehYEqqYgZM5O1nEQ4evcpyPlLBKRCxIT6kb2NBc-UdN87WQT6RkpEeENJTPncEl22oIp0R0Z5aPPlJ51bzrZ1DP8g-AOmFL027e2hTZzt3tK6rskCckQQgo4VxFTv5vRAtg755WzW0M="
+          },
+          {
+            "skuId": "12000036628527859",
+            "propMap": "14:173;10:365213",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 9,
+            "ext": "tNfe-rCCREqw5KJtGt4bKH7eMtvOjZeYMasMSID7bUc6UZJEUfadKETvIRZjxUmWxoeE4eYJER7c4s4_BOj15LC7aiBiSut4O0CxCVJfHiEZOgplXTJLZ-5Nl1Ehfr9FC-Mj1Bib69RqYkFtSxl1pjTmhYC-8xaEyN0uOoI5WEM="
+          },
+          {
+            "skuId": "12000036628527856",
+            "propMap": "14:173;10:365211",
+            "price": 2.34,
+            "promotionPrice": 0.99,
+            "quantity": 16,
+            "ext": "DbA9SLjPXR0lVWrilPNVXq5_rEEtptB_jZ0NAdiTyYSqOIQR99xkom6sidhZbHv2U1yqQd5GrDV4c_SoOay0yIv_LLlydQjrhKhLAh4gXmBZVouprrhirmBsuEnZs-q9Gt4h_rdRsPZaW1la3rGlzhBlMZXx19ASLG4oOFwZvGY="
+          },
+          {
+            "skuId": "12000036628527857",
+            "propMap": "14:173;10:365212",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 14,
+            "ext": "RaQlVmZgFRcbbnAgC3aek3f-rSonMdCDYXFzM58WieCbS6BNBY-LehmkIfUMDDAHon-IOSaxSjuH1zFhUf1UlDS7Du4a2MXzy1LP9zEDof3nB9BYk3p_sqMoJIDWsmuc3DbJu1f8rrOezBZucyAF3F91Y_Lmo0HcjAyO0NIz9iY="
+          },
+          {
+            "skuId": "12000036628527862",
+            "propMap": "14:173;10:437",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 13,
+            "ext": "2XFSiJSVJoI4skkbjTLI29UhFrgR5t3aKO6GVrwd5jXbkZwmFxV3xOTbYKpL2EGNviW1SlSItL8aVuJKPEDrlM9souKMXF2TxKzL5hd8KgcO-_maYbqfVeG6HT9uoe0enppEjcqQrYto0uTAuFG9mLF30uvdFe62_53YKtg78RQ="
+          },
+          {
+            "skuId": "12000036628527860",
+            "propMap": "14:173;10:1064",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 12,
+            "ext": "xblj2NkJmA9vlL8G5O0DKY5jHWC88-Uo511--R6rE2-RnenRBgpxsBdTKVNZOulRrr-E70VeePtbK9Z3TCPh5WYcvmbZ-VvdE9P-iHzaU6LS5KIAWGd6zMdCN85RmIyDsZ07_5cjCWVluf50TRH3pOFl0vzYuOzqUs62CdbRHto="
+          },
+          {
+            "skuId": "12000036628527861",
+            "propMap": "14:173;10:63",
+            "price": 2.49,
+            "promotionPrice": 0.99,
+            "quantity": 17,
+            "ext": "7YqiUUn4pVqKyNeLiYtw7WbnRkmdiuuzeYJpzBqptt8Pb_euyHuLdpGbCKDwRF6X6OUcXQhyByhmf-eAZfjgYp2frZm_UkheJZTX-YButE82dcKP3qItQEtCr0OVWhNAn9fxt11mQHwlN_0Co8R3jSJ5EFs4JCIBfGmBnidHGxk="
+          },
+          {
+            "skuId": "12000036628527851",
+            "propMap": "14:193;10:1170",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 155,
+            "ext": "jTu_0kZWSdYcnOginbJl9Yh3_MP8eUPvYb1F6gQdI50infcFNmTS5Pxk7ZR_SLZgPk9f6Fdo8u0UOrgGwrY1VeY4nAceMevc_MW15IETkpSr0JjQRnl5Vvja2VueVBZPAadzy-uVIuiJst_uTcXuNx4RNe3oCxVhjNz4D0efRTs="
+          },
+          {
+            "skuId": "12000036628527848",
+            "propMap": "14:193;10:438",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 72,
+            "ext": "l7vFl7y-vB5xlstf4jbiex6vRL0Ixoo_O9mbFo2Oo9LQiCCLCkBJltM6xfMg9ZGnboug1rT6lO7pEUbq6QF7bh6evbw1uXmr9BAD7nJfRPDSgycYFUrJoXCohMCDdyBHYLgiyLyWBkdUnfKj-J8Hu5JFHMR_YHv_hpr_QDpQ9sw="
+          },
+          {
+            "skuId": "12000036628527849",
+            "propMap": "14:193;10:452",
+            "price": 2.43,
+            "promotionPrice": 0.99,
+            "quantity": 171,
+            "ext": "rRN02PibiOh5LmGXknGU9HSdy_SzyXuIMUiKVTHd20_0dkPtLPX-4aBRJk1TqSEGVRDIoq-qyanqV10mW11IzCHVC_RthHEPqmBFydGd1j8PcFNUWSPET6_DmGXX1QXmVULEUshoBOm7X92QRrFtyh1jGTcCrIFqXMlonp7ta5s="
+          },
+          {
+            "skuId": "12000036628527855",
+            "propMap": "14:173;10:529",
+            "price": 2.57,
+            "promotionPrice": 0.99,
+            "quantity": 8,
+            "ext": "asZX_NELNBVNxAFXuBx2y2CygWyfZVXGdDp4c1b87jmK5jw3GeY18pII9UWn1_lqK6bPEdJp6uaXxdmw-TUUcMxY-Q9x6xTPX44xN00AMVhD2PtT76wa2BD8ciQ5k3EDM0w99rC2ZAIxhmyaG_q7SHyPtukZJTrvhxeKQblr7SA="
+          },
+          {
+            "skuId": "12000036628527852",
+            "propMap": "14:193;10:352621",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 168,
+            "ext": "PCq6Jfh-sKfwTGSc0C8nFnMREue1lGhPzzTB3KI4-_Qfsun4_HIPVPVbTmLdhEZn-Dq-EQbbSKFbYov8wwfQNf9U_WPXMuVuQMQO8wa9lR6I9dMOOPXid1rJvdBbxWTz6qZMB8jnSanoFnBkogJ8nnc84AgQv2bRYGZyRvqCXSw="
+          },
+          {
+            "skuId": "12000036628527842",
+            "propMap": "14:193;10:365213",
+            "price": 2.47,
+            "promotionPrice": 0.99,
+            "quantity": 224,
+            "ext": "FemrxgxaxdiPsmHWXWvRzTzucLE1AL4C1Sx4XLRheTNhsWKaj_KAnnX5ICwuv8AFENAEVcsbz1CvtBSt8YuS2Mol4uU7qpUzIlyNsRpME9I9M1wAvtQwJali8Uw_8LlyZv7RU-PUM4MfYEGPdty36nwwzA4BbUoUPGYRo3zDP7M="
+          },
+          {
+            "skuId": "12000036628527843",
+            "propMap": "14:193;10:1064",
+            "price": 2.42,
+            "promotionPrice": 0.99,
+            "quantity": 82,
+            "ext": "-HzNVLl2ltyDbaEN7UgFx4qtjIz5JwyS3fZ-xcfKpLBJYUxif6uuo97s6ifXkq4iMHqE-B2w5b7L-3MedMvE5dlYOD_MU71-IePlRhIM8zvuzFsXEtq5MYfPsVP7kwsbqa5fQ4dL3fMr3akBnQMknDCP5lCo_MI7AjZgCGAvX34="
+          },
+          {
+            "skuId": "12000036628527840",
+            "propMap": "14:193;10:365212",
+            "price": 2.48,
+            "promotionPrice": 0.99,
+            "quantity": 55,
+            "ext": "9KIQkgE8gfo6NQam6EIHyaDImNK3YfBpb8-gY_j7LeqW8c-2RC7svP47EVZLlgfUfUFMKrdbNzlva_y-HqlZ2FmbknHTfSHwM8H13a_e7SnZnH_2yr6N_ks8zzBzOtRLTKaxjkt_t4PK-hQvyFz0CyrQWh1Q5jKy2axa09he9rU="
+          },
+          {
+            "skuId": "12000036628527841",
+            "propMap": "14:193;10:395",
+            "price": 2.53,
+            "promotionPrice": 0.99,
+            "quantity": 61,
+            "ext": "BtHXPO7gtnDyAd6R3caHoMkKWJFLHbwNcneb3ZZlHiuvHktY96VphNwvW7Bn_5yRtXtFtkcBupojvcWCpOGV72xyC-URKX7Qm5_8ABnXQfb7Ash8i2NGvHxVxBWiJwWaDJlls4MNvA2QDQGZ8JQLg3llbmKZE0loECVdJIQDeM4="
+          },
+          {
+            "skuId": "12000036628527847",
+            "propMap": "14:193;10:48",
+            "price": 2.39,
+            "promotionPrice": 0.99,
+            "quantity": 104,
+            "ext": "nHiGc4zWN2dP6OsV2YfxjBInytp_PApF4FnVoVTjqa8dsuS_FAgdrAhUrCXSc6jnkdQ06g6NAEqprOizzbak1gRD2ji0zAP0zbT-ulW6MJ46ww3SnvEZs7PDh4vLMABHpv3-abfjFObSKlv0Wsnf53Wji3IkMcjaXrtve6iBTDI="
+          },
+          {
+            "skuId": "12000036628527844",
+            "propMap": "14:193;10:63",
+            "price": 2.54,
+            "promotionPrice": 0.99,
+            "quantity": 70,
+            "ext": "YU5WWQDPt6oK1QPOOidM0S5CmdFUQn4ftgvSxBiI5XM54X34bv4Pz3WmsHeHXew2S8d49FZDWbuxvyiFLc3_7tY2pCcw_8-c0eREo0rmeah44ldSlK2-htFfYaofdRanhipbcnYTThg3GXlBrc1XGQL9LmFKG1zWiJ2viw4ZWMQ="
+          },
+          {
+            "skuId": "12000036628527845",
+            "propMap": "14:193;10:437",
+            "price": 2.38,
+            "promotionPrice": 0.99,
+            "quantity": 72,
+            "ext": "qtpkZmYoajESFJn2Z3uNK1Y5hlxHBnahEk_oU2hEkRvHtIMU-bOVqOLwskObZIMx1qhsr9Th764P7qQvB9AgZbHxLINHvTzsfEgvB0vc04BtJkI7rggPgCK1w8_J-xXMMb65XInHEz3sm7WTwnBpI-FL1ayO92zTzHecFHi_jo8="
           }
         ],
         "props": [
@@ -134,42 +2154,215 @@
             "name": "Color",
             "values": [
               {
+                "vid": 771,
+                "name": "Clay",
+                "image": "//ae01.alicdn.com/kf/S0ab4490858f9444bb9e568fc76708c98n/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Clay"
+              },
+              {
                 "vid": 193,
-                "name": "black",
-                "image": "//ae01.alicdn.com/kf/S6bc125d6d7e946539a489db8d58ce111Y/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-                "propTips": "black"
+                "name": "Black",
+                "image": "//ae01.alicdn.com/kf/Sa747c84f8dfb44c8abc563a9bca7ed6ca/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Black"
               },
               {
                 "vid": 173,
-                "name": "black orange",
-                "image": "//ae01.alicdn.com/kf/S94402bff59b4460ca8385713123e0edfN/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-                "propTips": "black orange"
+                "name": "Purple",
+                "image": "//ae01.alicdn.com/kf/S34a98e5a0c4c44f8be92cba44fbf8b2ey/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Purple"
+              },
+              {
+                "vid": 1254,
+                "name": "Dark Purple",
+                "image": "//ae01.alicdn.com/kf/S8d5d8a96dd924f26b760511c472165e8J/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Dark Purple"
+              },
+              {
+                "vid": 365458,
+                "name": "Green",
+                "image": "//ae01.alicdn.com/kf/S5bc9bed9c8bd4929a8b42ce3b9307b8aZ/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Green"
+              },
+              {
+                "vid": 14505590,
+                "name": "Yellow",
+                "image": "//ae01.alicdn.com/kf/S91739fd35b9b4b4ca2bbb4e9bc07a47dB/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Yellow"
+              },
+              {
+                "vid": 989712581,
+                "name": "Red",
+                "image": "//ae01.alicdn.com/kf/S77ea36ce58ae43a08421e6166e4a3eceG/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Red"
+              },
+              {
+                "vid": 297688431,
+                "name": "Beige",
+                "image": "//ae01.alicdn.com/kf/S54a727bbe0f046de83cdfada85c1f46ca/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Beige"
+              },
+              {
+                "vid": 203027875,
+                "name": "Pink Orange",
+                "image": "//ae01.alicdn.com/kf/S164c3b107768427aa5979969d0a98e056/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Pink Orange"
+              },
+              {
+                "vid": 201659834,
+                "name": "Orange",
+                "image": "//ae01.alicdn.com/kf/Sf0302ca991144fbeb52ac23d2a12c70dr/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Orange"
+              },
+              {
+                "vid": 202191808,
+                "name": "Pink",
+                "image": "//ae01.alicdn.com/kf/S1023027090314284ad8d02f8d1c8a5a7P/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Pink"
+              },
+              {
+                "vid": 1302530329,
+                "name": "Dark Blue",
+                "image": "//ae01.alicdn.com/kf/S378466d9f54e43a593b443af7c5af8acr/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Dark Blue"
+              },
+              {
+                "vid": 201739817,
+                "name": "Dark Green",
+                "image": "//ae01.alicdn.com/kf/S00044bec853645a5983f07307c84010fd/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Dark Green"
+              },
+              {
+                "vid": 202997807,
+                "name": "Cangling Green",
+                "image": "//ae01.alicdn.com/kf/Sc21f1b902c8b45bab15e8c905cd3c3ffy/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Cangling Green"
+              },
+              {
+                "vid": 200002985,
+                "name": "Light Blue",
+                "image": "//ae01.alicdn.com/kf/S11098964fb9e428e8b7c8351aa9630f0k/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+                "propTips": "Light Blue"
               }
             ]
           },
           {
-            "pid": 200000124,
-            "name": "Shoe Size",
+            "pid": 10,
+            "name": "Material",
             "values": [
-              { "vid": 200000337, "name": "42", "propTips": "" },
-              { "vid": 200000338, "name": "43", "propTips": "" },
-              { "vid": 100010487, "name": "44", "propTips": "" }
+              {
+                "vid": 529,
+                "name": "For iPhone 11 ProMax",
+                "propTips": "For iPhone 11 ProMax"
+              },
+              {
+                "vid": 365211,
+                "name": "For iPhone 12",
+                "propTips": "For iPhone 12"
+              },
+              {
+                "vid": 365212,
+                "name": "For iPhone 12 Pro",
+                "propTips": "For iPhone 12 Pro"
+              },
+              {
+                "vid": 395,
+                "name": "For iPhone 12 ProMax",
+                "propTips": "For iPhone 12 ProMax"
+              },
+              {
+                "vid": 365213,
+                "name": "For iPhone 13",
+                "propTips": "For iPhone 13"
+              },
+              {
+                "vid": 1064,
+                "name": "For iPhone 13 Pro",
+                "propTips": "For iPhone 13 Pro"
+              },
+              {
+                "vid": 63,
+                "name": "For iPhone 13 ProMax",
+                "propTips": "For iPhone 13 ProMax"
+              },
+              {
+                "vid": 437,
+                "name": "For iPhone 14",
+                "propTips": "For iPhone 14"
+              },
+              {
+                "vid": 48,
+                "name": "For iPhone 14 Pro",
+                "propTips": "For iPhone 14 Pro"
+              },
+              {
+                "vid": 438,
+                "name": "For iPhone 14 ProMax",
+                "propTips": "For iPhone 14 ProMax"
+              },
+              {
+                "vid": 452,
+                "name": "For iPhone 15",
+                "propTips": "For iPhone 15"
+              },
+              {
+                "vid": 1170,
+                "name": "For iPhone 15 Pro",
+                "propTips": "For iPhone 15 Pro"
+              },
+              {
+                "vid": 352621,
+                "name": "For iPhone 15 ProMax",
+                "propTips": "For iPhone 15 ProMax"
+              },
+              {
+                "vid": 1042,
+                "name": "For iPhone 16",
+                "propTips": "For iPhone 16"
+              },
+              {
+                "vid": 1179,
+                "name": "For iPhone 16 Plus",
+                "propTips": "For iPhone 16 Plus"
+              },
+              {
+                "vid": 501,
+                "name": "For iPhone 16 Pro",
+                "propTips": "For iPhone 16 Pro"
+              },
+              {
+                "vid": 396,
+                "name": "For iPhone 16 ProMax",
+                "propTips": "For iPhone 16 ProMax"
+              }
             ]
           }
         ],
         "skuImages": {
-          "14:193": "//ae01.alicdn.com/kf/S6bc125d6d7e946539a489db8d58ce111Y/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg",
-          "14:173": "//ae01.alicdn.com/kf/S94402bff59b4460ca8385713123e0edfN/Men-Casual-Sport-Shoes-Breathable-Lightweight-Sneakers-Outdoor-Mesh-Black-Running-Shoes-Athletic-Jogging-Tenis-Walking.jpg"
+          "14:771": "//ae01.alicdn.com/kf/S0ab4490858f9444bb9e568fc76708c98n/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:193": "//ae01.alicdn.com/kf/Sa747c84f8dfb44c8abc563a9bca7ed6ca/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:173": "//ae01.alicdn.com/kf/S34a98e5a0c4c44f8be92cba44fbf8b2ey/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:1254": "//ae01.alicdn.com/kf/S8d5d8a96dd924f26b760511c472165e8J/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:365458": "//ae01.alicdn.com/kf/S5bc9bed9c8bd4929a8b42ce3b9307b8aZ/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:14505590": "//ae01.alicdn.com/kf/S91739fd35b9b4b4ca2bbb4e9bc07a47dB/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:989712581": "//ae01.alicdn.com/kf/S77ea36ce58ae43a08421e6166e4a3eceG/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:297688431": "//ae01.alicdn.com/kf/S54a727bbe0f046de83cdfada85c1f46ca/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:203027875": "//ae01.alicdn.com/kf/S164c3b107768427aa5979969d0a98e056/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:201659834": "//ae01.alicdn.com/kf/Sf0302ca991144fbeb52ac23d2a12c70dr/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:202191808": "//ae01.alicdn.com/kf/S1023027090314284ad8d02f8d1c8a5a7P/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:1302530329": "//ae01.alicdn.com/kf/S378466d9f54e43a593b443af7c5af8acr/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:201739817": "//ae01.alicdn.com/kf/S00044bec853645a5983f07307c84010fd/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:202997807": "//ae01.alicdn.com/kf/Sc21f1b902c8b45bab15e8c905cd3c3ffy/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg",
+          "14:200002985": "//ae01.alicdn.com/kf/S11098964fb9e428e8b7c8351aa9630f0k/For-Magsafe-Liquid-Silicone-Magnetic-Case-For-iPhone-16-15-13-12-11-14-Pro-Max.jpg"
         }
       }
     },
-    "reviews": { "count": 25, "averageStar": "4.0" },
+    "reviews": { "count": 2552, "averageStar": "4.6" },
     "delivery": {
       "shippingFrom": "China",
       "shippingFromCode": "CN",
       "shippingTo": "United States",
       "shippingToCode": "US",
-      "shippingOutDays": "7",
+      "shippingOutDays": "3",
       "shippingList": [
         {
           "shippingFrom": "China",
@@ -178,21 +2371,21 @@
           "shippingToCode": "US",
           "shippingFee": "1.99",
           "shippingCompany": "AliExpress Selection Standard",
-          "shippingTime": "25-28",
+          "shippingTime": "7-10",
           "serviceName": "CAINIAO_FULFILLMENT_STD",
-          "estimateDelivery": "Mar. 06",
-          "estimateDeliveryDate": "2025-03-06",
+          "estimateDelivery": "Feb. 28",
+          "estimateDeliveryDate": "2025-02-28",
           "trackingAvailable": true,
           "note": [
-            "Free shipping over $10.00 ",
-            "Shipping: $1.99",
-            "Mar 03 - 06"
+            "Free shipping",
+            "Feb 25 - 28",
+            "​Collect a $1.00 coupon for late delivery"
           ]
         }
       ],
       "packageDetail": {
-        "weight": 0.009,
-        "length": 12,
+        "weight": 0.043,
+        "length": 18,
         "height": 3,
         "width": 10
       }
@@ -200,17 +2393,21 @@
     "service": [
       {
         "title": "Free returns",
-        "desc": "Not satisfied with your order? Send it back within 15 days after order was placed. The first return on each order is free."
+        "desc": "Not satisfied with your order? Send it back within 90 days after order was placed. The first return on each order is free."
+      },
+      {
+        "title": "Fast delivery",
+        "desc": "Collect a $1.00 coupon if your order arrives after the estimated delivery date. "
       }
     ],
     "seller": {
-      "sellerId": 6001017918,
-      "storeTitle": "Shop1104224086 Store",
-      "storeId": 1104204802,
-      "companyId": 6001017918,
-      "storeUrl": "//www.aliexpress.com/store/1104204802",
-      "storeImage": "//ae01.alicdn.com/kf/Se90fceedf9d34ad1a8979283c98a1e45I/144x144.png",
-      "storeRating": "94.5"
+      "sellerId": 230920811,
+      "storeTitle": "Original Charger Store",
+      "storeId": 1101271170,
+      "companyId": 240328513,
+      "storeUrl": "//www.aliexpress.com/store/1101271170",
+      "storeImage": "//ae01.alicdn.com/kf/Sb2bfe0093f07496ea53256c7f1be0843m.jpg",
+      "storeRating": "93.6"
     }
   }
 }

@@ -1,0 +1,975 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "data": "success",
+      "executionTime": "0.00",
+      "requestTime": "2025-02-16 21:26:31",
+      "requestId": "ce1c615f05c20e4ebbc2d130764e2592",
+      "endpoint": "base_params",
+      "apiVersion": "4.0.5",
+      "functionsVersion": "4.0.8",
+      "la": "0.34",
+      "pmu": 887952,
+      "mu": 887632
+    },
+    "settings": { "filter": "baseCurrency" },
+    "base": { "filterValues": ["baseRegion", "baseCurrency", "baseLocale"] },
+    "resultList": {
+      "baseCurrency": [
+        {
+          "currency": "CHF",
+          "currencyName": "Swiss Franc",
+          "currencySymbol": "CHF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1lO1bRpXXXXbGaXXX760XFXXXc.png"
+        },
+        {
+          "currency": "MXN",
+          "currencyName": "Mexican Peso",
+          "currencySymbol": "MXN$",
+          "symbolFront": "false",
+          "image": "//ae01.alicdn.com/kf/HTB1x0ayRpXXXXcjXFXX760XFXXXb.png"
+        },
+        {
+          "currency": "EUR",
+          "currencyName": "Euro",
+          "currencySymbol": "€",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB136qURpXXXXafXXXX760XFXXXf.png"
+        },
+        {
+          "currency": "CLP",
+          "currencyName": "Chilean Peso",
+          "currencySymbol": "CLP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB14_5LRpXXXXXRXpXX760XFXXXs.png"
+        },
+        {
+          "currency": "USD",
+          "currencyName": "US Dollar",
+          "currencySymbol": "US $",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1H35mRpXXXXXTXVXX760XFXXXa.png"
+        },
+        {
+          "currency": "CAD",
+          "currencyName": "Canadian Dollar",
+          "currencySymbol": "C$",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Fft4RpXXXXb3apXX760XFXXXy.png"
+        },
+        {
+          "currency": "AUD",
+          "currencyName": "Australian Dollar",
+          "currencySymbol": "AU $",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1eEKORpXXXXcKXXXX760XFXXXE.png"
+        },
+        {
+          "currency": "SGD",
+          "currencyName": "Singapore Dollar",
+          "currencySymbol": "SG$",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1RuSQRpXXXXbmXXXX760XFXXXH.png"
+        },
+        {
+          "currency": "KRW",
+          "currencyName": "South Korean Won",
+          "currencySymbol": "?",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1OuqCRpXXXXXjXFXX760XFXXXR.png"
+        },
+        {
+          "currency": "JPY",
+          "currencyName": "Japanese Yen",
+          "currencySymbol": "￥",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1hxiaRpXXXXcOaXXX760XFXXXQ.png"
+        },
+        {
+          "currency": "PLN",
+          "currencyName": "Polish Zloty",
+          "currencySymbol": "z?",
+          "symbolFront": "false",
+          "image": "//ae01.alicdn.com/kf/HTB1ODN.RpXXXXclaXXX760XFXXXO.png"
+        },
+        {
+          "currency": "GBP",
+          "currencyName": "British Pound",
+          "currencySymbol": "￡",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1QhxZRpXXXXbIapXX760XFXXXt.png"
+        },
+        {
+          "currency": "SEK",
+          "currencyName": "Swedish Krona",
+          "currencySymbol": "SEK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1xlGrRpXXXXX1XVXX760XFXXX2.png"
+        },
+        {
+          "currency": "HUF",
+          "currencyName": "Hungarian Forint",
+          "currencySymbol": "HUF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Z1SaSXXXXXbqXpXX760XFXXXr.png"
+        },
+        {
+          "currency": "NZD",
+          "currencyName": "New Zealand Dollar",
+          "currencySymbol": "NZ$",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1r.SGRpXXXXcpXpXX760XFXXXO.png"
+        },
+        {
+          "currency": "TRY",
+          "currencyName": "Turkish Lira",
+          "currencySymbol": "TRY",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1E8mmRpXXXXbOXVXX760XFXXXu.png"
+        },
+        {
+          "currency": "BRL",
+          "currencyName": "Brazilian Real",
+          "currencySymbol": "R$",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB10EaMRpXXXXXEXpXX760XFXXXC.png"
+        },
+        {
+          "currency": "RUB",
+          "currencyName": "Russian Ruble",
+          "currencySymbol": "руб.",
+          "symbolFront": "false",
+          "image": "//ae01.alicdn.com/kf/HTB1GbyxRpXXXXbyXFXX760XFXXXO.png"
+        },
+        {
+          "currency": "FJD",
+          "currencyName": "Fijian Dollar",
+          "currencySymbol": "FJD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1M4OnRpXXXXbhXVXX760XFXXXu.png"
+        },
+        {
+          "currency": "STD",
+          "currencyName": "Sao Tome/Principe Dobra",
+          "currencySymbol": "STD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1zxJ3SXXXXXXWXFXX760XFXXXe.png"
+        },
+        {
+          "currency": "SCR",
+          "currencyName": "Seychelles Rupee",
+          "currencySymbol": "SCR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1QSpySXXXXXX7apXXq6xXFXXX3.jpg"
+        },
+        {
+          "currency": "BBD",
+          "currencyName": "Barbados Dollar",
+          "currencySymbol": "BBD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1TitJSXXXXXX7aXXX760XFXXXH.png"
+        },
+        {
+          "currency": "GTQ",
+          "currencyName": "Guatemalan Quetzal",
+          "currencySymbol": "GTQ",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1OUJ7SXXXXXXNXFXX760XFXXX6.png"
+        },
+        {
+          "currency": "HNL",
+          "currencyName": "Honduran Lempira",
+          "currencySymbol": "HNL",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1x7XHSXXXXXaZaXXX760XFXXXH.png"
+        },
+        {
+          "currency": "UGX",
+          "currencyName": "Uganda Shilling",
+          "currencySymbol": "UGX",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1zUKaSXXXXXbMXpXX760XFXXXU.png"
+        },
+        {
+          "currency": "ZAR",
+          "currencyName": "South African Rand",
+          "currencySymbol": "ZAR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Y_aKRpXXXXaiXpXX760XFXXXw.png"
+        },
+        {
+          "currency": "TND",
+          "currencyName": "Tunisian Dinar",
+          "currencySymbol": "TND",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB11dynSXXXXXaJXXXX760XFXXXo.png"
+        },
+        {
+          "currency": "BSD",
+          "currencyName": "Bahamian Dollar",
+          "currencySymbol": "BSD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1lTSeSXXXXXaXXpXX760XFXXXG.png"
+        },
+        {
+          "currency": "SLL",
+          "currencyName": "Sierra Leone Leone",
+          "currencySymbol": "SLL",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB172dDSXXXXXbpaXXXq6xXFXXXt.jpg"
+        },
+        {
+          "currency": "IQD",
+          "currencyName": "Iraqi Dinar",
+          "currencySymbol": "IQD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1NodWSXXXXXXaXVXX760XFXXXW.png"
+        },
+        {
+          "currency": "GMD",
+          "currencyName": "Gambian Dalasi",
+          "currencySymbol": "GMD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB10WXTSXXXXXchXVXX760XFXXX1.png"
+        },
+        {
+          "currency": "TWD",
+          "currencyName": "Taiwan Dollar",
+          "currencySymbol": "NT$ ",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB11LqcSXXXXXa_XpXX760XFXXXq.png"
+        },
+        {
+          "currency": "RSD",
+          "currencyName": "Serbian Dinar",
+          "currencySymbol": "RSD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1eTulSXXXXXbgXXXXq6xXFXXXs.jpg"
+        },
+        {
+          "currency": "DOP",
+          "currencyName": "Dominican Peso",
+          "currencySymbol": "DOP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB19uRZSXXXXXXqXVXX760XFXXXy.png"
+        },
+        {
+          "currency": "KMF",
+          "currencyName": "Comoros Franc",
+          "currencySymbol": "KMF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1lHtPSXXXXXcXXVXX760XFXXXK.png"
+        },
+        {
+          "currency": "MYR",
+          "currencyName": "Malaysian Ringgit",
+          "currencySymbol": "MYR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1cmqrRpXXXXXEXVXX760XFXXXo.png"
+        },
+        {
+          "currency": "FKP",
+          "currencyName": "Falkland Islands Pound",
+          "currencySymbol": "FKP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1kilWSXXXXXatXVXX760XFXXXB.png"
+        },
+        {
+          "currency": "GEL",
+          "currencyName": "Georgian Lari",
+          "currencySymbol": "GEL",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1mJh5SXXXXXa2XFXX760XFXXXH.png"
+        },
+        {
+          "currency": "UYU",
+          "currencyName": "Uruguayan Peso",
+          "currencySymbol": "UYU",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1mTlySXXXXXc9aXXX760XFXXXf.png"
+        },
+        {
+          "currency": "MAD",
+          "currencyName": "Moroccan Dirham",
+          "currencySymbol": "MAD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1qutYRpXXXXXaaFXX760XFXXXO.png"
+        },
+        {
+          "currency": "CVE",
+          "currencyName": "Cape Verde Escudo",
+          "currencySymbol": "CVE",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1VVx2SXXXXXcLXFXX760XFXXXK.png"
+        },
+        {
+          "currency": "TOP",
+          "currencyName": "Tongan Pa'anga",
+          "currencySymbol": "TOP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1jShGSXXXXXbQaXXX760XFXXXp.png"
+        },
+        {
+          "currency": "OMR",
+          "currencyName": "Omani Rial",
+          "currencySymbol": "OMR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1BZCGRpXXXXaDXpXX760XFXXXZ.png"
+        },
+        {
+          "currency": "AZN",
+          "currencyName": "Azerbaijan New Manat",
+          "currencySymbol": "AZN",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1lnpVSXXXXXahXVXX760XFXXXq.png"
+        },
+        {
+          "currency": "PGK",
+          "currencyName": "Papua New Guinea Kina",
+          "currencySymbol": "PGK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1R1GkSXXXXXcgXXXXq6xXFXXX3.jpg"
+        },
+        {
+          "currency": "KES",
+          "currencyName": "Kenyan Shilling",
+          "currencySymbol": "KES",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1fKibSXXXXXaTXpXX760XFXXXG.png"
+        },
+        {
+          "currency": "UAH",
+          "currencyName": "Ukrainian Hryvnia",
+          "currencySymbol": " грн.",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1CaynRpXXXXbXXVXX760XFXXXa.png"
+        },
+        {
+          "currency": "BTN",
+          "currencyName": "Bhutan Ngultrum",
+          "currencySymbol": "BTN",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1RgCpSXXXXXXRXXXX760XFXXXb.png"
+        },
+        {
+          "currency": "GNF",
+          "currencyName": "Guinea Franc",
+          "currencySymbol": "GNF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1C1xtSXXXXXalaFXX760XFXXXX.png"
+        },
+        {
+          "currency": "ERN",
+          "currencyName": "Eritrean Nakfa",
+          "currencySymbol": "ERN",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1uE87SXXXXXXWXFXX760XFXXXU.png"
+        },
+        {
+          "currency": "SVC",
+          "currencyName": "El Salvador Colon",
+          "currencySymbol": "SVC",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1ChCXSXXXXXbyXpXX760XFXXX0.png"
+        },
+        {
+          "currency": "ARS",
+          "currencyName": "Argentine Peso",
+          "currencySymbol": "ARS",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1oTubRpXXXXbTaXXX760XFXXXL.png"
+        },
+        {
+          "currency": "QAR",
+          "currencyName": "Qatari Riyal",
+          "currencySymbol": "QAR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB17GGmRpXXXXbEXVXX760XFXXXB.png"
+        },
+        {
+          "currency": "THB",
+          "currencyName": "Thai Baht",
+          "currencySymbol": "THB",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB159CxRpXXXXbxXFXX760XFXXXD.png"
+        },
+        {
+          "currency": "UZS",
+          "currencyName": "Uzbekistan Som",
+          "currencySymbol": "UZS",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1nmVGSXXXXXXUaXXX760XFXXXV.png"
+        },
+        {
+          "currency": "XPF",
+          "currencyName": "CFP Franc",
+          "currencySymbol": "",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1pmF7SXXXXXb.XFXX760XFXXXb.png"
+        },
+        {
+          "currency": "BDT",
+          "currencyName": "Bangladeshi Taka",
+          "currencySymbol": "BDT",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1AS0CSXXXXXXhapXX760XFXXXn.png"
+        },
+        {
+          "currency": "LYD",
+          "currencyName": "Libyan Dinar",
+          "currencySymbol": "LYD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1fJl.SXXXXXcUXpXX760XFXXX8.png"
+        },
+        {
+          "currency": "BMD",
+          "currencyName": "Bermudian Dollar",
+          "currencySymbol": "BMD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1b88HSXXXXXX1aXXX760XFXXXp.png"
+        },
+        {
+          "currency": "PHP",
+          "currencyName": "Philippine Peso",
+          "currencySymbol": "PHP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB15DykRpXXXXbJXVXX760XFXXXv.png"
+        },
+        {
+          "currency": "KWD",
+          "currencyName": "Kuwaiti Dinar",
+          "currencySymbol": "KWD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1A1qRRpXXXXbMXXXX760XFXXX0.png"
+        },
+        {
+          "currency": "PYG",
+          "currencyName": "Paraguay Guarani",
+          "currencySymbol": "PYG",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1JEOXSXXXXXa6XpXXq6xXFXXXq.jpg"
+        },
+        {
+          "currency": "JMD",
+          "currencyName": "Jamaican Dollar",
+          "currencySymbol": "JMD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1beOlRpXXXXabXVXX760XFXXXa.png"
+        },
+        {
+          "currency": "ISK",
+          "currencyName": "Iceland Krona",
+          "currencySymbol": "ISK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1rLRUSXXXXXbHXVXX760XFXXXf.png"
+        },
+        {
+          "currency": "COP",
+          "currencyName": "Colombian Peso",
+          "currencySymbol": "COP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB143GrRpXXXXclXFXX760XFXXXL.png"
+        },
+        {
+          "currency": "DZD",
+          "currencyName": "Algerian Dinar",
+          "currencySymbol": "DA",
+          "symbolFront": "false",
+          "image": "//ae01.alicdn.com/kf/HTB1jCptSXXXXXc8apXX760XFXXXh.png"
+        },
+        {
+          "currency": "PAB",
+          "currencyName": "Panamanian Balboa",
+          "currencySymbol": "PAB",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB17thJSXXXXXX1aXXXq6xXFXXXM.jpg"
+        },
+        {
+          "currency": "ETB",
+          "currencyName": "Ethiopian Birr",
+          "currencySymbol": "ETB",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB12CFCSXXXXXctaXXX760XFXXXa.png"
+        },
+        {
+          "currency": "SOS",
+          "currencyName": "Somali Shilling",
+          "currencySymbol": "SOS",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1vD4SSXXXXXaNXVXXq6xXFXXXL.jpg"
+        },
+        {
+          "currency": "VUV",
+          "currencyName": "Vanuatu Vatu",
+          "currencySymbol": "VUV",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB16DJLSXXXXXXhaXXX760XFXXXc.png"
+        },
+        {
+          "currency": "VEF",
+          "currencyName": "Venezuelan Bolivar Fuerte",
+          "currencySymbol": "VEF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1J_FYSXXXXXXwXVXX760XFXXXJ.png"
+        },
+        {
+          "currency": "LAK",
+          "currencyName": "Lao Kip",
+          "currencySymbol": "LAK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1S9XOSXXXXXbYXVXX760XFXXXr.png"
+        },
+        {
+          "currency": "BND",
+          "currencyName": "Bruneian Dollar",
+          "currencySymbol": "BND",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1LAh7RpXXXXX.apXX760XFXXXp.png"
+        },
+        {
+          "currency": "XAF",
+          "currencyName": "CFA Franc BEAC",
+          "currencySymbol": "XAF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1SuatSXXXXXXUXXXX760XFXXXe.png"
+        },
+        {
+          "currency": "HRK",
+          "currencyName": "Croatian Kuna",
+          "currencySymbol": "HRK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Dud1RpXXXXbxapXX760XFXXXz.png"
+        },
+        {
+          "currency": "ALL",
+          "currencyName": "Albanian Lek",
+          "currencySymbol": "ALL",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1VdVLSXXXXXX4aXXX760XFXXXW.png"
+        },
+        {
+          "currency": "DJF",
+          "currencyName": "Djibouti Franc",
+          "currencySymbol": "DJF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB19wpFSXXXXXbWXVXX760XFXXXu.png"
+        },
+        {
+          "currency": "TZS",
+          "currencyName": "Tanzanian Shilling",
+          "currencySymbol": "TZS",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1kLltSXXXXXXnaFXX760XFXXXb.png"
+        },
+        {
+          "currency": "VND",
+          "currencyName": "Vietnamese Dong",
+          "currencySymbol": "? ",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1VyieSXXXXXawXpXX760XFXXXj.png"
+        },
+        {
+          "currency": "ILS",
+          "currencyName": "Israeli Shekel",
+          "currencySymbol": "? ",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1E51fRpXXXXbNXVXX760XFXXXI.png"
+        },
+        {
+          "currency": "GHS",
+          "currencyName": "Ghanaian Cedi",
+          "currencySymbol": "GHS",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1h0uXRpXXXXXrapXX760XFXXXq.png"
+        },
+        {
+          "currency": "GYD",
+          "currencyName": "Guyanan Dollar",
+          "currencySymbol": "GYD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1mgyoSXXXXXX0XXXX760XFXXX4.png"
+        },
+        {
+          "currency": "BOB",
+          "currencyName": "Bolivian Boliviano",
+          "currencySymbol": "BOB",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Q8VOSXXXXXceXVXX760XFXXXL.png"
+        },
+        {
+          "currency": "MDL",
+          "currencyName": "Moldovan Leu",
+          "currencySymbol": "MDL",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1xuOpSXXXXXXMXXXX760XFXXXH.png"
+        },
+        {
+          "currency": "IDR",
+          "currencyName": "Indonesian Rupiah",
+          "currencySymbol": "Rp ",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1JEeARpXXXXa0XFXX760XFXXXE.png"
+        },
+        {
+          "currency": "KYD",
+          "currencyName": "Cayman Islands Dollar",
+          "currencySymbol": "KYD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1TqFTSXXXXXbHXVXX760XFXXX5.png"
+        },
+        {
+          "currency": "AMD",
+          "currencyName": "Armenian Dram",
+          "currencySymbol": "AMD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB16Nh7RpXXXXXyapXX760XFXXXB.png"
+        },
+        {
+          "currency": "BWP",
+          "currencyName": "Botswana Pula",
+          "currencySymbol": "BWP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1hP5pSXXXXXXEXXXX760XFXXXZ.png"
+        },
+        {
+          "currency": "SHP",
+          "currencyName": "St. Helena Pound",
+          "currencySymbol": "SHP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB19k9tSXXXXXahXXXXq6xXFXXXx.jpg"
+        },
+        {
+          "currency": "LBP",
+          "currencyName": "Lebanese Pound",
+          "currencySymbol": "LBP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1GsR8SXXXXXaVXFXX760XFXXXo.png"
+        },
+        {
+          "currency": "TJS",
+          "currencyName": "Tajikistan Somoni",
+          "currencySymbol": "TJS",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1orR0SXXXXXbRXFXX760XFXXX3.png"
+        },
+        {
+          "currency": "JOD",
+          "currencyName": "Jordanian Dinar",
+          "currencySymbol": "JD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1zIaWRpXXXXXvXXXX760XFXXXz.png"
+        },
+        {
+          "currency": "AED",
+          "currencyName": "Emirati Dirham",
+          "currencySymbol": "AED",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB11E5rRpXXXXcVXFXX760XFXXXl.png"
+        },
+        {
+          "currency": "HKD",
+          "currencyName": "Hong Kong Dollar",
+          "currencySymbol": "HKD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1ylKBRpXXXXaaXFXX760XFXXX0.png"
+        },
+        {
+          "currency": "RWF",
+          "currencyName": "Rwandan Franc",
+          "currencySymbol": "RWF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB17KJVSXXXXXbnXVXXq6xXFXXXN.jpg"
+        },
+        {
+          "currency": "LSL",
+          "currencyName": "Lesotho Loti",
+          "currencySymbol": "LSL",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB16XlUSXXXXXcjXVXX760XFXXX8.png"
+        },
+        {
+          "currency": "DKK",
+          "currencyName": "Danish Krone",
+          "currencySymbol": "DKK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB16e9nRpXXXXbiXVXX760XFXXXz.png"
+        },
+        {
+          "currency": "BGN",
+          "currencyName": "Bulgarian Lev",
+          "currencySymbol": "BGN",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB11AmxRpXXXXbUXFXX760XFXXXH.png"
+        },
+        {
+          "currency": "MMK",
+          "currencyName": "Myanmar Kyat",
+          "currencySymbol": "MMK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Yb8wSXXXXXXaapXX760XFXXX4.png"
+        },
+        {
+          "currency": "MUR",
+          "currencyName": "Mauritian Rupee",
+          "currencySymbol": "MUR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB13MGFRpXXXXcJXpXX760XFXXXo.png"
+        },
+        {
+          "currency": "NOK",
+          "currencyName": "Norwegian Krone",
+          "currencySymbol": "NOK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1w2mARpXXXXX2XFXX760XFXXXX.png"
+        },
+        {
+          "currency": "GIP",
+          "currencyName": "Gibraltar Pound",
+          "currencySymbol": "GIP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1_.V3SXXXXXbYXFXX760XFXXX2.png"
+        },
+        {
+          "currency": "RON",
+          "currencyName": "Romanian New Leu",
+          "currencySymbol": "RON",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Fa9bRpXXXXbZaXXX760XFXXXv.png"
+        },
+        {
+          "currency": "LKR",
+          "currencyName": "Sri Lankan Rupee",
+          "currencySymbol": "LKR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1VImlRpXXXXaWXVXX760XFXXX5.png"
+        },
+        {
+          "currency": "NGN",
+          "currencyName": "Nigerian Naira",
+          "currencySymbol": "NGN",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Vy1iRpXXXXa7XVXX760XFXXXb.png"
+        },
+        {
+          "currency": "CZK",
+          "currencyName": "Czech Koruna",
+          "currencySymbol": "CZK",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1RYyyRpXXXXaVXFXX760XFXXX9.png"
+        },
+        {
+          "currency": "CRC",
+          "currencyName": "Costa Rican Colon",
+          "currencySymbol": "CRC",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1SKydRpXXXXaLaXXX760XFXXXF.png"
+        },
+        {
+          "currency": "PKR",
+          "currencyName": "Pakistani Rupee",
+          "currencySymbol": "PKR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1kAWHRVXXXXb3XXXX760XFXXX9.png"
+        },
+        {
+          "currency": "XCD",
+          "currencyName": "East Carribean Dollar",
+          "currencySymbol": "EC$ ",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Z_RLSXXXXXcmaXXX760XFXXXt.png"
+        },
+        {
+          "currency": "HTG",
+          "currencyName": "Haitian Gourde",
+          "currencySymbol": "HTG",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Y2KcSXXXXXaBXpXX760XFXXXL.png"
+        },
+        {
+          "currency": "BHD",
+          "currencyName": "Bahraini Dinar",
+          "currencySymbol": "BHD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1i0FZSXXXXXXvXVXX760XFXXX3.png"
+        },
+        {
+          "currency": "KZT",
+          "currencyName": "Kazakhstani Tenge",
+          "currencySymbol": "KZT",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1s8R.RpXXXXcKaXXX760XFXXXY.png"
+        },
+        {
+          "currency": "SRD",
+          "currencyName": "Suriname Dollar",
+          "currencySymbol": "SRD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Zp06SXXXXXakXFXX760XFXXXp.png"
+        },
+        {
+          "currency": "SZL",
+          "currencyName": "Swaziland Lilangeni",
+          "currencySymbol": "SZL",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1wt00SXXXXXbxXFXX760XFXXXH.png"
+        },
+        {
+          "currency": "SAR",
+          "currencyName": "Saudi Arabian Riyal",
+          "currencySymbol": "SAR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Az1URpXXXXX5XXXX760XFXXXA.png"
+        },
+        {
+          "currency": "TTD",
+          "currencyName": "Trinidadian Dollar",
+          "currencySymbol": "TTD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1IXSKRpXXXXaSXpXX760XFXXXz.png"
+        },
+        {
+          "currency": "YER",
+          "currencyName": "Yemen Rial",
+          "currencySymbol": "YER",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1qa0wSXXXXXarapXX760XFXXXW.png"
+        },
+        {
+          "currency": "MVR",
+          "currencyName": "Maldive Rufiyaa",
+          "currencySymbol": "MVR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1qIefSXXXXXXJXpXX760XFXXXR.png"
+        },
+        {
+          "currency": "AFN",
+          "currencyName": "Afghan Afghani",
+          "currencySymbol": "AFN",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1N_B_SXXXXXcnXpXX760XFXXXY.png"
+        },
+        {
+          "currency": "INR",
+          "currencyName": "Indian Rupee",
+          "currencySymbol": "Rs. ",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1GHSkRpXXXXa7XVXX760XFXXXZ.png"
+        },
+        {
+          "currency": "AWG",
+          "currencyName": "Aruban Florin",
+          "currencySymbol": "AWG",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1v2ihSXXXXXc4XXXX760XFXXXi.png"
+        },
+        {
+          "currency": "NPR",
+          "currencyName": "Nepalese Rupee",
+          "currencySymbol": "NPR",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1hc4LSXXXXXadaXXXq6xXFXXXw.jpg"
+        },
+        {
+          "currency": "MNT",
+          "currencyName": "Mongolian Tugrik",
+          "currencySymbol": "MNT",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1uFxKSXXXXXXLaXXX760XFXXXs.png"
+        },
+        {
+          "currency": "AOA",
+          "currencyName": "Angolan Kwanza",
+          "currencySymbol": "AOA",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1C2dPSXXXXXc2XVXX760XFXXXZ.png"
+        },
+        {
+          "currency": "SBD",
+          "currencyName": "Solomon Islands Dollar",
+          "currencySymbol": "SBD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1qDVWSXXXXXXdXVXXq6xXFXXXz.jpg"
+        },
+        {
+          "currency": "BYR",
+          "currencyName": "Belarusian Ruble",
+          "currencySymbol": "BYR",
+          "symbolFront": "false",
+          "image": "//ae01.alicdn.com/kf/HTB15ZJVSXXXXXa.XVXX760XFXXXZ.png"
+        },
+        {
+          "currency": "BIF",
+          "currencyName": "Burundi Franc",
+          "currencySymbol": "BIF",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1VRekSXXXXXa5XXXX760XFXXXg.png"
+        },
+        {
+          "currency": "BZD",
+          "currencyName": "Belize Dollar",
+          "currencySymbol": "BZD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1768ASXXXXXcoaXXX760XFXXXP.png"
+        },
+        {
+          "currency": "BAM",
+          "currencyName": "Bosnian Mark",
+          "currencySymbol": "BAM",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1cqtCSXXXXXcTaXXX760XFXXXf.png"
+        },
+        {
+          "currency": "EGP",
+          "currencyName": "Egyptian Pound",
+          "currencySymbol": "EGP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1pqKwRpXXXXcgXFXX760XFXXXN.png"
+        },
+        {
+          "currency": "MOP",
+          "currencyName": "Macau Pataca",
+          "currencySymbol": "MOP",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB14WV5SXXXXXajXFXX760XFXXXf.png"
+        },
+        {
+          "currency": "NAD",
+          "currencyName": "Namibia Dollar",
+          "currencySymbol": "NAD",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1Jw44SXXXXXbmXFXX760XFXXXX.png"
+        },
+        {
+          "currency": "NIO",
+          "currencyName": "Nicaraguan Cordoba Oro",
+          "currencySymbol": "NIO",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1LSROSXXXXXcJXVXX760XFXXXq.png"
+        },
+        {
+          "currency": "PEN",
+          "currencyName": "Peruvian Sol",
+          "currencySymbol": "PEN",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1I7d6RpXXXXX3apXX760XFXXX9.png"
+        },
+        {
+          "currency": "WST",
+          "currencyName": "Samoan Tala",
+          "currencySymbol": "WST",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1jMxUSXXXXXbXXVXX760XFXXXO.png"
+        },
+        {
+          "currency": "TMT",
+          "currencyName": "Turkmenistan New Manat",
+          "currencySymbol": "TMT",
+          "symbolFront": "true",
+          "image": "//ae01.alicdn.com/kf/HTB1jrBHSXXXXXcSXVXX760XFXXX8.png"
+        }
+      ]
+    }
+  }
+}

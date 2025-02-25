@@ -8,13 +8,6 @@ const ProductCard = ({ item }: { item: any }) => {
     item?.item?.sku?.def?.price ?? item?.sku?.def?.price ?? 0;
   const promotionPrice = item?.item?.sku?.def?.promotionPrice ?? originalPrice;
 
-  const calculateDiscount = (original: number, current: number) => {
-    if (!original || current >= original) return 0;
-    return Math.round(((original - current) / original) * 100);
-  };
-
-  const discountPercentage = calculateDiscount(originalPrice, promotionPrice);
-
   const renderSellingPoints = () => {
     const sellingPoints = item?.sellingPoints ?? [];
     return sellingPoints
@@ -70,8 +63,7 @@ const ProductCard = ({ item }: { item: any }) => {
             isHovered ? "opacity-100" : "opacity-0"
           }`}>
           <a
-            href={`https:${item?.itemUrl}`}
-            target="_blank"
+            href={`/product?itemId=${item?.item?.itemId}`}
             rel="noopener noreferrer"
             className="px-6 py-2 text-sm bg-white hover:bg-gray-100 text-black rounded-full transition-colors">
             View Item
@@ -129,7 +121,7 @@ const ProductCard = ({ item }: { item: any }) => {
         </div>
 
         <div className="space-y-2">
-          <div className="min-h-[24px]">
+          <div className="">
             {averageStarRate ? (
               <div className="flex items-center gap-1">
                 {Array(5)

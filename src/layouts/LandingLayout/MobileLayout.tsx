@@ -64,7 +64,7 @@ const MobileLayout = () => {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-50 mobile-nav-overlay">
           <div
-            className={`fixed inset-y-0 left-0 w-full max-w-sm bg-gray-900 shadow-lg mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
+            className={`fixed inset-y-0 left-0 w-full max-w-sm bg-[#131920] shadow-lg mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
             <div className="flex items-center justify-between h-16 px-4 border-b border-gray-800">
               <img src={logo} alt="Logo" className="h-8" />
               <button
@@ -111,7 +111,7 @@ const MobileLayout = () => {
               </div>
             </div>
 
-            <div className="fixed bottom-0 left-0 right-0 bg-gray-900 border-t border-gray-800 p-4 max-w-sm">
+            <div className="fixed bottom-0 left-0 right-0 bg-[#131920] border-t border-gray-800 p-4 max-w-sm">
               <div className="flex justify-between">
                 <NavButton className="hover:bg-gray-800">
                   <MessageCircle className="h-5 w-5 mr-2" />

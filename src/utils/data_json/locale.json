@@ -1,0 +1,39 @@
+{
+  "result": {
+    "status": {
+      "code": 200,
+      "data": "success",
+      "executionTime": "0.00",
+      "requestTime": "2025-02-16 21:26:51",
+      "requestId": "c717972bca89e7b1ab34f4fef328ec38",
+      "endpoint": "base_params",
+      "apiVersion": "4.0.5",
+      "functionsVersion": "4.0.8",
+      "la": "0.12",
+      "pmu": 834872,
+      "mu": 834552
+    },
+    "settings": { "filter": "baseLocale" },
+    "base": { "filterValues": ["baseRegion", "baseCurrency", "baseLocale"] },
+    "resultList": {
+      "baseLocale": [
+        { "locale": "en_US", "localeName": "English" },
+        { "locale": "ru_RU", "localeName": "Русский" },
+        { "locale": "pt_BR", "localeName": "Português" },
+        { "locale": "es_ES", "localeName": "Español" },
+        { "locale": "fr_FR", "localeName": "Français" },
+        { "locale": "pl_PL", "localeName": "Polski" },
+        { "locale": "iw_IL", "localeName": "עברית" },
+        { "locale": "it_IT", "localeName": "Italiano" },
+        { "locale": "tr_TR", "localeName": "Türkçe" },
+        { "locale": "de_DE", "localeName": "Deutsch" },
+        { "locale": "ko_KR", "localeName": "한국어" },
+        { "locale": "ar_MA", "localeName": "العربية" },
+        { "locale": "ja_JP", "localeName": "日本語" },
+        { "locale": "nl_NL", "localeName": "Netherlands" },
+        { "locale": "th_TH", "localeName": "ภาษาไทย" },
+        { "locale": "in_ID", "localeName": "Versi Bahasa Indonesia" }
+      ]
+    }
+  }
+}

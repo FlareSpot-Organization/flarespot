@@ -1,4 +1,4 @@
-import { Sku } from "@/types/product_types";
+import { Sku, SkuProp } from "@/types/product_types";
 
 export type ColorClass = string;
 export type IconKey = string;
@@ -178,28 +178,91 @@ export const getBrowseNodeId = (categoryId: string): string => {
   return browseNodeMapping[categoryId] || "";
 };
 
-export const findSkuByValues = (
-  array: Sku[],
-  value1: string,
-  value2: string
-): Sku | undefined => {
-  return array.find((item) => {
-    const pairs = item.skuAttr.split(";");
-    let hasFirstValue = false;
-    let hasSecondValue = false;
-
-    pairs.forEach((pair) => {
-      const [_, valueWithColor] = pair.split(":");
-      const value = valueWithColor.split("#")[0];
-
-      if (value == value1) hasFirstValue = true;
-      if (value == value2) hasSecondValue = true;
+export const findSkuByValues = ({
+  base,
+  propertyPID,
+  imageVID,
+}: {
+  base: Sku[];
+  propertyPID: number;
+  imageVID: number;
+}) => {
+  return base?.filter((item: Sku) => {
+    const pairs = item.propMap.split(";");
+    const found = pairs.some((pair) => {
+      const [pid, vid] = pair.split(":").map(Number);
+      return pid === propertyPID && vid === imageVID;
     });
-
-    return hasFirstValue || hasSecondValue;
+    return found;
   });
 };
 
 export const cleanImageUrl = (url: string) => {
   return url.replace(/^\/\//, "https://");
+};
+
+interface SelectedProperties {
+  [key: string]: {
+    pid: number;
+    vid: number;
+  };
+}
+
+export const findAvailableSkus = (
+  base: Sku[],
+  selectedProps: SelectedProperties
+) => {
+  return base.filter((sku) => {
+    const skuPropPairs = sku.propMap.split(";");
+    const skuProps = new Map(
+      skuPropPairs.map((pair) => {
+        const [pid, vid] = pair.split(":").map(Number);
+        return [pid, vid];
+      })
+    );
+
+    // Check if this SKU matches all selected properties
+    return Object.values(selectedProps).every(
+      ({ pid, vid }) => skuProps.get(pid) === vid
+    );
+  });
+};
+
+export const getAvailableOptions = (
+  base: Sku[],
+  props: SkuProp[],
+  selectedProps: SelectedProperties,
+  targetPropId: number
+) => {
+  const availableVids = new Set<number>();
+
+  base.forEach((sku) => {
+    if (sku.quantity <= 0) return;
+
+    const skuPropPairs = sku.propMap.split(";");
+    const skuProps = new Map(
+      skuPropPairs.map((pair) => {
+        const [pid, vid] = pair.split(":").map(Number);
+        return [pid, vid];
+      })
+    );
+
+    // Check if this SKU matches all currently selected properties
+    // (except the target property we're checking)
+    const matchesSelected = Object.entries(selectedProps).every(
+      ([propName, { pid, vid }]) => {
+        if (parseInt(pid.toString()) === targetPropId) return true;
+        return skuProps.get(pid) === vid;
+      }
+    );
+
+    if (matchesSelected) {
+      const vidForTargetProp = skuProps.get(targetPropId);
+      if (vidForTargetProp) {
+        availableVids.add(vidForTargetProp);
+      }
+    }
+  });
+
+  return availableVids;
 };

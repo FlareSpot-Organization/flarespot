@@ -8,6 +8,10 @@ import { demoCategoriesHeader, demoProductsHeader } from "@/utils/Content";
 import { Award, ChevronDown, Percent, ShoppingCart } from "lucide-react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import LanguageSelector from "./LanguageSelector";
+import Cookies from "js-cookie";
+import { useEffect, useState } from "react";
+import { useLanguage } from "@/contexts/LanguageSelector";
 
 const DesktopLayout = () => {
   const {
@@ -18,12 +22,23 @@ const DesktopLayout = () => {
   } = useHeader();
 
   const cartItems = useSelector((state: any) => state.cart.items);
+  const onClose = () => {};
+  const {
+    isLanguageModalOpen,
+    setIsLanguageModalOpen,
+    selectedLanguage,
+    flagSrc,
+  } = useLanguage({ onClose });
 
   return (
     <>
+      <LanguageSelector
+        isOpen={isLanguageModalOpen}
+        onClose={() => setIsLanguageModalOpen(false)}
+      />
       <div className="sticky top-0">
         <div className="hidden lg:block px-4 py-2 relative z-30 ">
-          <div className="flex items-center justify-between gap-2  w-full  mx-auto">
+          <div className="flex relative max-w-[1600px] items-center justify-between gap-2  w-full  mx-auto">
             {/* Left Side */}
             <div className="flex items-center flex-shrink-0">
               <div className="mr-2">
@@ -62,7 +77,7 @@ const DesktopLayout = () => {
                         onMouseEnter={() => setHoveredCategory(category)}
                         className={`px-4 py-1 cursor-pointer ${
                           hoveredCategory === category
-                            ? "bg-gray-50 text-red-600"
+                            ? "bg-gray-50 rounded-[8px] text-red-600"
                             : "text-gray-700"
                         }`}>
                         <span className="text-[14px] font-medium">
@@ -110,7 +125,7 @@ const DesktopLayout = () => {
                 <NavButton>Sign in / Register</NavButton>
 
                 <div className="register-dropdown flex">
-                  <div className="p-2 w-full space-y-2 mt-2">
+                  <div className="px-2 py-4 w-full space-y-2 ">
                     <div>
                       <Link to="/auth/login" className="w-full mb-3">
                         <Button className="w-full"> Sign in </Button>
@@ -130,14 +145,16 @@ const DesktopLayout = () => {
 
               <NavButton>Help & Support</NavButton>
 
-              <NavButton>
-                <img
-                  src={chinaFlag}
-                  alt=""
-                  className="rounded-full h-5 w-5 mr-0.5"
-                />
-                EN
-              </NavButton>
+              <div onClick={() => setIsLanguageModalOpen(true)}>
+                <NavButton>
+                  <img
+                    src={flagSrc}
+                    alt=""
+                    className="rounded-full h-5 w-5 mr-0.5"
+                  />
+                  {selectedLanguage}
+                </NavButton>
+              </div>
 
               <Link to="cart">
                 <NavButton>

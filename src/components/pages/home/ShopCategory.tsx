@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const ShopCategory = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto p-8">
+    <div className="w-full max-w-[1600px] mx-auto p-8">
       <h1 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-gray-100">
         Shop by Category
       </h1>

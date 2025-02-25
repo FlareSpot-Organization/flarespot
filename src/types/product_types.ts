@@ -28,10 +28,9 @@ export interface SkuProp {
 
 export interface Sku {
   skuId: string;
-  skuAttr: string;
   propMap: string;
   price: number | string;
-  promotionPrice: number | string;
+  promotionPrice: number | string | null;
   quantity: number;
   ext: string;
 }
@@ -52,6 +51,18 @@ export interface ProductCardProps {
 
 export interface CartItem {
   quantity: number;
+  itemId: number;
+  title: string;
+  image: string;
+  sku: {
+    def: {
+      price: string;
+      promotionPrice: string;
+    };
+  };
+}
+
+export interface WishListItem {
   itemId: number;
   title: string;
   image: string;

@@ -1,4 +1,5 @@
 import axiosClient from "@/services/api/axiosClient";
+import axios from "axios";
 
 const getCachedData = (key: string) => {
   try {
@@ -21,23 +22,15 @@ const getProductCategories = async () => {
 };
 
 const getProductsByCategory = async (category_id: number) => {
-  const cachedData = getCachedData("products");
-  if (cachedData) return cachedData;
-
-  const response = await axiosClient.get("/products-by-category", {
-    params: { category_id },
-  });
-  if (response.data) {
-    localStorage.setItem("products", JSON.stringify(response.data));
-  }
+  const response = await axiosClient.get("/api-ecom?api=item_search&q=shoes");
   return response.data;
 };
 
 // Regular API calls without localStorage
-const getProductDetails = async (asin: string) => {
-  const response = await axiosClient.get("/product-details", {
-    params: { asin },
-  });
+const getProductDetails = async (itemId: string) => {
+  const response = await axiosClient.get(
+    `/api-ecom?api=item_detail&itemId=${itemId}`
+  );
   return response.data;
 };
 
@@ -67,9 +60,9 @@ const getDeals = async () => {
 };
 
 const searchProducts = async (query: string) => {
-  const response = await axiosClient.get("/search", {
-    params: { query },
-  });
+  const response = await axiosClient.get(
+    `/api-ecom?api=item_search&q=${query}`
+  );
   return response.data;
 };
 

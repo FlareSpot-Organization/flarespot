@@ -5,7 +5,7 @@ import ProductCard2 from "./product-cards/ProductCard2";
 
 const FavouriteDeals: React.FC = () => {
   return (
-    <div className="max-w-full px-4 py-6">
+    <div className="max-w-[1600px] mx-auto px-4 py-6">
       <div className="flex sm:flex-row flex-col sm:space-x-8 space-x-0">
         {/* Deals of the Day Section */}
         <div className="sm:w-1/2 w-full">

@@ -5,7 +5,7 @@ import { initialProductStateProps } from "@/types/product_types";
 import product from "@/utils/data_json/search3.json";
 import product2 from "@/utils/data_json/search.json";
 import categories from "@/utils/data_json/category.json";
-import searchResult from "@/utils/data_json/search5.json";
+// import searchResult from "@/utils/data_json/search5.json";
 // const products = JSON.parse(localStorage.getItem("products") || "[]");
 // const categories = JSON.parse(localStorage.getItem("categories") || "[]");
 // const deals = JSON.parse(localStorage.getItem("deals") || "[]");
@@ -13,13 +13,11 @@ import searchResult from "@/utils/data_json/search5.json";
 const initialState: initialProductStateProps = {
   products: product ? (product?.result?.resultList as unknown as any) : [],
   categories: categories ? (categories as unknown as any) : [],
-  singleProduct: {},
+  singleProduct: "",
   reviews: [],
   bestSellers: [],
   deals: product2 ? (product2?.result?.resultList as unknown as any) : [],
-  searchResults: searchResult
-    ? (searchResult?.result?.resultList as unknown as any)
-    : [],
+  searchResults: [],
   isLoading: false,
   message: "",
   isSuccess: false,
@@ -42,8 +40,8 @@ export const getProductsByCategory = createAsyncThunkWithHandler(
 
 export const getProductDetails = createAsyncThunkWithHandler(
   "product/details",
-  async (asin: string) => {
-    return await productService.getProductDetails(asin);
+  async (itemId: string) => {
+    return await productService.getProductDetails(itemId);
   }
 );
 
@@ -174,21 +172,21 @@ const productSlice = createSlice({
       })
 
       // Deals
-      .addCase(getDeals.pending, (state) => {
-        state.isLoading = true;
-      })
-      .addCase(getDeals.fulfilled, (state, action) => {
-        state.isLoading = false;
-        state.isError = false;
-        state.isSuccess = true;
-        state.deals = action.payload;
-      })
-      .addCase(getDeals.rejected, (state, action) => {
-        state.isLoading = false;
-        state.isError = true;
-        state.message = action.payload as string;
-        state.isSuccess = false;
-      })
+      // .addCase(getDeals.pending, (state) => {
+      //   state.isLoading = true;
+      // })
+      // .addCase(getDeals.fulfilled, (state, action) => {
+      //   state.isLoading = false;
+      //   state.isError = false;
+      //   state.isSuccess = true;
+      //   state.deals = action.payload;
+      // })
+      // .addCase(getDeals.rejected, (state, action) => {
+      //   state.isLoading = false;
+      //   state.isError = true;
+      //   state.message = action.payload as string;
+      //   state.isSuccess = false;
+      // })
 
       // Search Products
       .addCase(searchProducts.pending, (state) => {
@@ -198,7 +196,7 @@ const productSlice = createSlice({
         state.isLoading = false;
         state.isError = false;
         state.isSuccess = true;
-        state.searchResults = action.payload;
+        state.searchResults = action.payload.result.resultList;
       })
       .addCase(searchProducts.rejected, (state, action) => {
         state.isLoading = false;

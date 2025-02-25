@@ -17,8 +17,6 @@ const axiosClient = axios.create({
   baseURL,
   headers: {
     "Content-Type": "application/json",
-    "x-rapidapi-key": RAPID_API_KEY,
-    "x-rapidapi-host": "real-time-amazon-data.p.rapidapi.com",
   },
 });
 

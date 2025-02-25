@@ -27,6 +27,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { CartItem } from "@/types/product_types";
+import { cleanImageUrl } from "@/utils/helpers";
 
 const Cart = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -53,12 +54,12 @@ const Cart = () => {
   };
 
   const handleCheckout = () => {
-    toast?.success("Proceeding to checkout?.?.?.");
+    toast?.success("Proceeding to checkout");
     navigate("/checkout");
   };
 
   const handleContinueShopping = () => {
-    toast?.info("Redirecting to products?.?.?.");
+    toast?.info("Redirecting to products page");
     navigate("/");
   };
 
@@ -116,12 +117,13 @@ const Cart = () => {
           <div className="lg:col-span-2 space-y-4">
             {cartItems?.map((item) => (
               <Card key={item?.itemId} className="overflow-hidden">
-                <CardContent className="p-4 dark:bg-gray-900">
+                <CardContent className="p-4 dark:bg-[#131920]">
                   <div className="flex gap-4">
                     <div className="relative w-24 h-24 flex-shrink-0">
                       <img
-                        src={item?.image}
+                        src={`${item?.image}`}
                         alt={item?.title}
+                        referrerPolicy="no-referrer"
                         className="w-full h-full object-cover rounded-lg"
                       />
                       <Badge className="absolute -top-2 -right-2">
@@ -174,7 +176,7 @@ const Cart = () => {
           </div>
 
           <div className="lg:col-span-1">
-            <Card className=" dark:bg-gray-900">
+            <Card className=" dark:bg-[#131920]">
               <CardHeader>
                 <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
                   Order Summary

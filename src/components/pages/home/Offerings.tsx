@@ -85,7 +85,7 @@ const Offerings: React.FC = () => {
 
   return (
     <div
-      className="w-full px-4 py-12 bg-white dark:bg-gray-900 transition-colors duration-300"
+      className="max-w-[1600px] mx-auto px-4 py-12 bg-white dark:bg-[#131920] transition-colors duration-300"
       style={{ borderRadius: "8px" }}>
       <div className="mb-16">
         <h1 className="text-3xl font-bold mb-4 text-center bg-gradient-to-r from-gray-800 to-gray-600 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent">

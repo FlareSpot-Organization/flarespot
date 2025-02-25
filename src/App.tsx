@@ -16,6 +16,7 @@ import {
   Register,
   Search,
   SingleProduct,
+  Wishlist,
 } from "./routes";
 
 export default function App() {
@@ -39,6 +40,10 @@ export default function App() {
         {
           path: "cart",
           element: <Cart />,
+        },
+        {
+          path: "wishlist",
+          element: <Wishlist />,
         },
         {
           path: "checkout",

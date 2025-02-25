@@ -76,7 +76,7 @@ const PaymentSuccessPage = () => {
         <CardContent>
           <PDFExport ref={pdfExportComponent} paperSize="A4" fileName="receipt">
             {/* Keep receipt card in light theme for PDF export */}
-            <Card className="bg-gray-50 dark:bg-gray-900 dark:text-white border border-gray-200">
+            <Card className="bg-gray-50 dark:bg-[#131920] dark:text-white border border-gray-200">
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">

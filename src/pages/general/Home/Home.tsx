@@ -15,7 +15,7 @@ import { useHeader } from "@/contexts/LandingHeaderLayouts";
 import useProductsFetch from "@/hooks/useProductsFetch";
 
 const Home = () => {
-  const { products: productsDemo } = useProductsFetch();
+  const { products: productsDemo, deals } = useProductsFetch();
   const { currentHero } = useHero();
 
   const renderHero = () => {
@@ -41,7 +41,7 @@ const Home = () => {
         <div className="sm:w-[90%] w-[95%] mx-auto mt-10">
           <FavouriteDeals />
           <Offerings />
-          <LightningDeals products={productsDemo} />
+          <LightningDeals products={deals} />
           <TodaysDeals />
         </div>
         <div className="bg-[#f7f7f7] dark:bg-black mt-10">
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="sm:w-[90%] w-[95%] m-auto">
           <ShopCategory />
-          <MoreProducts productsDemo={productsDemo} />
+          <MoreProducts productsDemo={deals} />
         </div>
       </div>
     </div>

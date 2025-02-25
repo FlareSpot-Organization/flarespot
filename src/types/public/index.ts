@@ -57,3 +57,37 @@ export interface ProductCard2 {
   tag?: string;
   price?: string;
 }
+
+export interface Region {
+  image: string;
+  region: string;
+  regionName?: string;
+  locale?: string;
+  currency: string;
+  currencyName: string;
+  currencySymbol: string;
+  symbolFront?: string;
+}
+
+export interface Language {
+  locale: string;
+  localeName: string;
+}
+
+export interface Currency {
+  currency: string;
+  currencyName: string;
+  currencySymbol: string;
+  symbolFront: string;
+  image: string;
+}
+
+export interface InitialLanguageProps {
+  regions: Region[];
+  languages: Language[];
+  currencies: Currency[];
+  isLoading: boolean;
+  isSuccess: boolean;
+  isError: boolean;
+  message: string;
+}

@@ -115,7 +115,7 @@ const Checkout = () => {
                 {cartItems.map((item) => (
                   <div
                     key={item.asin}
-                    className="flex gap-4 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">
+                    className="flex gap-4 p-4 bg-gray-50 dark:bg-[#131920] rounded-lg">
                     <div className="relative w-24 h-24 flex-shrink-0">
                       <img
                         src={item.product_photo}
@@ -176,7 +176,7 @@ const Checkout = () => {
               </CardContent>
             </Card>
 
-            <Card className="dark:bg-gray-900">
+            <Card className="dark:bg-[#131920]">
               <CardHeader>
                 <h2 className="text-xl font-semibold">Shipping & Payment</h2>
               </CardHeader>
@@ -206,7 +206,7 @@ const Checkout = () => {
           </div>
 
           <div className="lg:col-span-1">
-            <Card className="dark:bg-gray-900">
+            <Card className="dark:bg-[#131920]">
               <CardHeader>
                 <h2 className="text-xl font-semibold">Order Summary</h2>
               </CardHeader>
@@ -241,7 +241,7 @@ const Checkout = () => {
               </CardFooter>
             </Card>
 
-            <div className="mt-6 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">
+            <div className="mt-6 p-4 bg-gray-50 dark:bg-[#131920] rounded-lg">
               <p className="text-sm text-gray-600 dark:text-gray-100 text-center">
                 By completing this purchase you agree to our terms of service
                 and privacy policy.

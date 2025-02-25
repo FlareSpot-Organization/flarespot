@@ -13,7 +13,7 @@ interface Product {
   product_star_rating: number;
 }
 
-const useVisualization = (productsDemo: ProductCardProps[] = []) => {
+const useVisualization = (productsSearch: ProductCardProps[] = []) => {
   const ITEMS_PER_PAGE = 20;
   const [products, setProducts] = useState<ProductCardProps[]>([]);
   const [loading, setLoading] = useState(false);
@@ -25,14 +25,14 @@ const useVisualization = (productsDemo: ProductCardProps[] = []) => {
     return `$${Number(price).toFixed(2)}`;
   };
 
-  // Initialize products when productsDemo changes
+  // Initialize products when productsSearch changes
   useEffect(() => {
-    if (productsDemo?.length > 0) {
-      setProducts(productsDemo.slice(0, ITEMS_PER_PAGE));
+    if (productsSearch?.length > 0) {
+      setProducts(productsSearch?.slice(0, ITEMS_PER_PAGE));
       currentPage.current = 1;
-      setHasMore(productsDemo.length > ITEMS_PER_PAGE);
+      setHasMore(productsSearch?.length > ITEMS_PER_PAGE);
     }
-  }, [productsDemo]);
+  }, [productsSearch]);
 
   const loadMoreProducts = async () => {
     if (loading || !hasMore) return;
@@ -43,14 +43,14 @@ const useVisualization = (productsDemo: ProductCardProps[] = []) => {
 
       const startIndex = currentPage.current * ITEMS_PER_PAGE;
       const endIndex = startIndex + ITEMS_PER_PAGE;
-      const newProducts = productsDemo?.slice(startIndex, endIndex);
+      const newProducts = productsSearch?.slice(startIndex, endIndex);
 
       if (!newProducts?.length) {
         setHasMore(false);
       } else {
         setProducts((prev) => [...prev, ...newProducts]);
         currentPage.current += 1;
-        setHasMore(endIndex < (productsDemo?.length || 0));
+        setHasMore(endIndex < (productsSearch?.length || 0));
       }
     } finally {
       setLoading(false);

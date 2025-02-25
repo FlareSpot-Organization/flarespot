@@ -22,7 +22,7 @@ const Hero4 = () => {
 
   // Calculate time left
   useEffect(() => {
-    const endDate = new Date("2025-02-08T08:59:00+01:00").getTime();
+    const endDate = new Date("2025-02-28T08:59:00+01:00").getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -82,7 +82,7 @@ const Hero4 = () => {
   ];
 
   return (
-    <div className="relative w-[95%] py-16 rounded-lg mx-auto">
+    <div className="relative w-[95%] max-w-[1600px] py-16 rounded-lg mx-auto">
       <div className="relative h-[500px] md:h-[400px] rounded-lg overflow-hidden shadow-lg">
         <div
           className="absolute inset-0 bg-cover rounded-lg bg-center"

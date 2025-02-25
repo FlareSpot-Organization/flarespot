@@ -23,7 +23,7 @@ const TopArrivals: React.FC = () => {
   const { isLoading, deals } = useProductsFetch();
 
   return (
-    <div className="w-[90%] mx-auto px-2 sm:px-4 lg:px-6 py-4 sm:py-6">
+    <div className="max-w-[1600px] w-[90%] mx-auto px-2 sm:px-4 lg:px-6 py-4 sm:py-6">
       <h1 className="text-xl sm:text-2xl font-bold text-center mb-4 sm:mb-8">
         New Arrivals
       </h1>

@@ -42,7 +42,7 @@ const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    // setIsMobileMenuOpen(false);
+    setShowSuggestions(false);
     if (searchTerm.trim()) {
       navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
     }
@@ -73,13 +73,13 @@ const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
             <Camera className="h-5 w-5 text-gray-400 dark:text-gray-500 cursor-pointer hover:text-gray-600 dark:hover:text-gray-300" />
             <button
               type="submit"
-              className="border dark:border-gray-700 rounded-full px-4 py-1.5 bg-primary dark:bg-gray-900 hover:bg-primary/90 transition-colors">
+              className="border dark:border-gray-700 rounded-full px-4 py-1.5 bg-primary dark:bg-[#131920] hover:bg-primary/90 transition-colors">
               <Search className="h-5 w-5 text-white dark:text-gray-400" />
             </button>
           </div>
         </div>
       </form>
-
+      {/* 
       {showSuggestions && filteredSuggestions.length > 0 && (
         <div className="absolute mt-2 w-full bg-white dark:bg-gray-800 rounded-md shadow-lg dark:shadow-gray-900/50 z-50 max-h-96 overflow-y-auto border dark:border-gray-700">
           {filteredSuggestions.map((suggestion: ProductCardProps) => (
@@ -110,7 +110,7 @@ const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
             </button>
           ))}
         </div>
-      )}
+      )} */}
     </div>
   );
 };

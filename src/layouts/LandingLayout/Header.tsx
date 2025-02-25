@@ -6,9 +6,8 @@ import TopNavbar from "./TopNavbar";
 const Header: React.FC = () => {
   return (
     <>
-      <TopNavbar />
       <div className="w-full sticky top-0 z-40">
-        <div className="bg-gray-900 text-white sticky top-0 z-30">
+        <div className="bg-[#131920] text-white sticky top-0 z-30">
           {/* Mobile Header */}
           <MobileLayout />
 

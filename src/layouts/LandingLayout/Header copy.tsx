@@ -61,7 +61,7 @@ const Header: React.FC = () => {
       <div
         className="invisible group-hover:visible opacity-0 group-hover:opacity-100
         absolute left-1/2 transform -translate-x-1/2  
-        w-64 bg-white dark:bg-gray-900 rounded-md shadow-lg
+        w-64 bg-white dark:bg-[#131920] rounded-md shadow-lg
         transition-all duration-200 ease-out z-40">
         <div className="p-4">
           <div className="text-gray-900 mb-4">
@@ -71,7 +71,7 @@ const Header: React.FC = () => {
             </p>
           </div>
           <button
-            className="w-full py-3 px-4 bg-gray-900 dark:bg-gray-800 text-white rounded-md 
+            className="w-full py-3 px-4 bg-[#131920] dark:bg-gray-800 text-white rounded-md 
             hover:bg-gray-800 transition-colors duration-200
             font-medium">
             View Profile
@@ -97,12 +97,12 @@ const Header: React.FC = () => {
       <div
         className="invisible group-hover:visible opacity-0 group-hover:opacity-100
         absolute left-1/2 transform -translate-x-1/2 
-        w-64 bg-white dark:bg-gray-900 rounded-md shadow-lg
+        w-64 bg-white dark:bg-[#131920] rounded-md shadow-lg
         transition-all duration-200 ease-out z-50">
         <div className="p-4 mt-5">
           <Link to="/auth/login">
             <button
-              className="w-full py-3 px-4 bg-gray-900 dark:bg-gray-800  text-white rounded-md 
+              className="w-full py-3 px-4 bg-[#131920] dark:bg-gray-800  text-white rounded-md 
             hover:bg-gray-800 transition-colors duration-200
             font-medium">
               Sign in
@@ -128,7 +128,7 @@ const Header: React.FC = () => {
         <div className="absolute w-full inset-0 h-screen bg-black bg-opacity-50 z-40 transition-opacity duration-300" />
       )}
 
-      <div className="w-full bg-gray-900 text-white z-40 sticky top-0">
+      <div className="w-full bg-[#131920] text-white z-40 sticky top-0">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between sm:h-12 h-16">
             {/* Logo */}
@@ -203,7 +203,7 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu - Full Screen */}
           <div
-            className={`lg:hidden fixed inset-0 bg-gray-900 transform ${
+            className={`lg:hidden fixed inset-0 bg-[#131920] transform ${
               isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
             } transition-transform duration-300 ease-in-out z-50 mobile-menu`}>
             {/* Close button */}
@@ -298,7 +298,7 @@ const Header: React.FC = () => {
                           </div>
                         </div>
                         <button
-                          className="w-full py-2 px-4 bg-gray-900 text-white rounded-md 
+                          className="w-full py-2 px-4 bg-[#131920] text-white rounded-md 
                           hover:bg-gray-700 transition-colors duration-200 mt-2
                           font-medium flex items-center justify-center space-x-2">
                           <span>View Profile</span>
@@ -333,7 +333,7 @@ const Header: React.FC = () => {
           <div
             ref={megaMenuRef}
             className={`
-              absolute left-0 w-full bg-white dark:bg-gray-900 shadow-lg z-40 
+              absolute left-0 w-full bg-white dark:bg-[#131920] shadow-lg z-40 
               transition-all duration-200 
               ${showMegaMenu ? "opacity-100 visible" : "opacity-0 invisible"}
             `}

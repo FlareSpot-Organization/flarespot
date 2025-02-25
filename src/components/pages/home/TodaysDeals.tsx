@@ -24,7 +24,7 @@ const TodaysDeals: React.FC = () => {
   const { isLoading, deals } = useProductsFetch();
 
   return (
-    <div className="max-w-7xl mx-auto p-6">
+    <div className="max-w-[1600px] mx-auto p-6">
       <h1 className="text-xl sm:text-2xl font-bold text-center mb-4 sm:mb-8">
         Today's deals
       </h1>

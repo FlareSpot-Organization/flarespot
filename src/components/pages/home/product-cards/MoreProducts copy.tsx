@@ -53,7 +53,7 @@ const MoreProducts = ({ productsDemo }: { productsDemo: any[] }) => {
               </button>
 
               {/* Image Container */}
-              <div className="relative aspect-[4/3] p-3 flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-gray-900">
+              <div className="relative aspect-[4/3] p-3 flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-[#131920]">
                 <img
                   src={product?.item?.image}
                   alt={product?.item?.title}

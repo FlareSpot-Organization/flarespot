@@ -9,7 +9,7 @@ const DealsCard: React.FC<any> = ({ item }) => {
   const savingsPercentage = Math.round((savingsAmount / originalPrice) * 100);
 
   return (
-    <div className="bg-white relative dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700">
+    <div className="bg-white relative dark:bg-[#131920] rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700">
       {/* Image Section */}
       <div className="relative flex items-center justify-center bg-gray-50 dark:bg-gray-800 p-2">
         <img
@@ -53,12 +53,11 @@ const DealsCard: React.FC<any> = ({ item }) => {
         )}
 
         {/* Action Button */}
-        <Button
-          className="mt-2 w-full"
-          size="xs"
-          onClick={() => window.open(`https:${item?.itemUrl}`, "_blank")}>
-          View Product
-        </Button>
+        <a href={`/product?itemId=${item?.item?.itemId}`}>
+          <Button className="mt-2 w-full" size="xs">
+            View Product
+          </Button>
+        </a>
       </div>
     </div>
   );

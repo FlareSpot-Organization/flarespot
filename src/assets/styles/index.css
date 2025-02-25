@@ -157,7 +157,7 @@
 }
 .custom-btn:hover:after {
   transform: scale(1.02);
-  border-color: rgba(255, 255, 255, 0.4);
+  border-color: rgb(255, 255, 255, 0.1);
 }
 .mega-dropdown {
   position: absolute;
@@ -169,7 +169,7 @@
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   width: 700px;
   height: 400px;
-  margin-top: 2px;
+  margin-top: 0px;
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
@@ -184,7 +184,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   width: 110px;
-  margin-top: 2px;
+  margin-top: 0px;
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
@@ -306,4 +306,44 @@
   position: absolute;
   top: 50%;
   right: -40px;
+}
+
+/* Footer */
+/* .f-fl0m7U {
+  margin-top: 11px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+/* Footer */
+.icon_tag {
+  position: relative;
+  height: 45px;
+  width: 45px;
+}
+
+.icon_tag:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.shadow {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* SingleProduct */
+.sku-after::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  transition: transform 0.15s;
+}
+
+/* Sku Color Selection */
+.color-image:hover > img {
+  border: 0.5px solid white;
 }

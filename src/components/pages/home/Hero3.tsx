@@ -86,7 +86,7 @@ const Hero3 = () => {
   }, []);
 
   return (
-    <div className="relative sm:h-[500px] h-[900px] flex flex-col md:flex-row overflow-hidden">
+    <div className="relative sm:h-[500px] max-w-[1600px] mx-auto  h-[900px] flex flex-col md:flex-row overflow-hidden">
       {/* Left Section */}
       <motion.div
         className="relative w-full md:w-1/2 h-[300px] md:h-full bg-black flex items-center z-10"

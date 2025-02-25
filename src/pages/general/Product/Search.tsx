@@ -27,8 +27,8 @@ const Search = () => {
           <Loader />
         ) : searchResults?.length > 0 ? (
           <>
-            <FilterSection />
-            <MoreProducts2 productsDemo={searchResults} />
+            <FilterSection productsSearch={searchResults} />
+            <MoreProducts2 productsSearch={searchResults} />
           </>
         ) : (
           <NotFound query={query} />
