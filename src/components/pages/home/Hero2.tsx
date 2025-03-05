@@ -66,7 +66,7 @@ const Hero2 = () => {
           className="mySwiper">
           {items?.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="grid grid-cols-12 relative gap-2 md:gap-4 h-auto rounded-lg overflow-hidden shadow-lg mt-4 md:mt-10">
+              <div className="grid grid-cols-12 relative gap-2 md:gap-4 h-auto rounded-lg overflow-hidden shadow-lg mt-4 md:mt-4">
                 {/* Main content section */}
                 <div className="col-span-12 md:col-span-8 relative">
                   {isLoading && (
@@ -92,6 +92,38 @@ const Hero2 = () => {
                       {item.buttonText}
                     </button>
                   </div>
+
+                  {/* Navigation Arrows - Now inside the image div */}
+                  <button className="custom-prev hidden sm:flex absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-6 sm:w-8 h-6 sm:h-8 items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors duration-200 shadow-md">
+                    <span className="sr-only">Previous</span>
+                    <svg
+                      className="w-4 sm:w-5 h-4 sm:h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M15 19l-7-7 7-7"
+                      />
+                    </svg>
+                  </button>
+                  <button className="custom-next hidden sm:flex absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-6 sm:w-8 h-6 sm:h-8 items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors duration-200 shadow-md">
+                    <span className="sr-only">Next</span>
+                    <svg
+                      className="w-4 sm:w-5 h-4 sm:h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </button>
                 </div>
 
                 {/* Featured deals section */}
@@ -113,38 +145,6 @@ const Hero2 = () => {
           ))}
         </Swiper>
       </div>
-
-      {/* Custom Navigation Arrows */}
-      <button className="custom-prev hidden sm:flex absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-6 sm:w-8 h-6 sm:h-8 items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors duration-200 shadow-md">
-        <span className="sr-only">Previous</span>
-        <svg
-          className="w-4 sm:w-5 h-4 sm:h-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M15 19l-7-7 7-7"
-          />
-        </svg>
-      </button>
-      <button className="custom-next hidden sm:flex absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-6 sm:w-8 h-6 sm:h-8 items-center justify-center rounded-full bg-white/80 hover:bg-white transition-colors duration-200 shadow-md">
-        <span className="sr-only">Next</span>
-        <svg
-          className="w-4 sm:w-5 h-4 sm:h-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9 5l7 7-7 7"
-          />
-        </svg>
-      </button>
     </div>
   );
 };

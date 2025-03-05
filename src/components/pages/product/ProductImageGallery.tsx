@@ -1,6 +1,7 @@
 import { cleanImageUrl } from "@/utils/helpers";
 import { useState, useEffect, useRef } from "react";
 import ProductDescriptionImages from "./ProductDescriptionImages";
+import ProductReviews from "./ProductReviews";
 
 interface ProductGalleryProps {
   images: string[];
@@ -17,78 +18,91 @@ const ProductImageGallery = ({
   previousImage,
   nextImage,
 }: ProductGalleryProps) => {
-  const [mainImageHeight, setMainImageHeight] = useState(450); // Default fallback height
-  const mainImageRef = useRef<HTMLImageElement>(null);
+  // Create a refs array to store references to all thumbnails
+  const thumbnailRefs = useRef<(HTMLDivElement | null)[]>([]);
+  // Create a ref for the sidebar container
+  const sidebarRef = useRef<HTMLDivElement>(null);
 
+  // Initialize the refs array with the correct length
   useEffect(() => {
-    const updateHeight = () => {
-      if (mainImageRef.current) {
-        setMainImageHeight(mainImageRef.current.clientHeight);
+    thumbnailRefs.current = thumbnailRefs.current.slice(0, images.length);
+  }, [images.length]);
+
+  // Scroll the selected thumbnail into view when currentImageIndex changes
+  useEffect(() => {
+    if (thumbnailRefs.current[currentImageIndex] && sidebarRef.current) {
+      const thumbnail = thumbnailRefs.current[currentImageIndex];
+      const sidebar = sidebarRef.current;
+
+      const thumbnailTop = thumbnail!.offsetTop;
+      const thumbnailHeight = thumbnail!.offsetHeight;
+      const sidebarScrollTop = sidebar.scrollTop;
+      const sidebarHeight = sidebar.offsetHeight;
+
+      // If the thumbnail is not fully visible in the sidebar
+      if (
+        thumbnailTop < sidebarScrollTop ||
+        thumbnailTop + thumbnailHeight > sidebarScrollTop + sidebarHeight
+      ) {
+        // Scroll the thumbnail into view with smooth behavior
+        thumbnail!.scrollIntoView({ behavior: "smooth", block: "nearest" });
       }
-    };
-
-    // Update height when the image loads
-    const imgElement = mainImageRef.current;
-    if (imgElement) {
-      imgElement.onload = updateHeight;
     }
-
-    // Also update on window resize
-    window.addEventListener("resize", updateHeight);
-
-    return () => {
-      window.removeEventListener("resize", updateHeight);
-    };
-  }, [currentImageIndex]); // Re-run when image changes
+  }, [currentImageIndex]);
 
   return (
     <div className="order-1 md:order-1">
-      <div className="flex">
-        {/* Thumbnails Column - Dynamically Adjust Height */}
+      <div className="flex relative">
+        {/* Thumbnails Column - Fixed Height */}
         <div
-          className="hidden md:block overflow-y-scroll scrollbar-none scrollbar-thumb-gray-300 scrollbar-track-gray-100"
-          style={{ height: `${mainImageHeight}px` }} // Set dynamic height
-        >
+          ref={sidebarRef}
+          className="hidden h-[100%] absolute md:block overflow-y-scroll scrollbar-none scrollbar-thumb-gray-300 scrollbar-track-gray-100">
           {images.map((img: string, index: number) => (
             <div
+              ref={(el) => (thumbnailRefs.current[index] = el)}
               key={index}
               style={{ borderRadius: "2px" }}
-              className={`cursor-pointer border-[#e6e6e6] overflow-hidden bg-[#e6e6e6] border-2 ml-1 mr-1 mb-1 ${
-                currentImageIndex === index
-                  ? "border-gray-800"
-                  : "border-transparent"
-              }`}
-              onMouseEnter={() => setCurrentImageIndex(index)}>
+              className={`
+                image-option-container2 ${index === images.length - 1 ? "mb-0" : "mb-1"} 
+                image-option-outer 
+                image-option-inner
+                ${currentImageIndex === index ? "image-option-selected" : ""}
+              `}
+              onMouseEnter={() => setCurrentImageIndex(index)}
+              onClick={() => setCurrentImageIndex(index)}>
               <img
-                src={`${img}_60x60.jpg`}
+                src={`${img}_65x65.jpg`}
                 data-src={cleanImageUrl(`${img}_.webp`)}
                 alt={`Product view ${index + 1}`}
-                className={`${currentImageIndex === index ? "border-[0.5px] border-white" : ""} w-[60px] h-[60px] object-contain mix-blend-multiply flex-shrink-0 hover:border-[0.5px] hover:border-white hover:border-solid`}
-                onClick={() => setCurrentImageIndex(index)}
+                className="image-option-img "
                 referrerPolicy="no-referrer"
               />
             </div>
           ))}
         </div>
 
-        {/* Main Image Container */}
-        <div className="relative flex-1 group">
+        {/* Rest of your component remains the same */}
+        {/* Main Image Container - With aspect ratio handling */}
+        <div className="relative flex-1 group main-image-container">
           <div
-            style={{ borderRadius: "2px" }}
-            className="relative overflow-hidden bg-[#e6e6e6]">
-            <img
-              src={images[currentImageIndex]}
-              ref={mainImageRef} // Attach ref to track height
-              referrerPolicy="no-referrer"
-              alt="Main product view"
-              className="mix-blend-multiply"
-            />
+            style={{ borderRadius: "2px", paddingBottom: "100%" }}
+            className="relative overflow-hidden bg-[#e6e6e6] w-full h-0">
+            <div className="absolute inset-0 flex items-center justify-center">
+              {images[currentImageIndex] && (
+                <img
+                  src={images[currentImageIndex]}
+                  referrerPolicy="no-referrer"
+                  alt="Main product view"
+                  className="max-w-full max-h-full object-contain mix-blend-multiply"
+                />
+              )}
+            </div>
 
             {/* Navigation Arrows */}
             <div className="hidden md:group-hover:block">
               <button
                 onClick={previousImage}
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white hover:bg-white/90 p-3 rounded-full shadow-lg">
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white hover:bg-white/90 p-3 rounded-full shadow-lg z-10">
                 <svg
                   className="w-6 h-6"
                   fill="none"
@@ -105,7 +119,7 @@ const ProductImageGallery = ({
 
               <button
                 onClick={nextImage}
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white hover:bg-white/90 p-3 rounded-full shadow-lg">
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white hover:bg-white/90 p-3 rounded-full shadow-lg z-10">
                 <svg
                   className="w-6 h-6"
                   fill="none"
@@ -123,6 +137,8 @@ const ProductImageGallery = ({
           </div>
         </div>
       </div>
+
+      <ProductReviews />
 
       {/* Description - Order last on mobile */}
       <div className="order-3 col-span-1 md:col-span-2 mt-6 sm:block hidden">

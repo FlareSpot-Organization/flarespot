@@ -2,6 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { useSelector } from "react-redux";
 import { Currency, Language, Region } from "@/types/public";
+import defaultFlag from "@/assets/images/defaultFlag.png";
 
 interface LanguageContextType {
   regions: Region[];
@@ -48,13 +49,12 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({
   );
 
   const [flagSrc, setFlagSrc] = useState<string>("");
-  console.log(selectedRegion);
 
   // Load flag dynamically based on selectedRegion
   useEffect(() => {
     const loadFlag = (region: string) => {
       const flagPath = `/flags/1x1/${region.toLowerCase()}.svg`;
-      setFlagSrc(flagPath);
+      setFlagSrc(flagPath ? flagPath : defaultFlag);
     };
     if (selectedRegion) {
       loadFlag(selectedRegion);

@@ -75,43 +75,54 @@ const PropertySelector = ({
             }
           }}>
           <div
-            className={`${selectedValues[property.name]?.vid === value.vid ? "border-2 border-gray-900" : "border-2 border-transparent"} relative overflow-hidden
-                     bg-[#e6e6e6] 
-                     transition-all duration-300 color-image border-2 hover:border-gray-900`}>
+            className={`
+    image-option-container 
+    image-option-outer 
+    image-option-inner
+    ${selectedValues[property.name]?.vid === value.vid ? "image-option-selected" : ""}
+  `}>
             <img
-              src={`${value.image}_60x60.png`}
+              src={`${value.image}_50x50.png`}
               data-src={cleanImageUrl(`${value.image}_.webp`)}
               referrerPolicy="no-referrer"
               alt={value.name}
-              className={`w-[60px] h-[60px] mix-blend-multiply object-cover ${selectedValues[property.name]?.vid === value.vid ? "border-[0.5px] border-solid border-white" : ""}`}
+              className="image-option-img"
             />
+
             {selectedValues[property.name]?.vid === value.vid && (
-              <div className="absolute inset-0 bg-black/20">
-                <div
-                  className="absolute bottom-0 right-0 bg-black p-0.5"
-                  style={{
-                    clipPath: "polygon(100% 0%, 100% 100%, 0% 100%, 0% 90%)",
-                  }}>
-                  <Check className="text-white font-bold w-2 h-2 mt-1 ml-2" />
+              <>
+                <div className="image-option-overlay"></div>
+                <div className="image-option-checkmark">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 12 12"
+                    className="image-option-check mt-1 ml-1"
+                    fill="white">
+                    <path d="M5.2 10.9c-.2 0-.5-.1-.7-.2l-4.2-3.7c-.4-.4-.5-1-.1-1.4s1-.5 1.4-.1l3.4 3 5.1-7c.3-.4 1-.5 1.4-.2s.5 1 .2 1.4l-5.7 7.9c-.2.2-.4.4-.7.4 0-.1 0-.1-.1-.1z"></path>
+                  </svg>
                 </div>
-              </div>
+              </>
             )}
           </div>
         </div>
       ) : (
-        <button
-          disabled={!isAvailable}
-          onClick={() =>
-            isAvailable && handlePropertySelect(property.name, value)
-          }
-          className={`${
-            selectedValues[property.name]?.vid === value.vid
-              ? "border-gray-800"
-              : "border-gray-300"
-          } border transition-all duration-300 rounded-full px-[15px] py-[5px] hover:border hover:border-gray-900
-        ${!isAvailable ? "text-[#ddd] bg-gray-100 border-dashed cursor-not-allowed" : ""}`}>
-          <p className="text-[14px]">{value.name}</p>
-        </button>
+        <div className="relative">
+          <button
+            disabled={!isAvailable}
+            onClick={() =>
+              isAvailable && handlePropertySelect(property.name, value)
+            }
+            className={`text-sku ${
+              selectedValues[property.name]?.vid === value.vid
+                ? "selected-sku"
+                : ""
+            } transition-all duration-300 rounded-full px-[15px] py-[5px] box-border
+  ${!isAvailable ? "text-[#ddd] bg-gray-100 border-dashed cursor-not-allowed" : ""}`}>
+            <p className="text-[14px] text-[#222] font-[400] leading-[20px]">
+              {value.name}
+            </p>
+          </button>
+        </div>
       );
 
     return !isAvailable ? (
@@ -133,9 +144,9 @@ const PropertySelector = ({
 
   return (
     <div className="mt-5">
-      <h3 className="text-[14px] font-bold">
+      <h3 className="text-[14px] font-[600] text-[#222] leading-[18px]">
         {property.name}:{" "}
-        <span className="font-light">
+        <span className="font-[400]">
           {selectedValues[property.name]?.vid
             ? property.values?.find(
                 (v) => v.vid === selectedValues[property.name]?.vid
@@ -143,7 +154,7 @@ const PropertySelector = ({
             : ""}
         </span>
       </h3>
-      <div className="flex flex-wrap gap-2 mt-3 items-center">
+      <div className="flex flex-wrap gap-2 mt-1 items-center">
         {property.values?.map((value, index) => renderOption(value, index))}
       </div>
     </div>

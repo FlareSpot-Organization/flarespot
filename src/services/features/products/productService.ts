@@ -63,6 +63,10 @@ const searchProducts = async (query: string) => {
   const response = await axiosClient.get(
     `/api-ecom?api=item_search&q=${query}`
   );
+
+  if (response.data) {
+    localStorage.setItem("flarespots_search", JSON.stringify(response.data));
+  }
   return response.data;
 };
 

@@ -28,7 +28,7 @@ const MoreProducts = ({ productsDemo }: { productsDemo: any[] }) => {
     setWishListItems(wishlistIds);
   }, []);
 
-  const handleAdd = (product: CartItem) => {
+  const handleAdd = (product: any) => {
     dispatch(addToCart({ ...product }));
     toast.success("Item Added Successfully", {
       description: `${product.title}`,

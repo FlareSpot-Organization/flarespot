@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
-import { Heart, ShoppingCart, ArrowRight, Package } from "lucide-react";
-import { AppDispatch } from "@/store";
-import { addToCart } from "@/services/features/cart/cartSlice";
-import { getCartItems } from "@/utils/CartDb";
-import { toast } from "sonner";
 import useVisualization from "@/hooks/useVisualization";
-import { Link } from "react-router-dom";
-import { WishListItem } from "@/types/product_types";
 import { addToWishList } from "@/services/features/wishlist/wishlistSlice";
+import { AppDispatch } from "@/store";
+import { WishListItem } from "@/types/product_types";
+import { Heart } from "lucide-react";
+import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { toast } from "sonner";
 
 const MoreProducts2 = ({ productsSearch }: { productsSearch: any }) => {
   const { products, loading, hasMore, loadingRef, formatPrice } =
     useVisualization(productsSearch);
+
+  console.log(productsSearch);
   const [cartItems, setCartItems] = useState<number[]>([]);
   const [wishListItems, setWishListItems] = useState<number[]>([]);
 

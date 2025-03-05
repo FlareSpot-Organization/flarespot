@@ -15,3 +15,6 @@ export { default as Auth } from "@/pages/auth/Auth";
 // Layouts
 export { default as AuthLayout } from "@/layouts/AuthLayout";
 export { default as LandingLayout } from "@/layouts/LandingLayout";
+
+//Profile
+export { default as Profile } from "@/pages/profile/Profile";

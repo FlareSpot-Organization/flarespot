@@ -1,6 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageSelector";
 import React from "react";
 import LanguageSelector from "./LanguageSelector";
+import defaultFlag from "@/assets/images/defaultFlag.png";
 
 interface SocialLink {
   href: string;
@@ -218,7 +219,7 @@ const Footer: React.FC = () => {
                 onClick={() => setIsLanguageModalOpen(true)}
                 className="flex  items-center space-x-2 hover:text-white custom-btn transition-colors ">
                 <img
-                  src={flagSrc}
+                  src={flagSrc || defaultFlag}
                   alt="Language selector"
                   className="rounded-full h-[25px] w-[25px] flex-shrink-0"
                 />

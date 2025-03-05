@@ -13,6 +13,7 @@ import {
   Home,
   Login,
   PaymentSuccessPage,
+  Profile,
   Register,
   Search,
   SingleProduct,
@@ -26,6 +27,18 @@ export default function App() {
     {
       path: "/",
       element: <Navigate to="/home" />,
+    },
+
+    // Landing Routes
+    {
+      path: "/user",
+      element: <LandingLayout />,
+      children: [
+        {
+          path: "profile",
+          element: <Profile />,
+        },
+      ],
     },
 
     // Landing Routes

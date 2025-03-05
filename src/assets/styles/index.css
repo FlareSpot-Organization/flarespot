@@ -167,7 +167,7 @@
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
-  width: 700px;
+  width: 850px;
   height: 400px;
   margin-top: 0px;
   z-index: 1000;
@@ -183,7 +183,7 @@
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
-  width: 110px;
+  width: 130px;
   margin-top: 0px;
   z-index: 1000;
   opacity: 0;
@@ -346,4 +346,160 @@
 /* Sku Color Selection */
 .color-image:hover > img {
   border: 0.5px solid white;
+}
+/* Base class for the image option container */
+.image-option-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #e6e6e6;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.image-option-container2 {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  background-color: #e6e6e6;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.main-image-container {
+  padding-left: calc(60px + 0.25rem);
+}
+
+@media (min-width: 1200px) {
+  .main-image-container {
+    padding-left: calc(65px + 0.25rem);
+  }
+}
+
+/* Outer border styling with ::before */
+.image-option-outer {
+  position: relative;
+}
+
+.image-option-outer::before {
+  border-radius: 2px;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/* Selected state - thick black border (increased to 3px) */
+.image-option-selected::before {
+  border: 3.5px solid white;
+  border-radius: 2px;
+}
+
+/* Hover state - thin black border (only applies when not selected) */
+.image-option-outer:not(.image-option-selected):hover::before {
+  border: 1px solid black;
+}
+
+/* Inner white border with ::after */
+.image-option-inner {
+  position: relative;
+}
+
+.image-option-outer:not(.image-option-selected):hover:after {
+  border: 1px solid black;
+}
+.image-option-outer:not(.image-option-selected):hover:before {
+  border: 2px solid white;
+}
+
+.image-option-inner::after {
+  border-radius: 2px;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+/* Selected state - white inner border */
+.image-option-selected::after {
+  border: 2px solid black;
+}
+
+/* Class for the image itself */
+.image-option-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  border-radius: 2px;
+}
+
+/* Selected overlay - slightly darker background */
+.image-option-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 0;
+}
+
+/* Checkmark container */
+.image-option-checkmark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  padding: 2px;
+  z-index: 10;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 100%);
+}
+
+/* Checkmark icon */
+.image-option-check {
+  width: 6px;
+  height: 6px;
+  fill: white;
+}
+.text-sku {
+  position: relative;
+}
+
+.text-sku:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  transition:
+    transform 0.15s,
+    border-color 0.3s,
+    -webkit-transform 0.15s;
+}
+
+.selected-sku:after {
+  border: 2px solid #222 !important; /* Thicker black border */
+}
+
+.text-sku:hover:after {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  border-color: #222;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }

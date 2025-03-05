@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import { toast } from "sonner";
 
 const TopNavbar = () => {
@@ -145,7 +146,8 @@ const TopNavbar = () => {
 
                                     {/* Actions */}
                                     <div className="flex items-center justify-between mt-2">
-                                      <a href={`/product?itemId=${item.itemId}`}>
+                                      <a
+                                        href={`/product?itemId=${item.itemId}`}>
                                         <button className="text-xs text-blue-600 hover:text-blue-800 flex items-center space-x-1">
                                           <ExternalLink className="w-3 h-3" />
                                           <span>View Item</span>
@@ -161,11 +163,11 @@ const TopNavbar = () => {
                                 </motion.div>
                               ))}
                           </div>
-                          <a href="wishlist">
+                          <Link to="/wishlist">
                             <button className="w-full mt-4 bg-black text-white py-2 rounded-md text-sm hover:bg-gray-800 transition-colors">
                               View All Wishlist Items
                             </button>
-                          </a>
+                          </Link>
                         </>
                       ) : (
                         <div className="text-center py-6">

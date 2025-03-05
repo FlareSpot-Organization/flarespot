@@ -1,4 +1,10 @@
-import { Sku, SkuProp } from "@/types/product_types";
+import {
+  ExtractedSkuCartValues,
+  Sku,
+  SkuCartAttributes,
+  SkuCartProperty,
+  SkuProp,
+} from "@/types/product_types";
 
 export type ColorClass = string;
 export type IconKey = string;
@@ -266,3 +272,34 @@ export const getAvailableOptions = (
 
   return availableVids;
 };
+
+export function extractPropertyValues(
+  attributes: SkuCartAttributes | undefined,
+  properties: SkuCartProperty[]
+): ExtractedSkuCartValues {
+  const result: ExtractedSkuCartValues = {};
+
+  if (!attributes) {
+    return result;
+  }
+
+  for (const attributeName in attributes) {
+    const { pid, vid } = attributes[attributeName];
+
+    const property = properties.find((prop) => prop.pid === pid);
+
+    if (property) {
+      const value = property.values.find((val) => val.vid === vid);
+
+      if (value) {
+        result[attributeName] = value.name;
+      } else {
+        result[attributeName] = null;
+      }
+    } else {
+      result[attributeName] = null;
+    }
+  }
+
+  return result;
+}

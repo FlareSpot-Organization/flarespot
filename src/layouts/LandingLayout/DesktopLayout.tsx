@@ -1,17 +1,17 @@
-import chinaFlag from "@/assets/images/china-flag.png";
 import logo from "@/assets/images/logo.png";
 import { NavButton } from "@/components/common/NavButton";
 import SearchBar from "@/components/common/Searchbar";
 import { Button } from "@/components/ui/button";
 import { useHeader } from "@/contexts/LandingHeaderLayouts";
+import { useLanguage } from "@/contexts/LanguageSelector";
 import { demoCategoriesHeader, demoProductsHeader } from "@/utils/Content";
-import { Award, ChevronDown, Percent, ShoppingCart } from "lucide-react";
+import { Award, ChevronDown, Percent, ShoppingCart, User } from "lucide-react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import LanguageSelector from "./LanguageSelector";
-import Cookies from "js-cookie";
-import { useEffect, useState } from "react";
-import { useLanguage } from "@/contexts/LanguageSelector";
+import { LogoutUser } from "@/services/features/auth/authSlice";
+import { AppDispatch } from "@/store";
+import { useDispatch } from "react-redux";
 
 const DesktopLayout = () => {
   const {
@@ -22,13 +22,20 @@ const DesktopLayout = () => {
   } = useHeader();
 
   const cartItems = useSelector((state: any) => state.cart.items);
+  const { user, token } = useSelector((state: any) => state.auth);
+  const dispatch = useDispatch<AppDispatch>();
+
   const onClose = () => {};
   const {
     isLanguageModalOpen,
     setIsLanguageModalOpen,
-    selectedLanguage,
+    selectedCurrency,
     flagSrc,
   } = useLanguage({ onClose });
+
+  const handleLogout = () => {
+    dispatch(LogoutUser());
+  };
 
   return (
     <>
@@ -70,7 +77,7 @@ const DesktopLayout = () => {
                 </NavButton>
 
                 <div className="mega-dropdown flex">
-                  <div className="w-1/4 border-r border-gray-100 categories-scroll">
+                  <div className="w-1/3 border-r border-gray-100 categories-scroll">
                     {demoCategoriesHeader.map((category) => (
                       <div
                         key={category}
@@ -118,30 +125,58 @@ const DesktopLayout = () => {
 
             {/* Right Side */}
             <div className="flex items-center flex-shrink-0">
-              <div
-                className="register-container relative"
-                onMouseEnter={handleOverlay}
-                onMouseLeave={handleOverlayClose}>
-                <NavButton>Sign in / Register</NavButton>
+              {token ? (
+                <div
+                  className="register-container relative"
+                  onMouseEnter={handleOverlay}
+                  onMouseLeave={handleOverlayClose}>
+                  <NavButton>
+                    <User size={18} /> My Account
+                  </NavButton>
 
-                <div className="register-dropdown flex">
-                  <div className="px-2 py-4 w-full space-y-2 ">
-                    <div>
-                      <Link to="/auth/login" className="w-full mb-3">
-                        <Button className="w-full"> Sign in </Button>
-                      </Link>
-                    </div>
-                    <div>
-                      <Link to="/auth/register" className="w-full">
-                        <Button className="w-full" variant="outline">
-                          {" "}
-                          Register{" "}
+                  <div className="register-dropdown flex">
+                    <div className="p-[13px] w-full space-y-2 ">
+                      <div>
+                        <Link to="/user/profile" className="w-full mb-3">
+                          <Button className="w-full">View Profile</Button>
+                        </Link>
+                      </div>
+                      <div>
+                        <Button
+                          onClick={handleLogout}
+                          className="w-full"
+                          variant="destructive">
+                          Logout
                         </Button>
-                      </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              ) : (
+                <div
+                  className="register-container relative"
+                  onMouseEnter={handleOverlay}
+                  onMouseLeave={handleOverlayClose}>
+                  <NavButton>Sign in / Register</NavButton>
+
+                  <div className="register-dropdown flex">
+                    <div className="p-[13px] w-full space-y-2 ">
+                      <div>
+                        <Link to="/auth/login" className="w-full mb-3">
+                          <Button className="w-full">Sign in</Button>
+                        </Link>
+                      </div>
+                      <div>
+                        <Link to="/auth/register" className="w-full">
+                          <Button className="w-full" variant="outline">
+                            Register
+                          </Button>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <NavButton>Help & Support</NavButton>
 
@@ -152,7 +187,7 @@ const DesktopLayout = () => {
                     alt=""
                     className="rounded-full h-5 w-5 mr-0.5"
                   />
-                  {selectedLanguage}
+                  {selectedCurrency}
                 </NavButton>
               </div>
 

@@ -4,7 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import authService from "./authService";
 
 const token = localStorage.getItem("flareSpotToken");
-const user = localStorage.getItem("flareSpotUser");
+const user = JSON.parse(localStorage.getItem("flareSpotuser") ?? "{}");
 
 const initialState: initialAuthStateProps = {
   token: token ? token : null,

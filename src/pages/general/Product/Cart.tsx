@@ -14,6 +14,7 @@ import {
   ArrowLeft,
   PackageOpen,
   ShoppingBag,
+  Eye,
 } from "lucide-react";
 import { toast } from "sonner";
 import { Link, useNavigate } from "react-router-dom";
@@ -27,7 +28,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { CartItem } from "@/types/product_types";
-import { cleanImageUrl } from "@/utils/helpers";
+import { cleanImageUrl, extractPropertyValues } from "@/utils/helpers";
 
 const Cart = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -35,17 +36,27 @@ const Cart = () => {
   const navigate = useNavigate();
   const cartItems: CartItem[] = useSelector((state: any) => state?.cart?.items);
 
-  const handleIncreaseQuantity = (itemId: number) => {
-    dispatch(updateItemQuantity({ itemId, quantity: 1 }));
+  const handleIncreaseQuantity = (itemId: number, skuId?: string) => {
+    dispatch(updateItemQuantity({ itemId, skuId, quantity: 1 }));
   };
 
-  const handleDecreaseQuantity = (itemId: number) => {
-    dispatch(updateItemQuantity({ itemId, quantity: -1 }));
+  const handleDecreaseQuantity = (itemId: number, skuId?: string) => {
+    dispatch(updateItemQuantity({ itemId, skuId, quantity: -1 }));
   };
 
-  const handleRemoveItem = (itemId: number) => {
-    dispatch(removeItem(itemId));
-    toast?.success("Item removed from cart");
+  const handleViewItem = (itemId: number) => {
+    navigate(`/product?itemId=${itemId}`);
+    toast?.info("Viewing product details");
+  };
+
+  const handleRemoveItem = (itemId: number, skuId?: string) => {
+    if (skuId !== undefined) {
+      // For products with variants
+      dispatch(removeItem({ itemId, skuId }));
+    } else {
+      // For simple products without variants
+      dispatch(removeItem(itemId));
+    }
   };
 
   const handleClearCart = () => {
@@ -115,64 +126,116 @@ const Cart = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-4">
-            {cartItems?.map((item) => (
-              <Card key={item?.itemId} className="overflow-hidden">
-                <CardContent className="p-4 dark:bg-[#131920]">
-                  <div className="flex gap-4">
-                    <div className="relative w-24 h-24 flex-shrink-0">
-                      <img
-                        src={`${item?.image}`}
-                        alt={item?.title}
-                        referrerPolicy="no-referrer"
-                        className="w-full h-full object-cover rounded-lg"
-                      />
-                      <Badge className="absolute -top-2 -right-2">
-                        {item?.quantity}
-                      </Badge>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="flex justify-between">
-                        <h3 className="font-medium text-lg truncate pr-4 text-gray-900 dark:text-gray-100">
-                          {item?.title}
-                        </h3>
-                        <p className="font-semibold whitespace-nowrap text-gray-900 dark:text-gray-100">
-                          {item?.sku?.def?.promotionPrice}
-                        </p>
+            {cartItems?.map((item) => {
+              const values = extractPropertyValues(
+                item.selectedProperties,
+                item.sku.props
+              );
+
+              return (
+                <Card
+                  key={item?.selectedSku?.skuId}
+                  className="overflow-hidden">
+                  <CardContent className="p-4 dark:bg-[#131920]">
+                    <div className="flex gap-4">
+                      <div className="relative w-24 h-24 flex-shrink-0">
+                        <img
+                          src={`${item?.image}`}
+                          alt={item?.title}
+                          onClick={() => handleViewItem(item?.itemId)}
+                          referrerPolicy="no-referrer"
+                          className="w-full h-full object-cover rounded-lg"
+                        />
+                        <Badge className="absolute -top-2 -right-2">
+                          {item?.quantity}
+                        </Badge>
                       </div>
-                      <div className="mt-4 flex items-center justify-between">
-                        <div className="flex items-center space-x-2">
-                          <Button
-                            variant="outline"
-                            size="icon"
-                            onClick={() => handleDecreaseQuantity(item?.itemId)}
-                            className="h-8 w-8">
-                            <Minus className="w-4 h-4" />
-                          </Button>
-                          <span className="w-8 text-center dark:text-gray-300">
-                            {item?.quantity}
-                          </span>
-                          <Button
-                            variant="outline"
-                            size="icon"
-                            onClick={() => handleIncreaseQuantity(item?.itemId)}
-                            className="h-8 w-8">
-                            <Plus className="w-4 h-4" />
-                          </Button>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex justify-between">
+                          <h3
+                            onClick={() => handleViewItem(item?.itemId)}
+                            className="font-medium text-md hover:underline cursor-pointer line-clamp-2 pr-4 text-gray-900 dark:text-gray-100">
+                            {item?.title}
+                          </h3>
+                          <p className="font-semibold whitespace-nowrap text-gray-900 dark:text-gray-100">
+                            {item?.selectedSku?.promotionPrice}
+                          </p>
                         </div>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          onClick={() => handleRemoveItem(item?.itemId)}
-                          className="text-red-500 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-950/50 dark:hover:text-red-400">
-                          <Trash2 className="w-4 h-4 mr-2" />
-                          Remove
-                        </Button>
+
+                        {/* Display property values */}
+                        {values && Object.keys(values).length > 0 && (
+                          <div className="mt-2 space-y-1">
+                            {Object.entries(values).map(([key, value]) => (
+                              <div
+                                key={key}
+                                className="flex text-sm dark:text-gray-300">
+                                <span className="font-medium mr-2">{key}:</span>
+                                <span>{value}</span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+
+                        <div className="mt-4 flex items-center justify-between">
+                          <div className="flex items-center space-x-2">
+                            <Button
+                              variant="outline"
+                              size="icon"
+                              onClick={() =>
+                                handleDecreaseQuantity(
+                                  item?.itemId,
+                                  item.selectedSku?.skuId
+                                )
+                              }
+                              className="h-8 w-8">
+                              <Minus className="w-4 h-4" />
+                            </Button>
+                            <span className="w-8 text-center dark:text-gray-300">
+                              {item?.quantity}
+                            </span>
+                            <Button
+                              variant="outline"
+                              size="icon"
+                              onClick={() =>
+                                handleIncreaseQuantity(
+                                  item?.itemId,
+                                  item.selectedSku?.skuId
+                                )
+                              }
+                              className="h-8 w-8">
+                              <Plus className="w-4 h-4" />
+                            </Button>
+                          </div>
+                          <div className="mt-4 space-x-2 flex items-center justify-between">
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              onClick={() => handleViewItem(item?.itemId)}
+                              className="h-8">
+                              <Eye className="w-4 h-4 mr-2" />
+                              View Item
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() =>
+                                handleRemoveItem(
+                                  item.itemId,
+                                  item.selectedSku?.skuId
+                                )
+                              }
+                              className="text-red-500 hover:text-red-600 bg-accent hover:bg-red-50 dark:hover:bg-red-950/50 dark:hover:text-red-400">
+                              <Trash2 className="w-4 h-4 mr-2" />
+                              Remove Item
+                            </Button>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
 
           <div className="lg:col-span-1">

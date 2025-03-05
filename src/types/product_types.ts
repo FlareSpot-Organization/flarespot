@@ -59,6 +59,24 @@ export interface CartItem {
       price: string;
       promotionPrice: string;
     };
+    props: {
+      name: string;
+      pid: number;
+      values: {
+        vid: number;
+        name: string;
+      }[];
+    }[];
+  };
+  selectedSku?: {
+    promotionPrice: string;
+    skuId: string;
+  };
+  selectedProperties?: {
+    [key: string]: {
+      pid: number;
+      vid: number;
+    };
   };
 }
 
@@ -72,4 +90,29 @@ export interface WishListItem {
       promotionPrice: string;
     };
   };
+}
+
+export interface SkuCartAttribute {
+  pid: number;
+  vid: number;
+}
+
+export interface SkuCartAttributes {
+  [attributeName: string]: SkuCartAttribute;
+}
+
+export interface SkuCartPropertyValue {
+  vid: number;
+  name: string;
+  image?: string;
+}
+
+export interface SkuCartProperty {
+  pid: number;
+  name: string;
+  values: SkuCartPropertyValue[];
+}
+
+export interface ExtractedSkuCartValues {
+  [key: string]: string | null;
 }

@@ -18,14 +18,14 @@ const get_user = async () => {
   const response = await axios.get(`https://fakestoreapi.com/users/1`);
 
   if (response.data) {
-    localStorage.setItem("flareSpotUser", response.data);
+    localStorage.setItem("flareSpotuser", JSON.stringify(response.data));
   }
   return response.data;
 };
 
 const logout_user = async () => {
   localStorage.removeItem("flareSpotToken");
-  localStorage.removeItem("flareSpotUser");
+  localStorage.removeItem("flareSpotuser");
 };
 
 const authService = {
