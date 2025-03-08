@@ -15,6 +15,15 @@ export { default as Auth } from "@/pages/auth/Auth";
 // Layouts
 export { default as AuthLayout } from "@/layouts/AuthLayout";
 export { default as LandingLayout } from "@/layouts/LandingLayout";
+export { default as DashboardLayout } from "@/layouts/DashboardLayout";
 
 //Profile
 export { default as Profile } from "@/pages/profile/Profile";
+export { default as Order } from "@/pages/profile/Order";
+export { default as Coupons } from "@/pages/profile/Coupons";
+export { default as Address } from "@/pages/profile/Address";
+export { default as CreditBalance } from "@/pages/profile/CreditBalance";
+export { default as History } from "@/pages/profile/BrowsingHistory";
+export { default as PaymentMethods } from "@/pages/profile/PaymentMethods";
+export { default as AccountSecurity } from "@/pages/profile/AccountSecurity";
+export { default as Permissions } from "@/pages/profile/Permissions";

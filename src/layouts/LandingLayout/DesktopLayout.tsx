@@ -5,13 +5,24 @@ import { Button } from "@/components/ui/button";
 import { useHeader } from "@/contexts/LandingHeaderLayouts";
 import { useLanguage } from "@/contexts/LanguageSelector";
 import { demoCategoriesHeader, demoProductsHeader } from "@/utils/Content";
-import { Award, ChevronDown, Percent, ShoppingCart, User } from "lucide-react";
+import {
+  Award,
+  ChevronDown,
+  Clock,
+  Heart,
+  LogOut,
+  Percent,
+  ShoppingBag,
+  ShoppingCart,
+  User,
+} from "lucide-react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import LanguageSelector from "./LanguageSelector";
 import { LogoutUser } from "@/services/features/auth/authSlice";
 import { AppDispatch } from "@/store";
 import { useDispatch } from "react-redux";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const DesktopLayout = () => {
   const {
@@ -36,6 +47,7 @@ const DesktopLayout = () => {
   const handleLogout = () => {
     dispatch(LogoutUser());
   };
+  const userImage = user?.image;
 
   return (
     <>
@@ -131,22 +143,55 @@ const DesktopLayout = () => {
                   onMouseEnter={handleOverlay}
                   onMouseLeave={handleOverlayClose}>
                   <NavButton>
-                    <User size={18} /> My Account
+                    <Avatar className="w-7 h-7 mr-1 " color="black">
+                      {userImage ? (
+                        <AvatarImage
+                          src={userImage}
+                          alt={user?.name?.firstname || "User"}
+                        />
+                      ) : (
+                        <AvatarFallback className="bg-blue-800 text-primary-foreground">
+                          {user?.name?.firstname
+                            ? user?.name?.lastname.charAt(0).toUpperCase()
+                            : "U"}
+                        </AvatarFallback>
+                      )}
+                    </Avatar>
+                    Account & Orders
                   </NavButton>
 
-                  <div className="register-dropdown flex">
-                    <div className="p-[13px] w-full space-y-2 ">
-                      <div>
-                        <Link to="/user/profile" className="w-full mb-3">
-                          <Button className="w-full">View Profile</Button>
-                        </Link>
-                      </div>
-                      <div>
+                  <div className="register-dropdown">
+                    <div className="p-4 w-full space-y-5">
+                      <Link
+                        to="/user/profile"
+                        className="flex items-center gap-2 text-[#222] transition-colors">
+                        <User size={16} /> My Account
+                      </Link>
+
+                      <Link
+                        to="/my-orders"
+                        className="flex items-center gap-2 text-[#222] transition-colors">
+                        <ShoppingBag size={16} /> My Orders
+                      </Link>
+
+                      <Link
+                        to="/wishlist"
+                        className="flex items-center gap-2 text-[#222] transition-colors">
+                        <Heart size={16} /> Wish List
+                      </Link>
+
+                      <Link
+                        to="/browsing-history"
+                        className="flex items-center gap-2 text-[#222] transition-colors">
+                        <Clock size={16} /> Browsing History
+                      </Link>
+
+                      <div className="pt-3 border-t mt-1">
                         <Button
                           onClick={handleLogout}
-                          className="w-full"
-                          variant="destructive">
-                          Logout
+                          className="w-full flex items-center justify-center gap-2"
+                          variant="outline">
+                          <LogOut size={16} /> Sign Out
                         </Button>
                       </div>
                     </div>

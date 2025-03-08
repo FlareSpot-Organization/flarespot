@@ -7,12 +7,21 @@ import {
 import AuthLayout from "./layouts/AuthLayout";
 import LandingLayout from "./layouts/LandingLayout";
 import {
+  AccountSecurity,
+  Address,
   Auth,
   Cart,
   Checkout,
+  Coupons,
+  CreditBalance,
+  DashboardLayout,
+  History,
   Home,
   Login,
+  Order,
+  PaymentMethods,
   PaymentSuccessPage,
+  Permissions,
   Profile,
   Register,
   Search,
@@ -35,12 +44,50 @@ export default function App() {
       element: <LandingLayout />,
       children: [
         {
-          path: "profile",
-          element: <Profile />,
+          path: "",
+          element: <DashboardLayout />,
+          children: [
+            // Dashboard-specific routes can go here
+            {
+              path: "profile",
+              element: <Profile />,
+            },
+            {
+              path: "orders",
+              element: <Order />,
+            },
+            {
+              path: "coupons",
+              element: <Coupons />,
+            },
+            {
+              path: "addresses",
+              element: <Address />,
+            },
+            {
+              path: "credit-balance",
+              element: <CreditBalance />,
+            },
+            {
+              path: "payments",
+              element: <PaymentMethods />,
+            },
+            {
+              path: "browsing-history",
+              element: <History />,
+            },
+            {
+              path: "account-security",
+              element: <AccountSecurity />,
+            },
+            {
+              path: "permissions",
+              element: <Permissions />,
+            },
+          ],
         },
       ],
     },
-
     // Landing Routes
     {
       path: "/",
