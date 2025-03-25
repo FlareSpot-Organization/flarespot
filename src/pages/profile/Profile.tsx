@@ -99,7 +99,7 @@ const Profile = () => {
   ];
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-gray-100 min-h-screen rounded-md">
       {/* Profile Header - Simplified and Fixed Alignment */}
       <div className="bg-white rounded-xl shadow-md overflow-hidden mb-6">
         <div className="p-6">

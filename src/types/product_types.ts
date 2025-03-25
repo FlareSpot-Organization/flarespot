@@ -10,6 +10,7 @@ export type initialProductStateProps = {
   reviews: [];
   deals: [];
   searchResults: [];
+  searchImageResults: [];
   bestSellers: [];
 };
 
@@ -40,6 +41,13 @@ export interface ProductCardProps {
     itemId: number;
     title: string;
     image: string;
+    sales?: string;
+    itemUrl?: string;
+    images?: string[];
+    review?: {
+      averageStar: string;
+      averageStarRate: string;
+    };
     sku: {
       def: {
         price: string;
@@ -54,6 +62,7 @@ export interface CartItem {
   itemId: number;
   title: string;
   image: string;
+  maxQuantity: number;
   sku: {
     def: {
       price: string;
@@ -115,4 +124,10 @@ export interface SkuCartProperty {
 
 export interface ExtractedSkuCartValues {
   [key: string]: string | null;
+}
+
+export interface PaginationProps {
+  totalPages: number;
+  currentPage: number;
+  onPageChange: (page: number) => void;
 }

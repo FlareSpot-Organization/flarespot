@@ -1,0 +1,260 @@
+{
+  "categories": [
+    {
+      "id": "shipping",
+      "name": "Shipping and Delivery",
+      "icon": "Truck",
+      "topics": [
+        {
+          "title": "Carrier Contact Information",
+          "description": "Find the contact information of your delivery carriers."
+        },
+        {
+          "title": "Track your package",
+          "description": "Track your packages in Your Orders section."
+        },
+        {
+          "title": "Find a missing package that shows as \"Delivered\"",
+          "description": "Actions you can take when your order shows as \"delivered\" but you don't have your package."
+        },
+        {
+          "title": "Undeliverable Packages",
+          "description": "Learn what to do when your package cannot be delivered."
+        },
+        {
+          "title": "Find a missing item from your package",
+          "description": "Check why your item is missing from your package."
+        },
+        {
+          "title": "Missing Tracking Information",
+          "description": "Learn why sometimes tracking information might not be available."
+        }
+      ]
+    },
+    {
+      "id": "returns",
+      "name": "Returns, Refunds and Product Support",
+      "icon": "RefreshCw",
+      "topics": [
+        {
+          "title": "Return a Product",
+          "description": "How to initiate a return for items purchased on our store."
+        },
+        {
+          "title": "Refund Status",
+          "description": "Check the status of your refund after returning an item."
+        },
+        {
+          "title": "Product Warranty Information",
+          "description": "Learn about warranty policies for products sold on our store."
+        },
+        {
+          "title": "Exchange a Product",
+          "description": "How to exchange for a different size, color, or model."
+        },
+        {
+          "title": "Return Shipping Labels",
+          "description": "How to print a return shipping label for your package."
+        },
+        {
+          "title": "Contact Product Support",
+          "description": "Get help with product-specific issues or questions."
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "name": "Managing Your Account",
+      "icon": "User",
+      "topics": [
+        {
+          "title": "Update Account Information",
+          "description": "Change your email, password, or personal details."
+        },
+        {
+          "title": "Address Book",
+          "description": "Manage your shipping and billing addresses."
+        },
+        {
+          "title": "Order History",
+          "description": "View and manage your past and current orders."
+        },
+        {
+          "title": "Wishlist Management",
+          "description": "How to create, edit, and share your wishlists."
+        },
+        {
+          "title": "Email Preferences",
+          "description": "Manage your newsletter and notification settings."
+        },
+        {
+          "title": "Delete Account",
+          "description": "How to permanently delete your account and data."
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "Payment, Pricing and Promotions",
+      "icon": "CreditCard",
+      "topics": [
+        {
+          "title": "Payment Methods",
+          "description": "Manage your credit cards, debit cards, and other payment options."
+        },
+        {
+          "title": "Promo Codes",
+          "description": "How to apply discount and promotional codes to your order."
+        },
+        {
+          "title": "Price Matching",
+          "description": "Learn about our price matching policies and how to request a match."
+        },
+        {
+          "title": "Gift Cards",
+          "description": "How to redeem, check balance, and purchase gift cards."
+        },
+        {
+          "title": "Invoice Requests",
+          "description": "How to request and download invoices for your purchases."
+        },
+        {
+          "title": "Loyalty Program",
+          "description": "Learn about our loyalty points, tiers, and rewards."
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security & Privacy",
+      "icon": "ShieldCheck",
+      "topics": [
+        {
+          "title": "Account Security",
+          "description": "Tips to keep your account secure and prevent unauthorized access."
+        },
+        {
+          "title": "Privacy Settings",
+          "description": "Manage your privacy preferences and data sharing options."
+        },
+        {
+          "title": "Reporting Suspicious Activity",
+          "description": "How to report suspicious emails, messages, or activity on your account."
+        },
+        {
+          "title": "Two-Factor Authentication",
+          "description": "Set up additional security for your account."
+        },
+        {
+          "title": "Data Deletion Requests",
+          "description": "How to request deletion of your personal data."
+        },
+        {
+          "title": "Secure Payment Information",
+          "description": "Learn how we protect your payment information."
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "Product Information",
+      "icon": "ShoppingBag",
+      "topics": [
+        {
+          "title": "Product Specifications",
+          "description": "Find detailed specifications for products."
+        },
+        {
+          "title": "Product Compatibility",
+          "description": "Check if products are compatible with your existing items."
+        },
+        {
+          "title": "Product Availability",
+          "description": "Learn about restocking timeframes and product availability."
+        },
+        {
+          "title": "Product Reviews",
+          "description": "How to read and submit product reviews."
+        },
+        {
+          "title": "Assembly Instructions",
+          "description": "Find assembly guides and instructions for products."
+        },
+        {
+          "title": "Product Recalls",
+          "description": "Information about product recalls and safety notices."
+        }
+      ]
+    }
+  ],
+  "popularTopics": [
+    "order tracking",
+    "returns policy",
+    "payment methods",
+    "shipping costs"
+  ],
+  "popularCategories": [
+    {
+      "icon": "ShoppingBag",
+      "title": "Order Management",
+      "desc": "Track orders, shipping status, returns"
+    },
+    {
+      "icon": "CreditCard",
+      "title": "Payment Options",
+      "desc": "Cards, digital wallets, gift cards"
+    },
+    {
+      "icon": "RefreshCw",
+      "title": "Returns & Refunds",
+      "desc": "Return policies, exchanges, refund status"
+    },
+    {
+      "icon": "Truck",
+      "title": "Shipping Info",
+      "desc": "Delivery options, tracking, international shipping"
+    },
+    {
+      "icon": "AlertCircle",
+      "title": "Product Issues",
+      "desc": "Damaged items, missing parts, product support"
+    },
+    {
+      "icon": "User",
+      "title": "Account Settings",
+      "desc": "Profile, preferences, addresses"
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Trust & Security",
+      "desc": "Privacy, secure shopping, fraud protection"
+    },
+    {
+      "icon": "Store",
+      "title": "Marketplace Selling",
+      "desc": "Seller guidelines, fees, fulfillment"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I track my order?",
+      "answer": "You can track your order by logging into your account and visiting the \"Order History\" section. There, you'll find tracking information for all your recent orders."
+    },
+    {
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy for most items. Products must be in their original condition with all tags and packaging intact. Some restrictions may apply for certain categories."
+    },
+    {
+      "question": "How do I request a refund?",
+      "answer": "Refunds can be requested by initiating a return through your account. Once we receive and inspect the returned item, we'll process your refund to the original payment method within 5-7 business days."
+    },
+    {
+      "question": "Do you offer international shipping?",
+      "answer": "Yes, we ship to most countries worldwide. International shipping costs and delivery times vary based on the destination. You can see estimated shipping costs by adding items to your cart and entering your delivery address."
+    },
+    {
+      "question": "How can I change or cancel my order?",
+      "answer": "You can change or cancel your order within 1 hour of placing it by going to your Order History and selecting the order you wish to modify. After that window, please contact customer service for assistance."
+    }
+  ]
+}

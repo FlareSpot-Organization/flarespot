@@ -28,9 +28,7 @@ const LandingLayout = () => {
       <TopNavbar />
       <Header />
       <div className="w-full flex justify-center">
-        <div
-          className="relative w-full "
-          onMouseEnter={() => setOverLay(false)}>
+        <div className="relative w-full ">
           {/* Overlay */}
           {overlay && (
             <div

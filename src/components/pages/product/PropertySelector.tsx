@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { Check, AlertCircle } from "lucide-react";
+import { AlertCircle } from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
@@ -8,6 +8,15 @@ import {
 } from "@/components/ui/tooltip";
 import { cleanImageUrl, getAvailableOptions } from "@/utils/helpers";
 import { Sku, SkuProp } from "@/types/product_types";
+
+interface SelectedProperty {
+  pid: number;
+  vid: number;
+}
+
+interface SelectedProperties {
+  [key: string]: SelectedProperty;
+}
 
 const PropertySelector = ({
   property,
@@ -26,9 +35,12 @@ const PropertySelector = ({
 }) => {
   const isColorProperty = property.name.toLowerCase().includes("color");
 
-  const availableOptions = useMemo(() => {
-    return getAvailableOptions(base, allProps, selectedValues, property.pid);
-  }, [base, allProps, selectedValues, property.pid]);
+  const availableOptions = getAvailableOptions(
+    base,
+    allProps,
+    selectedValues,
+    property.pid
+  );
 
   const isValueAvailable = (value: any) => {
     return availableOptions.has(value.vid);
@@ -65,6 +77,8 @@ const PropertySelector = ({
 
   const renderOption = (value: any, index: number) => {
     const isAvailable = isValueAvailable(value);
+    const isSelected = selectedValues[property.name]?.vid === value.vid;
+
     const content =
       isColorProperty && value.image ? (
         <div
@@ -79,7 +93,7 @@ const PropertySelector = ({
     image-option-container 
     image-option-outer 
     image-option-inner
-    ${selectedValues[property.name]?.vid === value.vid ? "image-option-selected" : ""}
+    ${isSelected ? "image-option-selected" : ""}
   `}>
             <img
               src={`${value.image}_50x50.png`}
@@ -89,7 +103,7 @@ const PropertySelector = ({
               className="image-option-img"
             />
 
-            {selectedValues[property.name]?.vid === value.vid && (
+            {isSelected && (
               <>
                 <div className="image-option-overlay"></div>
                 <div className="image-option-checkmark">
@@ -113,9 +127,7 @@ const PropertySelector = ({
               isAvailable && handlePropertySelect(property.name, value)
             }
             className={`text-sku ${
-              selectedValues[property.name]?.vid === value.vid
-                ? "selected-sku"
-                : ""
+              isSelected ? "selected-sku" : ""
             } transition-all duration-300 rounded-full px-[15px] py-[5px] box-border
   ${!isAvailable ? "text-[#ddd] bg-gray-100 border-dashed cursor-not-allowed" : ""}`}>
             <p className="text-[14px] text-[#222] font-[400] leading-[20px]">

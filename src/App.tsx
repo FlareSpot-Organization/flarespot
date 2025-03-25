@@ -7,16 +7,21 @@ import {
 import AuthLayout from "./layouts/AuthLayout";
 import LandingLayout from "./layouts/LandingLayout";
 import {
+  AboutUs,
   AccountSecurity,
   Address,
   Auth,
   Cart,
   Checkout,
+  ContactUs,
   Coupons,
   CreditBalance,
   DashboardLayout,
+  HelpArticle,
+  HelpSupport,
   History,
   Home,
+  ImageSearch,
   Login,
   Order,
   PaymentMethods,
@@ -24,6 +29,7 @@ import {
   Permissions,
   Profile,
   Register,
+  Reviews,
   Search,
   SingleProduct,
   Wishlist,
@@ -55,6 +61,10 @@ export default function App() {
             {
               path: "orders",
               element: <Order />,
+            },
+            {
+              path: "reviews",
+              element: <Reviews />,
             },
             {
               path: "coupons",
@@ -118,8 +128,28 @@ export default function App() {
           element: <Search />,
         },
         {
+          path: "image-search",
+          element: <ImageSearch />,
+        },
+        {
           path: "product",
           element: <SingleProduct />,
+        },
+        {
+          path: "help-support",
+          element: <HelpSupport />,
+        },
+        {
+          path: "contact-us",
+          element: <ContactUs />,
+        },
+        {
+          path: "about-us",
+          element: <AboutUs />,
+        },
+        {
+          path: "help-support/article",
+          element: <HelpArticle />,
         },
       ],
     },

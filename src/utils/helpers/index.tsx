@@ -5,6 +5,7 @@ import {
   SkuCartProperty,
   SkuProp,
 } from "@/types/product_types";
+import { Category, HelpContentData, Topic } from "@/types/public/Help&Support";
 
 export type ColorClass = string;
 export type IconKey = string;
@@ -13,6 +14,8 @@ export type IconValue = string;
 export interface IconMapping {
   [key: IconKey]: IconValue;
 }
+
+import helpContentData from "@/utils/data_json/helpsupport.json";
 
 export const colorClasses: ColorClass[] = [
   "bg-blue-50 hover:bg-blue-100",
@@ -242,9 +245,31 @@ export const getAvailableOptions = (
 ) => {
   const availableVids = new Set<number>();
 
-  base.forEach((sku) => {
-    if (sku.quantity <= 0) return;
+  // Filter out SKUs with zero quantity
+  const inStockSKUs = base.filter((sku) => sku.quantity > 0);
 
+  // If there are no in-stock SKUs, return empty set
+  if (inStockSKUs.length === 0) {
+    return availableVids;
+  }
+
+  // If no properties are selected yet, return all available options for the target property
+  if (Object.keys(selectedProps).length === 0) {
+    inStockSKUs.forEach((sku) => {
+      const skuPropPairs = sku.propMap.split(";");
+      skuPropPairs.forEach((pair) => {
+        const [pid, vid] = pair.split(":").map(Number);
+        if (pid === targetPropId) {
+          availableVids.add(vid);
+        }
+      });
+    });
+
+    return availableVids;
+  }
+
+  // Regular case: check which options are compatible with selected properties
+  inStockSKUs.forEach((sku) => {
     const skuPropPairs = sku.propMap.split(";");
     const skuProps = new Map(
       skuPropPairs.map((pair) => {
@@ -264,7 +289,7 @@ export const getAvailableOptions = (
 
     if (matchesSelected) {
       const vidForTargetProp = skuProps.get(targetPropId);
-      if (vidForTargetProp) {
+      if (vidForTargetProp !== undefined) {
         availableVids.add(vidForTargetProp);
       }
     }
@@ -272,7 +297,6 @@ export const getAvailableOptions = (
 
   return availableVids;
 };
-
 export function extractPropertyValues(
   attributes: SkuCartAttributes | undefined,
   properties: SkuCartProperty[]
@@ -302,4 +326,151 @@ export function extractPropertyValues(
   }
 
   return result;
+}
+
+export function getUniqueImages(singleProduct: any) {
+  if (!singleProduct?.result?.item) return [];
+
+  // Get video if it exists
+  const video = singleProduct.result.item.video || null;
+
+  // Get SKU images
+  const skuImages = singleProduct.result.item.sku?.skuImages
+    ? Object.values(singleProduct.result.item.sku.skuImages)
+    : [];
+
+  // Get regular images
+  const regularImages = singleProduct.result.item.images || [];
+
+  // Create a Set of SKU image URLs for faster lookup
+  const skuImageSet = new Set(skuImages);
+
+  // Filter out regular images that exist in SKU images
+  const uniqueRegularImages = regularImages.filter(
+    (image: string) => !skuImageSet.has(image)
+  );
+
+  // Combine video (if present) as the first item, followed by unique regular images and SKU images
+  return video
+    ? [video, ...uniqueRegularImages, ...skuImages]
+    : [...uniqueRegularImages, ...skuImages];
+}
+
+/**
+Create url friendly slug from text
+ */
+export const createSlug = (text: string): string => {
+  return text
+    .toLowerCase()
+    .replace(/[^\w ]+/g, "")
+    .replace(/ +/g, "-");
+};
+
+/**
+ * Helper function to find the appropriate category based on inputs
+ */
+export function findCategory(
+  categoryId: string,
+  popularCategory: string
+): Category {
+  let category: Category | undefined;
+
+  if (popularCategory) {
+    // Find matching category based on popular category title
+    const matchingPopular = (
+      helpContentData as HelpContentData
+    ).popularCategories.find(
+      (item) => item.title.toLowerCase() === popularCategory.toLowerCase()
+    );
+
+    if (matchingPopular) {
+      // Map popular category to regular category
+      switch (matchingPopular.title) {
+        case "Order Management":
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "shipping"
+          );
+          break;
+        case "Payment Options":
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "payment"
+          );
+          break;
+        case "Returns & Refunds":
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "returns"
+          );
+          break;
+        case "Shipping Info":
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "shipping"
+          );
+          break;
+        case "Product Issues":
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "products"
+          );
+          break;
+        case "Account Settings":
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "account"
+          );
+          break;
+        case "Trust & Security":
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "security"
+          );
+          break;
+        case "Marketplace Selling":
+          // Default to products for marketplace
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === "products"
+          );
+          break;
+        default:
+          // Default fallback
+          category = (helpContentData as HelpContentData).categories.find(
+            (cat) => cat.id === categoryId
+          );
+      }
+    }
+  } else {
+    // Use categoryId directly if no popular category is specified
+    category = (helpContentData as HelpContentData).categories.find(
+      (cat) => cat.id === categoryId
+    );
+  }
+
+  // Default to first category if none found
+  if (!category) {
+    category = (helpContentData as HelpContentData).categories[0];
+  }
+
+  return category;
+}
+
+/**
+ * Helper function to find the appropriate article based on category and title
+ */
+export function findArticle(
+  category: Category,
+  articleTitle: string
+): Topic | undefined {
+  if (articleTitle) {
+    // Find by slug if article title is provided
+    return category.topics.find(
+      (topic) => createSlug(topic.title) === articleTitle
+    );
+  } else {
+    // Default to first article in the category if none specified
+    return category.topics[0];
+  }
+}
+
+/**
+ * Helper function to get icon component by name
+ */
+export function getIconByName(iconName: string): JSX.Element {
+  // Return a placeholder for now - this should be implemented in the component
+  return <div>{iconName}</div>;
 }

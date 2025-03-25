@@ -13,6 +13,11 @@ import {
   Apple,
 } from "lucide-react";
 import { Google } from "@mui/icons-material";
+import AddMobileForm from "@/components/forms/accounts-security/AddMobileForm";
+import AddEmailForm from "@/components/forms/accounts-security/AddEmailForm";
+import AddPasswordForm from "@/components/forms/accounts-security/AddPasswordForm";
+
+// Import modal components
 
 const AccountSecurity = () => {
   // Mock user data
@@ -27,6 +32,11 @@ const AccountSecurity = () => {
     },
   });
 
+  // Modal states
+  const [mobileModalOpen, setMobileModalOpen] = useState(false);
+  const [emailModalOpen, setEmailModalOpen] = useState(false);
+  const [passwordModalOpen, setPasswordModalOpen] = useState(false);
+
   // Function to handle two-factor authentication toggle
   const handleToggleTwoFactor = () => {
     setUser({
@@ -36,7 +46,7 @@ const AccountSecurity = () => {
   };
 
   // Function to link an account
-  const handleLinkAccount = (provider: string) => {
+  const handleLinkAccount = (provider: any) => {
     setUser({
       ...user,
       linkedAccounts: {
@@ -46,8 +56,32 @@ const AccountSecurity = () => {
     });
   };
 
+  // Handle mobile phone update
+  const handleMobileUpdate = (phoneNumber: any) => {
+    setUser({
+      ...user,
+      mobilePhone: phoneNumber,
+    });
+    setMobileModalOpen(false);
+  };
+
+  // Handle email update
+  const handleEmailUpdate = (newEmail: string) => {
+    setUser({
+      ...user,
+      email: newEmail,
+    });
+    setEmailModalOpen(false);
+  };
+
+  // Handle password update
+  const handlePasswordUpdate = () => {
+    // Password updated successfully
+    setPasswordModalOpen(false);
+  };
+
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-gray-100 min-h-screen rounded-md">
       {/* Page Header */}
       <div className="bg-white rounded-xl shadow-md overflow-hidden mb-6">
         <div className="p-6">
@@ -110,8 +144,10 @@ const AccountSecurity = () => {
                 )}
               </div>
             </div>
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm">
-              Add
+            <button
+              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm"
+              onClick={() => setMobileModalOpen(true)}>
+              {user.mobilePhone ? "Edit" : "Add"}
             </button>
           </div>
 
@@ -126,7 +162,9 @@ const AccountSecurity = () => {
                 <p className="text-gray-600 text-sm">{user.email}</p>
               </div>
             </div>
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm">
+            <button
+              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm"
+              onClick={() => setEmailModalOpen(true)}>
               Edit
             </button>
           </div>
@@ -142,8 +180,10 @@ const AccountSecurity = () => {
                 <p className="text-gray-500 text-sm">••••••••</p>
               </div>
             </div>
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm">
-              Add
+            <button
+              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm"
+              onClick={() => setPasswordModalOpen(true)}>
+              Change
             </button>
           </div>
 
@@ -299,6 +339,27 @@ const AccountSecurity = () => {
           </div>
         </div>
       </div>
+
+      {/* Modal Components */}
+      <AddMobileForm
+        isOpen={mobileModalOpen}
+        onClose={() => setMobileModalOpen(false)}
+        onSubmit={handleMobileUpdate}
+        currentPhone={user.mobilePhone}
+      />
+
+      <AddEmailForm
+        isOpen={emailModalOpen}
+        onClose={() => setEmailModalOpen(false)}
+        onSubmit={handleEmailUpdate}
+        currentEmail={user.email}
+      />
+
+      <AddPasswordForm
+        isOpen={passwordModalOpen}
+        onClose={() => setPasswordModalOpen(false)}
+        onSubmit={handlePasswordUpdate}
+      />
     </div>
   );
 };

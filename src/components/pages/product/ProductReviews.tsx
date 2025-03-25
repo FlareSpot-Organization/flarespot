@@ -1,3 +1,4 @@
+import Pagination from "@/components/common/Pagination";
 import { ChevronLeft, ChevronRight, Verified } from "lucide-react";
 import React, { useState, useMemo } from "react";
 import { useSelector } from "react-redux";
@@ -10,12 +11,6 @@ interface Review {
   verified: boolean;
   title: string;
   content: string;
-}
-
-interface PaginationProps {
-  totalPages: number;
-  currentPage: number;
-  onPageChange: (page: number) => void;
 }
 
 const generateReviews = (count: number): Review[] => {
@@ -128,82 +123,6 @@ const generateReviews = (count: number): Review[] => {
   }
 
   return reviews;
-};
-
-const Pagination: React.FC<PaginationProps> = ({
-  totalPages,
-  currentPage,
-  onPageChange,
-}) => {
-  const validCurrentPage = Math.max(1, Math.min(currentPage, totalPages));
-
-  const generatePageNumbers = () => {
-    if (totalPages <= 5) {
-      return Array.from({ length: totalPages }, (_, i) => i + 1);
-    }
-
-    const pages: (number | string)[] = [1];
-
-    if (validCurrentPage > 3) {
-      pages.push("...");
-    }
-
-    const startPage = Math.max(2, validCurrentPage - 1);
-    const endPage = Math.min(totalPages - 1, validCurrentPage + 1);
-
-    for (let i = startPage; i <= endPage; i++) {
-      pages.push(i);
-    }
-
-    if (validCurrentPage < totalPages - 2) {
-      pages.push("...");
-    }
-
-    if (totalPages > 1) {
-      pages.push(totalPages);
-    }
-
-    return pages;
-  };
-
-  const pageNumbers = generatePageNumbers();
-
-  return (
-    <div className="flex items-center  space-x-2 mt-1">
-      <button
-        onClick={() => onPageChange(validCurrentPage - 1)}
-        disabled={validCurrentPage === 1}
-        className="px-3 py-1 rounded-full bg-white">
-        <ChevronLeft />
-      </button>
-
-      {pageNumbers.map((page, index) => (
-        <button
-          key={index}
-          onClick={() => typeof page === "number" && onPageChange(page)}
-          className={`
-            w-8 h-8 rounded-full flex items-center justify-center text-sm
-            ${
-              page === validCurrentPage
-                ? "bg-black text-white"
-                : page === "..."
-                  ? "cursor-default text-gray-500"
-                  : "bg-white text-black border"
-            }
-          `}
-          disabled={page === "..."}>
-          {page}
-        </button>
-      ))}
-
-      <button
-        onClick={() => onPageChange(validCurrentPage + 1)}
-        disabled={validCurrentPage === totalPages}
-        className="px-3 py-1 rounded-full bg-white">
-        <ChevronRight />
-      </button>
-    </div>
-  );
 };
 
 const StarRating: React.FC<{ rating: number }> = ({ rating }) => {
@@ -335,32 +254,6 @@ const ProductReview: React.FC = () => {
               rating={Math.round(singleProduct?.result?.reviews?.averageStar)}
             />
           </div>
-        </div>
-        <div className=" w-[20%]  text-gray-500 flex justify-end items-center ">
-          <span className="leading-[30px] text-[13px] cursor-pointer font-[600] text-[#222]">
-            {" "}
-            Powered by{" "}
-          </span>
-          <svg
-            enable-background="new 0 0 71.1 76"
-            className="h-7 w-7"
-            viewBox="0 0 71.1 76"
-            xmlns="http://www.w3.org/2000/svg">
-            <ellipse
-              cx="36"
-              cy="38.3"
-              fill="#000"
-              rx="33.1"
-              ry="34.1"></ellipse>
-            <g fill="#fff">
-              <path d="m17.5 25.1h3.9l3 5.5 2.9-5.5h3.7l-4.9 8.8v4.7h-3.6v-4.6z"></path>
-              <path d="m29.9 31.9c0-4.1 3.3-6.9 7.1-6.9s7.1 2.9 7.1 6.9c0 4.1-3.3 7-7.1 7-3.8-.1-7.1-2.9-7.1-7m10.5 0c0-2.1-1.3-3.8-3.5-3.8s-3.5 1.7-3.5 3.8 1.3 3.8 3.5 3.8c2.3 0 3.5-1.7 3.5-3.8"></path>
-              <path d="m47.4 28.1h-3.5v-3h10.6v3h-3.5v10.5h-3.6z"></path>
-              <path d="m22.1 53.4h-3.5v-13.5h5c3.6 0 5.6 2.3 5.6 5.3s-2 5.3-5.6 5.3h-1.5zm1.3-6c1.6 0 2.2-.9 2.2-2.2s-.6-2.3-2.2-2.3h-1.3v4.5z"></path>
-              <path d="m29.8 46.7c0-4.1 3.3-6.9 7.1-6.9s7.1 2.9 7.1 6.9c0 4.1-3.3 7-7.1 7-3.8-.1-7.1-2.9-7.1-7m10.6 0c0-2.1-1.3-3.8-3.5-3.8s-3.5 1.7-3.5 3.8 1.3 3.8 3.5 3.8 3.5-1.7 3.5-3.8"></path>
-              <path d="m44 51.7c0-1.2.9-2 1.9-2s1.9.8 1.9 2-.9 2-1.9 2c-1-.1-1.9-.9-1.9-2"></path>
-            </g>
-          </svg>
         </div>
       </div>
 

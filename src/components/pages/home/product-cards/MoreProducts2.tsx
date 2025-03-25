@@ -12,7 +12,6 @@ const MoreProducts2 = ({ productsSearch }: { productsSearch: any }) => {
   const { products, loading, hasMore, loadingRef, formatPrice } =
     useVisualization(productsSearch);
 
-  console.log(productsSearch);
   const [cartItems, setCartItems] = useState<number[]>([]);
   const [wishListItems, setWishListItems] = useState<number[]>([]);
 
@@ -119,12 +118,24 @@ const MoreProducts2 = ({ productsSearch }: { productsSearch: any }) => {
                       <div className="flex items-center justify-between">
                         <div>
                           <div className="flex items-baseline gap-2">
-                            <span className="text-xl font-bold text-gray-900 dark:text-gray-100">
-                              {formatPrice(product.item.sku.def.promotionPrice)}
-                            </span>
-                            {product.item.sku.def.promotionPrice && (
-                              <span className="text-sm text-gray-400 line-through">
-                                {formatPrice(product.item.sku.def.price)}
+                            {/* Check if promotion price exists and is different from regular price */}
+                            {product.item.sku.def.promotionPrice &&
+                            product.item.sku.def.promotionPrice !==
+                              product.item.sku.def.price ? (
+                              <>
+                                {/* Display promotion price as main price */}
+                                <span className="text-md font-bold text-gray-900 dark:text-gray-100">
+                                  {product.item.sku.def.promotionPrice}
+                                </span>
+                                {/* Show original price with line-through */}
+                                <span className="text-sm text-gray-400 line-through">
+                                  {product.item.sku.def.price}
+                                </span>
+                              </>
+                            ) : (
+                              /* If no promotion or promotion is same as regular price, just show regular price */
+                              <span className="text-md font-bold text-gray-900 dark:text-gray-100">
+                                {product.item.sku.def.price}
                               </span>
                             )}
                           </div>

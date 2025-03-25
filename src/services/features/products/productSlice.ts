@@ -18,6 +18,7 @@ const initialState: initialProductStateProps = {
   bestSellers: [],
   deals: product2 ? (product2?.result?.resultList as unknown as any) : [],
   searchResults: [],
+  searchImageResults: [],
   isLoading: false,
   message: "",
   isSuccess: false,
@@ -40,7 +41,7 @@ export const getProductsByCategory = createAsyncThunkWithHandler(
 
 export const getProductDetails = createAsyncThunkWithHandler(
   "product/details",
-  async (itemId: string) => {
+  async (itemId: any) => {
     return await productService.getProductDetails(itemId);
   }
 );
@@ -68,8 +69,15 @@ export const getDeals = createAsyncThunkWithHandler(
 
 export const searchProducts = createAsyncThunkWithHandler(
   "product/search",
-  async (query: string) => {
-    return await productService.searchProducts(query);
+  async (data: { query: string; page: string }) => {
+    return await productService.searchProducts(data);
+  }
+);
+
+export const searchProductsByImage = createAsyncThunkWithHandler(
+  "product/image_search",
+  async (data: { query: string }) => {
+    return await productService.searchProductsByImage(data);
   }
 );
 
@@ -203,6 +211,22 @@ const productSlice = createSlice({
         state.isError = true;
         state.message = action.payload as string;
         state.isSuccess = false;
+      })
+      .addCase(searchProductsByImage.pending, (state) => {
+        state.isLoading = true;
+      })
+      .addCase(searchProductsByImage.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.isError = false;
+        state.isSuccess = true;
+        state.searchImageResults = action.payload.result.resultList;
+      })
+      .addCase(searchProductsByImage.rejected, (state, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload as string;
+        state.isSuccess = false;
+        state.searchImageResults = [];
       });
   },
 });

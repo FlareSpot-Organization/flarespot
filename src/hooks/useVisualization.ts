@@ -1,18 +1,6 @@
 import { ProductCardProps } from "@/types/product_types";
 import { useEffect, useRef, useState } from "react";
 
-interface Product {
-  asin: string;
-  product_title: string;
-  product_price: number;
-  product_original_price?: number;
-  discount?: number;
-  product_photo: string;
-  delivery: string;
-  product_minimum_offer_price?: string;
-  product_star_rating: number;
-}
-
 const useVisualization = (productsSearch: ProductCardProps[] = []) => {
   const ITEMS_PER_PAGE = 20;
   const [products, setProducts] = useState<ProductCardProps[]>([]);

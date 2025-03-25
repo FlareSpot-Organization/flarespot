@@ -6,6 +6,11 @@ export { default as Checkout } from "@/pages/general/Product/Checkout";
 export { default as PaymentSuccessPage } from "@/pages/general/Product/PaymentSuccessPage";
 export { default as Search } from "@/pages/general/Product/Search";
 export { default as SingleProduct } from "@/pages/general/Product/SingleProduct";
+export { default as ImageSearch } from "@/pages/general/Product/ImageSearch";
+export { default as HelpSupport } from "@/pages/general/Help&Support/HelpSupport";
+export { default as ContactUs } from "@/pages/general/Help&Support/ContactUs";
+export { default as AboutUs } from "@/pages/general/AboutUs/AboutUs";
+export { default as HelpArticle } from "@/pages/general/Help&Support/HelpArticle";
 
 // Auth routes
 export { default as Login } from "@/pages/auth/Login";
@@ -27,3 +32,4 @@ export { default as History } from "@/pages/profile/BrowsingHistory";
 export { default as PaymentMethods } from "@/pages/profile/PaymentMethods";
 export { default as AccountSecurity } from "@/pages/profile/AccountSecurity";
 export { default as Permissions } from "@/pages/profile/Permissions";
+export { default as Reviews } from "@/pages/profile/Reviews";

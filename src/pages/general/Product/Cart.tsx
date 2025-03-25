@@ -41,7 +41,15 @@ const Cart = () => {
   };
 
   const handleDecreaseQuantity = (itemId: number, skuId?: string) => {
-    dispatch(updateItemQuantity({ itemId, skuId, quantity: -1 }));
+    const item = cartItems.find(
+      (item) =>
+        item.itemId === itemId &&
+        (skuId ? item.selectedSku?.skuId === skuId : true)
+    );
+
+    if (item && item.quantity > 0) {
+      dispatch(updateItemQuantity({ itemId, skuId, quantity: -1 }));
+    }
   };
 
   const handleViewItem = (itemId: number) => {
@@ -65,8 +73,35 @@ const Cart = () => {
   };
 
   const handleCheckout = () => {
-    toast?.success("Proceeding to checkout");
-    navigate("/checkout");
+    // Filter out items with zero quantity
+    const zeroQuantityItems = cartItems.filter((item) => item.quantity === 0);
+
+    // Remove zero quantity items before checkout
+    if (zeroQuantityItems.length > 0) {
+      zeroQuantityItems.forEach((item) => {
+        if (item.selectedSku?.skuId) {
+          dispatch(
+            removeItem({ itemId: item.itemId, skuId: item.selectedSku.skuId })
+          );
+        } else {
+          dispatch(removeItem(item.itemId));
+        }
+      });
+
+      toast?.info(
+        `Removed ${zeroQuantityItems.length} item(s) with zero quantity`
+      );
+    }
+
+    // Calculate if there are any items left with quantity > 0
+    const hasItemsToCheckout = cartItems.some((item) => item.quantity > 0);
+
+    if (hasItemsToCheckout) {
+      toast?.success("Proceeding to checkout");
+      navigate("/checkout");
+    } else {
+      toast?.error("Cannot checkout with an empty cart");
+    }
   };
 
   const handleContinueShopping = () => {
@@ -74,13 +109,20 @@ const Cart = () => {
     navigate("/");
   };
 
+  // Fixed totalAmount calculation - only count items with quantity > 0
   const totalAmount = cartItems?.reduce((total, item) => {
-    const price = parseFloat(item?.sku?.def?.promotionPrice);
+    // Skip items with zero quantity
+    if (item.quantity === 0) return total;
+
+    // Get price from selectedSku.promotionPrice first, then fall back to other locations if needed
+    const price = parseFloat(
+      item?.selectedSku?.promotionPrice || item?.sku?.def?.promotionPrice || "0"
+    );
     return total + price * item?.quantity;
   }, 0);
 
   const totalItems = cartItems?.reduce(
-    (total, item) => total + item?.quantity,
+    (total, item) => total + (item?.quantity > 0 ? item?.quantity : 0),
     0
   );
 
@@ -129,13 +171,13 @@ const Cart = () => {
             {cartItems?.map((item) => {
               const values = extractPropertyValues(
                 item.selectedProperties,
-                item.sku.props
+                item.sku?.props
               );
 
               return (
                 <Card
-                  key={item?.selectedSku?.skuId}
-                  className="overflow-hidden">
+                  key={item?.selectedSku?.skuId || item.itemId}
+                  className={`overflow-hidden ${item.quantity === 0 ? "border-dashed border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-900/50" : ""}`}>
                   <CardContent className="p-4 dark:bg-[#131920]">
                     <div className="flex gap-4">
                       <div className="relative w-24 h-24 flex-shrink-0">
@@ -144,9 +186,10 @@ const Cart = () => {
                           alt={item?.title}
                           onClick={() => handleViewItem(item?.itemId)}
                           referrerPolicy="no-referrer"
-                          className="w-full h-full object-cover rounded-lg"
+                          className={`w-full h-full object-cover rounded-lg ${item.quantity === 0 ? "opacity-50" : ""}`}
                         />
-                        <Badge className="absolute -top-2 -right-2">
+                        <Badge
+                          className={`absolute -top-2 -right-2 ${item.quantity === 0 ? "bg-gray-400 dark:bg-gray-600" : ""}`}>
                           {item?.quantity}
                         </Badge>
                       </div>
@@ -154,80 +197,102 @@ const Cart = () => {
                         <div className="flex justify-between">
                           <h3
                             onClick={() => handleViewItem(item?.itemId)}
-                            className="font-medium text-md hover:underline cursor-pointer line-clamp-2 pr-4 text-gray-900 dark:text-gray-100">
+                            className={`font-medium text-md cursor-pointer line-clamp-2 pr-4 text-gray-900 dark:text-gray-100 ${item.quantity === 0 ? "text-gray-500 dark:text-gray-400" : ""}`}>
                             {item?.title}
+                            {item.quantity === 0 && (
+                              <span className="ml-2 text-xs text-red-500">
+                                (Zero quantity)
+                              </span>
+                            )}
                           </h3>
                           <p className="font-semibold whitespace-nowrap text-gray-900 dark:text-gray-100">
-                            {item?.selectedSku?.promotionPrice}
+                            {item?.selectedSku?.promotionPrice ||
+                              item?.sku?.def?.promotionPrice}
                           </p>
                         </div>
 
-                        {/* Display property values */}
-                        {values && Object.keys(values).length > 0 && (
+                        <div className="flex items-start justify-between">
+                          {/* Left side - Property values */}
                           <div className="mt-2 space-y-1">
-                            {Object.entries(values).map(([key, value]) => (
-                              <div
-                                key={key}
-                                className="flex text-sm dark:text-gray-300">
-                                <span className="font-medium mr-2">{key}:</span>
-                                <span>{value}</span>
-                              </div>
-                            ))}
+                            {values && Object.keys(values).length > 0 ? (
+                              /* Display property values if they exist */
+                              <>
+                                {Object.entries(values).map(([key, value]) => (
+                                  <div
+                                    key={key}
+                                    className="flex text-sm text-gray-500 dark:text-gray-300">
+                                    <span className="font-medium mr-2">
+                                      {key}:
+                                    </span>
+                                    <span>{value}</span>
+                                  </div>
+                                ))}
+                              </>
+                            ) : (
+                              /* Show just the quantity available if no other properties */
+                              <div className="flex text-sm text-gray-500 dark:text-gray-300"></div>
+                            )}
                           </div>
-                        )}
 
-                        <div className="mt-4 flex items-center justify-between">
-                          <div className="flex items-center space-x-2">
-                            <Button
-                              variant="outline"
-                              size="icon"
-                              onClick={() =>
-                                handleDecreaseQuantity(
-                                  item?.itemId,
-                                  item.selectedSku?.skuId
-                                )
-                              }
-                              className="h-8 w-8">
-                              <Minus className="w-4 h-4" />
-                            </Button>
-                            <span className="w-8 text-center dark:text-gray-300">
-                              {item?.quantity}
-                            </span>
-                            <Button
-                              variant="outline"
-                              size="icon"
-                              onClick={() =>
-                                handleIncreaseQuantity(
-                                  item?.itemId,
-                                  item.selectedSku?.skuId
-                                )
-                              }
-                              className="h-8 w-8">
-                              <Plus className="w-4 h-4" />
-                            </Button>
-                          </div>
-                          <div className="mt-4 space-x-2 flex items-center justify-between">
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              onClick={() => handleViewItem(item?.itemId)}
-                              className="h-8">
-                              <Eye className="w-4 h-4 mr-2" />
-                              View Item
-                            </Button>
-                            <Button
-                              variant="ghost"
-                              size="sm"
-                              onClick={() =>
-                                handleRemoveItem(
-                                  item.itemId,
-                                  item.selectedSku?.skuId
-                                )
-                              }
-                              className="text-red-500 hover:text-red-600 bg-accent hover:bg-red-50 dark:hover:bg-red-950/50 dark:hover:text-red-400">
-                              <Trash2 className="w-4 h-4 mr-2" />
-                              Remove Item
-                            </Button>
+                          {/* Right side - Quantity controls and buttons */}
+                          <div className="mt-4 flex flex-col items-end space-y-3">
+                            {/* Quantity controls on top */}
+                            <div className="flex items-center space-x-2">
+                              <Button
+                                variant="outline"
+                                size="icon"
+                                onClick={() =>
+                                  handleDecreaseQuantity(
+                                    item?.itemId,
+                                    item.selectedSku?.skuId
+                                  )
+                                }
+                                disabled={item.quantity === 0}
+                                className="h-8 w-8">
+                                <Minus className="w-4 h-4" />
+                              </Button>
+                              <span className="w-8 text-center dark:text-gray-300">
+                                {item?.quantity}
+                              </span>
+                              <Button
+                                variant="outline"
+                                size="icon"
+                                onClick={() =>
+                                  handleIncreaseQuantity(
+                                    item?.itemId,
+                                    item.selectedSku?.skuId
+                                  )
+                                }
+                                disabled={item.quantity >= item.maxQuantity}
+                                className={`h-8 w-8 ${item.quantity >= item.maxQuantity ? "bg-gray-200" : ""}`}>
+                                <Plus className="w-4 h-4" />
+                              </Button>
+                            </div>
+
+                            {/* Action buttons below */}
+                            <div className="flex items-center space-x-2">
+                              <Button
+                                variant="outline"
+                                size="sm"
+                                onClick={() => handleViewItem(item?.itemId)}
+                                className="h-8">
+                                <Eye className="w-4 h-4 mr-2" />
+                                View Item
+                              </Button>
+                              <Button
+                                variant="ghost"
+                                size="sm"
+                                onClick={() =>
+                                  handleRemoveItem(
+                                    item.itemId,
+                                    item.selectedSku?.skuId
+                                  )
+                                }
+                                className="text-red-500 hover:text-red-600 bg-accent hover:bg-red-50 dark:hover:bg-red-950/50 dark:hover:text-red-400">
+                                <Trash2 className="w-4 h-4 mr-2" />
+                                Remove Item
+                              </Button>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -272,11 +337,22 @@ const Cart = () => {
                       {formatPrice(totalAmount)}
                     </span>
                   </div>
+
+                  {cartItems.some((item) => item.quantity === 0) && (
+                    <div className="mt-2 text-xs text-orange-500 bg-orange-50 dark:bg-orange-950/30 p-2 rounded">
+                      Note: Items with zero quantity will be removed during
+                      checkout
+                    </div>
+                  )}
                 </div>
               </CardContent>
               <CardFooter className="flex w-full flex-col gap-4">
                 {token ? (
-                  <Button className="w-full" size="lg" onClick={handleCheckout}>
+                  <Button
+                    className="w-full"
+                    size="lg"
+                    onClick={handleCheckout}
+                    disabled={!cartItems.some((item) => item.quantity > 0)}>
                     <ShoppingCart className="w-4 h-4 mr-2" />
                     Checkout
                   </Button>

@@ -72,19 +72,6 @@
   }
 }
 
-/* .custom-btn {
-  position: relative;
-  padding: 8px 8px;
-  font-size: 12px;
-  font-weight: 600;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  white-space: nowrap;
-  color: rgba(255, 255, 255, 0.9);
-} */
-
 .custom-btn {
   position: relative;
   padding: 10px;
@@ -96,20 +83,6 @@
   white-space: nowrap;
   color: #ffffffe6;
 }
-
-/* .custom-btn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: 1px solid transparent;
-  border-radius: 50px;
-  transition: transform 0.15s;
-  height: 30px;
-  transform: scale(0.85);
-} */
 
 .custom-btn:before {
   content: "";
@@ -124,19 +97,6 @@
   height: 40px;
   transform: scale(0.85);
 }
-/* .custom-btn:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: 1px solid transparent;
-  border-radius: 50px;
-  transition: transform 0.15s;
-  height: 30px;
-  transform: scale(0.85);
-} */
 
 .custom-btn:after {
   content: "";
@@ -159,6 +119,9 @@
   transform: scale(1.02);
   border-color: rgb(255, 255, 255, 0.1);
 }
+/* Improved dropdown styles that maintain original design */
+/* Improved dropdown styles that maintain original design */
+
 .mega-dropdown {
   position: absolute;
   top: 100%;
@@ -169,12 +132,13 @@
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   width: 850px;
   height: 400px;
-  margin-top: 0px;
+  margin-top: 10px;
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
   transition: all 0.2s ease-in-out;
 }
+
 .register-dropdown {
   position: absolute;
   top: 100%;
@@ -184,24 +148,25 @@
   border-radius: 8px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   width: 190px;
-  margin-top: 0px;
+  margin-top: 10px;
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
   transition: all 0.2s ease-in-out;
 }
+
+/* Show dropdowns on hover */
+.dropdown-container:hover .mega-dropdown,
 .register-container:hover .register-dropdown {
   opacity: 1;
   visibility: visible;
 }
-.dropdown-container:hover .mega-dropdown {
-  opacity: 1;
-  visibility: visible;
-}
+
+/* Triangle pointers */
 .mega-dropdown:before {
   content: "";
   position: absolute;
-  top: -3px;
+  top: -6px;
   left: 30%;
   transform: translateX(-30%) rotate(45deg);
   width: 12px;
@@ -214,7 +179,7 @@
 .register-dropdown:before {
   content: "";
   position: absolute;
-  top: -3px;
+  top: -6px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
   width: 12px;
@@ -222,6 +187,39 @@
   background: white;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Image search dropdown specific styles */
+.image-search-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transform: translateX(calc(-50% + 12px));
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+  width: 320px;
+  margin-top: 10px;
+  z-index: 1000;
+  opacity: 1;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Show image search dropdown on hover */
+.dropdown-container:hover .image-search-dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Invisible bridges for hover effect */
+.dropdown-bridge {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: transparent;
 }
 .categories-scroll {
   max-height: 400px;
@@ -502,4 +500,166 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Add this to your global CSS file or component styling */
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.image-search-dropdown {
+  width: 320px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+/* styles/help-center.css */
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Article content styling enhancements */
+.article-content h2 {
+  color: #4b5563;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.article-content h3 {
+  color: #4b5563;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.article-content p {
+  margin-bottom: 1rem;
+  line-height: 1.625;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+}
+
+.article-content a {
+  color: #7c3aed;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.article-content a:hover {
+  text-decoration: underline;
+  color: #6d28d9;
+}
+
+.article-content blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #6b7280;
+  margin: 1.5rem 0;
+}
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.article-content table th,
+.article-content table td {
+  border: 1px solid #e5e7eb;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.article-content table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+.article-content table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4b5fd;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
+
+/* Print styles */
+@media print {
+  .article-content {
+    font-size: 12pt;
+  }
+
+  .article-content a {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  /* Hide elements not needed for printing */
+  nav,
+  header,
+  footer,
+  button,
+  .related-articles,
+  .feedback-form,
+  .support-cta {
+    display: none !important;
+  }
+}
+
+/* Better focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
 }

@@ -79,7 +79,7 @@ const FilterSection = ({ productsSearch }: { productsSearch: any }) => {
   };
 
   return (
-    <div className="w-full max-w-[1600px] mx-auto rounded-lg mt-8">
+    <div className="w-full max-w-[1600px] mx-auto rounded-lg ">
       <div className="flex items-center justify-between">
         <button
           onClick={(e) => handleFilterClick("Filters", e)}

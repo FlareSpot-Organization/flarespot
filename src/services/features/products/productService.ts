@@ -59,9 +59,20 @@ const getDeals = async () => {
   return response.data;
 };
 
-const searchProducts = async (query: string) => {
+const searchProducts = async (data: { query: string; page: string }) => {
   const response = await axiosClient.get(
-    `/api-ecom?api=item_search&q=${query}`
+    `/api-ecom?api=item_search&q=${data.query}&page=${data.page}`
+  );
+
+  if (response.data) {
+    localStorage.setItem("flarespots_search", JSON.stringify(response.data));
+  }
+  return response.data;
+};
+
+const searchProductsByImage = async (data: { query: string }) => {
+  const response = await axiosClient.get(
+    `/api-ecom?api=item_search_image&imgUrl=${data.query}`
   );
 
   if (response.data) {
@@ -78,6 +89,7 @@ const productService = {
   getBestSellers,
   getDeals,
   searchProducts,
+  searchProductsByImage,
 };
 
 export default productService;

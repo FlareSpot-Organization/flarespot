@@ -91,3 +91,64 @@ export interface InitialLanguageProps {
   isError: boolean;
   message: string;
 }
+
+// Help and support
+// Minimal TypeScript definitions for help center content
+
+export interface HelpTopic {
+  title: string;
+  description: string;
+}
+
+export interface HelpCategory {
+  id: string;
+  name: string;
+  icon: string;
+  topics: HelpTopic[];
+}
+
+export interface PopularCategory {
+  icon: string;
+  title: string;
+  desc: string;
+}
+
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
+export interface HelpContentData {
+  categories: HelpCategory[];
+  popularTopics: string[];
+  popularCategories: PopularCategory[];
+  faqs: FAQ[];
+}
+
+// Reviews
+// Types
+export interface Product {
+  id: number;
+  title: string;
+  price: number;
+  description: string;
+  category: string;
+  image: string;
+}
+
+export interface Review {
+  id: string;
+  productId: number;
+  product: Product;
+  rating: number;
+  title: string;
+  content: string;
+  date: string;
+  status: ReviewStatus;
+  helpful: number;
+  verified: boolean;
+}
+
+export type ReviewStatus = "published" | "pending";
+
+//Help and support

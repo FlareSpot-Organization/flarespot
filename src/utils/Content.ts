@@ -385,7 +385,7 @@ export const fashionImages = [
   },
 ];
 
-export const demoProductsHeader: Product[] = [
+export const demoProductsHeader: any[] = [
   { name: "Product Name 1", imageUrl: "/api/placeholder/200/200" },
   { name: "Product Name 2", imageUrl: "/api/placeholder/200/200" },
   { name: "Product Name 3", imageUrl: "/api/placeholder/200/200" },

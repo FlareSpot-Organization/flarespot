@@ -12,7 +12,7 @@ import {
 
 const Permissions = () => {
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-gray-100 min-h-screen rounded-md">
       {/* Header Section */}
       <div className="flex items-center mb-4">
         <Lock className="text-green-600 w-8 h-8 mr-2" />

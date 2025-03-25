@@ -143,7 +143,7 @@ const Checkout = () => {
                       <div className="flex-1 min-w-0">
                         <div className="flex justify-between mb-2">
                           <Link to={`/product?itemId=${item.itemId}`}>
-                            <h3 className="font-medium text-lg line-clamp-2 hover:underline pr-4 text-gray-900 dark:text-gray-100">
+                            <h3 className="font-medium text-lg line-clamp-2 pr-4 text-gray-900 dark:text-gray-100">
                               {item.title}
                             </h3>
                           </Link>
@@ -173,6 +173,12 @@ const Checkout = () => {
                                 <span>{value}</span>
                               </div>
                             ))}
+                            <div className="flex text-sm text-gray-500 dark:text-gray-400">
+                              <span className="font-medium mr-2">
+                                Qty Available:
+                              </span>
+                              <span>{item.maxQuantity}</span>
+                            </div>
                           </div>
                         )}
 
@@ -196,13 +202,14 @@ const Checkout = () => {
                             <Button
                               variant="outline"
                               size="icon"
+                              disabled={item.quantity >= item.maxQuantity}
                               onClick={() =>
                                 handleIncreaseQuantity(
                                   item.itemId,
                                   item.selectedSku?.skuId
                                 )
                               }
-                              className="h-8 w-8">
+                              className={`h-8 w-8  ${item.quantity >= item.maxQuantity ? "bg-gray-200" : ""}`}>
                               <Plus className="w-4 h-4" />
                             </Button>
                           </div>

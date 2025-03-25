@@ -49,6 +49,7 @@ export const addItemToCart = (product: CartItem): void => {
 };
 
 // Update the quantity of an item in the cart
+
 export const updateCartItem = (
   itemId: number,
   skuId: string | undefined,
@@ -67,12 +68,13 @@ export const updateCartItem = (
     // Calculate the new quantity by adding the change to the current quantity
     const newQuantity = cart[itemIndex].quantity + quantityChange;
 
-    if (newQuantity > 0) {
-      // Update the quantity if it's greater than zero
+    // Allow quantity to be zero or greater (but not negative)
+    if (newQuantity >= 0) {
+      // Update the quantity if it's zero or greater
       cart[itemIndex].quantity = newQuantity;
     } else {
-      // Remove the item if the new quantity would be zero or negative
-      cart.splice(itemIndex, 1);
+      // Don't allow negative quantities
+      cart[itemIndex].quantity = 0;
     }
 
     localStorage.setItem(CART_KEY, JSON.stringify(cart));

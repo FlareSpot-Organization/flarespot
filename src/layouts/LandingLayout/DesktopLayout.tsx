@@ -1,3 +1,4 @@
+import React, { useState, useRef, useEffect } from "react";
 import logo from "@/assets/images/logo.png";
 import { NavButton } from "@/components/common/NavButton";
 import SearchBar from "@/components/common/Searchbar";
@@ -30,7 +31,16 @@ const DesktopLayout = () => {
     setHoveredCategory,
     handleOverlay,
     handleOverlayClose,
+    setOverLay,
   } = useHeader();
+
+  // Add refs for tracking hover state
+  const categoryTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const accountTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const overlayTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const isHoveringCategoryRef = useRef<boolean>(false);
+  const isHoveringAccountRef = useRef<boolean>(false);
+  const isHoveringSearchRef = useRef<boolean>(false);
 
   const cartItems = useSelector((state: any) => state.cart.items);
   const { user, token } = useSelector((state: any) => state.auth);
@@ -49,6 +59,93 @@ const DesktopLayout = () => {
   };
   const userImage = user?.image;
 
+  // Category container mouse handlers
+  const handleCategoryMouseEnter = () => {
+    isHoveringCategoryRef.current = true;
+
+    if (categoryTimeoutRef.current) {
+      clearTimeout(categoryTimeoutRef.current);
+      categoryTimeoutRef.current = null;
+    }
+
+    handleOverlay();
+  };
+
+  const handleCategoryMouseLeave = () => {
+    isHoveringCategoryRef.current = false;
+
+    categoryTimeoutRef.current = setTimeout(() => {
+      if (
+        !isHoveringCategoryRef.current &&
+        !isHoveringAccountRef.current &&
+        !isHoveringSearchRef.current
+      ) {
+        handleOverlayClose();
+      }
+    }, 100);
+  };
+
+  // Account container mouse handlers
+  const handleAccountMouseEnter = () => {
+    isHoveringAccountRef.current = true;
+
+    if (accountTimeoutRef.current) {
+      clearTimeout(accountTimeoutRef.current);
+      accountTimeoutRef.current = null;
+    }
+
+    handleOverlay();
+  };
+
+  const handleAccountMouseLeave = () => {
+    isHoveringAccountRef.current = false;
+
+    accountTimeoutRef.current = setTimeout(() => {
+      if (
+        !isHoveringCategoryRef.current &&
+        !isHoveringAccountRef.current &&
+        !isHoveringSearchRef.current
+      ) {
+        handleOverlayClose();
+      }
+    }, 100);
+  };
+
+  // Search hover state tracker
+  const setSearchHovering = (isHovering: boolean) => {
+    isHoveringSearchRef.current = isHovering;
+
+    if (isHovering) {
+      handleOverlay();
+    } else {
+      // Delay hiding overlay to check if other elements are being hovered
+      overlayTimeoutRef.current = setTimeout(() => {
+        if (
+          !isHoveringCategoryRef.current &&
+          !isHoveringAccountRef.current &&
+          !isHoveringSearchRef.current
+        ) {
+          handleOverlayClose();
+        }
+      }, 100);
+    }
+  };
+
+  // Cleanup timeouts on unmount
+  useEffect(() => {
+    return () => {
+      if (categoryTimeoutRef.current) {
+        clearTimeout(categoryTimeoutRef.current);
+      }
+      if (accountTimeoutRef.current) {
+        clearTimeout(accountTimeoutRef.current);
+      }
+      if (overlayTimeoutRef.current) {
+        clearTimeout(overlayTimeoutRef.current);
+      }
+    };
+  }, []);
+
   return (
     <>
       <LanguageSelector
@@ -57,7 +154,7 @@ const DesktopLayout = () => {
       />
       <div className="sticky top-0">
         <div className="hidden lg:block px-4 py-2 relative z-30 ">
-          <div className="flex relative max-w-[1600px] items-center justify-between gap-2  w-full  mx-auto">
+          <div className="flex relative max-w-[1600px] items-center justify-between gap-2 w-full mx-auto">
             {/* Left Side */}
             <div className="flex items-center flex-shrink-0">
               <div className="mr-2">
@@ -79,8 +176,8 @@ const DesktopLayout = () => {
 
               <div
                 className="dropdown-container relative"
-                onMouseEnter={handleOverlay}
-                onMouseLeave={handleOverlayClose}>
+                onMouseEnter={handleCategoryMouseEnter}
+                onMouseLeave={handleCategoryMouseLeave}>
                 <NavButton>
                   <span className="flex items-center">
                     Categories
@@ -88,8 +185,14 @@ const DesktopLayout = () => {
                   </span>
                 </NavButton>
 
-                <div className="mega-dropdown flex">
-                  <div className="w-1/3 border-r border-gray-100 categories-scroll">
+                <div
+                  className="mega-dropdown flex"
+                  onMouseEnter={handleCategoryMouseEnter}
+                  onMouseLeave={handleCategoryMouseLeave}>
+                  {/* Invisible bridge to prevent dropdown closing */}
+                  <div className="dropdown-bridge"></div>
+
+                  <div className="w-1/3 border-r border-gray-100 mt-5 categories-scroll">
                     {demoCategoriesHeader.map((category) => (
                       <div
                         key={category}
@@ -131,7 +234,11 @@ const DesktopLayout = () => {
             {/* Search Bar */}
             <div className="flex-1 min-w-0 mx-1">
               <div className="relative max-w-[1200px]">
-                <SearchBar />
+                <SearchBar
+                  setHoveringState={setSearchHovering}
+                  handleOverlay={handleOverlay}
+                  handleOverlayClose={handleOverlayClose}
+                />
               </div>
             </div>
 
@@ -140,8 +247,8 @@ const DesktopLayout = () => {
               {token ? (
                 <div
                   className="register-container relative"
-                  onMouseEnter={handleOverlay}
-                  onMouseLeave={handleOverlayClose}>
+                  onMouseEnter={handleAccountMouseEnter}
+                  onMouseLeave={handleAccountMouseLeave}>
                   <NavButton>
                     <Avatar className="w-7 h-7 mr-1 " color="black">
                       {userImage ? (
@@ -160,7 +267,13 @@ const DesktopLayout = () => {
                     Account & Orders
                   </NavButton>
 
-                  <div className="register-dropdown">
+                  <div
+                    className="register-dropdown"
+                    onMouseEnter={handleAccountMouseEnter}
+                    onMouseLeave={handleAccountMouseLeave}>
+                    {/* Invisible bridge to prevent dropdown closing */}
+                    <div className="dropdown-bridge"></div>
+
                     <div className="p-4 w-full space-y-5">
                       <Link
                         to="/user/profile"
@@ -169,7 +282,7 @@ const DesktopLayout = () => {
                       </Link>
 
                       <Link
-                        to="/my-orders"
+                        to="/user/orders"
                         className="flex items-center gap-2 text-[#222] transition-colors">
                         <ShoppingBag size={16} /> My Orders
                       </Link>
@@ -181,7 +294,7 @@ const DesktopLayout = () => {
                       </Link>
 
                       <Link
-                        to="/browsing-history"
+                        to="/user/browsing-history"
                         className="flex items-center gap-2 text-[#222] transition-colors">
                         <Clock size={16} /> Browsing History
                       </Link>
@@ -200,11 +313,17 @@ const DesktopLayout = () => {
               ) : (
                 <div
                   className="register-container relative"
-                  onMouseEnter={handleOverlay}
-                  onMouseLeave={handleOverlayClose}>
+                  onMouseEnter={handleAccountMouseEnter}
+                  onMouseLeave={handleAccountMouseLeave}>
                   <NavButton>Sign in / Register</NavButton>
 
-                  <div className="register-dropdown flex">
+                  <div
+                    className="register-dropdown flex"
+                    onMouseEnter={handleAccountMouseEnter}
+                    onMouseLeave={handleAccountMouseLeave}>
+                    {/* Invisible bridge to prevent dropdown closing */}
+                    <div className="dropdown-bridge"></div>
+
                     <div className="p-[13px] w-full space-y-2 ">
                       <div>
                         <Link to="/auth/login" className="w-full mb-3">
@@ -223,7 +342,9 @@ const DesktopLayout = () => {
                 </div>
               )}
 
-              <NavButton>Help & Support</NavButton>
+              <Link to="/help-support">
+                <NavButton>Help & Support</NavButton>
+              </Link>
 
               <div onClick={() => setIsLanguageModalOpen(true)}>
                 <NavButton>

@@ -1,116 +1,225 @@
-import React, { useState, FormEvent, ChangeEvent } from "react";
-import { Search, Camera } from "lucide-react";
+import React, { useState, useRef, useEffect } from "react";
+import { Camera, Search } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import useProductsFetch from "@/hooks/useProductsFetch";
-import { ProductCardProps } from "@/types/product_types";
+import { Button } from "../ui/button";
 
-interface Price {
-  amount: string;
-  currency: string;
-}
-
-interface Deal {
-  deal_id: string;
-  deal_type: string;
-  deal_title: string;
-  deal_photo: string;
-  deal_state: string;
-  deal_url: string;
-  canonical_deal_url: string;
-  deal_starts_at: string;
-  deal_ends_at: string;
-  deal_price: Price;
-  list_price: Price;
-  savings_percentage: number;
-  savings_amount: Price;
-  deal_badge: string;
-  type: string;
-  product_asin: string;
-}
-
-const SearchBar = ({ setIsMobileMenuOpen }: { setIsMobileMenuOpen?: any }) => {
+const SearchBar = ({
+  setIsMobileMenuOpen,
+  handleOverlay,
+  handleOverlayClose,
+  setHoveringState,
+}: {
+  setIsMobileMenuOpen?: any;
+  handleOverlay?: () => void;
+  handleOverlayClose?: () => void;
+  setHoveringState?: (isHovering: boolean) => void;
+}) => {
   const [searchTerm, setSearchTerm] = useState<string>("");
-  const [showSuggestions, setShowSuggestions] = useState<boolean>(false);
-  const { deals } = useProductsFetch();
+  const [showImageSearch, setShowImageSearch] = useState<boolean>(false);
+  const [imageUrl, setImageUrl] = useState<string>("");
+  const dropdownContainerRef = useRef<HTMLDivElement>(null);
+  const searchBarRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement>): void => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const value = e.target.value;
     setSearchTerm(value);
-    setShowSuggestions(value.length > 0);
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
+  const handleImageUrlChange = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ): void => {
+    setImageUrl(e.target.value);
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    setShowSuggestions(false);
     if (searchTerm.trim()) {
-      navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
+      navigate(`/search?q=${encodeURIComponent(searchTerm)}&page=1`);
     }
   };
 
-  const handleSuggestionClick = (suggestion: ProductCardProps): void => {
-    setSearchTerm(suggestion?.item?.title);
-    setShowSuggestions(false);
-    navigate(`/search?q=${encodeURIComponent(suggestion?.item?.title)}`);
+  const handleSearchButtonClick = (): void => {
+    if (searchTerm.trim()) {
+      navigate(`/search?q=${encodeURIComponent(searchTerm)}&page=1`);
+    }
   };
 
-  const filteredSuggestions = deals?.filter((deal: ProductCardProps) =>
-    deal?.item?.title?.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const handleImageSearch = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent event bubbling
+    if (imageUrl.trim()) {
+      window.open(`/image-search?q=${encodeURIComponent(imageUrl)}&page=1`);
+    }
+  };
+
+  const handlePaste = async (e: React.ClipboardEvent<HTMLInputElement>) => {
+    const items = e.clipboardData.items;
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].type.indexOf("image") !== -1) {
+        const blob = items[i].getAsFile();
+        console.log("Image pasted:", blob);
+      }
+    }
+  };
+
+  // Toggle the dropdown on camera icon click
+  const handleCameraClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setShowImageSearch(!showImageSearch);
+
+    // Notify parent about state change
+    if (setHoveringState) setHoveringState(!showImageSearch);
+    if (showImageSearch) {
+      if (handleOverlayClose) handleOverlayClose();
+    } else {
+      if (handleOverlay) handleOverlay();
+    }
+  };
+
+  // Modified click handler to close when clicking outside the entire search bar
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        searchBarRef.current &&
+        !searchBarRef.current.contains(event.target as Node)
+      ) {
+        setShowImageSearch(false);
+
+        // Notify parent about hovering state
+        if (setHoveringState) setHoveringState(false);
+        if (handleOverlayClose) handleOverlayClose();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [handleOverlayClose, setHoveringState]);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full" ref={searchBarRef}>
       <form onSubmit={handleSubmit}>
-        <div className="relative">
+        <div className="relative flex-1 p-[1px] bg-white rounded-full overflow-hidden flex items-center">
           <input
             type="text"
             value={searchTerm}
             onChange={handleInputChange}
             placeholder="Search for..."
-            className="w-full px-4 py-1.5 bg-white text-[14px] dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-full pl-6  outline-none border dark:border-gray-700 focus:ring-2 focus:ring-primary/50 dark:focus:ring-primary/25 transition-shadow"
+            className="w-full px-6 text-gray-700 outline-none"
           />
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 flex items-center space-x-2">
-            <Camera className="h-5 w-5 text-gray-400 dark:text-gray-500 cursor-pointer hover:text-gray-600 dark:hover:text-gray-300" />
+          <div className="flex items-center space-x-2">
+            <div
+              ref={dropdownContainerRef}
+              className="relative"
+              onClick={handleCameraClick}>
+              <Camera className="h-6 w-6 text-gray-600 cursor-pointer" />
+            </div>
+
             <button
-              type="submit"
-              className="border dark:border-gray-700 rounded-full px-4 py-1.5 bg-primary dark:bg-[#131920] hover:bg-primary/90 transition-colors">
-              <Search className="h-5 w-5 text-white dark:text-gray-400" />
+              type="button"
+              onClick={handleSearchButtonClick}
+              aria-label="Search"
+              className="h-[2.15rem] w-14 rounded-full bg-gray-900 flex items-center justify-center hover:bg-black transition-colors">
+              <Search className="h-5 w-5 text-white" />
             </button>
           </div>
         </div>
       </form>
-      {/* 
-      {showSuggestions && filteredSuggestions.length > 0 && (
-        <div className="absolute mt-2 w-full bg-white dark:bg-gray-800 rounded-md shadow-lg dark:shadow-gray-900/50 z-50 max-h-96 overflow-y-auto border dark:border-gray-700">
-          {filteredSuggestions.map((suggestion: ProductCardProps) => (
-            <button
-              key={suggestion.item.itemId}
-              onClick={() => handleSuggestionClick(suggestion)}
-              className="w-full text-left px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-700/50 flex justify-between items-center group border-b dark:border-gray-700 last:border-b-0">
-              <div className="flex items-center space-x-3">
-                <img
-                  src={suggestion?.item?.image}
-                  alt={suggestion?.item?.title}
-                  className="w-12 h-12 object-cover rounded"
-                />
-                <div className="flex flex-col">
-                  <span className="text-sm text-gray-700 dark:text-gray-200 group-hover:text-gray-900 dark:group-hover:text-white">
-                    {suggestion?.item?.title}
-                  </span>
-                </div>
-              </div>
-              <div className="flex flex-col items-end">
-                <span className="text-sm font-medium text-gray-900 dark:text-gray-100">
-                  ${suggestion?.item?.sku?.def?.promotionPrice}
-                </span>
-                <span className="text-xs text-gray-500 dark:text-gray-400 line-through">
-                  ${suggestion?.item?.sku?.def?.price}
-                </span>
-              </div>
-            </button>
-          ))}
+      {showImageSearch && (
+        <div
+          style={{
+            position: "absolute",
+            top: "100%",
+            right: "0px",
+            width: "100%",
+            backgroundColor: "white",
+            borderRadius: "8px",
+            boxShadow: "0 2px 16px rgba(0, 0, 0, 0.12)",
+            border: "1px solid #eaeaea",
+            marginTop: "10px",
+            zIndex: 1000,
+            opacity: 1,
+            visibility: "visible",
+          }}
+          onClick={(e) => e.stopPropagation()} // Prevent click from bubbling up
+        >
+          {/* Triangle pointer */}
+          <div
+            style={{
+              position: "absolute",
+              top: "-6px",
+              right: "63px",
+              width: "12px",
+              height: "12px",
+              backgroundColor: "white",
+              transform: "rotate(45deg)",
+              borderTop: "1px solid rgba(0, 0, 0, 0.1)",
+              borderLeft: "1px solid rgba(0, 0, 0, 0.1)",
+            }}></div>
+
+          <div className="relative z-10 p-4">
+            <h5 className="font-medium text-sm text-[#222] mb-2">
+              Search by image
+            </h5>
+            <p className="text-xs text-gray-500 mb-3">
+              Find what you love with better prices on AliExpress by using an
+              image search
+            </p>
+
+            <div className="p-2 border border-dashed rounded-md mb-3 bg-gray-50 flex items-center justify-center">
+              <p className="text-xs text-gray-500 text-center py-6">
+                Drag an image here
+                <br />
+                or
+              </p>
+            </div>
+
+            <div className="mb-3">
+              <button
+                className="w-full bg-red-600 hover:bg-red-700 text-white py-2 px-3 rounded-md text-sm"
+                onClick={(e) => {
+                  e.stopPropagation(); // Prevent click bubbling
+                  document.getElementById("fileInput")?.click();
+                }}>
+                Upload a photo
+              </button>
+              <input
+                id="fileInput"
+                type="file"
+                accept="image/*"
+                className="hidden"
+              />
+            </div>
+
+            <div className="mb-3">
+              <p className="text-xs text-gray-700 mb-1">Or paste image URL:</p>
+              <input
+                type="text"
+                value={imageUrl}
+                onChange={handleImageUrlChange}
+                onPaste={handlePaste}
+                placeholder="https://example.com/image.jpg"
+                className="w-full p-2 border rounded-md text-xs text-[#222]"
+                onClick={(e) => e.stopPropagation()} // Prevent click bubbling
+              />
+            </div>
+
+            <div>
+              <Button
+                className="w-full bg-gray-800 hover:bg-black text-white rounded-md text-xs"
+                onClick={handleImageSearch}>
+                Search
+              </Button>
+            </div>
+
+            <p className="text-xs text-gray-500 mt-2">
+              *For a quick search hit CTRL+V to paste an image into the search
+              box
+            </p>
+          </div>
         </div>
-      )} */}
+      )}
     </div>
   );
 };
