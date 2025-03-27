@@ -21,6 +21,7 @@ import ArticleContentDisplay from "@/components/pages/HelpArticle/ArticleContent
 import ArticleFeedbackForm from "@/components/pages/HelpArticle/ArticleFeedbackForm";
 import RelatedArticles from "@/components/pages/HelpArticle/RelatedArticles";
 import SupportCTA from "@/components/pages/HelpArticle/SupportCTA";
+import HelpArticleNotFound from "@/components/common/HelpArticleNotFound";
 
 /**
  * Helper function to get icon component by name
@@ -62,9 +63,15 @@ export default function HelpArticlePage(): JSX.Element {
   // Show loading state if article isn't available yet
   if (!article) {
     return (
-      <div className="flex justify-center items-center h-screen bg-gray-50">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-600"></div>
-      </div>
+      <HelpArticleNotFound
+        categoryId={category.id}
+        popularCategories={categories.map((cat) => ({
+          icon: cat.icon,
+          title: cat.name,
+          desc: `${cat.topics.length} articles`,
+        }))}
+        getIconByName={getIconByName}
+      />
     );
   }
 

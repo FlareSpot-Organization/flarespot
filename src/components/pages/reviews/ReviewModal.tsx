@@ -2,14 +2,24 @@ import React, { useState, useEffect } from "react";
 import { Star, X } from "lucide-react";
 import { Product, Review } from "@/types/public";
 
-// Review Modal Component
-const ReviewModal: React.FC<{
+interface ReviewModalProps {
   isOpen: boolean;
   onClose: () => void;
   onSubmit: (review: Partial<Review>) => void;
+  isFollowUp: boolean;
   initialData?: Partial<Review>;
   product?: Product;
-}> = ({ isOpen, onClose, onSubmit, initialData, product }) => {
+}
+
+// Review Modal Component
+const ReviewModal: React.FC<ReviewModalProps> = ({
+  isOpen,
+  onClose,
+  onSubmit,
+  initialData,
+  product,
+  isFollowUp = false, // Ensure isFollowUp has a default value
+}) => {
   const [title, setTitle] = useState(initialData?.title || "");
   const [content, setContent] = useState(initialData?.content || "");
   const [rating, setRating] = useState(initialData?.rating || 5);
@@ -40,6 +50,9 @@ const ReviewModal: React.FC<{
       content,
       rating,
       productId: product?.id,
+      isFollowUp, // Include isFollowUp in the submitted data
+      parentReviewId: initialData?.parentReviewId || null,
+      originalReviewId: initialData?.originalReviewId,
     });
     onClose();
   };
@@ -57,7 +70,11 @@ const ReviewModal: React.FC<{
       <div className="bg-white rounded-lg w-full max-w-2xl p-6 max-h-[90vh] overflow-y-auto">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-semibold">
-            {initialData?.id ? "Edit Review" : "Write a Review"}
+            {initialData?.id
+              ? isFollowUp
+                ? "Add Follow-up Review"
+                : "Edit Review"
+              : "Write a Review"}
           </h2>
           <button
             onClick={onClose}
@@ -79,7 +96,7 @@ const ReviewModal: React.FC<{
               </h3>
               <p className="text-xs text-gray-500">{product.category}</p>
               <p className="text-xs text-gray-500 mt-1">
-                ${product.price?.toFixed(2)}
+                ${product.price.toFixed(2)}
               </p>
             </div>
           </div>
@@ -232,7 +249,11 @@ const ReviewModal: React.FC<{
             <button
               type="submit"
               className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
-              {initialData?.id ? "Update Review" : "Submit Review"}
+              {initialData?.id
+                ? isFollowUp
+                  ? "Submit Follow-up"
+                  : "Update Review"
+                : "Submit Review"}
             </button>
           </div>
         </form>

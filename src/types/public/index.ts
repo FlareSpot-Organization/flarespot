@@ -126,7 +126,7 @@ export interface HelpContentData {
 }
 
 // Reviews
-// Types
+// Types// Updated types.ts file
 export interface Product {
   id: number;
   title: string;
@@ -134,21 +134,29 @@ export interface Product {
   description: string;
   category: string;
   image: string;
+  rating?: {
+    rate: number;
+    count: number;
+  };
 }
 
 export interface Review {
   id: string;
   productId: number;
-  product: Product;
+  product: Product; // Ensure this is always populated
   rating: number;
   title: string;
   content: string;
   date: string;
-  status: ReviewStatus;
+  status: "published"; // Only have 'published' status
   helpful: number;
   verified: boolean;
+  isFollowUp: boolean;
+  parentReviewId: string | null; // Changed from optional to nullable
+  originalReviewId?: string;
+  // Add any other fields you're using in the components
+  images?: string[]; // For image URLs attached to reviews
 }
 
-export type ReviewStatus = "published" | "pending";
-
+export type ReviewStatus = "published";
 //Help and support

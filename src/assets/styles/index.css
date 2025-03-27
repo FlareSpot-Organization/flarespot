@@ -659,7 +659,46 @@
 }
 
 /* Better focus styles for accessibility */
-*:focus-visible {
-  outline: 2px solid #7c3aed;
-  outline-offset: 2px;
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(50px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit2 {
+  0% {
+    transform: rotate(180deg) translateX(40px) rotate(-180deg);
+  }
+  100% {
+    transform: rotate(-180deg) translateX(40px) rotate(180deg);
+  }
+}
+
+.animate-orbit {
+  animation: orbit 8s linear infinite;
+}
+
+.animate-orbit2 {
+  animation: orbit2 12s linear infinite;
+}
+
+/* Add this rule to your existing pulse animation if needed */
+.animate-pulse {
+  animation: pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
 }

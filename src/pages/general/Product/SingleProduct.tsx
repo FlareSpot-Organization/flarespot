@@ -18,6 +18,8 @@ import { getProductDetails } from "@/services/features/products/productSlice";
 import { AppDispatch } from "@/store";
 import { Sku, SkuProp, SkuValue } from "@/types/product_types";
 import { getUniqueImages } from "@/utils/helpers";
+import NotFound from "@/components/common/NotFound";
+import ProductNotFound from "@/components/common/ProductNotFound";
 
 // Import Custom Hooks
 
@@ -449,6 +451,8 @@ const SingleProduct = ({
     <>
       {isLoading ? (
         <ProductPageSkeletalLoader />
+      ) : singleProduct?.result?.status?.data == "error" ? (
+        <ProductNotFound itemId={itemId} />
       ) : (
         <div className="bg-gray-200">
           <div className="w-full max-w-[1600px] mx-auto px-4 py-6">
